@@ -1,5 +1,5 @@
 'use client';
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
 
 const ROTATE_MS = 4000;
@@ -37,6 +37,42 @@ export default function ProjectCarousel() {
     setIndex(Math.max(0, Math.min(i, maxIndex)));
   }, [maxIndex]);
 
+  // Touch swipe: the track follows the finger, then snaps to the nearest slide.
+  const touchStart = useRef<{ x: number; y: number } | null>(null);
+  const [dragX, setDragX] = useState(0);
+  const [dragging, setDragging] = useState(false);
+
+  function onTouchStart(e: React.TouchEvent) {
+    const t = e.touches[0];
+    touchStart.current = { x: t.clientX, y: t.clientY };
+    setPaused(true);
+  }
+
+  function onTouchMove(e: React.TouchEvent) {
+    if (!touchStart.current) return;
+    const t = e.touches[0];
+    const dx = t.clientX - touchStart.current.x;
+    const dy = t.clientY - touchStart.current.y;
+    // Mostly-vertical movement is a page scroll, not a swipe — leave it alone.
+    if (!dragging && Math.abs(dy) > Math.abs(dx)) return;
+    setDragging(true);
+    // Resist dragging past the first/last slide.
+    const atEdge = (index === 0 && dx > 0) || (index >= maxIndex && dx < 0);
+    setDragX(atEdge ? dx * 0.3 : dx);
+  }
+
+  function onTouchEnd() {
+    if (dragging) {
+      const threshold = 50;
+      if (dragX <= -threshold) goTo(index + 1);
+      else if (dragX >= threshold) goTo(index - 1);
+    }
+    touchStart.current = null;
+    setDragX(0);
+    setDragging(false);
+    setPaused(false);
+  }
+
   useEffect(() => {
     if (paused) return;
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
@@ -53,10 +89,16 @@ export default function ProjectCarousel() {
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
-        <div className="overflow-hidden">
+        <div
+          className="touch-pan-y overflow-hidden"
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
+          onTouchCancel={onTouchEnd}
+        >
           <div
-            className="flex transition-transform duration-700 ease-in-out md:-mx-2"
-            style={{ transform: `translateX(-${index * (100 / visible)}%)` }}
+            className={`flex md:-mx-2 ${dragging ? '' : 'transition-transform duration-700 ease-in-out'}`}
+            style={{ transform: `translateX(calc(-${index * (100 / visible)}% + ${dragX}px))` }}
           >
             {slides.map((s, i) => {
               const inView = i >= index && i < index + visible;
