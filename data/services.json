@@ -1,0 +1,24 @@
+[
+  {
+    "slug": "loft-conversions",
+    "name": "Loft Conversions",
+    "shortName": "Loft conversion",
+    "headline": "Loft conversions built around your roofline, not a template",
+    "priceFrom": 45000,
+    "priceTo": 75000,
+    "buildWeeks": "8–12",
+    "types": ["Dormer", "Hip-to-gable", "Mansard", "Velux / rooflight"],
+    "intro": "REPLACE: 2–3 sentences, written per-service, mentioning Jason and real project detail."
+  },
+  {
+    "slug": "extensions",
+    "name": "House Extensions",
+    "shortName": "Extension",
+    "headline": "Single and double-storey extensions, quoted properly and finished on schedule",
+    "priceFrom": 55000,
+    "priceTo": 120000,
+    "buildWeeks": "10–16",
+    "types": ["Single-storey rear", "Double-storey", "Wraparound", "Side return"],
+    "intro": "REPLACE: 2–3 sentences, written per-service."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "slug": "south-woodford-loft",
+    "title": "Loft conversion",
+    "location": "South Woodford",
+    "postcode": "E18",
+    "image": "/images/loft-wardrobes.webp",
+    "summary": "Bedroom suite with walk-in shower room, dressing area and full-length built-in wardrobes.",
+    "confirmed": true
+  },
+  {
+    "slug": "rear-extension-bifolds",
+    "title": "Rear extension",
+    "location": "REPLACE, confirm with Jason",
+    "postcode": "CM__",
+    "image": "/images/placeholder.webp",
+    "summary": "Full-width single-storey rear extension with bifold doors opening to the garden.",
+    "confirmed": false
+  },
+  {
+    "slug": "dormer-conversion",
+    "title": "Dormer loft conversion",
+    "location": "REPLACE, confirm with Jason",
+    "postcode": "CM__",
+    "image": "/images/placeholder.webp",
+    "summary": "Contemporary clad dormer with glass Juliet balconies.",
+    "confirmed": false
+  },
+  {
+    "slug": "orangery-extension",
+    "title": "Orangery-style extension",
+    "location": "REPLACE, confirm with Jason",
+    "postcode": "CM__",
+    "image": "/images/extension-orangery.webp",
+    "summary": "Glazed extension to a period flint property.",
+    "confirmed": false
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "_note": "REPLACE — confirm representative towns for each region with Jason. Map marker positions live in lib/areaMapPaths.ts (generated).",
+  "regions": [
+    {
+      "name": "London",
+      "blurb": "North and East London",
+      "towns": ["Woodford", "Chingford", "Enfield", "Walthamstow", "Wanstead"]
+    },
+    {
+      "name": "Essex",
+      "blurb": "Across the county",
+      "towns": ["Harlow", "Epping", "Ongar", "Brentwood", "Chelmsford"]
+    },
+    {
+      "name": "Kent",
+      "blurb": "North and West Kent",
+      "towns": ["Dartford", "Gravesend", "Sevenoaks", "Maidstone"]
+    }
+  ],
+  "hq": { "name": "Sawbridgeworth", "label": "HQ · CM21" }
+}

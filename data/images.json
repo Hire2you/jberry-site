@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "src": "/images/hero-rear-extension.png",
+    "alt": "Full-width rear extension with anthracite bifold doors"
+  },
+  "serviceExtensions": {
+    "src": "/images/extension-bifolds.webp",
+    "alt": "Rear extension with bifold doors",
+    "caption": "Rear extension, Essex"
+  },
+  "serviceLofts": {
+    "src": "/images/loft-dormer-front.webp",
+    "alt": "Contemporary clad dormer loft conversion",
+    "caption": "Dormer conversion, Essex"
+  },
+  "director": {
+    "src": "/images/newbuild-front.webp",
+    "alt": "Completed J.Berry project",
+    "caption": "Completed project, Sawbridgeworth"
+  },
+  "placeholder": {
+    "src": "/images/placeholder.webp",
+    "alt": "Project photo coming soon"
+  }
+}

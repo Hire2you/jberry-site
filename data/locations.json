@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "bishops-stortford",
+    "name": "Bishop's Stortford",
+    "county": "Hertfordshire",
+    "localDetail": "REPLACE with genuinely local copy: housing stock (Victorian terraces around the station, 1930s semis in Thorley), conservation areas, typical loft head-heights, a named recent project if possible. This field is what stops the page being a clone.",
+    "nearby": ["sawbridgeworth", "harlow", "stansted"],
+    "lat": 51.872,
+    "lng": 0.158
+  },
+  {
+    "slug": "harlow",
+    "name": "Harlow",
+    "county": "Essex",
+    "localDetail": "REPLACE: new town housing stock, common extension types, permitted development notes.",
+    "nearby": ["sawbridgeworth", "epping", "bishops-stortford"],
+    "lat": 51.767,
+    "lng": 0.087
+  },
+  {
+    "slug": "sawbridgeworth",
+    "name": "Sawbridgeworth",
+    "county": "Hertfordshire",
+    "localDetail": "REPLACE: home patch, lead with proximity, Jason based in CM21, fastest response.",
+    "nearby": ["bishops-stortford", "harlow"],
+    "lat": 51.814,
+    "lng": 0.15
+  }
+]
