@@ -25,6 +25,24 @@ export function serviceSchema(serviceName: string, locationName: string, priceFr
   };
 }
 
+export function serviceLandingSchema(serviceName: string, priceFrom: number, priceTo: number, path: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    name: serviceName,
+    url: `${site.domain}${path}`,
+    provider: { '@type': 'HomeAndConstructionBusiness', name: site.name, telephone: site.phone },
+    areaServed: site.areaServed.map((a) => ({ '@type': 'AdministrativeArea', name: a })),
+    offers: {
+      '@type': 'AggregateOffer',
+      priceCurrency: 'GBP',
+      lowPrice: priceFrom,
+      highPrice: priceTo,
+      description: 'Itemised fixed-price quotation',
+    },
+  };
+}
+
 export function faqSchema(faqs: { q: string; a: string }[]) {
   return {
     '@context': 'https://schema.org',

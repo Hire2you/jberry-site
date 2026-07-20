@@ -13,7 +13,7 @@ export default function Hero() {
             Bottom terminates in solid charcoalDeep so it blends seamlessly into the carousel band below. */}
         <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] from-[6%] via-black/75 via-[50%] to-black/45" />
         <div className="relative">
-          <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-36 md:pt-28">
+          <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-[4.5rem] md:pt-28">
             <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">London · Kent · Essex</p>
             <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
               Extensions and loft conversions, designed and built with perfection

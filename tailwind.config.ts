@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
 const config: Config = {
   content: ['./app/**/*.{ts,tsx}', './components/**/*.{ts,tsx}'],
@@ -23,6 +24,6 @@ const config: Config = {
       letterSpacing: { eyebrow: '0.22em' },
     },
   },
-  plugins: [],
+  plugins: [typography],
 };
 export default config;

@@ -2,10 +2,10 @@ import process from '@/data/process.json';
 import Reveal from '@/components/Reveal';
 import SectionIndex from '@/components/SectionIndex';
 
-export default function ProcessSection() {
+export default function ProcessSection({ label = '04 · Process' }: { label?: string }) {
   return (
     <section className="relative overflow-x-clip">
-      <SectionIndex label="04 · Process" />
+      <SectionIndex label={label} />
       <div className="mx-auto max-w-6xl px-4 py-20">
         <Reveal>
           <p className="eyebrow">How it works</p>

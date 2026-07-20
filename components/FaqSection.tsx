@@ -1,26 +1,36 @@
 'use client';
 import { useState } from 'react';
-import faqs from '@/data/faqs.json';
+import defaultFaqs from '@/data/faqs.json';
 import { site } from '@/lib/site';
 import Reveal from '@/components/Reveal';
 import SectionIndex from '@/components/SectionIndex';
 import GoldPattern from '@/components/GoldPattern';
 
-export default function FaqSection() {
+type Faq = { q: string; a: string };
+
+export default function FaqSection({
+  faqs = defaultFaqs,
+  label = '07 · Questions',
+  heading = 'Before you ask',
+  intro = `The questions every client asks ${site.director} at the first site visit.`,
+}: {
+  faqs?: Faq[];
+  label?: string;
+  heading?: string;
+  intro?: string;
+}) {
   const [open, setOpen] = useState<number | null>(0);
 
   return (
     <section className="relative border-y border-line bg-ivory">
       <GoldPattern id="lattice-faq" />
-      <SectionIndex label="07 · Questions" />
+      <SectionIndex label={label} />
       <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
         <div className="grid gap-12 lg:grid-cols-[2fr,3fr] lg:gap-16">
           <Reveal>
             <p className="eyebrow">Common questions</p>
-            <h2 className="mt-3 text-4xl md:text-5xl">Before you ask</h2>
-            <p className="mt-4 font-display italic text-lg text-stone">
-              The questions every client asks {site.director} at the first site visit.
-            </p>
+            <h2 className="mt-3 text-4xl md:text-5xl">{heading}</h2>
+            <p className="mt-4 font-display italic text-lg text-stone">{intro}</p>
             <p className="mt-6 text-sm text-stone">
               Anything else?{' '}
               <a href={site.phoneHref} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
