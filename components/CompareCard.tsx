@@ -111,16 +111,16 @@ export default function CompareCard({ compare }: { compare: CompareData }) {
       )}
       <div className="flex flex-1 flex-col p-7 md:p-9">
         <p
-          className={`text-xs font-semibold uppercase tracking-eyebrow ${
+          className={`font-display text-xl leading-snug md:text-2xl ${
             variant === 'move' ? 'text-stone' : 'text-goldDeep'
           }`}
         >
           {label}
         </p>
         {variant === 'stay' && (
-          <div aria-hidden="true" className="mt-3 h-px w-8 bg-gold" />
+          <div aria-hidden="true" className="mt-3 h-px w-10 bg-gold" />
         )}
-        <ul className="mt-5 flex-1 space-y-4">
+        <ul className="mt-6 flex-1 space-y-4">
           {items.map((item, i) => (
             <li key={item} className="flex items-start gap-3">
               <span
