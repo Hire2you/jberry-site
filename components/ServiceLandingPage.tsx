@@ -10,6 +10,7 @@ import TestimonialShowcase from '@/components/TestimonialShowcase';
 import ProcessSection from '@/components/ProcessSection';
 import FaqSection from '@/components/FaqSection';
 import LeadForm from '@/components/LeadForm';
+import QuotationCard from '@/components/QuotationCard';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
@@ -172,36 +173,7 @@ export default function ServiceLandingPage({
                 </a>
               </div>
             </Reveal>
-            <Reveal delay={120}>
-              {/* Sample quotation document */}
-              <div className="border border-line bg-white shadow-[0_24px_64px_rgba(26,23,20,0.12)]">
-                <div aria-hidden="true" className="h-[3px] w-full bg-gold" />
-                <div className="p-6 md:p-10">
-                  <div className="flex items-start justify-between gap-4 border-b border-line pb-5">
-                    <div>
-                      <p className="font-display text-2xl tracking-[0.08em]">J.BERRY</p>
-                      <p className="eyebrow mt-1">Sample quotation</p>
-                    </div>
-                    <div aria-hidden="true" className="rotate-[5deg] border-2 border-gold/60 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.25em] text-goldDeep/80">
-                      Fixed price
-                    </div>
-                  </div>
-                  <ul>
-                    {landing.included.map((item) => (
-                      <li key={item} className="flex items-baseline gap-3 border-b border-line py-4">
-                        <span className="max-w-[75%] text-sm leading-relaxed text-stone">{item}</span>
-                        <span aria-hidden="true" className="flex-1 -translate-y-[3px] border-b border-dotted border-stone/40" />
-                        <span className="shrink-0 text-[10px] font-semibold uppercase tracking-eyebrow text-goldDeep">Included</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <div className="mt-6 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t-4 border-double border-ink pt-5">
-                    <p className="font-display text-lg md:text-xl">The price we quote</p>
-                    <p className="font-display text-lg text-goldDeep md:text-xl">is the price you pay</p>
-                  </div>
-                </div>
-              </div>
-            </Reveal>
+            <QuotationCard included={landing.included} />
           </div>
         </div>
       </section>
