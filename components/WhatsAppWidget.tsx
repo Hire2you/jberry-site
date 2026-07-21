@@ -27,7 +27,7 @@ export default function WhatsAppWidget() {
   }
 
   return (
-    <div className="fixed bottom-5 right-5 z-50">
+    <div className="fixed bottom-[5.25rem] right-4 z-50 md:bottom-5 md:right-5">
       {open && (
         <div className="mb-3 w-64 rounded-lg border border-pine/15 bg-white p-4 shadow-xl">
           <p className="text-sm font-semibold">What's the project?</p>

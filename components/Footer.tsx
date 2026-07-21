@@ -12,7 +12,7 @@ const footerLinks = [
 
 export default function Footer() {
   return (
-    <footer className="bg-charcoalDeep pb-14 text-white/70 md:pb-0">
+    <footer className="bg-charcoalDeep pb-20 text-white/70 md:pb-0">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 text-sm md:grid-cols-4">
         <div>
           <Image src="/images/logo-white.webp" alt="J.Berry Extensions & Conversions" width={1024} height={563} className="h-16 w-auto mix-blend-screen" />
