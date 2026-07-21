@@ -104,20 +104,22 @@ export default function ServiceLandingPage({
       <section className="relative">
         <SectionIndex label={`01 · Why a ${lower}`} />
         <div className="mx-auto max-w-6xl px-4 py-20">
-          <div className="grid gap-12 lg:grid-cols-[1fr,440px] lg:items-center lg:gap-16">
-            <Reveal>
-              <p className="eyebrow">{serviceName}</p>
-              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{landing.introTitle}</h2>
-              <div className="mt-8 space-y-6">
-                {landing.intro.map((para) => (
-                  <p key={para.slice(0, 32)} className="text-stone leading-relaxed">{para}</p>
-                ))}
-              </div>
-            </Reveal>
-            <Reveal delay={120}>
+          <Reveal>
+            <p className="eyebrow">{serviceName}</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{landing.introTitle}</h2>
+          </Reveal>
+          <Reveal delay={80}>
+            <div className="mt-8 grid gap-6 md:grid-cols-2">
+              {landing.intro.map((para) => (
+                <p key={para.slice(0, 32)} className="text-stone leading-relaxed">{para}</p>
+              ))}
+            </div>
+          </Reveal>
+          <Reveal delay={160}>
+            <div className="mt-14">
               <CompareCard compare={landing.compare} />
-            </Reveal>
-          </div>
+            </div>
+          </Reveal>
         </div>
       </section>
 
