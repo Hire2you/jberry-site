@@ -5,6 +5,7 @@ import locations from '@/data/locations.json';
 import images from '@/data/images.json';
 import { site } from '@/lib/site';
 import TrustBar from '@/components/TrustBar';
+import ProjectCarousel from '@/components/ProjectCarousel';
 import ProjectCard from '@/components/ProjectCard';
 import TestimonialShowcase from '@/components/TestimonialShowcase';
 import ProcessSection from '@/components/ProcessSection';
@@ -97,6 +98,8 @@ export default function ServiceLandingPage({
           </div>
         </div>
       </section>
+
+      <ProjectCarousel />
 
       <TrustBar />
 
