@@ -55,6 +55,54 @@ export function faqSchema(faqs: { q: string; a: string }[]) {
   };
 }
 
+export function breadcrumbSchema(items: { name: string; path: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: `${site.domain}${item.path === '/' ? '' : item.path}`,
+    })),
+  };
+}
+
+/** County-hub Service schema: scoped to one AdministrativeArea (e.g. Essex). */
+export function countyServiceSchema({
+  serviceType,
+  areaName,
+  path,
+}: {
+  serviceType: string;
+  areaName: string;
+  path: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType,
+    provider: {
+      '@type': 'GeneralContractor',
+      name: site.name,
+      telephone: `+44${site.phone.replace(/^0/, '').replace(/\s/g, '')}`,
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '19 Mansfield, High Wych',
+        addressLocality: 'Sawbridgeworth',
+        addressRegion: 'Hertfordshire',
+        postalCode: 'CM21 0JT',
+        addressCountry: 'GB',
+      },
+    },
+    areaServed: {
+      '@type': 'AdministrativeArea',
+      name: areaName,
+    },
+    url: `${site.domain}${path}`,
+  };
+}
+
 export function JsonLd({ data }: { data: object }) {
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />

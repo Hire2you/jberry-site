@@ -282,9 +282,17 @@ export default function ServiceLandingPage({
             <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">{serviceName.toLowerCase().replace(/^./, (c) => c.toUpperCase())} across London, Kent and Essex</h2>
             <p className="mt-4 max-w-2xl text-stone leading-relaxed">
               Based in {site.base}, close enough for a site visit within days, not weeks.
-              We also have dedicated {lower} pages for the towns we work in most:
+              We also have dedicated {lower} pages for the areas and towns we work in most:
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
+              {serviceSlug === 'loft-conversions' && (
+                <Link
+                  href="/loft-conversions/essex"
+                  className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                >
+                  {shortName}s in Essex
+                </Link>
+              )}
               {locations.map((l) => (
                 <Link
                   key={l.slug}

@@ -1,0 +1,244 @@
+{
+  "serviceSlug": "loft-conversions",
+  "county": "Essex",
+  "countySlug": "essex",
+  "seo": {
+    "title": "Loft Conversions in Essex | Dormer, Hip-to-Gable & More",
+    "description": "Loft conversions across Essex — dormer, hip-to-gable, mansard and rooflight, matched to your roof. Established since 1995. We handle planning and building regs.",
+    "canonical": "/loft-conversions/essex"
+  },
+  "hero": {
+    "image": { "src": "/images/hero-dormer.webp", "alt": "Contemporary clad dormer loft conversion in Essex by J.Berry" },
+    "eyebrow": "Loft conversions · Essex",
+    "headline": "Loft Conversions in Essex",
+    "sub": "Add a bedroom, bathroom or home office without losing your garden or the cost of moving. We design and build every type — and handle planning and building regs through to sign-off."
+  },
+  "intro": [
+    "If you're looking to get more space out of your Essex home but aren't looking for a more expensive house extension, we can almost certainly convert your loft. We design and build loft conversions of every type, rooflight, dormer, hip-to-gable and mansard, for homeowners across Essex, and we handle the whole job from the first design through the planning and building regulations to the finished, signed-off room. If you are looking to add a bedroom, a bathroom or a home office without losing your garden or the cost of moving, a loft conversion is very often the answer, and this is the work we do.",
+    "Most people who come to us want the same thing: another bedroom in a house they would rather not leave. Converting the loft is usually the most cost-effective way to add it, no foundations, no garden lost, just the space already sitting under your roof made usable, which is why it is so much of what we do. Whether your roof suits a simple rooflight conversion, a rear dormer, a hip-to-gable or a full mansard depends on the house, and working that out honestly is where we start."
+  ],
+  "introImage": {
+    "src": "/images/loft-dormer-front.webp",
+    "alt": "Contemporary clad dormer loft conversion, front elevation"
+  },
+  "areas": {
+    "title": "The Essex areas we cover",
+    "intro": "We work across Essex, and have built for homeowners throughout the county. Each of those has, or will have, its own loft-conversion page with detail specific to the area. Covering them from a hub makes sense because Essex is not one kind of place: the roof stock differs from the Victorian terraces of the older towns to the hipped-roof semis of the 1930s suburbs to the estate housing of the newer developments, and the right loft conversion follows from the roof you actually have.",
+    "clusters": [
+      {
+        "name": "London fringe",
+        "towns": [
+          { "name": "Buckhurst Hill", "slug": null },
+          { "name": "Chigwell", "slug": null },
+          { "name": "Loughton", "slug": null },
+          { "name": "Epping", "slug": null },
+          { "name": "Harlow", "slug": "harlow" }
+        ]
+      },
+      {
+        "name": "Central corridor",
+        "towns": [
+          { "name": "Brentwood", "slug": null },
+          { "name": "Billericay", "slug": null },
+          { "name": "Chelmsford", "slug": null },
+          { "name": "Braintree", "slug": null },
+          { "name": "Great Dunmow", "slug": null },
+          { "name": "Colchester", "slug": null }
+        ]
+      },
+      {
+        "name": "Thames-side",
+        "towns": [
+          { "name": "Southend-on-Sea", "slug": null },
+          { "name": "Leigh-on-Sea", "slug": null }
+        ]
+      }
+    ]
+  },
+  "roofs": {
+    "title": "Essex roofs, and the loft conversions that suit them",
+    "intro": "Because a loft conversion is shaped by your roof far more than by preference, it is worth knowing what Essex's common house types tend to suit. This is the heart of it.",
+    "closing": "The point is that your roof largely chooses the conversion, and an honest look at it — the head height, whether the roof is cut or trussed, and where the stairs can go — tells us what is possible.",
+    "types": [
+      {
+        "roofStock": "1930s hipped semis",
+        "conversion": "Hip-to-gable",
+        "text": "The 1930s semi-detached houses that fill so many Essex suburbs usually have hipped roofs, sloping in on the side, which wastes internal volume. These are natural candidates for a hip-to-gable conversion, squaring off the roof to a vertical gable, very often combined with a rear dormer, which together turn a cramped hipped loft into a proper room. It is one of the most common and most transformative loft projects in the county.",
+        "image": "/images/placeholder.webp",
+        "imageAlt": "Hip-to-gable loft conversion on a 1930s semi"
+      },
+      {
+        "roofStock": "Victorian & Edwardian terraces",
+        "conversion": "L-shaped dormer",
+        "text": "The Victorian and Edwardian terraces and villas in the older towns typically have a rear projection (the \"outrigger\"), which suits an L-shaped dormer, combining a dormer on the main roof with one over the rear projection to create generous space, often enough for a bedroom and a bathroom.",
+        "image": "/images/loft-dormer-front.webp",
+        "imageAlt": "L-shaped dormer loft conversion on a period terrace"
+      },
+      {
+        "roofStock": "Detached with good head height",
+        "conversion": "Rooflight",
+        "text": "Detached houses with good head height may need only a rooflight conversion if the space and height are already there, or a dormer to add headroom. Where a home has a shallow roof or sits in a conservation area that restricts dormers, a rooflight conversion that leaves the roofline unchanged is often the way.",
+        "image": "/images/loft-wardrobes.webp",
+        "imageAlt": "Rooflight loft conversion bedroom with built-in wardrobes"
+      },
+      {
+        "roofStock": "Terraced & period settings",
+        "conversion": "Mansard",
+        "text": "In some terraced and period settings, a mansard, which rebuilds a roof slope for maximum space, is the answer, though it usually needs planning permission. We look at your roof and tell you honestly which type suits.",
+        "image": "/images/placeholder.webp",
+        "imageAlt": "Mansard loft conversion on a period terrace"
+      }
+    ]
+  },
+  "planning": {
+    "title": "Loft planning in Essex: what to know",
+    "intro": "A quick, honest word on planning, because it shapes loft projects, and we handle it for you as part of the job.",
+    "permitted": {
+      "title": "Often permitted development",
+      "points": [
+        "Many loft conversions can be done under permitted development, without a full planning application, within the volume limits — broadly 40 cubic metres for terraces and 50 for semis and detached houses.",
+        "Dormers should not be on the front roof slope facing the road.",
+        "Mansards, and front dormers, usually need planning permission.",
+        "In conservation areas, and under any Article 4 direction, permitted development is reduced — dormers often need permission and sometimes only a rooflight conversion remains PD.",
+        "Parts of south-west Essex sit within the Green Belt, which affects some homes."
+      ]
+    },
+    "always": {
+      "title": "Always required",
+      "points": [
+        "A loft conversion always needs full building-regulations approval — for the structure, the new floor, the fire-safety escape route and the staircase — ending in a completion certificate that protects the work at resale.",
+        "On terraces and semis, the Party Wall Act often applies too, where steel goes into the party wall or a dormer nears the boundary.",
+        "We check your position, design to what is achievable, and deal with all of it, so you do not have to."
+      ]
+    },
+    "blogLink": {
+      "href": "/blog/do-you-need-planning-permission-for-a-loft-conversion",
+      "label": "Read our loft planning permission guide"
+    }
+  },
+  "involves": {
+    "title": "What a loft conversion involves",
+    "intro": "A loft conversion is a proper building project, not a tidy-up. We design and build the whole thing with one team from start to finish, and much of the work happens in the roof, reached from scaffolding outside, so you can usually live in the house throughout — the main disruption being a short, dusty spell when we break through to fit the staircase.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Structural floor",
+        "text": "A new structural floor, often on steel beams, built to carry the room and meet building regulations."
+      },
+      {
+        "step": "02",
+        "title": "Roof works",
+        "text": "The roof works for a dormer, mansard or rooflights — tiled, weatherproofed and finished to match your home."
+      },
+      {
+        "step": "03",
+        "title": "Staircase & fire escape",
+        "text": "A compliant staircase and the fire-safety escape route the regs require, planned around how you use the house."
+      },
+      {
+        "step": "04",
+        "title": "Insulation & fit-out",
+        "text": "Insulation, plastering, electrics and plumbing, then the room itself — fitted and finished, with an ensuite if there is room and you want one."
+      },
+      {
+        "step": "05",
+        "title": "Planning & sign-off",
+        "text": "We handle the planning and building regulations through to the completion certificate that protects the work at resale."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Why Essex homeowners choose us for loft conversions",
+    "intro": "A few honest reasons homeowners here choose us:",
+    "reasons": [
+      {
+        "title": "Established since 1995",
+        "text": "We have been building for homeowners since 1995, and over 80 per cent of our work comes through recommendation — the accountability that matters most. It only continues if the last job was done well."
+      },
+      {
+        "title": "One team, clear contact",
+        "text": "We work as one team with a clear point of contact. You deal with the people who priced and build your job, not a call centre or a rotating project manager."
+      },
+      {
+        "title": "Honest cost and time",
+        "text": "We are honest about cost and time, quote clearly and itemise it, and handle the planning and building regulations through to the completion certificate."
+      },
+      {
+        "title": "Honest advice, not a sales pitch",
+        "text": "Because we do the whole range — lofts, extensions, kitchens and renovations — we can tell you honestly whether a loft conversion is genuinely the right way to get the space you need, or whether an extension would serve you better, rather than pushing one kind of job."
+      }
+    ],
+    "sidewaysLink": {
+      "href": "/extensions",
+      "label": "Considering ground-floor space instead? See our house extensions"
+    }
+  },
+  "cost": {
+    "title": "What a loft conversion costs",
+    "intro": "Every loft is different, so the honest answer on cost is that it depends most on the type of conversion your roof calls for — a rooflight conversion is the cheapest, a dormer more, a mansard the most — along with the finish and whether you add an ensuite. The only figure that means anything is a real quote on your actual loft.",
+    "ladder": [
+      { "name": "Rooflight", "note": "Usually the most cost-effective" },
+      { "name": "Dormer", "note": "The most common we build" },
+      { "name": "Mansard", "note": "Maximum space, highest cost" }
+    ],
+    "closing": "For an early sense of scale, our loft conversion cost guide gives a ballpark before you speak to anyone. For a real figure, we will give you a clear, itemised quote after a free, no-obligation site visit, so you can see exactly what you are paying for, with no hidden extras.",
+    "costLink": {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Read the loft conversion cost guide"
+    },
+    "included": [
+      "Full structural work: steels, floor joists and building regs compliance",
+      "Dormer or roof alterations, tiling and weatherproofing",
+      "Staircase design and installation",
+      "First and second fix electrics and plumbing",
+      "Plastering, insulation to current regs, and decoration",
+      "Planning and building regulations through to completion certificate"
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do you do loft conversions across Essex?",
+      "a": "Yes. We work across the county, from the London-fringe towns like Buckhurst Hill, Chigwell, Loughton and Epping, through Brentwood, Billericay and Chelmsford, out to Colchester and Braintree, and down to Southend and Leigh-on-Sea, among others. Each area has, or will have, its own loft-conversion page with local detail. If you are in or near any of these, call and we will confirm we cover you."
+    },
+    {
+      "q": "What type of loft conversion suits my Essex house?",
+      "a": "It depends on your roof. The 1930s hipped-roof semis common across Essex suit a hip-to-gable conversion, often with a rear dormer; Victorian and Edwardian terraces with a rear projection suit an L-shaped dormer; homes with good existing head height may need only a rooflight conversion; and terraced or period homes wanting maximum space may suit a mansard. We look at your roof and tell you honestly which type suits."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Essex?",
+      "a": "Often not. Many rooflight, dormer and hip-to-gable conversions fall under permitted development within the volume limits and conditions, notably that dormers should not be on the front roof slope. Mansards, front dormers, anything over the limits, and conversions in conservation areas or under an Article 4 direction usually need permission. Every loft still needs full building-regulations approval. We check your position and handle it."
+    },
+    {
+      "q": "Can my loft even be converted?",
+      "a": "Most can, but it depends on three things: enough head height (roughly 2.2 to 2.4 metres at the highest point, remembering you lose some to the new floor and ceiling), the roof structure (cut roofs convert more easily than modern trussed ones, which need structural work), and room for a compliant staircase. Lofts that are too low can often still be converted with a dormer or mansard. We assess it honestly."
+    },
+    {
+      "q": "Can I live in my house during a loft conversion?",
+      "a": "Usually yes, which is a real advantage of a loft over an extension. Most of the work happens in the roof, reached from scaffolding outside, so the rest of the house keeps functioning. The main disruption is a short, dusty spell when we break through to fit the staircase. It is far less disruptive than an extension."
+    },
+    {
+      "q": "Do you handle the planning and building regulations?",
+      "a": "Yes, as part of the job. We check whether your conversion needs planning permission or is permitted development, deal with any application, handle the party wall side where it applies, manage the building-control inspections, and see the work through to the completion certificate that protects it at resale."
+    },
+    {
+      "q": "How much does a loft conversion cost in Essex?",
+      "a": "It depends most on the type of conversion your roof calls for — rooflight cheapest, dormer more, mansard most — plus the finish and any ensuite, so the only reliable figure is a quote on your actual loft. Our cost guide gives an early estimate, and we provide a clear, itemised quote after a free, no-obligation site visit."
+    },
+    {
+      "q": "How do I get started with a loft conversion in Essex?",
+      "a": "Book a free, no-obligation site visit on 07734 683686. We will look at your roof, check the head height and structure, work out where the stairs can go, and tell you honestly which type of conversion suits and what it would cost, with an itemised quote. There is no pressure and no obligation to proceed."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/loft-conversions", "label": "Loft conversions overview" },
+    { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
+    { "href": "/blog/do-you-need-planning-permission-for-a-loft-conversion", "label": "Do you need planning permission?" },
+    { "href": "/extensions", "label": "House extensions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Thinking about converting your loft in Essex?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will check your roof and head height and tell you honestly which type of conversion suits your house, and what it would cost. No pressure, and no obligation to proceed."
+  }
+}
