@@ -52,7 +52,9 @@
         }
       ],
       "costTitle": "What a loft conversion really costs",
-      "costText": "Most loft conversions we build come in between £45,000 and £75,000 depending on the type, the size of your roof and the specification you choose. You'll know your exact figure before work starts, every J.Berry quotation is itemised line by line, so you can see exactly where the money goes.",
+      "costRange": "£45,000 – £75,000",
+      "costRangeNote": "Most loft conversions we build, full build cost",
+      "costText": "Where you sit in that range depends on the type of conversion, the size of your roof and the specification you choose. You'll know your exact figure before work starts, every J.Berry quotation is itemised line by line, so you can see exactly where the money goes.",
       "included": [
         "Full structural work: steels, floor joists and building regs compliance",
         "Dormer or roof alterations, tiling and weatherproofing",
@@ -139,7 +141,9 @@
         }
       ],
       "costTitle": "What an extension really costs",
-      "costText": "Most extensions we build come in between £55,000 and £120,000 depending on size, whether it's one storey or two, and the specification of glazing and finishes. Before work starts you'll have an itemised quotation showing exactly where every pound goes, never a vague day rate or a moving target.",
+      "costRange": "£55,000 – £120,000",
+      "costRangeNote": "Most extensions we build, full build cost",
+      "costText": "Where you sit in that range depends on size, whether it's one storey or two, and the specification of glazing and finishes. Before work starts you'll have an itemised quotation showing exactly where every pound goes, never a vague day rate or a moving target.",
       "included": [
         "Groundworks, foundations and all structural work including steels",
         "Roofing, glazing, bifold or sliding doors and rooflights",

@@ -25,6 +25,8 @@ export type ServiceLandingData = {
   typesIntro: string;
   types: { name: string; priceBand: string; text: string; image: string; imageAlt: string }[];
   costTitle: string;
+  costRange: string;
+  costRangeNote: string;
   costText: string;
   included: string[];
   costLink: { href: string; label: string } | null;
@@ -44,6 +46,7 @@ export default function ServiceLandingPage({
 }) {
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
   const lower = shortName.toLowerCase();
+  const [costLow, costHigh] = landing.costRange.split('–').map((s) => s.trim());
 
   return (
     <>
@@ -145,11 +148,17 @@ export default function ServiceLandingPage({
       <section className="relative">
         <SectionIndex label="03 · Cost" />
         <div className="mx-auto max-w-6xl px-4 py-20">
-          <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
             <Reveal>
               <p className="eyebrow">Cost, in the open</p>
               <h2 className="mt-3 text-4xl md:text-5xl">{landing.costTitle}</h2>
-              <p className="mt-5 text-stone leading-relaxed">{landing.costText}</p>
+              <p className="mt-8 font-display text-[2.6rem] leading-none tracking-tight md:text-6xl">
+                {costLow}
+                <span aria-hidden="true" className="mx-2 text-gold md:mx-3">–</span>
+                {costHigh}
+              </p>
+              <p className="mt-3 text-sm text-stone">{landing.costRangeNote}</p>
+              <p className="mt-6 text-stone leading-relaxed">{landing.costText}</p>
               {landing.costLink && (
                 <p className="mt-6">
                   <Link href={landing.costLink.href} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
@@ -164,16 +173,33 @@ export default function ServiceLandingPage({
               </div>
             </Reveal>
             <Reveal delay={120}>
-              <div className="border border-gold bg-white p-8 md:p-10">
-                <p className="eyebrow">Every quotation includes</p>
-                <ul className="mt-6 space-y-4">
-                  {landing.included.map((item) => (
-                    <li key={item} className="flex gap-4 text-sm leading-relaxed text-stone">
-                      <span aria-hidden="true" className="mt-2 h-px w-6 shrink-0 bg-gold" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+              {/* Sample quotation document */}
+              <div className="border border-line bg-white shadow-[0_24px_64px_rgba(26,23,20,0.12)]">
+                <div aria-hidden="true" className="h-[3px] w-full bg-gold" />
+                <div className="p-6 md:p-10">
+                  <div className="flex items-start justify-between gap-4 border-b border-line pb-5">
+                    <div>
+                      <p className="font-display text-2xl tracking-[0.08em]">J.BERRY</p>
+                      <p className="eyebrow mt-1">Sample quotation</p>
+                    </div>
+                    <div aria-hidden="true" className="rotate-[5deg] border-2 border-gold/60 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.25em] text-goldDeep/80">
+                      Fixed price
+                    </div>
+                  </div>
+                  <ul>
+                    {landing.included.map((item) => (
+                      <li key={item} className="flex items-baseline gap-3 border-b border-line py-4">
+                        <span className="max-w-[75%] text-sm leading-relaxed text-stone">{item}</span>
+                        <span aria-hidden="true" className="flex-1 -translate-y-[3px] border-b border-dotted border-stone/40" />
+                        <span className="shrink-0 text-[10px] font-semibold uppercase tracking-eyebrow text-goldDeep">Included</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <div className="mt-6 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 border-t-4 border-double border-ink pt-5">
+                    <p className="font-display text-lg md:text-xl">The price we quote</p>
+                    <p className="font-display text-lg text-goldDeep md:text-xl">is the price you pay</p>
+                  </div>
+                </div>
               </div>
             </Reveal>
           </div>
