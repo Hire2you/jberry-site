@@ -12,12 +12,12 @@
   {
     "slug": "rear-extension-bifolds",
     "title": "Rear extension",
-    "location": "REPLACE, confirm with Jason",
-    "postcode": "CM__",
+    "location": "Hertford Heath",
+    "postcode": "SG13",
     "service": "extensions",
-    "image": "/images/placeholder.webp",
-    "summary": "Full-width single-storey rear extension with bifold doors opening to the garden.",
-    "confirmed": false
+    "image": "/images/rear-extension-hertford-heath.webp",
+    "summary": "Full-width single-storey rear extension with sliding doors opening to the patio, and an open-plan kitchen-diner inside.",
+    "confirmed": true
   },
   {
     "slug": "dormer-conversion",
