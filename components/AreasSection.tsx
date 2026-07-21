@@ -8,7 +8,7 @@ export default function AreasSection() {
   return (
     <section className="relative bg-charcoalDeep text-white">
       <SectionIndex label="06 · Areas" />
-      <div className="mx-auto max-w-6xl px-4 py-20">
+      <div className="mx-auto max-w-6xl px-4 pb-0 pt-20 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
           <Reveal>
             <p className="eyebrow">Where we work</p>
