@@ -19,6 +19,26 @@
         "A well-built loft conversion adds a bedroom, a bathroom and serious value, without losing an inch of garden. It's the most cost-effective way to add space to most homes, and because the structure is already there, it's usually the quickest too.",
         "Every J.Berry loft conversion is designed around your actual roofline, your head heights and how you want to use the room, not squeezed into a standard template. Jason Berry surveys the loft himself, tells you honestly what will and won't work, and prices the whole job in an itemised quotation before you commit to anything."
       ],
+      "compare": {
+        "title": "The maths of moving vs converting",
+        "moveLabel": "Moving house",
+        "moveItems": [
+          "Stamp duty on the next house",
+          "Estate agent and legal fees",
+          "Removals, surveys and months of upheaval",
+          "Paying a premium for a bedroom your roof already has"
+        ],
+        "moveTotal": "£30,000+ spent, none of it on your home",
+        "stayLabel": "Converting the loft",
+        "stayItems": [
+          "The structure is already there, above your head",
+          "Not an inch of garden lost",
+          "The quickest way to add a bedroom and bathroom",
+          "Value added typically exceeds the build cost"
+        ],
+        "stayTotal": "An extra storey, same address",
+        "cta": "Get your itemised quote"
+      },
       "typesTitle": "Which loft conversion suits your roof?",
       "typesIntro": "The right conversion depends on your roof shape, head height and budget. These are the four we build, with honest guide prices, Jason will tell you at the first visit which one your roof actually needs.",
       "types": [
@@ -108,6 +128,26 @@
         "Moving house costs tens of thousands in stamp duty, fees and upheaval, and you still might not get the kitchen you want. A well-designed extension gives you the space you're missing on the plot you already own, and done properly it adds more value than it costs.",
         "J.Berry builds extensions and loft conversions, nothing else. Jason Berry visits your home personally, talks through what you're trying to achieve, and prices the whole build in a detailed, itemised quotation. He then runs the project day to day until handover, one director, one point of contact, one person answerable."
       ],
+      "compare": {
+        "title": "The maths of moving vs extending",
+        "moveLabel": "Moving house",
+        "moveItems": [
+          "Stamp duty on the next house",
+          "Estate agent and legal fees",
+          "Removals, surveys and months of upheaval",
+          "And the new kitchen still isn't yours"
+        ],
+        "moveTotal": "£30,000+ spent, zero space gained",
+        "stayLabel": "Extending",
+        "stayItems": [
+          "Every pound goes into your own home",
+          "No chain, no gamble on a new street",
+          "Designed around how you actually live",
+          "Value added typically exceeds the build cost"
+        ],
+        "stayTotal": "More home, same address",
+        "cta": "Get your itemised quote"
+      },
       "typesTitle": "Which extension fits your home?",
       "typesIntro": "Four types cover almost every home we work on. These guide prices are for the full build, structure, glazing, first and second fix, plastered and decorated, so you can compare like for like.",
       "types": [
