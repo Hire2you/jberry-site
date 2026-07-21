@@ -49,23 +49,34 @@ export default function ServiceLandingPage({
     <>
       {/* Hero */}
       <section className="relative">
-        <div className="relative flex min-h-[64svh] w-full flex-col justify-end md:min-h-[min(calc(72vh-40px),520px)]">
+        <div className="relative w-full">
           <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority sizes="100vw" className="object-cover" />
           <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] from-[6%] via-black/75 via-[50%] to-black/45" />
+          {/* Extra darkening behind the form card so it sits on a calm area of the photo */}
+          <div className="absolute inset-0 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent lg:block" />
           <div className="relative">
-            <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-[4.5rem] md:pt-28">
-              <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">{landing.heroEyebrow}</p>
-              <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
-                {landing.heroHeadline}
-              </h1>
-              <p className="mt-4 max-w-xl text-white/85">{landing.heroSub}</p>
-              <div className="mt-7 flex flex-wrap items-center gap-4">
-                <a href="#quote" className="bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-charcoalDeep transition-colors hover:bg-white">
-                  Get your detailed quote
-                </a>
-                <a href={site.phoneHref} className="border border-white/80 bg-charcoalDeep/30 px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:border-gold hover:text-gold">
-                  Call {site.phone}
-                </a>
+            <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pb-12 pt-[4.5rem] md:pt-24 lg:min-h-[600px] lg:grid-cols-[1fr,400px] lg:gap-14 lg:pb-16">
+              <div>
+                <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">{landing.heroEyebrow}</p>
+                <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
+                  {landing.heroHeadline}
+                </h1>
+                <p className="mt-4 max-w-xl text-white/85">{landing.heroSub}</p>
+                <div className="mt-7">
+                  <a href={site.phoneHref} className="inline-block border border-white/80 bg-charcoalDeep/30 px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:border-gold hover:text-gold">
+                    Call {site.phone}
+                  </a>
+                </div>
+              </div>
+              <div id="quote" className="scroll-mt-28 border border-gold bg-white p-6 shadow-[0_16px_48px_rgba(0,0,0,0.35)] md:p-8">
+                <p className="eyebrow">Your detailed quotation</p>
+                <p className="mt-2 font-display text-2xl leading-snug">Priced line by line, before you commit</p>
+                <div className="mt-5">
+                  <LeadForm compact service={serviceSlug} />
+                </div>
+                <p className="mt-4 text-xs leading-relaxed text-stone">
+                  {site.director} replies the same working day · Free site visit, no obligation
+                </p>
               </div>
             </div>
           </div>
@@ -267,8 +278,8 @@ export default function ServiceLandingPage({
         </div>
       </section>
 
-      {/* Quote */}
-      <section id="quote" className="bg-charcoalDeep text-white">
+      {/* Quote — the #quote anchor lives on the hero form card above */}
+      <section className="bg-charcoalDeep text-white">
         <div className="mx-auto grid max-w-6xl gap-12 px-4 py-20 md:grid-cols-2">
           <Reveal>
             <p className="eyebrow">Start your {lower}</p>
