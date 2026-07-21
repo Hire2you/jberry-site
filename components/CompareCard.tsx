@@ -99,50 +99,58 @@ export default function CompareCard({ compare }: { compare: CompareData }) {
     delay: number,
   ) => (
     <div
-      className={`flex flex-col p-6 md:p-8 ${panelFade(delay)} ${
+      className={`flex flex-col ${panelFade(delay)} ${
         variant === 'move'
           ? 'border border-line bg-ivory'
-          : 'border border-gold/40 bg-white'
+          : 'border border-gold bg-white shadow-[0_16px_48px_rgba(26,23,20,0.08)]'
       }`}
       style={{ transitionDelay: `${delay}ms` }}
     >
-      <p
-        className={`text-[10px] font-bold uppercase tracking-eyebrow ${
-          variant === 'move' ? 'text-stone' : 'text-goldDeep'
-        }`}
-      >
-        {label}
-      </p>
-      <ul className="mt-5 flex-1 space-y-4">
-        {items.map((item, i) => (
-          <li key={item} className="flex items-start gap-3">
-            <span
-              aria-hidden="true"
-              className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${
-                variant === 'move'
-                  ? 'bg-line/80 text-stone/70'
-                  : 'bg-gold/15 text-goldDeep'
-              }`}
-            >
-              {variant === 'move' ? <MoveIcon index={i} /> : <StayIcon index={i} />}
-            </span>
-            <span
-              className={`pt-1 text-sm leading-relaxed ${
-                variant === 'move' ? 'text-stone' : 'text-ink'
-              }`}
-            >
-              {item}
-            </span>
-          </li>
-        ))}
-      </ul>
-      <p
-        className={`mt-6 border-t pt-5 font-display text-lg leading-snug md:text-xl ${
-          variant === 'move' ? 'border-line text-stone' : 'border-gold/30 text-goldDeep'
-        }`}
-      >
-        {total}
-      </p>
+      {variant === 'stay' && (
+        <div aria-hidden="true" className="h-[3px] w-full bg-gold" />
+      )}
+      <div className="flex flex-1 flex-col p-7 md:p-9">
+        <p
+          className={`text-xs font-semibold uppercase tracking-eyebrow ${
+            variant === 'move' ? 'text-stone' : 'text-goldDeep'
+          }`}
+        >
+          {label}
+        </p>
+        {variant === 'stay' && (
+          <div aria-hidden="true" className="mt-3 h-px w-8 bg-gold" />
+        )}
+        <ul className="mt-5 flex-1 space-y-4">
+          {items.map((item, i) => (
+            <li key={item} className="flex items-start gap-3">
+              <span
+                aria-hidden="true"
+                className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${
+                  variant === 'move'
+                    ? 'bg-line/80 text-stone/70'
+                    : 'bg-gold/20 text-goldDeep'
+                }`}
+              >
+                {variant === 'move' ? <MoveIcon index={i} /> : <StayIcon index={i} />}
+              </span>
+              <span
+                className={`pt-1 text-sm leading-relaxed ${
+                  variant === 'move' ? 'text-stone' : 'text-ink'
+                }`}
+              >
+                {item}
+              </span>
+            </li>
+          ))}
+        </ul>
+        <p
+          className={`mt-6 border-t pt-5 font-display text-lg leading-snug text-ink md:text-xl ${
+            variant === 'move' ? 'border-line' : 'border-gold/40'
+          }`}
+        >
+          {total}
+        </p>
+      </div>
     </div>
   );
 
