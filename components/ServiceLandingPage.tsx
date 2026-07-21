@@ -63,15 +63,18 @@ export default function ServiceLandingPage({
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative bg-band">
-        <div className="relative w-full">
-          <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority sizes="100vw" className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-band from-[6%] via-black/75 via-[50%] to-black/45" />
-          {/* Extra darkening behind the form card so it sits on a calm area of the photo */}
-          <div className="absolute inset-0 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent lg:block" />
-          <div className="relative">
-            <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pb-12 pt-[4.5rem] md:pt-24 lg:min-h-[600px] lg:grid-cols-[1fr,400px] lg:gap-14 lg:pb-16">
+      {/* Hero + carousel share one continuous band background */}
+      <div className="bg-band">
+        <section className="relative overflow-hidden">
+          <div className="relative w-full">
+            <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority sizes="100vw" className="object-cover" />
+            <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
+            {/* Extra darkening behind the form card — stops above the band floor so the join stays even */}
+            <div className="absolute inset-x-0 top-0 bottom-20 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent md:bottom-24 lg:block" />
+            {/* Solid band floor guarantees a uniform edge into the carousel */}
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />
+            <div className="relative z-[2]">
+              <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pb-12 pt-[4.5rem] md:pt-24 lg:min-h-[600px] lg:grid-cols-[1fr,400px] lg:gap-14 lg:pb-16">
               <div>
                 <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">{landing.heroEyebrow}</p>
                 <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
@@ -97,9 +100,10 @@ export default function ServiceLandingPage({
             </div>
           </div>
         </div>
-      </section>
+        </section>
 
-      <ProjectCarousel service={serviceSlug} />
+        <ProjectCarousel service={serviceSlug} />
+      </div>
 
       <TrustBar />
 
