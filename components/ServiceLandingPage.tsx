@@ -64,10 +64,10 @@ export default function ServiceLandingPage({
   return (
     <>
       {/* Hero */}
-      <section className="relative">
+      <section className="relative bg-band">
         <div className="relative w-full">
           <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority sizes="100vw" className="object-cover" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] from-[6%] via-black/75 via-[50%] to-black/45" />
+          <div className="absolute inset-0 bg-gradient-to-t from-band from-[6%] via-black/75 via-[50%] to-black/45" />
           {/* Extra darkening behind the form card so it sits on a calm area of the photo */}
           <div className="absolute inset-0 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent lg:block" />
           <div className="relative">
@@ -99,7 +99,7 @@ export default function ServiceLandingPage({
         </div>
       </section>
 
-      <ProjectCarousel />
+      <ProjectCarousel service={serviceSlug} />
 
       <TrustBar />
 

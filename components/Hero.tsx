@@ -4,14 +4,13 @@ import { site } from '@/lib/site';
 
 export default function Hero() {
   return (
-    <section className="relative">
+    <section className="relative bg-band">
       {/* Content sits in normal flow so the hero can never be shorter than its text.
           min-h keeps a decent amount of photo visible; it's capped on desktop so tall screens don't get a huge empty hero. */}
       <div className="relative flex min-h-[64svh] w-full flex-col justify-end md:min-h-[min(calc(72vh-40px),520px)]">
         <Image src={images.hero.src} alt={images.hero.alt} fill priority sizes="100vw" className="object-cover" />
-        {/* Near-black overlay so text is always readable, on all screen sizes.
-            Bottom terminates in solid charcoalDeep so it blends seamlessly into the carousel band below. */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B0B0B] from-[6%] via-black/75 via-[50%] to-black/45" />
+        {/* Near-black overlay so text is always readable. Bottom terminates in solid band so it blends into the carousel below. */}
+        <div className="absolute inset-0 bg-gradient-to-t from-band from-[6%] via-black/75 via-[50%] to-black/45" />
         <div className="relative">
           <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-[4.5rem] md:pt-28">
             <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">London · Kent · Essex</p>

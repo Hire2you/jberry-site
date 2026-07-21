@@ -12,6 +12,7 @@ const config: Config = {
         goldDeep: '#B08D3E',
         charcoal: '#2B2B2B',
         charcoalDeep: '#1D1D1D',
+        band: '#0B0B0B',
         ink: '#2B2B2B',
         stone: '#7A7568',
         line: '#E8E2D5',
