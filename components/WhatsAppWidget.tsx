@@ -42,10 +42,8 @@ export default function WhatsAppWidget() {
         </div>
       )}
       <button onClick={() => setOpen(!open)} aria-label="Chat on WhatsApp"
-        className="flex h-14 w-14 items-center justify-center rounded-full bg-whatsapp text-white shadow-lg hover:scale-105 transition-transform">
-        <svg viewBox="0 0 24 24" className="h-7 w-7 fill-current" aria-hidden>
-          <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.5 14.1c-.2.7-1.3 1.3-1.9 1.4-.5.1-1.1.1-1.8-.1-3-.9-5-3.4-5.7-4.4-.6-.9-1.2-2-1.2-3.1 0-1 .5-1.6.8-1.9.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.8 2c.1.2.1.4 0 .6l-.4.6c-.1.2-.3.4-.1.7.2.3.8 1.3 1.8 2.1 1.2 1.1 2.2 1.4 2.6 1.6.3.1.5.1.7-.1l.9-1c.2-.3.4-.2.7-.1l1.9.9c.3.1.5.2.5.4 0 0 .1.5-.1 1.2Z"/>
-        </svg>
+        className="block h-14 w-14 rounded-full shadow-lg hover:scale-105 transition-transform">
+        <img src="/images/whatsapp-icon.webp" alt="" className="h-full w-full rounded-full" width={56} height={56} />
       </button>
     </div>
   );
