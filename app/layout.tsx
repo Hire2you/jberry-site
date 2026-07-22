@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import StickyCallBar from '@/components/StickyCallBar';
 import { site } from '@/lib/site';
+import { SanityLive } from '@/sanity/live';
 
 const display = Fraunces({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display', axes: ['SOFT', 'WONK', 'opsz'] });
 const body = Inter({ subsets: ['latin'], variable: '--font-body' });
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <WhatsAppWidget />
         <StickyCallBar />
+        <SanityLive />
       </body>
     </html>
   );
