@@ -75,20 +75,23 @@ export type LocationPageDocument = {
   sections?: LocationSection[] | null
 }
 
+import {stegaClean} from 'next-sanity'
+
 export function normalizeLocationSlug(slug: string) {
-  const raw = slug.trim()
+  const raw = stegaClean(slug).trim()
   if (!raw.startsWith('/')) return raw.replace(/^\/+/, '')
   const parts = raw.split('/').filter(Boolean)
   return parts[parts.length - 1] || raw
 }
 
 export function locationMatchesParam(docSlug: string, locationParam: string) {
-  const param = locationParam.replace(/^\/+/, '')
-  const normalized = normalizeLocationSlug(docSlug)
+  const param = stegaClean(locationParam).replace(/^\/+/, '')
+  const cleanedDocSlug = stegaClean(docSlug)
+  const normalized = normalizeLocationSlug(cleanedDocSlug)
   return (
-    docSlug === param ||
-    docSlug === `/${param}` ||
+    cleanedDocSlug === param ||
+    cleanedDocSlug === `/${param}` ||
     normalized === param ||
-    docSlug.endsWith(`/${param}`)
+    cleanedDocSlug.endsWith(`/${param}`)
   )
 }

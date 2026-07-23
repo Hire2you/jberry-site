@@ -47,7 +47,7 @@ export async function generateLocationMetadata(
   serviceSlug: ServiceSlug,
   location: string,
 ): Promise<Metadata> {
-  const page = await fetchLocationPage(serviceSlug, location)
+  const page = await fetchLocationPage(serviceSlug, location, {stega: false})
   if (!page) return {}
 
   const title =
@@ -61,12 +61,16 @@ export async function generateLocationMetadata(
   }
 }
 
-export async function fetchLocationPage(serviceSlug: ServiceSlug, location: string) {
+export async function fetchLocationPage(
+  serviceSlug: ServiceSlug,
+  location: string,
+  options?: {stega?: boolean},
+) {
   const serviceType = serviceTypeFromSlug(serviceSlug)
   const {data} = await sanityFetch({
     query: LOCATION_PAGE_QUERY,
     params: {serviceType, location},
-    stega: false,
+    stega: options?.stega,
   })
   const page = data as LocationPageDocument | null
   if (!page) return null

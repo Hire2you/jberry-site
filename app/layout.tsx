@@ -1,10 +1,13 @@
 import type { Metadata } from 'next';
 import { Fraunces, Inter } from 'next/font/google';
+import { draftMode } from 'next/headers';
+import { VisualEditing } from 'next-sanity/visual-editing';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import WhatsAppWidget from '@/components/WhatsAppWidget';
 import StickyCallBar from '@/components/StickyCallBar';
+import DisableDraftMode from '@/components/DisableDraftMode';
 import { site } from '@/lib/site';
 import { SanityLive } from '@/sanity/live';
 
@@ -17,7 +20,9 @@ export const metadata: Metadata = {
   description: `Director-led extensions and loft conversions across London, Kent and Essex. Detailed quotations, the price we quote is the price you pay.`,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default async function RootLayout({ children }: { children: React.ReactNode }) {
+  const isDraftMode = (await draftMode()).isEnabled;
+
   return (
     <html lang="en-GB" className={`${display.variable} ${body.variable}`}>
       <body>
@@ -27,6 +32,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppWidget />
         <StickyCallBar />
         <SanityLive />
+        {isDraftMode && (
+          <>
+            <DisableDraftMode />
+            <VisualEditing />
+          </>
+        )}
       </body>
     </html>
   );

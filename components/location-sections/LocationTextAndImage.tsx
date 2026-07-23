@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import {stegaClean} from 'next-sanity'
 import Reveal from '@/components/Reveal'
 import {urlFor} from '@/sanity/image'
 import type {LocationSection} from '@/lib/location-page'
@@ -8,7 +9,7 @@ export default function LocationTextAndImage({
 }: {
   block: Extract<LocationSection, {_type: 'textAndImageBlock'}>
 }) {
-  const imageLeft = block.imagePosition === 'left'
+  const imageLeft = stegaClean(block.imagePosition) === 'left'
   const src = block.image
     ? urlFor(block.image).width(1400).height(1000).fit('crop').url()
     : '/images/placeholder.webp'
@@ -16,9 +17,7 @@ export default function LocationTextAndImage({
   return (
     <section className="relative">
       <div className="mx-auto max-w-6xl px-4 py-20">
-        <div
-          className={`grid items-center gap-10 lg:grid-cols-2 lg:gap-16 ${imageLeft ? '' : ''}`}
-        >
+        <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <div className={imageLeft ? 'lg:order-2' : ''}>
               <h2 className="text-4xl md:text-5xl">{block.headline}</h2>
