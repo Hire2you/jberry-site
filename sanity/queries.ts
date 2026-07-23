@@ -84,3 +84,14 @@ export const PROJECTS_BY_TYPE_QUERY = defineQuery(`
     displayOrder
   }
 `)
+
+export const LOCATION_PAGES_BY_SERVICE_QUERY = defineQuery(`
+  *[_type == "locationPage" && active == true && (serviceType == $serviceType || serviceType == "both")] | order(town asc) {
+    _id,
+    town,
+    county,
+    serviceType,
+    slug,
+    active
+  }
+`)

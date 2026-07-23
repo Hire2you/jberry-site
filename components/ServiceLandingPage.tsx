@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import projects from '@/data/projects.json';
-import locations from '@/data/locations.json';
 import images from '@/data/images.json';
 import { site } from '@/lib/site';
 import TrustBar from '@/components/TrustBar';
@@ -18,6 +17,7 @@ import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
 import type { Testimonial } from '@/lib/testimonials';
 import type { CarouselSlide } from '@/lib/projects';
+import { locationPageHref, type LocationPage } from '@/lib/locations';
 
 export type ServiceLandingData = {
   heroImage: { src: string; alt: string };
@@ -55,6 +55,7 @@ export default function ServiceLandingPage({
   landing,
   testimonials,
   carouselProjects,
+  locationPages,
 }: {
   serviceSlug: string;
   serviceName: string;
@@ -62,6 +63,7 @@ export default function ServiceLandingPage({
   landing: ServiceLandingData;
   testimonials: Testimonial[];
   carouselProjects: CarouselSlide[];
+  locationPages: LocationPage[];
 }) {
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
   const lower = shortName.toLowerCase();
@@ -299,13 +301,13 @@ export default function ServiceLandingPage({
                   {shortName}s in Essex
                 </Link>
               )}
-              {locations.map((l) => (
+              {locationPages.map((l) => (
                 <Link
-                  key={l.slug}
-                  href={`/${serviceSlug}/${l.slug}`}
+                  key={l._id}
+                  href={locationPageHref(l, serviceSlug)}
                   className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
                 >
-                  {shortName}s in {l.name}
+                  {shortName}s in {l.town}
                 </Link>
               ))}
             </div>
