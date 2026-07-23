@@ -1,3 +1,5 @@
+import {normalizeLocationSlug} from '@/lib/location-page'
+
 export type LocationPage = {
   _id: string
   town: string
@@ -11,5 +13,5 @@ export type LocationPage = {
 export function locationPageHref(location: LocationPage, serviceSlug: string) {
   const raw = location.slug.trim()
   if (raw.startsWith('/')) return raw
-  return `/${serviceSlug}/${raw.replace(/^\/+/, '')}`
+  return `/${serviceSlug}/${normalizeLocationSlug(raw)}`
 }

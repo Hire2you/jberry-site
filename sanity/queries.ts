@@ -95,3 +95,65 @@ export const LOCATION_PAGES_BY_SERVICE_QUERY = defineQuery(`
     active
   }
 `)
+
+export const LOCATION_PAGE_QUERY = defineQuery(`
+  *[_type == "locationPage" && (serviceType == $serviceType || serviceType == "both") && (
+    slug == $location ||
+    slug == ("/" + $location) ||
+    slug == ("/extensions/" + $location) ||
+    slug == ("/loft-conversions/" + $location)
+  )][0] {
+    _id,
+    town,
+    county,
+    serviceType,
+    slug,
+    active,
+    seoTitle,
+    seoDescription,
+    sections[] {
+      ...,
+      _type == "heroBlock" => {
+        ...,
+        backgroundImage
+      },
+      _type == "introTextBlock" => {
+        ...,
+        image
+      },
+      _type == "textAndImageBlock" => {
+        ...,
+        image
+      }
+    }
+  }
+`)
+
+export const LOCATION_PAGE_SLUGS_QUERY = defineQuery(`
+  *[_type == "locationPage" && (serviceType == $serviceType || serviceType == "both") && defined(slug)]{
+    slug,
+    serviceType
+  }
+`)
+
+export const PROJECTS_FOR_LOCATION_QUERY = defineQuery(`
+  *[
+    _type == "project" &&
+    ($serviceType == "both" || projectType == $serviceType) &&
+    (
+      location == $town ||
+      location match ("*" + $town + "*") ||
+      location match ("*" + $county + "*") ||
+      featured == true
+    )
+  ] | order(displayOrder asc) [0...8] {
+    _id,
+    title,
+    location,
+    projectType,
+    subType,
+    mainImage,
+    featured,
+    displayOrder
+  }
+`)
