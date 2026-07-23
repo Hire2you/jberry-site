@@ -27,7 +27,7 @@ export default function WhatsAppWidget() {
   }
 
   return (
-    <div className="fixed bottom-[5.25rem] right-4 z-50 md:bottom-5 md:right-5">
+    <div className="fixed bottom-[5.25rem] right-4 z-50 flex flex-col items-end md:bottom-5 md:right-5">
       {open && (
         <div className="mb-3 w-64 rounded-lg border border-pine/15 bg-white p-4 shadow-xl">
           <p className="text-sm font-semibold">What's the project?</p>
@@ -42,7 +42,7 @@ export default function WhatsAppWidget() {
         </div>
       )}
       <button onClick={() => setOpen(!open)} aria-label="Chat on WhatsApp"
-        className="block h-14 w-14 rounded-full shadow-lg hover:scale-105 transition-transform">
+        className="block h-14 w-14 shrink-0 rounded-full shadow-lg hover:scale-105 transition-transform">
         <img src="/images/whatsapp-icon.webp" alt="" className="h-full w-full rounded-full" width={56} height={56} />
       </button>
     </div>

@@ -2,8 +2,17 @@ import type {SanityImageSource} from '@sanity/image-url'
 
 export type LocationImage = SanityImageSource & {alt?: string}
 
+export type SectionSettingsFields = {
+  theme?: string | null
+  showButton?: boolean | null
+  buttonText?: string | null
+  buttonLink?: string | null
+  textAlignment?: string | null
+  paddingSize?: string | null
+}
+
 export type LocationSection =
-  | {
+  | ({
       _key: string
       _type: 'heroBlock'
       headline: string
@@ -11,8 +20,8 @@ export type LocationSection =
       backgroundImage?: LocationImage | null
       ctaText?: string
       ctaLink?: string
-    }
-  | {
+    } & SectionSettingsFields)
+  | ({
       _key: string
       _type: 'introTextBlock'
       eyebrow?: string
@@ -20,48 +29,48 @@ export type LocationSection =
       leftText?: string
       rightText?: string
       image?: LocationImage | null
-    }
-  | {
+    } & SectionSettingsFields)
+  | ({
       _key: string
       _type: 'statsBarBlock'
       stats?: Array<{_key: string; label: string; subtext?: string}>
-    }
+    } & SectionSettingsFields)
   | {_key: string; _type: 'projectCarouselBlock'}
-  | {
+  | ({
       _key: string
       _type: 'costSectionBlock'
       introText?: string
       priceLow?: string
       priceHigh?: string
       lineItems?: Array<{_key: string; label: string; price?: string}>
-    }
-  | {
+    } & SectionSettingsFields)
+  | ({
       _key: string
       _type: 'faqAccordionBlock'
       heading?: string
       intro?: string
       faqs?: Array<{_key: string; question: string; answer: string}>
-    }
+    } & SectionSettingsFields)
   | {
       _key: string
       _type: 'testimonialsBlock'
       eyebrow?: string
       headline?: string
     }
-  | {
+  | ({
       _key: string
       _type: 'ctaFormBlock'
       headline: string
       subheading?: string
-    }
-  | {
+    } & SectionSettingsFields)
+  | ({
       _key: string
       _type: 'textAndImageBlock'
       headline: string
       body?: string
       image?: LocationImage | null
       imagePosition?: 'left' | 'right'
-    }
+    } & SectionSettingsFields)
 
 export type LocationPageDocument = {
   _id: string

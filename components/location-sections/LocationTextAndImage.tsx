@@ -3,6 +3,15 @@ import {stegaClean} from 'next-sanity'
 import Reveal from '@/components/Reveal'
 import {urlFor} from '@/sanity/image'
 import type {LocationSection} from '@/lib/location-page'
+import {
+  SectionButton,
+  resolveAlignment,
+  resolvePadding,
+  resolveTheme,
+  sectionAlignClass,
+  sectionPaddingClass,
+  sectionTone,
+} from '@/components/location-sections/sectionSettings'
 
 export default function LocationTextAndImage({
   block,
@@ -13,17 +22,31 @@ export default function LocationTextAndImage({
   const src = block.image
     ? urlFor(block.image).width(1400).height(1000).fit('crop').url()
     : '/images/placeholder.webp'
+  const theme = resolveTheme(block.theme, 'light')
+  const align = resolveAlignment(block.textAlignment)
+  const padding = resolvePadding(block.paddingSize)
+  const tone = sectionTone(theme)
 
   return (
-    <section className="relative">
-      <div className="mx-auto max-w-6xl px-4 py-20">
+    <section className={`relative ${tone.section}`}>
+      <div
+        className={`mx-auto max-w-6xl px-4 ${sectionPaddingClass(padding)} ${sectionAlignClass(align)}`}
+      >
         <div className="grid items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <div className={imageLeft ? 'lg:order-2' : ''}>
-              <h2 className="text-4xl md:text-5xl">{block.headline}</h2>
+              <h2 className={`text-4xl md:text-5xl ${tone.heading}`}>{block.headline}</h2>
               {block.body && (
-                <p className="mt-5 text-stone leading-relaxed whitespace-pre-line">{block.body}</p>
+                <p className={`mt-5 leading-relaxed whitespace-pre-line ${tone.body}`}>
+                  {block.body}
+                </p>
               )}
+              <SectionButton
+                showButton={block.showButton}
+                buttonText={block.buttonText}
+                buttonLink={block.buttonLink}
+                align={align}
+              />
             </div>
           </Reveal>
           <Reveal delay={100}>
