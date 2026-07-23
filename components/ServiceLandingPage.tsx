@@ -16,6 +16,7 @@ import CompareCard from '@/components/CompareCard';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
+import type { Testimonial } from '@/lib/testimonials';
 
 export type ServiceLandingData = {
   heroImage: { src: string; alt: string };
@@ -51,11 +52,13 @@ export default function ServiceLandingPage({
   serviceName,
   shortName,
   landing,
+  testimonials,
 }: {
   serviceSlug: string;
   serviceName: string;
   shortName: string;
   landing: ServiceLandingData;
+  testimonials: Testimonial[];
 }) {
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
   const lower = shortName.toLowerCase();
@@ -260,7 +263,7 @@ export default function ServiceLandingPage({
               <h2 className="mt-3 text-4xl md:text-5xl">In our clients&rsquo; words</h2>
             </div>
             <div className="mt-10">
-              <TestimonialShowcase />
+              <TestimonialShowcase testimonials={testimonials} />
             </div>
           </Reveal>
         </div>

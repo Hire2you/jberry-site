@@ -2,7 +2,10 @@ import type { Metadata } from 'next';
 import services from '@/data/services.json';
 import { serviceLandingSchema, faqSchema, JsonLd } from '@/lib/schema';
 import { site } from '@/lib/site';
+import type { Testimonial } from '@/lib/testimonials';
 import ServiceLandingPage from '@/components/ServiceLandingPage';
+import { sanityFetch } from '@/sanity/live';
+import { TESTIMONIALS_BY_CATEGORY_QUERY } from '@/sanity/queries';
 
 const s = services.find((x) => x.slug === 'loft-conversions')!;
 
@@ -12,7 +15,13 @@ export const metadata: Metadata = {
   alternates: { canonical: '/loft-conversions' },
 };
 
-export default function LoftConversionsPage() {
+export default async function LoftConversionsPage() {
+  const { data } = await sanityFetch({
+    query: TESTIMONIALS_BY_CATEGORY_QUERY,
+    params: { category: 'loft-conversion' },
+  });
+  const testimonials = (data || []) as Testimonial[];
+
   return (
     <>
       <JsonLd data={serviceLandingSchema(s.name, s.priceFrom, s.priceTo, '/loft-conversions')} />
@@ -22,6 +31,7 @@ export default function LoftConversionsPage() {
         serviceName={s.name}
         shortName={s.shortName}
         landing={s.landing}
+        testimonials={testimonials}
       />
     </>
   );

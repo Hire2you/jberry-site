@@ -32,3 +32,29 @@ export const POST_QUERY = defineQuery(`
 export const POST_SLUGS_QUERY = defineQuery(`
   *[_type == "post" && defined(slug.current)]{ "slug": slug.current }
 `)
+
+export const FEATURED_TESTIMONIALS_QUERY = defineQuery(`
+  *[_type == "testimonial" && featured == true] | order(customerName asc) {
+    _id,
+    quote,
+    "name": customerName,
+    location,
+    "project": projectType,
+    "highlight": highlightTag,
+    category,
+    featured
+  }
+`)
+
+export const TESTIMONIALS_BY_CATEGORY_QUERY = defineQuery(`
+  *[_type == "testimonial" && category == $category] | order(customerName asc) {
+    _id,
+    quote,
+    "name": customerName,
+    location,
+    "project": projectType,
+    "highlight": highlightTag,
+    category,
+    featured
+  }
+`)

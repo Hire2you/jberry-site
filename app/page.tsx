@@ -5,6 +5,7 @@ import images from '@/data/images.json';
 import faqs from '@/data/faqs.json';
 import { localBusinessSchema, faqSchema, JsonLd } from '@/lib/schema';
 import { site } from '@/lib/site';
+import type { Testimonial } from '@/lib/testimonials';
 import Hero from '@/components/Hero';
 import ProjectCarousel from '@/components/ProjectCarousel';
 import TrustBar from '@/components/TrustBar';
@@ -18,8 +19,12 @@ import Captioned from '@/components/Captioned';
 import SectionIndex from '@/components/SectionIndex';
 import AreasSection from '@/components/AreasSection';
 import FaqSection from '@/components/FaqSection';
+import { sanityFetch } from '@/sanity/live';
+import { FEATURED_TESTIMONIALS_QUERY } from '@/sanity/queries';
 
-export default function Home() {
+export default async function Home() {
+  const { data } = await sanityFetch({ query: FEATURED_TESTIMONIALS_QUERY });
+  const testimonials = (data || []) as Testimonial[];
   const services = [
     { href: '/extensions/bishops-stortford', img: images.serviceExtensions, title: 'Extensions', text: 'Single and double-storey extensions, quoted in detail and finished on schedule.' },
     { href: '/loft-conversions/bishops-stortford', img: images.serviceLofts, title: 'Loft conversions', text: 'Dormer, hip-to-gable and Velux conversions built around your roofline.' },
@@ -138,7 +143,7 @@ export default function Home() {
               <h2 className="mt-3 text-4xl md:text-5xl">In our clients&rsquo; words</h2>
             </div>
             <div className="mt-10">
-              <TestimonialShowcase />
+              <TestimonialShowcase testimonials={testimonials} />
             </div>
           </Reveal>
         </div>

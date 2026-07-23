@@ -2,13 +2,15 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import services from '@/data/services.json';
 import locations from '@/data/locations.json';
-import testimonials from '@/data/testimonials.json';
 import { serviceSchema, faqSchema, JsonLd } from '@/lib/schema';
 import { site } from '@/lib/site';
+import type { Testimonial } from '@/lib/testimonials';
 import TrustBar from '@/components/TrustBar';
 import TestimonialCard from '@/components/TestimonialCard';
 import LeadForm from '@/components/LeadForm';
 import Link from 'next/link';
+import { sanityFetch } from '@/sanity/live';
+import { TESTIMONIALS_BY_CATEGORY_QUERY } from '@/sanity/queries';
 
 // SSG: every service × location page rendered to static HTML at build time.
 export function generateStaticParams() {
@@ -35,6 +37,13 @@ export default async function Page({ params }: Props) {
   const s = services.find((x) => x.slug === service);
   const l = locations.find((x) => x.slug === location);
   if (!s || !l) notFound();
+
+  const category = service === 'extensions' ? 'extension' : service === 'loft-conversions' ? 'loft-conversion' : 'general';
+  const { data } = await sanityFetch({
+    query: TESTIMONIALS_BY_CATEGORY_QUERY,
+    params: { category },
+  });
+  const testimonials = (data || []) as Testimonial[];
 
   const faqs = [
     { q: `How much does a ${s.shortName.toLowerCase()} cost in ${l.name}?`, a: `Most ${s.shortName.toLowerCase()}s we build around ${l.name} come in between £${s.priceFrom.toLocaleString()} and £${s.priceTo.toLocaleString()}, depending on size and specification. Every quote is itemised in detail before work starts.` },
@@ -67,7 +76,16 @@ export default async function Page({ params }: Props) {
       <section className="mx-auto max-w-6xl px-4 py-14">
         <h2 className="text-2xl">Recent work nearby</h2>
         <div className="mt-6 grid gap-6 md:grid-cols-2">
-          {testimonials.map((t) => <TestimonialCard key={t.name} {...t} />)}
+          {testimonials.map((t) => (
+            <TestimonialCard
+              key={t._id || t.name}
+              name={t.name}
+              location={t.location || ''}
+              project={t.project}
+              quote={t.quote}
+              highlight={t.highlight}
+            />
+          ))}
         </div>
       </section>
 
