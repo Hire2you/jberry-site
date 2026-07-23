@@ -9,7 +9,8 @@ export const POSTS_QUERY = defineQuery(`
     publishedAt,
     category,
     author,
-    coverImage
+    coverImage,
+    "plainText": pt::text(body)
   }
 `)
 
@@ -23,7 +24,8 @@ export const POST_QUERY = defineQuery(`
     category,
     author,
     coverImage,
-    body
+    body,
+    "plainText": pt::text(body)
   }
 `)
 
