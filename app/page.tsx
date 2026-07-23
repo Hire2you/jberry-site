@@ -6,6 +6,8 @@ import faqs from '@/data/faqs.json';
 import { localBusinessSchema, faqSchema, JsonLd } from '@/lib/schema';
 import { site } from '@/lib/site';
 import type { Testimonial } from '@/lib/testimonials';
+import type { SanityProject } from '@/lib/projects';
+import { toCarouselSlides } from '@/lib/projects';
 import Hero from '@/components/Hero';
 import ProjectCarousel from '@/components/ProjectCarousel';
 import TrustBar from '@/components/TrustBar';
@@ -20,11 +22,15 @@ import SectionIndex from '@/components/SectionIndex';
 import AreasSection from '@/components/AreasSection';
 import FaqSection from '@/components/FaqSection';
 import { sanityFetch } from '@/sanity/live';
-import { FEATURED_TESTIMONIALS_QUERY } from '@/sanity/queries';
+import { FEATURED_PROJECTS_QUERY, FEATURED_TESTIMONIALS_QUERY } from '@/sanity/queries';
 
 export default async function Home() {
-  const { data } = await sanityFetch({ query: FEATURED_TESTIMONIALS_QUERY });
-  const testimonials = (data || []) as Testimonial[];
+  const [{ data: testimonialData }, { data: projectData }] = await Promise.all([
+    sanityFetch({ query: FEATURED_TESTIMONIALS_QUERY }),
+    sanityFetch({ query: FEATURED_PROJECTS_QUERY }),
+  ]);
+  const testimonials = (testimonialData || []) as Testimonial[];
+  const carouselProjects = toCarouselSlides((projectData || []) as SanityProject[]);
   const services = [
     { href: '/extensions/bishops-stortford', img: images.serviceExtensions, title: 'Extensions', text: 'Single and double-storey extensions, quoted in detail and finished on schedule.' },
     { href: '/loft-conversions/bishops-stortford', img: images.serviceLofts, title: 'Loft conversions', text: 'Dormer, hip-to-gable and Velux conversions built around your roofline.' },
@@ -40,7 +46,7 @@ export default async function Home() {
       <JsonLd data={localBusinessSchema()} />
       <JsonLd data={faqSchema(faqs)} />
       <Hero />
-      <ProjectCarousel />
+      <ProjectCarousel projects={carouselProjects} />
       <TrustBar />
 
       <section className="relative">

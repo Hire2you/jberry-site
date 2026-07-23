@@ -1,6 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { site } from '@/lib/site';
+import type { SanityProject } from '@/lib/projects';
+import { toCarouselSlides } from '@/lib/projects';
 import TrustBar from '@/components/TrustBar';
 import ProjectCarousel from '@/components/ProjectCarousel';
 import FaqSection from '@/components/FaqSection';
@@ -9,6 +11,8 @@ import QuotationCard from '@/components/QuotationCard';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
+import { sanityFetch } from '@/sanity/live';
+import { PROJECTS_BY_TYPE_QUERY } from '@/sanity/queries';
 
 export type CountyHubData = {
   serviceSlug: string;
@@ -77,8 +81,14 @@ export type CountyHubData = {
   };
 };
 
-export default function CountyHubLanding({ data }: { data: CountyHubData }) {
+export default async function CountyHubLanding({ data }: { data: CountyHubData }) {
   const { serviceSlug, county, hero } = data;
+  const projectType = serviceSlug === 'extensions' ? 'extension' : 'loft-conversion';
+  const { data: projectData } = await sanityFetch({
+    query: PROJECTS_BY_TYPE_QUERY,
+    params: { projectType },
+  });
+  const carouselProjects = toCarouselSlides((projectData || []) as SanityProject[]);
 
   return (
     <>
@@ -119,7 +129,7 @@ export default function CountyHubLanding({ data }: { data: CountyHubData }) {
           </div>
         </section>
 
-        <ProjectCarousel service={serviceSlug} />
+        <ProjectCarousel projects={carouselProjects} />
       </div>
 
       <TrustBar />

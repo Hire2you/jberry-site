@@ -1,23 +1,12 @@
 'use client';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import Image from 'next/image';
+import type { CarouselSlide } from '@/lib/projects';
 
 const ROTATE_MS = 4000;
 
-// Placeholder slides reusing existing site imagery — swap for real project photos later.
-const allSlides = [
-  { service: 'extensions', src: '/images/extension-rear-bifolds.webp', alt: 'Full-width rear extension with bifold doors', title: 'Rear extension', location: 'Essex' },
-  { service: 'loft-conversions', src: '/images/loft-dormer-front.webp', alt: 'Contemporary clad dormer loft conversion', title: 'Dormer loft conversion', location: 'Essex' },
-  { service: 'extensions', src: '/images/extension-orangery.webp', alt: 'Orangery-style extension to a period property', title: 'Orangery extension', location: 'Hertfordshire' },
-  { service: 'loft-conversions', src: '/images/loft-wardrobes.webp', alt: 'Loft bedroom with full-length built-in wardrobes', title: 'Loft conversion', location: 'South Woodford' },
-  { service: 'extensions', src: '/images/barn-garden-room.webp', alt: 'Garden room with exposed timber frame', title: 'Garden room', location: 'Hertfordshire' },
-];
-
-export default function ProjectCarousel({ service }: { service?: string }) {
-  const slides = useMemo(
-    () => (service ? allSlides.filter((s) => s.service === service) : allSlides),
-    [service],
-  );
+export default function ProjectCarousel({ projects }: { projects: CarouselSlide[] }) {
+  const slides = projects;
 
   const [visible, setVisible] = useState(1);
   const [index, setIndex] = useState(0);
@@ -108,7 +97,7 @@ export default function ProjectCarousel({ service }: { service?: string }) {
               const inView = i >= index && i < index + cappedVisible;
               const slideWidth = cappedVisible === 1 ? 'w-full' : cappedVisible === 2 ? 'w-full md:w-1/2' : 'w-full md:w-1/3';
               return (
-                <div key={s.src} className={`${slideWidth} shrink-0 md:px-2`} aria-hidden={!inView}>
+                <div key={s._id} className={`${slideWidth} shrink-0 md:px-2`} aria-hidden={!inView}>
                   <div className="relative aspect-[16/10] md:aspect-[3/2]">
                     <Image
                       src={s.src}

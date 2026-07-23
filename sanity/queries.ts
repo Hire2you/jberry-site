@@ -58,3 +58,29 @@ export const TESTIMONIALS_BY_CATEGORY_QUERY = defineQuery(`
     featured
   }
 `)
+
+export const FEATURED_PROJECTS_QUERY = defineQuery(`
+  *[_type == "project" && featured == true] | order(displayOrder asc) {
+    _id,
+    title,
+    location,
+    projectType,
+    subType,
+    mainImage,
+    featured,
+    displayOrder
+  }
+`)
+
+export const PROJECTS_BY_TYPE_QUERY = defineQuery(`
+  *[_type == "project" && projectType == $projectType] | order(displayOrder asc) {
+    _id,
+    title,
+    location,
+    projectType,
+    subType,
+    mainImage,
+    featured,
+    displayOrder
+  }
+`)

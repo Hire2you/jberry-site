@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "seed:testimonials": "node --env-file=.env.local scripts/seed-testimonials.mjs"
+    "seed:testimonials": "node --env-file=.env.local scripts/seed-testimonials.mjs",
+    "seed:projects": "node --env-file=.env.local scripts/seed-projects.mjs"
   },
   "dependencies": {
     "@sanity/image-url": "^2.1.1",

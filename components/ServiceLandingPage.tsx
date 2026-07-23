@@ -17,6 +17,7 @@ import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
 import type { Testimonial } from '@/lib/testimonials';
+import type { CarouselSlide } from '@/lib/projects';
 
 export type ServiceLandingData = {
   heroImage: { src: string; alt: string };
@@ -53,12 +54,14 @@ export default function ServiceLandingPage({
   shortName,
   landing,
   testimonials,
+  carouselProjects,
 }: {
   serviceSlug: string;
   serviceName: string;
   shortName: string;
   landing: ServiceLandingData;
   testimonials: Testimonial[];
+  carouselProjects: CarouselSlide[];
 }) {
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
   const lower = shortName.toLowerCase();
@@ -105,7 +108,7 @@ export default function ServiceLandingPage({
         </div>
         </section>
 
-        <ProjectCarousel service={serviceSlug} />
+        <ProjectCarousel projects={carouselProjects} />
       </div>
 
       <TrustBar />
