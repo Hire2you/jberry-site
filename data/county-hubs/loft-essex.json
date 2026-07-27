@@ -64,8 +64,8 @@
         "roofStock": "1930s hipped semis",
         "conversion": "Hip-to-gable",
         "text": "The 1930s semi-detached houses that fill so many Essex suburbs usually have hipped roofs, sloping in on the side, which wastes internal volume. These are natural candidates for a hip-to-gable conversion, squaring off the roof to a vertical gable, very often combined with a rear dormer, which together turn a cramped hipped loft into a proper room. It is one of the most common and most transformative loft projects in the county.",
-        "image": "/images/placeholder.webp",
-        "imageAlt": "Hip-to-gable loft conversion on a 1930s semi"
+        "image": "/images/loft-hip-to-gable.webp",
+        "imageAlt": "Hip-to-gable loft conversion with tiled dormer and rooflights"
       },
       {
         "roofStock": "Victorian & Edwardian terraces",
@@ -85,7 +85,7 @@
         "roofStock": "Terraced & period settings",
         "conversion": "Mansard",
         "text": "In some terraced and period settings, a mansard, which rebuilds a roof slope for maximum space, is the answer, though it usually needs planning permission. We look at your roof and tell you honestly which type suits.",
-        "image": "/images/placeholder.webp",
+        "image": "/images/loft-mansard.webp",
         "imageAlt": "Mansard loft conversion on a period terrace"
       }
     ]
