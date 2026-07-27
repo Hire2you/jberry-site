@@ -22,21 +22,21 @@
   {
     "slug": "dormer-conversion",
     "title": "Dormer loft conversion",
-    "location": "REPLACE, confirm with Jason",
-    "postcode": "CM__",
+    "location": "Bishop's Stortford",
+    "postcode": "CM23",
     "service": "loft-conversions",
     "image": "/images/loft-dormer-front.webp",
     "summary": "Contemporary clad dormer with glass Juliet balconies.",
-    "confirmed": false
+    "confirmed": true
   },
   {
     "slug": "orangery-extension",
     "title": "Orangery-style extension",
-    "location": "REPLACE, confirm with Jason",
-    "postcode": "CM__",
+    "location": "High Wych, Hertfordshire",
+    "postcode": "CM21",
     "service": "extensions",
     "image": "/images/extension-orangery.webp",
     "summary": "Glazed extension to a period flint property.",
-    "confirmed": false
+    "confirmed": true
   }
 ]
