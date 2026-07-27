@@ -53,14 +53,14 @@
           "name": "Hip-to-gable",
           "priceBand": "£50k–£68k guide",
           "text": "Built for semis and end-of-terrace homes with a hipped (sloping) side roof. We build the side wall up into a vertical gable, often paired with a rear dormer, to unlock loft space a hipped roof wastes.",
-          "image": "/images/placeholder.webp",
-          "imageAlt": "Hip-to-gable loft conversion"
+          "image": "/images/loft-hip-to-gable.webp",
+          "imageAlt": "Hip-to-gable loft conversion with tiled dormer and rooflights"
         },
         {
           "name": "Mansard",
           "priceBand": "£60k–£75k guide",
           "text": "The maximum-space option, common on period terraces. The whole rear slope is rebuilt at a near-vertical angle, effectively adding a full extra storey. Usually needs planning permission, which we'll guide you through.",
-          "image": "/images/placeholder.webp",
+          "image": "/images/loft-mansard.webp",
           "imageAlt": "Mansard loft conversion on a period terrace"
         },
         {
