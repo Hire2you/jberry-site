@@ -32,8 +32,8 @@ export default async function Home() {
   const testimonials = (testimonialData || []) as Testimonial[];
   const carouselProjects = toCarouselSlides((projectData || []) as SanityProject[]);
   const services = [
-    { href: '/extensions/bishops-stortford', img: images.serviceExtensions, title: 'Extensions', text: 'Single and double-storey extensions, quoted in detail and finished on schedule.' },
-    { href: '/loft-conversions/bishops-stortford', img: images.serviceLofts, title: 'Loft conversions', text: 'Dormer, hip-to-gable and Velux conversions built around your roofline.' },
+    { href: '/extensions', img: images.serviceExtensions, title: 'Extensions', text: 'Single and double-storey extensions, quoted in detail and finished on schedule.' },
+    { href: '/loft-conversions', img: images.serviceLofts, title: 'Loft conversions', text: 'Dormer, hip-to-gable and Velux conversions built around your roofline.' },
   ];
   const directorStats = [
     { big: '20+ years', small: 'building' },
