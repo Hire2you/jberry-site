@@ -1,8 +1,16 @@
-import process from '@/data/process.json';
+import defaultProcess from '@/data/process.json';
 import Reveal from '@/components/Reveal';
 import SectionIndex from '@/components/SectionIndex';
 
-export default function ProcessSection({ label = '04 · Process' }: { label?: string }) {
+type ProcessStep = { step: string; title: string; text: string };
+
+export default function ProcessSection({
+  label = '04 · Process',
+  steps = defaultProcess,
+}: {
+  label?: string;
+  steps?: ProcessStep[];
+}) {
   return (
     <section className="relative overflow-x-clip">
       <SectionIndex label={label} />
@@ -13,7 +21,7 @@ export default function ProcessSection({ label = '04 · Process' }: { label?: st
           <p className="mt-4 font-display italic text-lg text-stone">The same four steps on every project, run by the same person.</p>
         </Reveal>
         <div className="mt-14 grid gap-12 md:grid-cols-4 md:gap-8">
-          {process.map((p, i) => (
+          {steps.map((p, i) => (
             <Reveal key={p.step} delay={i * 100}>
               {/* Title sits inside the numeral's lower third: 120px numeral -> pt-20, 170px -> pt-28 */}
               <div className="relative pt-20 md:pt-28">

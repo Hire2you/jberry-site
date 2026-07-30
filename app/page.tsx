@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import projects from '@/data/projects.json';
@@ -24,6 +25,11 @@ import FaqSection from '@/components/FaqSection';
 import { sanityFetch } from '@/sanity/live';
 import { FEATURED_PROJECTS_QUERY, FEATURED_TESTIMONIALS_QUERY } from '@/sanity/queries';
 
+export const metadata: Metadata = {
+  description:
+    'Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.',
+};
+
 export default async function Home() {
   const [{ data: testimonialData }, { data: projectData }] = await Promise.all([
     sanityFetch({ query: FEATURED_TESTIMONIALS_QUERY }),
@@ -36,10 +42,43 @@ export default async function Home() {
     { href: '/loft-conversions', img: images.serviceLofts, title: 'Loft conversions', text: 'Dormer, hip-to-gable and Velux conversions built around your roofline.' },
   ];
   const directorStats = [
-    { big: '20+ years', small: 'building' },
-    { big: 'Director-led', small: 'always' },
-    { big: 'Fixed-price', small: 'quotations' },
+    { big: '20+ years', small: 'hands-on' },
+    { big: '15–20', small: 'projects a year' },
+    { big: '10-year', small: 'guarantee' },
   ];
+  const trustBarItems = [
+    { big: 'Itemised quotations', small: 'Every line priced before you commit' },
+    { big: '10% deposit, then stages', small: 'You never pay ahead of the work' },
+    { big: 'Jason on site', small: "Not a project manager you've never met" },
+    { big: '10-year guarantee', small: 'On every completed build' },
+  ];
+  const homepageProcessSteps = [
+    {
+      step: '01',
+      title: 'Site visit',
+      text: "Jason measures up, looks at what's structurally possible, and tells you if what you want doesn't work. Free, and no one chases you afterwards.",
+    },
+    {
+      step: '02',
+      title: 'Detailed quotation',
+      text: 'Labour and materials priced line by line — a fixed price, not an estimate. Detailed enough to hand to another builder and compare properly.',
+    },
+    {
+      step: '03',
+      title: 'The build',
+      text: 'Agreed start date, agreed finish date, Jason running it day to day. Most clients stay living in the house throughout.',
+    },
+    {
+      step: '04',
+      title: 'Handover',
+      text: 'Snagged and signed off together, then backed by a 10-year guarantee. The figure we quoted is the figure you pay.',
+    },
+  ];
+  // TODO: real project — awaiting details (dormer loft conversion, CM__)
+  // TODO: real project — awaiting details (orangery-style extension, CM__)
+  const homepageProjects = projects.filter(
+    (p) => p.slug === 'south-woodford-loft' || p.slug === 'rear-extension-bifolds',
+  );
 
   return (
     <>
@@ -47,15 +86,15 @@ export default async function Home() {
       <JsonLd data={faqSchema(faqs)} />
       <Hero />
       <ProjectCarousel projects={carouselProjects} />
-      <TrustBar />
+      <TrustBar items={trustBarItems} />
 
       <section className="relative">
         <SectionIndex label="01 · What we build" />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">What we build</p>
-            <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Two things, done properly</h2>
-            <p className="mt-4 font-display italic text-lg text-stone">Extensions and loft conversions across London, Kent and Essex, nothing else.</p>
+            <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Extensions and loft conversions. That&rsquo;s the whole list.</h2>
+            <p className="mt-4 font-display italic text-lg text-stone">Two builds done properly across London, Kent and Essex — rather than everything done adequately.</p>
           </Reveal>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {services.map((s, i) => (
@@ -89,7 +128,7 @@ export default async function Home() {
             </div>
           </Reveal>
           <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
-            {projects.map((p, i) => (
+            {homepageProjects.map((p, i) => (
               <Reveal key={p.slug} delay={i * 100}><ProjectCard {...p} /></Reveal>
             ))}
           </div>
@@ -113,10 +152,11 @@ export default async function Home() {
             <Reveal delay={120} className="mt-10 lg:mt-0 lg:w-1/2">
               <div className="relative z-10 bg-white lg:-ml-16 lg:border lg:border-gold lg:p-10">
                 <p className="eyebrow">The person you deal with</p>
-                <h2 className="mt-3 text-4xl md:text-5xl">One director. One detailed quote. One person answerable.</h2>
+                <h2 className="mt-3 text-4xl md:text-5xl">The person who prices your job is the person who builds it</h2>
                 <p className="mt-5 text-stone">
-                  Every J.Berry project is personally overseen by {site.director}, from the first site visit to handover.
-                  You get a comprehensive, itemised quotation before work starts, and the price we quote is the price you pay.
+                  Jason Berry has been building for over 20 years and runs 15 to 20 projects a year — few enough that he&rsquo;s on every one himself.
+                  He surveys your home, writes the quotation, and is on site while it&rsquo;s built. There&rsquo;s no estimator you meet once and a foreman you meet after.
+                  If something needs sorting in week six, you&rsquo;re speaking to the person who priced it in week one.
                 </p>
                 <div className="mt-8 flex flex-wrap items-stretch gap-x-6 gap-y-4">
                   {directorStats.map((stat, i) => (
@@ -138,7 +178,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <ProcessSection />
+      <ProcessSection steps={homepageProcessSteps} />
 
       <section className="relative border-y border-line bg-white">
         <SectionIndex label="05 · Stories" />
@@ -165,8 +205,8 @@ export default async function Home() {
             <p className="eyebrow">Start your project</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Get your detailed quotation</h2>
             <p className="mt-5 text-white/70">
-              Tell us about your extension or loft conversion and {site.director} will call you back,
-              usually the same working day. Covering London, Kent and Essex.
+              Tell us about your extension or loft conversion and Jason Berry calls you back,
+              usually the same working day. A name, a number and a postcode is all we need to start.
             </p>
             <p className="mt-6 font-display text-2xl text-gold"><a href={site.phoneHref}>{site.phone}</a></p>
           </Reveal>

@@ -45,6 +45,10 @@ export type ServiceLandingData = {
   costText: string;
   included: string[];
   costLink: { href: string; label: string } | null;
+  directorHeadline: string;
+  directorBody: string;
+  processSteps: { step: string; title: string; text: string }[];
+  finalCtaBody: string;
   faqs: { q: string; a: string }[];
 };
 
@@ -240,12 +244,8 @@ export default function ServiceLandingPage({
             </Reveal>
             <Reveal delay={120}>
               <p className="eyebrow">The person you deal with</p>
-              <h2 className="mt-3 text-4xl md:text-5xl">Your {lower}, run by the director. Not handed to a foreman.</h2>
-              <p className="mt-5 text-stone leading-relaxed">
-                {site.director} personally surveys every {lower}, prepares every quotation and runs every build
-                through to handover. When you call, you speak to the person who priced your job and is
-                standing on your scaffold, not a call centre or a project manager you've never met.
-              </p>
+              <h2 className="mt-3 text-4xl md:text-5xl">{landing.directorHeadline}</h2>
+              <p className="mt-5 text-stone leading-relaxed">{landing.directorBody}</p>
               <div className="mt-8 flex gap-4">
                 <a href="#quote" className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep">
                   Get your quote from {site.director}
@@ -256,7 +256,7 @@ export default function ServiceLandingPage({
         </div>
       </section>
 
-      <ProcessSection label="06 · Process" />
+      <ProcessSection label="06 · Process" steps={landing.processSteps} />
 
       {/* Testimonials */}
       <section className="relative border-y border-line bg-white">
@@ -321,10 +321,7 @@ export default function ServiceLandingPage({
           <Reveal>
             <p className="eyebrow">Start your {lower}</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Get your detailed quotation</h2>
-            <p className="mt-5 text-white/70">
-              Tell us about your {lower} and {site.director} will call you back,
-              usually the same working day. Covering London, Kent and Essex.
-            </p>
+            <p className="mt-5 text-white/70">{landing.finalCtaBody}</p>
             <p className="mt-6 font-display text-2xl text-gold"><a href={site.phoneHref}>{site.phone}</a></p>
           </Reveal>
           <Reveal delay={120}><LeadForm dark service={serviceSlug} /></Reveal>

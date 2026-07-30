@@ -6,8 +6,8 @@ import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 
 export const metadata: Metadata = {
-  title: 'Contact us — Speak to Jason Berry',
-  description: `Call ${site.phone}, WhatsApp or send the form and ${site.director} will call you back, usually the same working day. Extensions and loft conversions across London, Kent and Essex.`,
+  title: 'Contact Jason Berry | J.Berry Extensions & Conversions',
+  description: 'Talk to Jason Berry directly about your extension or loft conversion. Call, WhatsApp or request a detailed quote — covering London, Kent and Essex.',
   alternates: { canonical: '/contact' },
 };
 
@@ -30,7 +30,7 @@ function contactPageSchema() {
 const contactFaqs = [
   { q: 'How quickly will you get back to me?', a: `Usually the same working day. ${site.director} handles enquiries personally, so you'll speak to the director, not a call centre.` },
   { q: 'What happens after I get in touch?', a: 'A short phone conversation about the project, then a site visit at a time that suits you. Both cost nothing and commit you to nothing.' },
-  { q: 'How long until I have a quotation?', a: 'After the site visit you\u2019ll receive a detailed, itemised quotation, every line of labour and materials priced, so you can compare it properly against others.' },
+  { q: 'How long until I have a quotation?', a: 'After the site visit you\u2019ll get a detailed, itemised quotation — every line of labour and materials priced — so you can compare it properly against other builders. Once you go ahead, it\u2019s a 10% deposit to start and the rest in stages as the work progresses.' },
 ];
 
 export default function ContactPage() {

@@ -17,8 +17,8 @@ import {
 const s = services.find((x) => x.slug === 'extensions')!;
 
 export const metadata: Metadata = {
-  title: `House Extensions in London, Kent & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k`,
-  description: `Director-led house extensions by ${site.name}. Single-storey, double-storey, wraparound and side-return, itemised quotations, the price we quote is the price you pay.`,
+  title: `House Extensions in London, Kent & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k | ${site.name}`,
+  description: 'Director-led house extensions across London, Kent and Essex. Single, double-storey, wraparound and side-return builds, itemised and fixed-price, backed by a 10-year guarantee.',
   alternates: { canonical: '/extensions' },
 };
 

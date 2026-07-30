@@ -1,13 +1,14 @@
 import { site } from '@/lib/site';
 import GoldPattern from '@/components/GoldPattern';
 
-export default function TrustBar() {
-  const items = [
-    { big: 'Detailed quotations', small: 'Itemised before work starts' },
-    { big: 'The price we quote', small: 'is the price you pay' },
-    { big: 'Director-led', small: `Every project overseen by ${site.director}` },
-    { big: 'On schedule', small: 'Agreed timeline, kept' },
-  ];
+const defaultItems = [
+  { big: 'Detailed quotations', small: 'Itemised before work starts' },
+  { big: 'The price we quote', small: 'is the price you pay' },
+  { big: 'Director-led', small: `Every project overseen by ${site.director}` },
+  { big: 'On schedule', small: 'Agreed timeline, kept' },
+];
+
+export default function TrustBar({ items = defaultItems }: { items?: typeof defaultItems }) {
   return (
     <div className="relative border-y border-line bg-ivory">
       <GoldPattern id="lattice-trustbar" />
