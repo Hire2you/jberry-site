@@ -7,7 +7,7 @@ import GoldPattern from '@/components/GoldPattern';
 
 export const metadata: Metadata = {
   title: 'Contact Jason Berry | J.Berry Extensions & Conversions',
-  description: 'Talk to Jason Berry directly about your extension or loft conversion. Call, WhatsApp or request a detailed quote — covering London, Kent and Essex.',
+  description: 'Talk to Jason Berry directly about your extension or loft conversion. Call, WhatsApp or request a detailed quote, covering London, Kent and Essex.',
   alternates: { canonical: '/contact' },
 };
 
@@ -30,7 +30,7 @@ function contactPageSchema() {
 const contactFaqs = [
   { q: 'How quickly will you get back to me?', a: `Usually the same working day. ${site.director} handles enquiries personally, so you'll speak to the director, not a call centre.` },
   { q: 'What happens after I get in touch?', a: 'A short phone conversation about the project, then a site visit at a time that suits you. Both cost nothing and commit you to nothing.' },
-  { q: 'How long until I have a quotation?', a: 'After the site visit you\u2019ll get a detailed, itemised quotation — every line of labour and materials priced — so you can compare it properly against other builders. Once you go ahead, it\u2019s a 10% deposit to start and the rest in stages as the work progresses.' },
+  { q: 'How long until I have a quotation?', a: 'After the site visit you\u2019ll get a detailed, itemised quotation, with every line of labour and materials priced, so you can compare it properly against other builders. Once you go ahead, it\u2019s a 10% deposit to start and the rest in stages as the work progresses.' },
 ];
 
 export default function ContactPage() {
@@ -58,7 +58,7 @@ export default function ContactPage() {
             <p className="mt-4 font-display text-4xl md:text-5xl">
               <a href={site.phoneHref} className="text-ink transition-colors hover:text-goldDeep">{site.phone}</a>
             </p>
-            <p className="mt-3 text-sm text-stone">Call or WhatsApp, if Jason&rsquo;s on the scaffold, he&rsquo;ll ring you back.</p>
+            <p className="mt-3 text-sm text-stone">Call or WhatsApp, and if Jason&rsquo;s on the scaffold he&rsquo;ll ring you back.</p>
 
             <div className="mt-10 space-y-8">
               <div>

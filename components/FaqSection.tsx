@@ -36,7 +36,7 @@ export default function FaqSection({
               <a href={site.phoneHref} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
                 Call {site.phone}
               </a>{' '}
-              — you&rsquo;ll speak to {site.director}, not a call centre.
+              and you&rsquo;ll speak to {site.director}, not a call centre.
             </p>
           </Reveal>
 

@@ -14,7 +14,7 @@ export default function AreasSection() {
             <p className="eyebrow">Where we work</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Areas we cover</h2>
             <p className="mt-5 max-w-md text-white/70">
-              Based in {site.base}, {site.director} and his team build across London, Kent and Essex —
+              Based in {site.base}, {site.director} and his team build across London, Kent and Essex,
               close enough for a site visit within days, not weeks.
             </p>
 
@@ -41,7 +41,7 @@ export default function AreasSection() {
               <p className="mt-4 text-xs text-white/50">
                 Outside these areas? Call {site.director} on{' '}
                 <a href={site.phoneHref} className="text-white/80 underline decoration-gold/50 underline-offset-4 hover:text-gold">{site.phone}</a>
-                {' '}— worth a conversation.
+                {', '}it&rsquo;s worth a conversation.
               </p>
             </div>
           </Reveal>

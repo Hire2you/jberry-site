@@ -19,7 +19,7 @@ export default function Hero() {
               Extensions and loft conversions, priced line by line before we start
             </h1>
             <p className="mt-4 max-w-xl text-white/85">
-              Jason Berry surveys your home, itemises the whole quotation, and runs the build himself. Change the scope and the price changes — otherwise it doesn&rsquo;t.
+              Jason Berry surveys your home, itemises the whole quotation, and runs the build himself. Change the scope and the price changes. Otherwise it doesn&rsquo;t.
             </p>
             <div className="mt-7 flex flex-wrap items-center gap-4">
               <a href="#quote" className="bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-charcoalDeep transition-colors hover:bg-white">

@@ -7,16 +7,24 @@
     "priceFrom": 54000,
     "priceTo": 90000,
     "buildWeeks": "8–12",
-    "types": ["Dormer", "Hip-to-gable", "Mansard", "Velux / rooflight"],
+    "types": [
+      "Dormer",
+      "Hip-to-gable",
+      "Mansard",
+      "Velux / rooflight"
+    ],
     "intro": "REPLACE: 2–3 sentences, written per-service, mentioning Jason and real project detail.",
     "landing": {
-      "heroImage": { "src": "/images/hero-dormer.webp", "alt": "Contemporary clad dormer loft conversion by J.Berry" },
+      "heroImage": {
+        "src": "/images/hero-dormer.webp",
+        "alt": "Contemporary clad dormer loft conversion by J.Berry"
+      },
       "heroEyebrow": "Loft conversions · London, Kent & Essex",
       "heroHeadline": "The extra bedroom is already there. It's your loft.",
-      "heroSub": "Director-led loft conversions, quoted line by line before a single tile moves. Jason Berry prices the job and builds it — most come in between £54,000 and £90,000, including VAT.",
+      "heroSub": "Director-led loft conversions, quoted line by line before a single tile moves. Jason Berry prices the job and builds it. Most come in between £54,000 and £90,000, including VAT.",
       "introTitle": "Turn dead roof space into the most valuable room in the house",
       "intro": [
-        "A well-built loft conversion adds a bedroom and a bathroom — and serious value — without losing an inch of garden. Because the roof structure is already there, it's usually the quickest way to add a proper room to the house, and among the most cost-effective.",
+        "A well-built loft conversion adds a bedroom, a bathroom and serious value, without losing an inch of garden. Because the roof structure is already there, it's usually the quickest way to add a proper room to the house, and among the most cost-effective.",
         "Every conversion is designed around your actual roofline and head height, not squeezed into a standard template. Jason surveys the loft himself, tells you honestly what will and won't work up there, and prices the whole job in an itemised quotation before you commit."
       ],
       "compare": {
@@ -40,7 +48,7 @@
         "cta": "Get your itemised quote"
       },
       "typesTitle": "Which loft conversion suits your roof?",
-      "typesIntro": "The right conversion depends on your roof shape, head height and budget. These are the four we build, with honest guide prices — Jason tells you at the first visit which one your roof will actually take.",
+      "typesIntro": "The right conversion depends on your roof shape, head height and budget. These are the four we build, with honest guide prices. Jason tells you at the first visit which one your roof will actually take.",
       "types": [
         {
           "name": "Dormer",
@@ -74,7 +82,7 @@
       "costTitle": "What a loft conversion really costs",
       "costRange": "£54,000 – £90,000",
       "costRangeNote": "Most loft conversions we build, full build cost",
-      "costText": "Most loft conversions we build come in between £54,000 and £90,000 including VAT, depending on the type, the size of your roof and the specification you choose. You'll know your exact figure before work starts — every J.Berry quotation is itemised line by line, so you can see exactly where the money goes.",
+      "costText": "Most loft conversions we build come in between £54,000 and £90,000 including VAT, depending on the type, the size of your roof and the specification you choose. You'll know your exact figure before work starts, and every J.Berry quotation is itemised line by line, so you can see exactly where the money goes.",
       "included": [
         "Full structural work: steels, floor joists and building regs compliance",
         "Dormer or roof alterations, tiling and weatherproofing",
@@ -83,20 +91,39 @@
         "Plastering and insulation to current regs (decoration priced separately if you'd like us to handle it)",
         "A build schedule with a start date and a finish date, agreed before we begin"
       ],
-      "costLink": { "href": "/cost-guides/loft-conversion-cost", "label": "Read the full loft conversion cost guide" },
-      "directorHeadline": "Your loft conversion, run by the director — not handed to a foreman",
-      "directorBody": "Jason surveys every loft himself, prices every quotation and runs every build to handover. Across 15 to 20 projects a year he's on each one — so when you call, you reach the person who priced your job and is up on your scaffold. Not a call centre, not a manager you've never met.",
+      "costLink": {
+        "href": "/cost-guides/loft-conversion-cost",
+        "label": "Read the full loft conversion cost guide"
+      },
+      "directorHeadline": "Your loft conversion, run by the director. Not handed to a foreman.",
+      "directorBody": "Jason surveys every loft himself, prices every quotation and runs every build to handover. Across 15 to 20 projects a year he's on each one, so when you call, you reach the person who priced your job and is up on your scaffold. Not a call centre, not a manager you've never met.",
       "processSteps": [
-        { "step": "01", "title": "Site visit", "text": "Jason comes out, gets up into the loft, checks your head height and roof structure, and tells you honestly which conversion your roof will take — or if it won't." },
-        { "step": "02", "title": "Detailed quotation", "text": "The whole conversion priced line by line — structure, staircase, dormer or gable work, bathroom, finishes. A fixed price, not an estimate." },
-        { "step": "03", "title": "The build", "text": "Agreed start and finish dates, Jason running it day to day. Most of the work is above you, so most clients carry on living in the house throughout." },
-        { "step": "04", "title": "Handover", "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid." }
+        {
+          "step": "01",
+          "title": "Site visit",
+          "text": "Jason comes out, gets up into the loft, checks your head height and roof structure, and tells you honestly which conversion your roof will take, or if it won't."
+        },
+        {
+          "step": "02",
+          "title": "Detailed quotation",
+          "text": "The whole conversion priced line by line, covering structure, staircase, dormer or gable work, bathroom and finishes. A fixed price, not an estimate."
+        },
+        {
+          "step": "03",
+          "title": "The build",
+          "text": "Agreed start and finish dates, Jason running it day to day. Most of the work is above you, so most clients carry on living in the house throughout."
+        },
+        {
+          "step": "04",
+          "title": "Handover",
+          "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid."
+        }
       ],
       "finalCtaBody": "Tell us about your loft conversion and Jason Berry calls you back, usually the same working day. Covering London, Kent and Essex. A name, a number and a postcode is all we need to start.",
       "faqs": [
         {
           "q": "How much does a loft conversion cost?",
-          "a": "Most loft conversions we build come in between £54,000 and £90,000 including VAT. A rear dormer with a bedroom and en-suite typically sits in the middle of that range; a Velux conversion less, a full mansard more. You'll get an exact itemised figure before work starts, and unless you change the scope mid-build, that's the figure you pay."
+          "a": "Most loft conversions we build come in between £54,000 and £90,000 including VAT. A rear dormer with a bedroom and en-suite typically sits in the middle of that range, a Velux conversion less, a full mansard more. You'll get an exact itemised figure before work starts, and unless you change the scope mid-build, that's the figure you pay."
         },
         {
           "q": "Do I need planning permission for a loft conversion?",
@@ -125,17 +152,25 @@
     "priceFrom": 66000,
     "priceTo": 144000,
     "buildWeeks": "10–16",
-    "types": ["Single-storey rear", "Double-storey", "Wraparound", "Side return"],
+    "types": [
+      "Single-storey rear",
+      "Double-storey",
+      "Wraparound",
+      "Side return"
+    ],
     "intro": "REPLACE: 2–3 sentences, written per-service.",
     "landing": {
-      "heroImage": { "src": "/images/hero-rear-extension.webp", "alt": "Full-width rear extension with anthracite bifold doors by J.Berry" },
+      "heroImage": {
+        "src": "/images/hero-rear-extension.webp",
+        "alt": "Full-width rear extension with anthracite bifold doors by J.Berry"
+      },
       "heroEyebrow": "House extensions · London, Kent & Essex",
       "heroHeadline": "The kitchen you actually want, without moving house",
-      "heroSub": "Director-led house extensions, itemised line by line before work starts. Jason Berry prices the job and builds it — most come in between £66,000 and £144,000, including VAT.",
-      "introTitle": "More space, more light, more value — on the home you already love",
+      "heroSub": "Director-led house extensions, itemised line by line before work starts. Jason Berry prices the job and builds it. Most come in between £66,000 and £144,000, including VAT.",
+      "introTitle": "More space, more light, more value, on the home you already love",
       "intro": [
-        "Moving costs tens of thousands in stamp duty, agent fees and upheaval — and you still might not get the kitchen you're after. A well-planned extension gives you that space on the plot you already own, and done properly it adds more to the house than it costs to build.",
-        "J.Berry builds extensions and loft conversions, nothing else. Jason visits personally, works out what's possible for your home and budget, and prices the whole job line by line. Then he builds it — on site day to day, one point of contact from first visit to handover."
+        "Moving costs tens of thousands in stamp duty, agent fees and upheaval, and you still might not get the kitchen you're after. A well-planned extension gives you that space on the plot you already own, and done properly it adds more to the house than it costs to build.",
+        "J.Berry builds extensions and loft conversions, nothing else. Jason visits personally, works out what's possible for your home and budget, and prices the whole job line by line. Then he builds it, on site day to day, one point of contact from first visit to handover."
       ],
       "compare": {
         "title": "The maths of moving vs extending",
@@ -158,7 +193,7 @@
         "cta": "Get your itemised quote"
       },
       "typesTitle": "Which extension fits your home?",
-      "typesIntro": "Four shapes cover almost every home we work on. The guide prices below are for the full build — structure, glazing, first and second fix, finished to a plastered standard — so you're comparing like for like, not one builder's shell against another's finish.",
+      "typesIntro": "Four shapes cover almost every home we work on. The guide prices below are for the full build, structure, glazing, first and second fix, finished to a plastered standard, so you're comparing like for like, not one builder's shell against another's finish.",
       "types": [
         {
           "name": "Single-storey rear",
@@ -170,7 +205,7 @@
         {
           "name": "Double-storey",
           "priceBand": "£108k–£144k guide",
-          "text": "The best cost per square metre of any extension — the foundations and roof are shared across two floors. A bigger kitchen below, an extra bedroom or bathroom above. Needs planning permission, which we'll guide you through.",
+          "text": "The best cost per square metre of any extension, because the foundations and roof are shared across two floors. A bigger kitchen below, an extra bedroom or bathroom above. Needs planning permission, which we'll guide you through.",
           "image": "/images/extension-double-storey.webp",
           "imageAlt": "Double-storey rear extension with anthracite bifold doors"
         },
@@ -192,7 +227,7 @@
       "costTitle": "What an extension really costs",
       "costRange": "£66,000 – £144,000",
       "costRangeNote": "Most extensions we build, full build cost",
-      "costText": "Most extensions we build come in between £66,000 and £144,000 including VAT, depending on size, whether it's one storey or two, and the specification of glazing and finishes. Before work starts you'll have an itemised quotation showing exactly where every pound goes — never a vague day rate or a moving target.",
+      "costText": "Most extensions we build come in between £66,000 and £144,000 including VAT, depending on size, whether it's one storey or two, and the specification of glazing and finishes. Before work starts you'll have an itemised quotation showing exactly where every pound goes, never a vague day rate or a moving target.",
       "included": [
         "Groundworks, foundations and all structural work including steels",
         "Roofing, glazing, bifold or sliding doors and rooflights",
@@ -202,19 +237,35 @@
         "A build schedule with a start date and a finish date, agreed before we begin"
       ],
       "costLink": null,
-      "directorHeadline": "Your extension, run by the director — not handed to a foreman",
-      "directorBody": "Jason surveys every extension, prices every quotation and runs every build to handover himself. Across 15 to 20 projects a year he's on each one — so when you call, you're speaking to the person who priced your job and is standing on your scaffold. Not a call centre, not a manager you've never met.",
+      "directorHeadline": "Your extension, run by the director. Not handed to a foreman.",
+      "directorBody": "Jason surveys every extension, prices every quotation and runs every build to handover himself. Across 15 to 20 projects a year he's on each one, so when you call, you're talking to the person who priced your job and is standing on your scaffold. Not a call centre, not a manager you've never met.",
       "processSteps": [
-        { "step": "01", "title": "Site visit", "text": "Jason comes to your home, measures up and talks through what your plot and budget will actually take — single storey, double, wraparound or side return." },
-        { "step": "02", "title": "Detailed quotation", "text": "The whole build priced line by line — groundworks, structure, glazing, finishes. A fixed price you can compare properly, not an estimate." },
-        { "step": "03", "title": "The build", "text": "Agreed start and finish dates, Jason running it day to day. Most clients stay in the house while the extension goes up." },
-        { "step": "04", "title": "Handover", "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid." }
+        {
+          "step": "01",
+          "title": "Site visit",
+          "text": "Jason comes to your home, measures up and talks through what your plot and budget will actually take, whether that's single storey, double, wraparound or side return."
+        },
+        {
+          "step": "02",
+          "title": "Detailed quotation",
+          "text": "The whole build priced line by line, covering groundworks, structure, glazing and finishes. A fixed price you can compare properly, not an estimate."
+        },
+        {
+          "step": "03",
+          "title": "The build",
+          "text": "Agreed start and finish dates, Jason running it day to day. Most clients stay in the house while the extension goes up."
+        },
+        {
+          "step": "04",
+          "title": "Handover",
+          "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid."
+        }
       ],
       "finalCtaBody": "Tell us about your extension and Jason Berry calls you back, usually the same working day. Covering London, Kent and Essex. A name, a number and a postcode is all we need to start.",
       "faqs": [
         {
           "q": "How much does an extension cost?",
-          "a": "Most extensions we build come in between £66,000 and £144,000 including VAT. A straightforward single-storey rear sits at the lower end; a double-storey or large wraparound toward the top. Every quotation is for the full job to a plastered finish, with kitchens included where you'd like us to supply them — you'll get the exact itemised figure before work starts, and unless you change the scope, that's what you pay."
+          "a": "Most extensions we build come in between £66,000 and £144,000 including VAT. A straightforward single-storey rear sits at the lower end, a double-storey or large wraparound toward the top. Every quotation is for the full job to a plastered finish, with kitchens included where you'd like us to supply them. You'll get the exact itemised figure before work starts, and unless you change the scope, that's what you pay."
         },
         {
           "q": "Do I need planning permission for an extension?",

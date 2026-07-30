@@ -17,7 +17,7 @@ const body = Inter({ subsets: ['latin'], variable: '--font-body' });
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
   title: { default: `${site.name} | Extensions & Loft Conversions, London, Kent & Essex`, template: `%s | ${site.name}` },
-  description: `Director-led extensions and loft conversions across London, Kent and Essex. Detailed quotations, the price we quote is the price you pay.`,
+  description: `Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.`,
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

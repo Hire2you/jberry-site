@@ -56,12 +56,12 @@ export default async function Home() {
     {
       step: '01',
       title: 'Site visit',
-      text: "Jason measures up, looks at what's structurally possible, and tells you if what you want doesn't work. Free, and no one chases you afterwards.",
+      text: "Jason measures up, looks at what's structurally possible, and tells you if what you want doesn't work. It's free, and no one chases you afterwards.",
     },
     {
       step: '02',
       title: 'Detailed quotation',
-      text: 'Labour and materials priced line by line — a fixed price, not an estimate. Detailed enough to hand to another builder and compare properly.',
+      text: 'Labour and materials priced line by line. A fixed price, not an estimate, and detailed enough to hand to another builder and compare properly.',
     },
     {
       step: '03',
@@ -90,7 +90,7 @@ export default async function Home() {
           <Reveal>
             <p className="eyebrow">What we build</p>
             <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Extensions and loft conversions. That&rsquo;s the whole list.</h2>
-            <p className="mt-4 font-display italic text-lg text-stone">Two builds done properly across London, Kent and Essex — rather than everything done adequately.</p>
+            <p className="mt-4 font-display italic text-lg text-stone">Two builds done properly across London, Kent and Essex, rather than everything done adequately.</p>
           </Reveal>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {services.map((s, i) => (
@@ -150,9 +150,9 @@ export default async function Home() {
                 <p className="eyebrow">The person you deal with</p>
                 <h2 className="mt-3 text-4xl md:text-5xl">The person who prices your job is the person who builds it</h2>
                 <p className="mt-5 text-stone">
-                  Jason Berry has been building for over 20 years and runs 15 to 20 projects a year — few enough that he&rsquo;s on every one himself.
+                  Jason Berry has been building for over 20 years and runs 15 to 20 projects a year, few enough that he&rsquo;s on every one himself.
                   He surveys your home, writes the quotation, and is on site while it&rsquo;s built. There&rsquo;s no estimator you meet once and a foreman you meet after.
-                  If something needs sorting in week six, you&rsquo;re speaking to the person who priced it in week one.
+                  If something needs sorting in week six, you&rsquo;re talking to the person who priced it in week one.
                 </p>
                 <div className="mt-8 flex flex-wrap items-stretch gap-x-6 gap-y-4">
                   {directorStats.map((stat, i) => (

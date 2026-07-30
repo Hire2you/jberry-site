@@ -50,7 +50,7 @@ export default function LocationFaqAccordion({
               <a href={site.phoneHref} className={tone.link}>
                 Call {site.phone}
               </a>{' '}
-              — you&rsquo;ll speak to {site.director}, not a call centre.
+              and you&rsquo;ll speak to {site.director}, not a call centre.
             </p>
             <SectionButton
               showButton={block.showButton}

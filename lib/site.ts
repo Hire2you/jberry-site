@@ -4,7 +4,7 @@ export const site = {
   phone: '07477 707845',
   phoneHref: 'tel:+447477707845',
   whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '447477707845',
-  email: 'info@jberryconstruction.co.uk',
+  email: 'jason@jberryextensions.co.uk',
   director: 'Jason Berry',
   base: 'Sawbridgeworth, Hertfordshire (CM21)',
   areaServed: ['London', 'Kent', 'Essex'],
