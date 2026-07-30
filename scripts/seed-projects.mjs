@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))
 const LOCAL_IMAGES = join(__dirname, '../public/images')
-const LIVE_ORIGIN = process.env.SEED_IMAGE_ORIGIN || 'https://jberry-construction.vercel.app'
+const LIVE_ORIGIN = process.env.SEED_IMAGE_ORIGIN || 'https://jberryextensions.co.uk'
 
 /**
  * Existing hardcoded ProjectCarousel slides, mapped to the new Project schema.
