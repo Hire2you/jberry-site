@@ -74,11 +74,7 @@ export default async function Home() {
       text: 'Snagged and signed off together, then backed by a 10-year guarantee. The figure we quoted is the figure you pay.',
     },
   ];
-  // TODO: real project — awaiting details (dormer loft conversion, CM__)
-  // TODO: real project — awaiting details (orangery-style extension, CM__)
-  const homepageProjects = projects.filter(
-    (p) => p.slug === 'south-woodford-loft' || p.slug === 'rear-extension-bifolds',
-  );
+  const homepageProjects = projects;
 
   return (
     <>
