@@ -1,10 +1,12 @@
 import type { Metadata } from 'next';
+import areas from '@/data/areas.json';
 import { site } from '@/lib/site';
 import { JsonLd } from '@/lib/schema';
 import LeadForm from '@/components/LeadForm';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import TrustBar from '@/components/TrustBar';
+import AreaMap from '@/components/AreaMap';
 
 const title = `Talk to ${site.director} | ${site.name}`;
 const description = `Call, WhatsApp or request a detailed quote from ${site.director}. Director-led house extensions and loft conversions across London, Kent and Essex.`;
@@ -99,10 +101,6 @@ export default function ContactPage() {
                 </a>
               </div>
 
-              <p className="mt-8 text-sm text-stone">
-                {site.base.split(',')[0]} · {site.areaServed.join(' · ')}
-              </p>
-
               <div className="mt-10 border-l-2 border-gold pl-5">
                 <p className="font-display italic text-lg text-ink">
                   &ldquo;Send the form and I&rsquo;ll call you back myself, usually the same working day.&rdquo;
@@ -126,9 +124,8 @@ export default function ContactPage() {
 
       <TrustBar items={trustItems} />
 
-      <section className="relative border-t border-line bg-ivory">
-        <GoldPattern id="lattice-contact-steps" />
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-16 md:py-20">
+      <section className="border-t border-line bg-white">
+        <div className="mx-auto max-w-6xl px-4 py-16 md:py-20">
           <Reveal>
             <p className="eyebrow">What happens next</p>
             <p className="mt-3 max-w-xl font-display italic text-lg text-stone">
@@ -147,6 +144,54 @@ export default function ContactPage() {
               </Reveal>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className="bg-charcoalDeep text-white">
+        <div className="mx-auto max-w-6xl px-4 pt-16 md:pt-20">
+          <Reveal>
+            <p className="eyebrow">Where we work</p>
+            <h2 className="mt-3 text-4xl md:text-5xl">London, Kent and Essex</h2>
+            <p className="mt-5 max-w-xl text-white/70">
+              Based in {site.base}, {site.director} and his team build across the South East,
+              close enough for a site visit within days, not weeks.
+            </p>
+          </Reveal>
+
+          <div className="mt-10 grid gap-8 md:grid-cols-3">
+            {areas.regions.map((r, i) => (
+              <Reveal key={r.name} delay={i * 80}>
+                <div>
+                  <div className="flex items-baseline gap-4">
+                    <h3 className="font-display text-2xl">{r.name}</h3>
+                    <span className="text-xs uppercase tracking-eyebrow text-gold">{r.blurb}</span>
+                  </div>
+                  <div className="mt-2 h-px w-10 bg-gold" />
+                  <p className="mt-3 text-sm leading-relaxed text-white/60">{r.towns.join(' · ')}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+
+        <Reveal delay={120}>
+          <div className="mx-auto mt-12 max-w-7xl px-2 pb-4 md:px-4 md:pb-6">
+            <div className="relative border-y border-white/10 bg-white/[0.02] px-2 py-6 md:border md:p-8">
+              <AreaMap />
+            </div>
+          </div>
+        </Reveal>
+
+        <div className="mx-auto max-w-6xl px-4 pb-16 md:pb-20">
+          <Reveal>
+            <p className="mt-6 text-sm text-white/50">
+              Outside these areas? Call {site.director} on{' '}
+              <a href={site.phoneHref} className="text-white/80 underline decoration-gold/50 underline-offset-4 hover:text-gold">
+                {site.phone}
+              </a>
+              {', '}it&rsquo;s worth a conversation.
+            </p>
+          </Reveal>
         </div>
       </section>
     </>
