@@ -1,8 +1,8 @@
 'use client';
 import { useState } from 'react';
 
-export default function LeadForm({ service, location, dark = false, compact = false }: {
-  service?: string; location?: string; dark?: boolean; compact?: boolean;
+export default function LeadForm({ service, location, dark = false, compact = false, showService = false }: {
+  service?: string; location?: string; dark?: boolean; compact?: boolean; showService?: boolean;
 }) {
   const [state, setState] = useState<'idle' | 'sending' | 'sent' | 'error'>('idle');
 
@@ -10,12 +10,13 @@ export default function LeadForm({ service, location, dark = false, compact = fa
     e.preventDefault();
     setState('sending');
     const fd = new FormData(e.currentTarget);
+    const selectedService = showService ? (fd.get('service') as string) || undefined : service;
     const res = await fetch('/api/lead', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         name: fd.get('name'), phone: fd.get('phone'), postcode: fd.get('postcode'),
-        message: fd.get('message'), service, location, page: window.location.pathname,
+        message: fd.get('message'), service: selectedService || service, location, page: window.location.pathname,
       }),
     });
     setState(res.ok ? 'sent' : 'error');
@@ -29,6 +30,14 @@ export default function LeadForm({ service, location, dark = false, compact = fa
 
   return (
     <form onSubmit={submit} className="flex flex-col gap-4" aria-label="Request a detailed quote">
+      {showService && (
+        <select name="service" defaultValue="" className={field} aria-label="Project type">
+          <option value="" disabled>Project type</option>
+          <option value="Extension">Extension</option>
+          <option value="Loft conversion">Loft conversion</option>
+          <option value="Not sure yet">Not sure yet</option>
+        </select>
+      )}
       <input name="name" required placeholder="Your name" className={field} />
       <input name="phone" required type="tel" placeholder="Phone number" className={field} />
       <input name="postcode" required placeholder="Postcode" className={field} />

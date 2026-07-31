@@ -4,11 +4,21 @@ import { JsonLd } from '@/lib/schema';
 import LeadForm from '@/components/LeadForm';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
+import TrustBar from '@/components/TrustBar';
+
+const title = `Talk to ${site.director} | ${site.name}`;
+const description = `Call, WhatsApp or request a detailed quote from ${site.director}. Director-led house extensions and loft conversions across London, Kent and Essex.`;
 
 export const metadata: Metadata = {
-  title: 'Contact Jason Berry | J.Berry Extensions & Conversions',
-  description: 'Talk to Jason Berry directly about your extension or loft conversion. Call, WhatsApp or request a detailed quote, covering London, Kent and Essex.',
+  title,
+  description,
   alternates: { canonical: '/contact' },
+  openGraph: {
+    title,
+    description,
+    url: `${site.domain}/contact`,
+    type: 'website',
+  },
 };
 
 function contactPageSchema() {
@@ -27,10 +37,26 @@ function contactPageSchema() {
   };
 }
 
-const contactFaqs = [
-  { q: 'How quickly will you get back to me?', a: `Usually the same working day. ${site.director} handles enquiries personally, so you'll speak to the director, not a call centre.` },
-  { q: 'What happens after I get in touch?', a: 'A short phone conversation about the project, then a site visit at a time that suits you. Both cost nothing and commit you to nothing.' },
-  { q: 'How long until I have a quotation?', a: 'After the site visit you\u2019ll get a detailed, itemised quotation, with every line of labour and materials priced, so you can compare it properly against other builders. Once you go ahead, it\u2019s a 10% deposit to start and the rest in stages as the work progresses.' },
+const nextSteps = [
+  {
+    title: 'You get in touch',
+    body: `Call, WhatsApp or send the form. ${site.director} replies personally, usually the same working day.`,
+  },
+  {
+    title: 'Site visit',
+    body: 'He measures up and tells you what\u2019s possible for your home and budget, or what isn\u2019t. Free, and no commitment.',
+  },
+  {
+    title: 'Itemised quotation',
+    body: 'Every line of labour and materials priced, so you can compare properly. 10% deposit to start, the rest in stages as the work progresses.',
+  },
+];
+
+const trustItems = [
+  { big: 'Same working day', small: `${site.director} calls you back` },
+  { big: 'Free site visit', small: 'No obligation' },
+  { big: 'Itemised quotation', small: 'Labour and materials priced' },
+  { big: 'Director-led', small: 'Not a call centre' },
 ];
 
 export default function ContactPage() {
@@ -38,89 +64,85 @@ export default function ContactPage() {
     <>
       <JsonLd data={contactPageSchema()} />
 
-      <section className="relative border-b border-line bg-ivory">
+      <section id="quote" className="relative border-b border-line bg-ivory">
         <GoldPattern id="lattice-contact" />
         <div className="relative z-10 mx-auto max-w-6xl px-4 py-16 md:py-20">
-          <Reveal>
-            <p className="eyebrow">Contact us</p>
-            <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] md:text-6xl">Talk to {site.director}</h1>
-            <p className="mt-4 max-w-xl font-display italic text-lg text-stone">
-              One director, one point of contact, from your first call to handover.
-            </p>
-          </Reveal>
-        </div>
-      </section>
-
-      <section id="quote" className="mx-auto max-w-6xl px-4 py-16 md:py-20">
-        <div className="grid gap-14 lg:grid-cols-2 lg:gap-20">
-          <Reveal>
-            <p className="eyebrow">The quickest way</p>
-            <p className="mt-4 font-display text-4xl md:text-5xl">
-              <a href={site.phoneHref} className="text-ink transition-colors hover:text-goldDeep">{site.phone}</a>
-            </p>
-            <p className="mt-3 text-sm text-stone">Call or WhatsApp, and if Jason&rsquo;s on the scaffold he&rsquo;ll ring you back.</p>
-
-            <div className="mt-10 space-y-8">
-              <div>
-                <p className="eyebrow">Email</p>
-                <p className="mt-2">
-                  <a href={`mailto:${site.email}`} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">{site.email}</a>
-                </p>
-              </div>
-              <div>
-                <p className="eyebrow">WhatsApp</p>
-                <p className="mt-2">
-                  <a
-                    href={`https://wa.me/${site.whatsapp}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
-                  >
-                    Message us on WhatsApp
-                  </a>
-                </p>
-              </div>
-              <div>
-                <p className="eyebrow">Based in</p>
-                <p className="mt-2 text-sm text-stone">{site.base}</p>
-              </div>
-              <div>
-                <p className="eyebrow">Areas covered</p>
-                <p className="mt-2 text-sm text-stone">{site.areaServed.join(' · ')}</p>
-              </div>
-            </div>
-
-            <div className="mt-10 border-l-2 border-gold pl-5">
-              <p className="font-display italic text-lg text-ink">
-                &ldquo;Send the form and I&rsquo;ll call you back, usually the same working day.&rdquo;
+          <div className="grid gap-14 lg:grid-cols-2 lg:gap-20 lg:items-start">
+            <Reveal>
+              <p className="eyebrow">{site.name}</p>
+              <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] md:text-6xl">Talk to {site.director}</h1>
+              <p className="mt-4 max-w-xl font-display italic text-lg text-stone">
+                House extensions and loft conversions. One director, from your first call to handover.
               </p>
-              <p className="mt-2 text-xs font-semibold uppercase tracking-eyebrow text-stone">{site.director}, Director</p>
-            </div>
-          </Reveal>
 
-          <Reveal delay={120}>
-            <div className="border border-line bg-white p-6 md:p-8">
-              <p className="eyebrow">Request your detailed quote</p>
-              <p className="mt-2 mb-6 text-sm text-stone">A name, a number and a postcode is all we need to start.</p>
-              <LeadForm />
-            </div>
-          </Reveal>
+              <p className="mt-10 font-display text-4xl md:text-5xl">
+                <a href={site.phoneHref} className="text-ink transition-colors hover:text-goldDeep">{site.phone}</a>
+              </p>
+              <p className="mt-3 text-sm text-stone">
+                Call or WhatsApp. If he&rsquo;s on the scaffold, he&rsquo;ll ring you back the same working day.
+              </p>
+
+              <div className="mt-8 flex flex-wrap gap-x-8 gap-y-3">
+                <a
+                  href={`https://wa.me/${site.whatsapp}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                >
+                  Message on WhatsApp
+                </a>
+                <a
+                  href={`mailto:${site.email}`}
+                  className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                >
+                  {site.email}
+                </a>
+              </div>
+
+              <p className="mt-8 text-sm text-stone">
+                {site.base.split(',')[0]} · {site.areaServed.join(' · ')}
+              </p>
+
+              <div className="mt-10 border-l-2 border-gold pl-5">
+                <p className="font-display italic text-lg text-ink">
+                  &ldquo;Send the form and I&rsquo;ll call you back myself, usually the same working day.&rdquo;
+                </p>
+                <p className="mt-2 text-xs font-semibold uppercase tracking-eyebrow text-stone">{site.director}, Director</p>
+              </div>
+            </Reveal>
+
+            <Reveal delay={120}>
+              <div className="border border-gold bg-white p-6 md:p-8">
+                <p className="eyebrow">Request a detailed quote</p>
+                <p className="mt-2 mb-6 text-sm text-stone">
+                  Name, number and postcode. Jason calls you back, usually the same day.
+                </p>
+                <LeadForm showService />
+              </div>
+            </Reveal>
+          </div>
         </div>
       </section>
+
+      <TrustBar items={trustItems} />
 
       <section className="relative border-t border-line bg-ivory">
-        <GoldPattern id="lattice-contact-faq" />
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-16">
+        <GoldPattern id="lattice-contact-steps" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-16 md:py-20">
           <Reveal>
-            <p className="eyebrow">What to expect</p>
+            <p className="eyebrow">What happens next</p>
+            <p className="mt-3 max-w-xl font-display italic text-lg text-stone">
+              From first contact to a quotation you can actually compare.
+            </p>
           </Reveal>
-          <div className="mt-8 grid gap-10 md:grid-cols-3">
-            {contactFaqs.map((f, i) => (
-              <Reveal key={f.q} delay={i * 100}>
+          <div className="mt-10 grid gap-10 md:grid-cols-3">
+            {nextSteps.map((step, i) => (
+              <Reveal key={step.title} delay={i * 100}>
                 <div>
-                  <p className="font-display text-xl">{f.q}</p>
+                  <p className="text-xs font-semibold uppercase tracking-eyebrow text-goldDeep">0{i + 1}</p>
+                  <p className="mt-2 font-display text-xl">{step.title}</p>
                   <div className="mt-3 h-px w-10 bg-gold" />
-                  <p className="mt-3 text-sm leading-relaxed text-stone">{f.a}</p>
+                  <p className="mt-3 text-sm leading-relaxed text-stone">{step.body}</p>
                 </div>
               </Reveal>
             ))}
