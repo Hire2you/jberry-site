@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server';
+import { leadEmailHtml, leadEmailSubject, leadEmailText } from '@/lib/leadEmail';
 
 // form → email you + log to Supabase. Same pattern as SMCT Hub, kept minimal.
 export async function POST(req: Request) {
@@ -13,8 +14,9 @@ export async function POST(req: Request) {
       await resend.emails.send({
         from: process.env.LEAD_FROM_EMAIL!,
         to: process.env.LEAD_TO_EMAIL!,
-        subject: `New lead: ${lead.name}, ${lead.service ?? 'general'} ${lead.location ?? ''}`,
-        text: JSON.stringify(lead, null, 2),
+        subject: leadEmailSubject(lead),
+        text: leadEmailText(lead),
+        html: leadEmailHtml(lead),
       });
     }
   } catch (e) { console.error('email failed', e); }
