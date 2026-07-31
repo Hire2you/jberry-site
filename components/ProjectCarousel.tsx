@@ -105,7 +105,6 @@ export default function ProjectCarousel({ projects }: { projects: CarouselSlide[
                       fill
                       sizes="(max-width: 768px) 100vw, 384px"
                       className="object-cover"
-                      priority={i < 3}
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-4 md:p-5">

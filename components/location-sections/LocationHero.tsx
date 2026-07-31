@@ -13,9 +13,12 @@ import {
 
 export default function LocationHero({
   block,
+  headingAs = 'h1',
 }: {
   block: Extract<LocationSection, {_type: 'heroBlock'}>
+  headingAs?: 'h1' | 'h2'
 }) {
+  const Heading = headingAs
   const src = block.backgroundImage
     ? urlFor(block.backgroundImage).width(2400).height(1400).fit('crop').url()
     : '/images/placeholder.webp'
@@ -39,7 +42,7 @@ export default function LocationHero({
   return (
     <section className={`relative overflow-hidden ${tone.section}`}>
       <div className="relative flex min-h-[64svh] w-full flex-col justify-end md:min-h-[min(calc(72vh-40px),520px)]">
-        <Image src={src} alt={alt} fill priority sizes="100vw" className="object-cover" />
+        <Image src={src} alt={alt} fill priority={headingAs === 'h1'} sizes="100vw" className="object-cover" />
         <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
         <div
           className={`pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 ${fade} md:h-24`}
@@ -49,11 +52,11 @@ export default function LocationHero({
           <div
             className={`mx-auto w-full max-w-6xl px-4 ${contentPad} ${sectionAlignClass(align)}`}
           >
-            <h1
+            <Heading
               className={`mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)] ${align === 'center' ? 'mx-auto' : ''}`}
             >
               {block.headline}
-            </h1>
+            </Heading>
             {block.subheading && (
               <p
                 className={`mt-4 max-w-xl text-white/85 ${align === 'center' ? 'mx-auto' : ''}`}

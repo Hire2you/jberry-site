@@ -26,6 +26,7 @@ import { sanityFetch } from '@/sanity/live';
 import { FEATURED_PROJECTS_QUERY, FEATURED_TESTIMONIALS_QUERY } from '@/sanity/queries';
 
 export const metadata: Metadata = {
+  alternates: { canonical: '/' },
   description:
     'Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.',
 };

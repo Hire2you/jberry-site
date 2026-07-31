@@ -81,18 +81,18 @@ export default function QuotationCard({ included }: { included: string[] }) {
   return (
     <div ref={measureRef}>
       <div ref={parallaxRef} className="will-change-transform">
-        <div ref={ref} className={`reveal ${inView ? 'in' : ''} border border-line bg-white shadow-[0_24px_64px_rgba(26,23,20,0.12)]`}>
+        <div ref={ref} className={`reveal ${inView ? 'in' : ''} overflow-hidden border border-line bg-white shadow-[0_24px_64px_rgba(26,23,20,0.12)]`}>
           <div aria-hidden="true" className="h-[3px] w-full bg-gold" />
           <div className="p-6 md:p-10">
-            <div className="flex items-start justify-between gap-4 border-b border-line pb-5">
-              <div className={fade(inView)} style={{ transitionDelay: '80ms' }}>
+            <div className="flex items-start justify-between gap-3 border-b border-line pb-5 sm:gap-4">
+              <div className={`min-w-0 ${fade(inView)}`} style={{ transitionDelay: '80ms' }}>
                 <p className="font-display text-2xl tracking-[0.08em]">J.BERRY</p>
                 <p className="eyebrow mt-1">Sample quotation</p>
               </div>
               <div
                 aria-hidden="true"
-                className={`rotate-[5deg] border-2 border-gold/60 px-3 py-1.5 text-[10px] font-bold uppercase tracking-[0.25em] text-goldDeep/80 transition-[opacity,transform] duration-300 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:transform-none ${
-                  inView ? 'scale-100 opacity-100' : 'scale-[1.7] opacity-0'
+                className={`shrink-0 origin-center rotate-[5deg] border-2 border-gold/60 px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-[0.18em] text-goldDeep/80 transition-[opacity,transform] duration-300 ease-out motion-reduce:transition-none motion-reduce:opacity-100 motion-reduce:transform-none sm:px-3 sm:tracking-[0.25em] ${
+                  inView ? 'scale-100 opacity-100' : 'scale-90 opacity-0'
                 }`}
                 style={{ transitionDelay: `${stampDelay}ms` }}
               >

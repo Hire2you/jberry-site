@@ -136,6 +136,14 @@ export const LOCATION_PAGE_SLUGS_QUERY = defineQuery(`
   }
 `)
 
+/** All active location pages for sitemap URL generation. */
+export const LOCATION_PAGES_FOR_SITEMAP_QUERY = defineQuery(`
+  *[_type == "locationPage" && active == true && defined(slug)]{
+    slug,
+    serviceType
+  }
+`)
+
 export const PROJECTS_FOR_LOCATION_QUERY = defineQuery(`
   *[
     _type == "project" &&

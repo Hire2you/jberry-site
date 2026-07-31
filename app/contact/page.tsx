@@ -8,7 +8,7 @@ import GoldPattern from '@/components/GoldPattern';
 import TrustBar from '@/components/TrustBar';
 import AreaMap from '@/components/AreaMap';
 
-const title = `Talk to ${site.director} | ${site.name}`;
+const title = `Talk to ${site.director}`;
 const description = `Call, WhatsApp or request a detailed quote from ${site.director}. Director-led house extensions and loft conversions across London, Kent and Essex.`;
 
 export const metadata: Metadata = {

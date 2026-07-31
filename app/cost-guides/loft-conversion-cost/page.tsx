@@ -1,10 +1,12 @@
+import type { Metadata } from 'next';
 import services from '@/data/services.json';
 import { faqSchema, JsonLd } from '@/lib/schema';
 import LeadForm from '@/components/LeadForm';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'Loft Conversion Cost in London, Kent & Essex (2026 Guide)',
   description: 'What a loft conversion really costs in London, Kent and Essex in 2026, dormer, hip-to-gable and mansard prices, what drives cost, and how to budget.',
+  alternates: { canonical: '/cost-guides/loft-conversion-cost' },
 };
 
 // PRIORITY PAGE — cost-guide content was the #1 content play in the strategy.

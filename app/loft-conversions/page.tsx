@@ -17,7 +17,7 @@ import {
 const s = services.find((x) => x.slug === 'loft-conversions')!;
 
 export const metadata: Metadata = {
-  title: `Loft Conversions in London, Kent & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k | ${site.name}`,
+  title: `Loft Conversions in London, Kent & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k`,
   description: 'Director-led loft conversions across London, Kent and Essex. Dormer, hip-to-gable, mansard and Velux, itemised and fixed-price, backed by a 10-year guarantee.',
   alternates: { canonical: '/loft-conversions' },
 };

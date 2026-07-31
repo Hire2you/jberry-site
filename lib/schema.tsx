@@ -1,13 +1,18 @@
 import { site } from './site';
 
 // JSON-LD builders — same dual-schema pattern as the SMCT location pages
+function e164Phone(phone: string) {
+  return `+44${phone.replace(/^0/, '').replace(/\s/g, '')}`;
+}
+
 export function localBusinessSchema() {
   return {
     '@context': 'https://schema.org',
     '@type': 'HomeAndConstructionBusiness',
     name: site.name,
     url: site.domain,
-    telephone: site.phone,
+    telephone: e164Phone(site.phone),
+    email: site.email,
     founder: { '@type': 'Person', name: site.director },
     address: { '@type': 'PostalAddress', addressLocality: 'Sawbridgeworth', addressRegion: 'Hertfordshire', postalCode: 'CM21', addressCountry: 'GB' },
     areaServed: site.areaServed.map((a) => ({ '@type': 'AdministrativeArea', name: a })),
@@ -85,7 +90,7 @@ export function countyServiceSchema({
     provider: {
       '@type': 'GeneralContractor',
       name: site.name,
-      telephone: `+44${site.phone.replace(/^0/, '').replace(/\s/g, '')}`,
+      telephone: e164Phone(site.phone),
       address: {
         '@type': 'PostalAddress',
         streetAddress: '19 Mansfield, High Wych',

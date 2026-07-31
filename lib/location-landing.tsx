@@ -142,6 +142,7 @@ export async function LocationLandingPage({
           locationSlug={locationSlug}
           carouselProjects={carouselProjects}
           testimonials={testimonials}
+          suppressTitleFallback
         />
       </>
     )

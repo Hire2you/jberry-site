@@ -181,16 +181,16 @@ export default function ServiceLandingPage({
       </section>
 
       {/* Cost & what's included */}
-      <section className="relative">
+      <section className="relative overflow-x-clip">
         <SectionIndex label="03 · Cost" />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
             <Reveal>
               <p className="eyebrow">Cost, in the open</p>
               <h2 className="mt-3 text-4xl md:text-5xl">{landing.costTitle}</h2>
-              <p className="mt-8 font-display text-[2.6rem] leading-none tracking-tight md:text-6xl">
+              <p className="mt-8 font-display text-[2.15rem] leading-none tracking-tight sm:text-[2.6rem] md:text-6xl">
                 {costLow}
-                <span aria-hidden="true" className="mx-2 text-gold md:mx-3">–</span>
+                <span aria-hidden="true" className="mx-1.5 text-gold sm:mx-2 md:mx-3">–</span>
                 {costHigh}
               </p>
               <p className="mt-3 text-sm text-stone">{landing.costRangeNote}</p>
@@ -259,7 +259,7 @@ export default function ServiceLandingPage({
       <ProcessSection label="06 · Process" steps={landing.processSteps} />
 
       {/* Testimonials */}
-      <section className="relative border-y border-line bg-white">
+      <section className="relative overflow-x-clip border-y border-line bg-white">
         <SectionIndex label="07 · Stories" />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>

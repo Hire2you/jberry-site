@@ -14,10 +14,30 @@ import { SanityLive } from '@/sanity/live';
 const display = Fraunces({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display', axes: ['SOFT', 'WONK', 'opsz'] });
 const body = Inter({ subsets: ['latin'], variable: '--font-body' });
 
+const defaultTitle = `${site.name} | Extensions & Loft Conversions, London, Kent & Essex`;
+const defaultDescription =
+  'Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.';
+
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),
-  title: { default: `${site.name} | Extensions & Loft Conversions, London, Kent & Essex`, template: `%s | ${site.name}` },
-  description: `Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.`,
+  title: { default: defaultTitle, template: `%s | ${site.name}` },
+  description: defaultDescription,
+  openGraph: {
+    type: 'website',
+    locale: 'en_GB',
+    url: site.domain,
+    siteName: site.name,
+    title: defaultTitle,
+    description: defaultDescription,
+    images: [
+      {
+        url: '/images/hero-rear-extension.webp',
+        width: 2400,
+        height: 1600,
+        alt: 'Full-width rear extension with anthracite bifold doors',
+      },
+    ],
+  },
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {

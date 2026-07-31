@@ -54,10 +54,10 @@ export default function TestimonialShowcase({testimonials}: {testimonials: Testi
 
   return (
     <div className="mx-auto max-w-4xl text-center">
-      <div className="relative px-4 pt-14">
+      <div className="relative overflow-x-clip px-4 pt-14">
         <span
           aria-hidden="true"
-          className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 select-none font-display text-[160px] leading-none text-gold/30"
+          className="pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 select-none font-display text-[120px] leading-none text-gold/30 md:text-[160px]"
         >
           &ldquo;
         </span>
