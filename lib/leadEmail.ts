@@ -1,3 +1,5 @@
+import { site } from '@/lib/site';
+
 type LeadPayload = {
   name?: string;
   phone?: string;
@@ -28,6 +30,41 @@ function row(label: string, valueHtml: string) {
     </tr>`;
 }
 
+/** Turn a stored path into a readable label + absolute URL for the email. */
+export function formatLeadPage(page?: string) {
+  const raw = (page || '').trim();
+  if (!raw) return null;
+
+  const path = raw.startsWith('http')
+    ? (() => {
+        try {
+          const u = new URL(raw);
+          return `${u.pathname}${u.search}` || '/';
+        } catch {
+          return raw;
+        }
+      })()
+    : raw.startsWith('/')
+      ? raw
+      : `/${raw}`;
+
+  const href = raw.startsWith('http') ? raw : `${site.domain}${path === '/' ? '' : path}`;
+
+  const labels: Record<string, string> = {
+    '/': 'Homepage',
+    '/contact': 'Contact',
+    '/extensions': 'Extensions',
+    '/loft-conversions': 'Loft conversions',
+    '/blog': 'Blog',
+    '/cost-guides/loft-conversion-cost': 'Loft conversion cost guide',
+  };
+
+  const pathOnly = path.split('?')[0] || '/';
+  const label = labels[pathOnly] || pathOnly.replace(/^\//, '').replace(/\//g, ' · ') || 'Homepage';
+
+  return { path, href, label };
+}
+
 export function leadEmailSubject(lead: LeadPayload) {
   const parts = [lead.name?.trim() || 'New enquiry'];
   if (lead.service?.trim()) parts.push(lead.service.trim());
@@ -36,6 +73,7 @@ export function leadEmailSubject(lead: LeadPayload) {
 }
 
 export function leadEmailText(lead: LeadPayload) {
+  const pageInfo = formatLeadPage(lead.page);
   const lines = [
     'New quote request from the website',
     '',
@@ -44,11 +82,13 @@ export function leadEmailText(lead: LeadPayload) {
     `Postcode: ${lead.postcode ?? '—'}`,
   ];
   if (lead.service) lines.push(`Project: ${lead.service}`);
-  if (lead.location) lines.push(`Location page: ${lead.location}`);
+  if (lead.location) lines.push(`Area: ${lead.location}`);
   if (lead.message) {
     lines.push('', 'Message:', lead.message);
   }
-  if (lead.page) lines.push('', `Submitted from: ${lead.page}`);
+  if (pageInfo) {
+    lines.push('', `From page: ${pageInfo.label}`, pageInfo.href);
+  }
   lines.push('', 'Call them back the same working day if you can.');
   return lines.join('\n');
 }
@@ -64,11 +104,19 @@ export function leadEmailHtml(lead: LeadPayload) {
   const message = lead.message?.trim()
     ? escapeHtml(lead.message.trim()).replace(/\n/g, '<br>')
     : '';
-  const page = lead.page?.trim() ? escapeHtml(lead.page.trim()) : '';
+  const pageInfo = formatLeadPage(lead.page);
 
   const phoneCell = phoneHref
     ? `<a href="tel:${escapeHtml(phoneHref)}" style="color:#2B2B2B;text-decoration:none;border-bottom:2px solid #C9A961;">${phoneDisplay}</a>`
     : phoneDisplay;
+
+  const pageCell = pageInfo
+    ? `<a href="${escapeHtml(pageInfo.href)}" style="color:#2B2B2B;text-decoration:none;border-bottom:2px solid #C9A961;font-family:Arial,Helvetica,sans-serif;font-size:15px;">
+        ${escapeHtml(pageInfo.label)}
+      </a>
+      <br>
+      <span style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#7A7568;">${escapeHtml(pageInfo.path)}</span>`
+    : `<span style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#7A7568;">Not recorded</span>`;
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -104,7 +152,7 @@ export function leadEmailHtml(lead: LeadPayload) {
                 ${service ? row('Project', service) : ''}
                 ${location ? row('Area', location) : ''}
                 ${message ? row('Message', message) : ''}
-                ${page ? row('From page', `<span style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#7A7568;">${page}</span>`) : ''}
+                ${row('From page', pageCell)}
               </table>
               ${
                 phoneHref

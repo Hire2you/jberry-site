@@ -41,15 +41,12 @@ export default function Header() {
               {l.label}
             </Link>
           ))}
-          <a href={site.phoneHref} className="text-ink hover:text-goldDeep">
-            {site.phone}
-          </a>
         </nav>
 
         <div className="flex shrink-0 items-center gap-2 sm:gap-3">
           <a
             href={site.phoneHref}
-            className="hidden whitespace-nowrap text-sm font-semibold text-ink hover:text-goldDeep md:inline-block lg:hidden"
+            className="hidden whitespace-nowrap bg-gold px-4 py-2.5 text-xs font-semibold uppercase tracking-eyebrow text-charcoalDeep transition-colors hover:bg-goldDeep hover:text-white sm:px-5 md:inline-block"
           >
             {site.phone}
           </a>

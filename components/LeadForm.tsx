@@ -11,12 +11,14 @@ export default function LeadForm({ service, location, dark = false, compact = fa
     setState('sending');
     const fd = new FormData(e.currentTarget);
     const selectedService = showService ? (fd.get('service') as string) || undefined : service;
+    // Full path + query so the lead email shows exactly which page they came from
+    const page = `${window.location.pathname}${window.location.search}` || '/';
     const res = await fetch('/api/lead', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         name: fd.get('name'), phone: fd.get('phone'), postcode: fd.get('postcode'),
-        message: fd.get('message'), service: selectedService || service, location, page: window.location.pathname,
+        message: fd.get('message'), service: selectedService || service, location, page,
       }),
     });
     setState(res.ok ? 'sent' : 'error');
