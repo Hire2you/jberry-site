@@ -11,5 +11,15 @@ const nextConfig = {
       },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.jberryextensions.co.uk' }],
+        destination: 'https://jberryextensions.co.uk/:path*',
+        permanent: true,
+      },
+    ];
+  },
 };
 export default nextConfig;
