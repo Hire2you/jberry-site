@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Content sits in normal flow so the hero can never be shorter than its text.
           min-h keeps a decent amount of photo visible; it's capped on desktop so tall screens don't get a huge empty hero. */}
       <div className="relative flex min-h-[64svh] w-full flex-col justify-end md:min-h-[min(calc(72vh-40px),520px)]">
-        <Image src={images.hero.src} alt={images.hero.alt} fill priority sizes="100vw" className="object-cover" />
+        <Image src={images.hero.src} alt={images.hero.alt} fill priority fetchPriority="high" quality={70} sizes="100vw" className="object-cover" />
         {/* Near-black overlay so text is always readable. Bottom terminates in solid band so it blends into the carousel below. */}
         <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
         <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />

@@ -79,7 +79,7 @@ export default function ServiceLandingPage({
       <div className="bg-band">
         <section className="relative overflow-hidden">
           <div className="relative w-full">
-            <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority sizes="100vw" className="object-cover" />
+            <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority fetchPriority="high" quality={70} sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
             {/* Extra darkening behind the form card — stops above the band floor so the join stays even */}
             <div className="absolute inset-x-0 top-0 bottom-20 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent md:bottom-24 lg:block" />

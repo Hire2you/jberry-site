@@ -5,14 +5,25 @@ import { VisualEditing } from 'next-sanity/visual-editing';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import WhatsAppWidget from '@/components/WhatsAppWidget';
+import WhatsAppWidgetLazy from '@/components/WhatsAppWidgetLazy';
 import StickyCallBar from '@/components/StickyCallBar';
 import DisableDraftMode from '@/components/DisableDraftMode';
 import { site } from '@/lib/site';
 import { SanityLive } from '@/sanity/live';
 
-const display = Fraunces({ subsets: ['latin'], style: ['normal', 'italic'], variable: '--font-display', axes: ['SOFT', 'WONK', 'opsz'] });
-const body = Inter({ subsets: ['latin'], variable: '--font-body' });
+const display = Fraunces({
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-display',
+  display: 'swap',
+  adjustFontFallback: true,
+});
+const body = Inter({
+  subsets: ['latin'],
+  variable: '--font-body',
+  display: 'swap',
+  adjustFontFallback: true,
+});
 
 const defaultTitle = `${site.name} | Extensions & Loft Conversions, London, Kent & Essex`;
 const defaultDescription =
@@ -49,11 +60,11 @@ export default async function RootLayout({ children }: { children: React.ReactNo
         <Header />
         <main>{children}</main>
         <Footer />
-        <WhatsAppWidget />
+        <WhatsAppWidgetLazy />
         <StickyCallBar />
-        <SanityLive />
         {isDraftMode && (
           <>
+            <SanityLive />
             <DisableDraftMode />
             <VisualEditing />
           </>

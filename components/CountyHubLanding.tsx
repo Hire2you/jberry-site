@@ -96,7 +96,7 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
       <div className="bg-band">
         <section className="relative overflow-hidden">
           <div className="relative w-full">
-            <Image src={hero.image.src} alt={hero.image.alt} fill priority sizes="100vw" className="object-cover" />
+            <Image src={hero.image.src} alt={hero.image.alt} fill priority fetchPriority="high" quality={70} sizes="100vw" className="object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
             <div className="absolute inset-x-0 top-0 bottom-20 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent md:bottom-24 lg:block" />
             <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />

@@ -25,7 +25,6 @@ export default function Header() {
             alt="J.Berry Extensions & Conversions"
             width={168}
             height={92}
-            priority
             className="h-14 w-auto sm:h-16 lg:h-20"
           />
         </Link>
