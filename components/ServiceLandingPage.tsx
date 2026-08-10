@@ -49,6 +49,9 @@ export type ServiceLandingData = {
   costText: string;
   included: string[];
   costLink: { href: string; label: string } | null;
+  directorEyebrow?: string;
+  directorImage?: { src: string; alt: string };
+  directorImageAspect?: string;
   directorHeadline: string;
   directorBody: string;
   processSteps: { step: string; title: string; text: string }[];
@@ -435,14 +438,14 @@ export default function ServiceLandingPage({
 
       {/* Director */}
       <section className="relative overflow-x-clip border-y border-line">
-        <SectionIndex label="05 · The director" />
+        <SectionIndex label={isLoft ? '05 · The team' : '05 · The director'} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <div className="grid gap-10 lg:grid-cols-[2fr,3fr] lg:items-center lg:gap-16">
             <Reveal>
-              <div className="img-zoom relative aspect-[3/4]">
+              <div className={`img-zoom relative ${landing.directorImageAspect ?? 'aspect-[3/4]'}`}>
                 <Image
-                  src={images.director.src}
-                  alt={images.director.alt}
+                  src={landing.directorImage?.src ?? images.director.src}
+                  alt={landing.directorImage?.alt ?? images.director.alt}
                   fill
                   sizes="(max-width: 1024px) 100vw, 40vw"
                   className="object-cover"
@@ -451,7 +454,7 @@ export default function ServiceLandingPage({
               </div>
             </Reveal>
             <Reveal delay={120}>
-              <p className="eyebrow">The person you deal with</p>
+              <p className="eyebrow">{landing.directorEyebrow ?? 'The person you deal with'}</p>
               <h2 className="mt-3 text-4xl md:text-5xl">{landing.directorHeadline}</h2>
               <p className="mt-5 text-stone leading-relaxed">{landing.directorBody}</p>
               {landing.scarcityLine && (

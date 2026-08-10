@@ -101,8 +101,14 @@
         "href": "/cost-guides/loft-conversion-cost",
         "label": "Read the full loft conversion cost guide"
       },
-      "directorHeadline": "Your loft conversion, run by the director. Not handed to a foreman.",
-      "directorBody": "Jason surveys every loft himself, prices every quotation and runs every build to handover. Across 15 to 20 projects a year he's on each one, so when you call, you reach the person who priced your job and is up on your scaffold. Not a call centre, not a manager you've never met.",
+      "directorEyebrow": "Jason and his team",
+      "directorImage": {
+        "src": "/images/team-on-site.webp",
+        "alt": "Jason Berry and his team on site together, lifting a structural steel beam into place"
+      },
+      "directorImageAspect": "aspect-[4/3]",
+      "directorHeadline": "Your loft conversion, run by Jason. Built by the same team, every time.",
+      "directorBody": "Jason surveys every loft himself, prices every quotation and is on site through the build, not just at the start and the handover. He works with the same small team of tradesmen year-round, so the people cutting into your roof are the same faces on every J.Berry job, not agency labour that changes week to week. Across 15 to 20 projects a year he's on each one personally, so when you call, you reach the person who priced your job. Not a call centre, not a manager you've never met.",
       "processSteps": [
         {
           "step": "01",
