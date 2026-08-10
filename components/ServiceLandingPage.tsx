@@ -153,15 +153,27 @@ export default function ServiceLandingPage({
                   <div className="mt-5">
                     <LeadForm compact service={serviceSlug} />
                   </div>
-                  <p className="mt-4 text-xs leading-relaxed text-stone">
-                    {site.director} replies the same working day · Free site visit, no obligation
+                  <ul className="mt-5 space-y-2.5 border-t border-line pt-5">
+                    <li className="flex items-start gap-2.5 text-sm leading-snug text-ink">
+                      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                      <span>
+                        <span className="font-semibold">{site.director} replies the same working day</span>
+                        <span className="text-stone"> · Free site visit</span>
+                      </span>
+                    </li>
                     {isLoft && (
                       <>
-                        <br />
-                        Over 100 conversions completed. Fully insured, 10-year guarantee.
+                        <li className="flex items-start gap-2.5 text-sm leading-snug text-ink">
+                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                          <span className="font-semibold">Over 100 conversions completed</span>
+                        </li>
+                        <li className="flex items-start gap-2.5 text-sm leading-snug text-ink">
+                          <span className="mt-1.5 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                          <span className="font-semibold">Fully insured · 10-year guarantee</span>
+                        </li>
                       </>
                     )}
-                  </p>
+                  </ul>
                 </div>
               </div>
             </div>
