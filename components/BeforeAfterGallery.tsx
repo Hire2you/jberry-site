@@ -33,11 +33,9 @@ export default function BeforeAfterGallery({
     );
   }
 
-  const single = pairs.length === 1;
-
   return (
     <div>
-      <div className={`grid gap-8 ${single ? 'mx-auto max-w-2xl' : 'md:grid-cols-2'}`}>
+      <div className="grid gap-8 md:grid-cols-2">
         {pairs.map((pair, i) => (
           <Reveal key={pair.id} delay={i * 80}>
             <article>

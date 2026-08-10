@@ -6,11 +6,17 @@ export type BeforeAfterSliderProps = {
   before: { src: string; alt: string };
   after: { src: string; alt: string };
   className?: string;
+  aspectClassName?: string;
 };
 
 const STEP = 4;
 
-export default function BeforeAfterSlider({ before, after, className = '' }: BeforeAfterSliderProps) {
+export default function BeforeAfterSlider({
+  before,
+  after,
+  className = '',
+  aspectClassName = 'aspect-[4/3]',
+}: BeforeAfterSliderProps) {
   const [percent, setPercent] = useState(50);
   const containerRef = useRef<HTMLDivElement>(null);
   const dragging = useRef(false);
@@ -48,7 +54,7 @@ export default function BeforeAfterSlider({ before, after, className = '' }: Bef
   return (
     <div
       ref={containerRef}
-      className={`group relative aspect-[16/10] w-full touch-none select-none overflow-hidden bg-line/40 ${className}`}
+      className={`group relative ${aspectClassName} w-full touch-none select-none overflow-hidden bg-line/40 ${className}`}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={stopDragging}

@@ -6,7 +6,8 @@ import { site } from '@/lib/site';
 import TrustBar from '@/components/TrustBar';
 import TrustStrip from '@/components/TrustStrip';
 import ReviewsBadges from '@/components/ReviewsBadges';
-import BeforeAfterGallery from '@/components/BeforeAfterGallery';
+import BeforeAfterGallery, { type BeforeAfterPair } from '@/components/BeforeAfterGallery';
+import BeforeAfterSlider from '@/components/BeforeAfterSlider';
 import ProjectCarousel from '@/components/ProjectCarousel';
 import ProjectCard from '@/components/ProjectCard';
 import TestimonialShowcase from '@/components/TestimonialShowcase';
@@ -80,6 +81,22 @@ export default function ServiceLandingPage({
 }) {
   const isLoft = serviceSlug === 'loft-conversions';
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
+  const loftBeforeAfterPairs: BeforeAfterPair[] = isLoft
+    ? [
+        {
+          id: 'roof-and-dormer',
+          title: 'Roof re-cover and rear dormer',
+          before: {
+            src: '/images/loft-before-after-1-before.webp',
+            alt: 'Roof before the loft conversion, freshly re-slated with scaffolding up and the dormer frame under construction',
+          },
+          after: {
+            src: '/images/loft-before-after-1-after.webp',
+            alt: 'Finished rear dormer loft conversion with slate cladding, uPVC windows and a Juliet balcony',
+          },
+        },
+      ]
+    : [];
   // Loft: avoid repeating type-tile images in a thin "recent projects" grid.
   // Sanity carousel already surfaces genuine loft jobs; trust/reviews carry the rest.
   const showStaticProjects = !isLoft && serviceProjects.length > 0;
@@ -351,7 +368,52 @@ export default function ServiceLandingPage({
         </section>
       )}
 
-      {isLoft && (
+      {isLoft && loftBeforeAfterPairs.length === 1 && (
+        <section className="relative bg-ivory">
+          <GoldPattern id={`lattice-before-after-${serviceSlug}`} />
+          <SectionIndex label="04 · Projects" />
+          <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+            <div className="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+              <Reveal>
+                <p className="eyebrow">Recent loft conversions</p>
+                <h2 className="mt-3 text-4xl md:text-5xl">Built by Jason and his team</h2>
+                <p className="mt-5 text-stone leading-relaxed">
+                  Genuine J.Berry loft work, before and after. Drag the slider to compare. More added
+                  as each job is photographed.
+                </p>
+                <div className="mt-8">
+                  <a
+                    href="#quote"
+                    className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                  >
+                    Get your itemised quote
+                  </a>
+                </div>
+              </Reveal>
+              <Reveal delay={120}>
+                <BeforeAfterSlider
+                  before={loftBeforeAfterPairs[0].before}
+                  after={loftBeforeAfterPairs[0].after}
+                  className="border border-line shadow-[0_16px_48px_rgba(26,23,20,0.08)]"
+                />
+                {(loftBeforeAfterPairs[0].title || loftBeforeAfterPairs[0].location) && (
+                  <p className="mt-3 text-xs font-semibold uppercase tracking-eyebrow text-stone">
+                    {loftBeforeAfterPairs[0].title}
+                    {loftBeforeAfterPairs[0].location && (
+                      <span className="font-normal normal-case tracking-normal">
+                        {' '}
+                        · {loftBeforeAfterPairs[0].location}
+                      </span>
+                    )}
+                  </p>
+                )}
+              </Reveal>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {isLoft && loftBeforeAfterPairs.length !== 1 && (
         <section className="relative bg-ivory">
           <GoldPattern id={`lattice-before-after-${serviceSlug}`} />
           <SectionIndex label="04 · Projects" />
@@ -365,22 +427,7 @@ export default function ServiceLandingPage({
               </p>
             </Reveal>
             <div className="mt-10">
-              <BeforeAfterGallery
-                pairs={[
-                  {
-                    id: 'roof-and-dormer',
-                    title: 'Roof re-cover and rear dormer',
-                    before: {
-                      src: '/images/loft-before-after-1-before.webp',
-                      alt: 'Roof before the loft conversion, freshly re-slated with scaffolding up and the dormer frame under construction',
-                    },
-                    after: {
-                      src: '/images/loft-before-after-1-after.webp',
-                      alt: 'Finished rear dormer loft conversion with slate cladding, uPVC windows and a Juliet balcony',
-                    },
-                  },
-                ]}
-              />
+              <BeforeAfterGallery pairs={loftBeforeAfterPairs} />
             </div>
           </div>
         </section>
