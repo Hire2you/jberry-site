@@ -28,7 +28,7 @@ import { FEATURED_PROJECTS_QUERY, FEATURED_TESTIMONIALS_QUERY } from '@/sanity/q
 export const metadata: Metadata = {
   alternates: { canonical: '/' },
   description:
-    'Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.',
+    'Director-led extensions and loft conversions across Hertfordshire and Essex. Itemised fixed-price quotations, 10% deposit then stages, with a 10-year guarantee.',
 };
 
 export default async function Home() {
@@ -91,7 +91,7 @@ export default async function Home() {
           <Reveal>
             <p className="eyebrow">What we build</p>
             <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Extensions and loft conversions. That&rsquo;s the whole list.</h2>
-            <p className="mt-4 font-display italic text-lg text-stone">Two builds done properly across London, Kent and Essex, rather than everything done adequately.</p>
+            <p className="mt-4 font-display italic text-lg text-stone">Two builds done properly across Hertfordshire and Essex, rather than everything done adequately.</p>
           </Reveal>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {services.map((s, i) => (

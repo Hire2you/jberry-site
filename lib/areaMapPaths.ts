@@ -14,7 +14,6 @@ export const contextPath = 'M90.6 287L107.5 293.6L109.6 299.3L115.9 297.9L124 30
 
 export const markerPoints = {
   hq: {"x":248.1,"y":130.2},
-  London: {"x":176,"y":258.2},
+  Hertfordshire: {"x":170,"y":100},
   Essex: {"x":330.8,"y":162.7},
-  Kent: {"x":344.8,"y":356.9},
 };

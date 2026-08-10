@@ -25,9 +25,9 @@ const body = Inter({
   adjustFontFallback: true,
 });
 
-const defaultTitle = `${site.name} | Extensions & Loft Conversions, London, Kent & Essex`;
+const defaultTitle = `${site.name} | Extensions & Loft Conversions, Hertfordshire & Essex`;
 const defaultDescription =
-  'Director-led extensions and loft conversions across London, Kent and Essex. Itemised fixed-price quotations, 10% deposit then stages, backed by a 10-year guarantee.';
+  'Director-led extensions and loft conversions across Hertfordshire and Essex. Itemised fixed-price quotations, 10% deposit then stages, with a 10-year guarantee.';
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.domain),

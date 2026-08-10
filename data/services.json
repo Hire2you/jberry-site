@@ -19,9 +19,15 @@
         "src": "/images/hero-dormer.webp",
         "alt": "Contemporary clad dormer loft conversion by J.Berry"
       },
-      "heroEyebrow": "Loft conversions · London, Kent & Essex",
+      "heroEyebrow": "Loft conversions · Hertfordshire & Essex",
       "heroHeadline": "The extra bedroom is already there. It's your loft.",
       "heroSub": "Director-led loft conversions, quoted line by line before a single tile moves. Jason Berry prices the job and builds it. Most come in between £54,000 and £90,000, including VAT.",
+      "areasHeadline": "Loft conversions across Hertfordshire and Essex",
+      "areasBody": "Based in Sawbridgeworth, Hertfordshire (CM21), close enough for a site visit within days, not weeks. We build right across Hertfordshire and Essex, from Bishop's Stortford, Hertford, Ware and Hoddesdon to Harlow, Epping, Loughton and the towns between.",
+      "paymentHeading": "You never pay ahead of the work",
+      "paymentBody": "A 10% deposit books your slot. After that you pay in stages as the build progresses, so your money always follows completed work, never the other way round.",
+      "scarcityLine": "Jason takes on a limited number of conversions each year and prices every one himself. Book your free site visit early to hold a slot.",
+      "guaranteeLine": "Every conversion is fully insured and backed by our 10-year guarantee.",
       "introTitle": "Turn dead roof space into the most valuable room in the house",
       "intro": [
         "A well-built loft conversion adds a bedroom, a bathroom and serious value, without losing an inch of garden. Because the roof structure is already there, it's usually the quickest way to add a proper room to the house, and among the most cost-effective.",
@@ -116,10 +122,10 @@
         {
           "step": "04",
           "title": "Handover",
-          "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid."
+          "text": "Snagged, signed off together and backed by a 10-year guarantee. You never pay ahead of the work: deposit, then stages as the build progresses. The figure quoted is the figure paid."
         }
       ],
-      "finalCtaBody": "Tell us about your loft conversion and Jason Berry calls you back, usually the same working day. Covering London, Kent and Essex. A name, a number and a postcode is all we need to start.",
+      "finalCtaBody": "Tell us about your loft conversion and Jason Berry calls you back, usually the same working day. Covering Hertfordshire and Essex. A name, a number and a postcode is all we need to start.",
       "faqs": [
         {
           "q": "How much does a loft conversion cost?",
@@ -140,6 +146,18 @@
         {
           "q": "Will I need to move out during the build?",
           "a": "No. Almost all of our clients stay at home throughout. The loft is sealed off from the rest of the house and accessed externally for most of the build, the messiest day is usually when the new staircase is cut through, and we plan that with you in advance."
+        },
+        {
+          "q": "Are you insured and guaranteed?",
+          "a": "Yes. J.Berry is fully insured, and every conversion is backed by our 10-year guarantee. Jason stands behind the work."
+        },
+        {
+          "q": "How do payments work?",
+          "a": "A 10% deposit books your slot, then you pay in stages as the work progresses. You are never paying for work that has not been done."
+        },
+        {
+          "q": "How much mess and disruption will there be?",
+          "a": "Most of the structural work happens outside via scaffolding, and the loft is sealed off from the rest of the house, so you can carry on living there throughout. The messiest single day is when the new staircase is cut through, and we plan that with you in advance."
         }
       ]
     }
@@ -164,7 +182,7 @@
         "src": "/images/hero-rear-extension.webp",
         "alt": "Full-width rear extension with anthracite bifold doors by J.Berry"
       },
-      "heroEyebrow": "House extensions · London, Kent & Essex",
+      "heroEyebrow": "House extensions · Hertfordshire & Essex",
       "heroHeadline": "The kitchen you actually want, without moving house",
       "heroSub": "Director-led house extensions, itemised line by line before work starts. Jason Berry prices the job and builds it. Most come in between £66,000 and £144,000, including VAT.",
       "introTitle": "More space, more light, more value, on the home you already love",
@@ -261,7 +279,7 @@
           "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid."
         }
       ],
-      "finalCtaBody": "Tell us about your extension and Jason Berry calls you back, usually the same working day. Covering London, Kent and Essex. A name, a number and a postcode is all we need to start.",
+      "finalCtaBody": "Tell us about your extension and Jason Berry calls you back, usually the same working day. Covering Hertfordshire and Essex. A name, a number and a postcode is all we need to start.",
       "faqs": [
         {
           "q": "How much does an extension cost?",

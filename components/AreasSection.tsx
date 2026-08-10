@@ -14,7 +14,7 @@ export default function AreasSection() {
             <p className="eyebrow">Where we work</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Areas we cover</h2>
             <p className="mt-5 max-w-md text-white/70">
-              Based in {site.base}, {site.director} and his team build across London, Kent and Essex,
+              Based in {site.base}, {site.director} and his team build across {site.areaServed.join(' and ')},
               close enough for a site visit within days, not weeks.
             </p>
 

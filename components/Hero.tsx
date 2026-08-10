@@ -14,7 +14,7 @@ export default function Hero() {
         <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />
         <div className="relative z-[2]">
           <div className="mx-auto w-full max-w-6xl px-4 pb-14 pt-[4.5rem] md:pt-28">
-            <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">London · Kent · Essex</p>
+            <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">{site.areaServed.join(' · ')}</p>
             <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
               Extensions and loft conversions, priced line by line before we start
             </h1>

@@ -7,5 +7,5 @@ export const site = {
   email: 'info@jberryextensions.co.uk',
   director: 'Jason Berry',
   base: 'Sawbridgeworth, Hertfordshire (CM21)',
-  areaServed: ['London', 'Kent', 'Essex'],
+  areaServed: ['Hertfordshire', 'Essex'],
 };

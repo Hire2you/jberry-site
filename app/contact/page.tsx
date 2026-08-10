@@ -9,7 +9,7 @@ import TrustBar from '@/components/TrustBar';
 import AreaMap from '@/components/AreaMap';
 
 const title = `Talk to ${site.director}`;
-const description = `Call, WhatsApp or request a detailed quote from ${site.director}. Director-led house extensions and loft conversions across London, Kent and Essex.`;
+const description = `Call, WhatsApp or request a detailed quote from ${site.director}. Director-led house extensions and loft conversions across Hertfordshire and Essex.`;
 
 export const metadata: Metadata = {
   title,
@@ -151,7 +151,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-6xl px-4 pt-16 md:pt-20">
           <Reveal>
             <p className="eyebrow">Where we work</p>
-            <h2 className="mt-3 text-4xl md:text-5xl">London, Kent and Essex</h2>
+            <h2 className="mt-3 text-4xl md:text-5xl">Hertfordshire and Essex</h2>
             <p className="mt-5 max-w-xl text-white/70">
               Based in {site.base}, {site.director} and his team build across the South East,
               close enough for a site visit within days, not weeks.

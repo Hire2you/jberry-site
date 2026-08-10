@@ -203,7 +203,7 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
             <p className="mt-10 text-sm text-stone">
               Prefer the full service overview?{' '}
               <Link href={`/${serviceSlug}`} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
-                Loft conversions across London, Kent and Essex
+                Loft conversions across Hertfordshire and Essex
               </Link>
             </p>
           </Reveal>

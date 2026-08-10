@@ -4,6 +4,9 @@ import projects from '@/data/projects.json';
 import images from '@/data/images.json';
 import { site } from '@/lib/site';
 import TrustBar from '@/components/TrustBar';
+import TrustStrip from '@/components/TrustStrip';
+import ReviewsBadges from '@/components/ReviewsBadges';
+import BeforeAfterGallery from '@/components/BeforeAfterGallery';
 import ProjectCarousel from '@/components/ProjectCarousel';
 import ProjectCard from '@/components/ProjectCard';
 import TestimonialShowcase from '@/components/TestimonialShowcase';
@@ -50,6 +53,12 @@ export type ServiceLandingData = {
   processSteps: { step: string; title: string; text: string }[];
   finalCtaBody: string;
   faqs: { q: string; a: string }[];
+  areasHeadline?: string;
+  areasBody?: string;
+  paymentHeading?: string;
+  paymentBody?: string;
+  scarcityLine?: string;
+  guaranteeLine?: string;
 };
 
 export default function ServiceLandingPage({
@@ -69,9 +78,19 @@ export default function ServiceLandingPage({
   carouselProjects: CarouselSlide[];
   locationPages: LocationPage[];
 }) {
+  const isLoft = serviceSlug === 'loft-conversions';
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
+  // Loft: avoid repeating type-tile images in a thin "recent projects" grid.
+  // Sanity carousel already surfaces genuine loft jobs; trust/reviews carry the rest.
+  const showStaticProjects = !isLoft && serviceProjects.length > 0;
   const lower = shortName.toLowerCase();
   const [costLow, costHigh] = landing.costRange.split('–').map((s) => s.trim());
+  const areasHeadline =
+    landing.areasHeadline ||
+    `${serviceName.toLowerCase().replace(/^./, (c) => c.toUpperCase())} across ${site.areaServed.join(' and ')}`;
+  const areasBody =
+    landing.areasBody ||
+    `Based in ${site.base}, close enough for a site visit within days, not weeks. We also have dedicated ${lower} pages for the areas and towns we work in most:`;
 
   return (
     <>
@@ -79,45 +98,85 @@ export default function ServiceLandingPage({
       <div className="bg-band">
         <section className="relative overflow-hidden">
           <div className="relative w-full">
-            <Image src={landing.heroImage.src} alt={landing.heroImage.alt} fill priority fetchPriority="high" quality={70} sizes="100vw" className="object-cover" />
+            <Image
+              src={landing.heroImage.src}
+              alt={landing.heroImage.alt}
+              fill
+              priority
+              fetchPriority="high"
+              quality={70}
+              sizes="100vw"
+              className="object-cover"
+            />
             <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
-            {/* Extra darkening behind the form card — stops above the band floor so the join stays even */}
             <div className="absolute inset-x-0 top-0 bottom-20 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent md:bottom-24 lg:block" />
-            {/* Solid band floor guarantees a uniform edge into the carousel */}
             <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />
             <div className="relative z-[2]">
               <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pb-12 pt-[4.5rem] md:pt-24 lg:min-h-[600px] lg:grid-cols-[1fr,400px] lg:gap-14 lg:pb-16">
-              <div>
-                <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">{landing.heroEyebrow}</p>
-                <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
-                  {landing.heroHeadline}
-                </h1>
-                <p className="mt-4 max-w-xl text-white/85">{landing.heroSub}</p>
-                <div className="mt-7">
-                  <a href={site.phoneHref} className="inline-block border border-white/80 bg-charcoalDeep/30 px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:border-gold hover:text-gold">
-                    Call {site.phone}
-                  </a>
+                <div>
+                  <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">
+                    {landing.heroEyebrow}
+                  </p>
+                  <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
+                    {landing.heroHeadline}
+                  </h1>
+                  <p className="mt-4 max-w-xl text-white/85">{landing.heroSub}</p>
+                  <div className="mt-7 flex flex-wrap gap-3">
+                    <a
+                      href="#quote"
+                      className="inline-block bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-charcoalDeep transition-colors hover:bg-white"
+                    >
+                      Get my free quote
+                    </a>
+                    <a
+                      href={site.phoneHref}
+                      className="inline-block border border-white/80 bg-charcoalDeep/30 px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:border-gold hover:text-gold"
+                    >
+                      Call {site.phone}
+                    </a>
+                  </div>
+                  {landing.guaranteeLine && (
+                    <p className="mt-4 max-w-xl text-sm text-white/75">{landing.guaranteeLine}</p>
+                  )}
                 </div>
-              </div>
-              <div id="quote" className="scroll-mt-28 border border-gold bg-white p-6 shadow-[0_16px_48px_rgba(0,0,0,0.35)] md:p-8">
-                <p className="eyebrow">Your detailed quotation</p>
-                <p className="mt-2 font-display text-2xl leading-snug">Priced line by line, before you commit</p>
-                <div className="mt-5">
-                  <LeadForm compact service={serviceSlug} />
+                <div
+                  id="quote"
+                  className="scroll-mt-28 min-h-[22rem] border border-gold bg-white p-6 shadow-[0_16px_48px_rgba(0,0,0,0.35)] md:min-h-[24rem] md:p-8"
+                >
+                  <p className="eyebrow">Your detailed quotation</p>
+                  <p className="mt-2 font-display text-2xl leading-snug">Priced line by line, before you commit</p>
+                  <div className="mt-5">
+                    <LeadForm compact service={serviceSlug} />
+                  </div>
+                  <p className="mt-4 text-xs leading-relaxed text-stone">
+                    {site.director} replies the same working day · Free site visit, no obligation
+                    {isLoft && (
+                      <>
+                        <br />
+                        Over 100 conversions completed. Fully insured, 10-year guarantee.
+                      </>
+                    )}
+                  </p>
                 </div>
-                <p className="mt-4 text-xs leading-relaxed text-stone">
-                  {site.director} replies the same working day · Free site visit, no obligation
-                </p>
               </div>
             </div>
           </div>
-        </div>
         </section>
 
         <ProjectCarousel projects={carouselProjects} />
       </div>
 
-      <TrustBar />
+      {isLoft ? (
+        <TrustStrip
+          items={[
+            { label: 'Over 100 loft conversions completed' },
+            { label: 'Fully insured · 10-year guarantee' },
+            { label: '10% deposit, then stages as work completes' },
+          ]}
+        />
+      ) : (
+        <TrustBar />
+      )}
 
       {/* Intro */}
       <section className="relative">
@@ -130,7 +189,9 @@ export default function ServiceLandingPage({
           <Reveal delay={80}>
             <div className="mt-8 grid gap-6 md:grid-cols-2">
               {landing.intro.map((para) => (
-                <p key={para.slice(0, 32)} className="text-stone leading-relaxed">{para}</p>
+                <p key={para.slice(0, 32)} className="text-stone leading-relaxed">
+                  {para}
+                </p>
               ))}
             </div>
           </Reveal>
@@ -157,7 +218,14 @@ export default function ServiceLandingPage({
               <Reveal key={t.name} delay={i * 100}>
                 <article className="group">
                   <div className="img-zoom relative aspect-[16/10]">
-                    <Image src={t.image} alt={t.imageAlt} fill sizes="(max-width: 640px) 100vw, 50vw" className="object-cover" />
+                    <Image
+                      src={t.image}
+                      alt={t.imageAlt}
+                      fill
+                      sizes="(max-width: 640px) 100vw, 50vw"
+                      className="object-cover"
+                      loading="lazy"
+                    />
                     <span className="absolute left-0 top-4 bg-charcoal px-3 py-1.5 text-xs font-semibold uppercase tracking-eyebrow text-gold">
                       {t.priceBand}
                     </span>
@@ -172,7 +240,10 @@ export default function ServiceLandingPage({
           <Reveal>
             <div className="mt-14 text-center">
               <p className="font-display italic text-lg text-stone">Not sure which one your home needs?</p>
-              <a href="#quote" className="mt-5 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep">
+              <a
+                href="#quote"
+                className="mt-5 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+              >
                 Ask {site.director} at a free site visit
               </a>
             </div>
@@ -190,31 +261,60 @@ export default function ServiceLandingPage({
               <h2 className="mt-3 text-4xl md:text-5xl">{landing.costTitle}</h2>
               <p className="mt-8 font-display text-[2.15rem] leading-none tracking-tight sm:text-[2.6rem] md:text-6xl">
                 {costLow}
-                <span aria-hidden="true" className="mx-1.5 text-gold sm:mx-2 md:mx-3">–</span>
+                <span aria-hidden="true" className="mx-1.5 text-gold sm:mx-2 md:mx-3">
+                  –
+                </span>
                 {costHigh}
               </p>
               <p className="mt-3 text-sm text-stone">{landing.costRangeNote}</p>
               <p className="mt-6 text-stone leading-relaxed">{landing.costText}</p>
               {landing.costLink && (
                 <p className="mt-6">
-                  <Link href={landing.costLink.href} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
+                  <Link
+                    href={landing.costLink.href}
+                    className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                  >
                     {landing.costLink.label}
                   </Link>
                 </p>
               )}
-              <div className="mt-8 flex gap-4">
-                <a href="#quote" className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep">
+              {landing.paymentHeading && landing.paymentBody && (
+                <div className="mt-10 border-l-2 border-gold pl-5">
+                  <h3 className="font-display text-2xl">{landing.paymentHeading}</h3>
+                  <p className="mt-3 text-sm leading-relaxed text-stone">{landing.paymentBody}</p>
+                </div>
+              )}
+              {isLoft && (
+                <div className="mt-8">
+                  <TrustStrip
+                    condensed
+                    items={[
+                      { label: 'Over 100 loft conversions completed' },
+                      { label: 'Fully insured · 10-year guarantee' },
+                      { label: '10% deposit, then stages as work completes' },
+                    ]}
+                  />
+                </div>
+              )}
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#quote"
+                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
                   Get your itemised quote
                 </a>
               </div>
+              {landing.guaranteeLine && (
+                <p className="mt-4 text-sm text-stone">{landing.guaranteeLine}</p>
+              )}
             </Reveal>
             <QuotationCard included={landing.included} />
           </div>
         </div>
       </section>
 
-      {/* Projects */}
-      {serviceProjects.length > 0 && (
+      {/* Projects — extensions keep static grid; loft relies on carousel + before/after shell */}
+      {showStaticProjects && (
         <section className="relative bg-ivory">
           <GoldPattern id={`lattice-projects-${serviceSlug}`} />
           <SectionIndex label="04 · Projects" />
@@ -225,8 +325,30 @@ export default function ServiceLandingPage({
             </Reveal>
             <div className="mt-10 grid gap-8 sm:grid-cols-2">
               {serviceProjects.map((p, i) => (
-                <Reveal key={p.slug} delay={i * 100}><ProjectCard {...p} /></Reveal>
+                <Reveal key={p.slug} delay={i * 100}>
+                  <ProjectCard {...p} />
+                </Reveal>
               ))}
+            </div>
+          </div>
+        </section>
+      )}
+
+      {isLoft && (
+        <section className="relative bg-ivory">
+          <GoldPattern id={`lattice-before-after-${serviceSlug}`} />
+          <SectionIndex label="04 · Projects" />
+          <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">Recent loft conversions</p>
+              <h2 className="mt-3 text-4xl md:text-5xl">Built by Jason and his team</h2>
+              <p className="mt-4 max-w-2xl text-stone leading-relaxed">
+                Genuine J.Berry loft work only. More photography is added as each conversion is completed and
+                photographed properly.
+              </p>
+            </Reveal>
+            <div className="mt-10">
+              <BeforeAfterGallery />
             </div>
           </div>
         </section>
@@ -239,18 +361,34 @@ export default function ServiceLandingPage({
           <div className="grid gap-10 lg:grid-cols-[2fr,3fr] lg:items-center lg:gap-16">
             <Reveal>
               <div className="img-zoom relative aspect-[3/4]">
-                <Image src={images.director.src} alt={images.director.alt} fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover" />
+                <Image
+                  src={images.director.src}
+                  alt={images.director.alt}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  className="object-cover"
+                  loading="lazy"
+                />
               </div>
             </Reveal>
             <Reveal delay={120}>
               <p className="eyebrow">The person you deal with</p>
               <h2 className="mt-3 text-4xl md:text-5xl">{landing.directorHeadline}</h2>
               <p className="mt-5 text-stone leading-relaxed">{landing.directorBody}</p>
-              <div className="mt-8 flex gap-4">
-                <a href="#quote" className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep">
+              {landing.scarcityLine && (
+                <p className="mt-5 text-stone leading-relaxed">{landing.scarcityLine}</p>
+              )}
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#quote"
+                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
                   Get your quote from {site.director}
                 </a>
               </div>
+              {landing.guaranteeLine && (
+                <p className="mt-4 text-sm text-stone">{landing.guaranteeLine}</p>
+              )}
             </Reveal>
           </div>
         </div>
@@ -266,6 +404,12 @@ export default function ServiceLandingPage({
             <div className="text-center">
               <p className="eyebrow">Tell your story</p>
               <h2 className="mt-3 text-4xl md:text-5xl">In our clients&rsquo; words</h2>
+              <p className="mx-auto mt-4 max-w-xl text-stone leading-relaxed">
+                Real clients, with their towns where we have them. More reviews added as they come in.
+              </p>
+            </div>
+            <div className="mt-8 flex justify-center">
+              <ReviewsBadges />
             </div>
             <div className="mt-10">
               <TestimonialShowcase testimonials={testimonials} />
@@ -287,10 +431,10 @@ export default function ServiceLandingPage({
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">Where we build</p>
-            <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">{serviceName.toLowerCase().replace(/^./, (c) => c.toUpperCase())} across London, Kent and Essex</h2>
-            <p className="mt-4 max-w-2xl text-stone leading-relaxed">
-              Based in {site.base}, close enough for a site visit within days, not weeks.
-              We also have dedicated {lower} pages for the areas and towns we work in most:
+            <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">{areasHeadline}</h2>
+            <p className="mt-4 max-w-2xl text-stone leading-relaxed">{areasBody}</p>
+            <p className="mt-4 max-w-2xl text-sm text-stone">
+              Dedicated {lower} pages for the towns we work in most:
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               {serviceSlug === 'loft-conversions' && (
@@ -322,9 +466,16 @@ export default function ServiceLandingPage({
             <p className="eyebrow">Start your {lower}</p>
             <h2 className="mt-3 text-4xl md:text-5xl">Get your detailed quotation</h2>
             <p className="mt-5 text-white/70">{landing.finalCtaBody}</p>
-            <p className="mt-6 font-display text-2xl text-gold"><a href={site.phoneHref}>{site.phone}</a></p>
+            {landing.guaranteeLine && (
+              <p className="mt-4 text-sm text-white/60">{landing.guaranteeLine}</p>
+            )}
+            <p className="mt-6 font-display text-2xl text-gold">
+              <a href={site.phoneHref}>{site.phone}</a>
+            </p>
           </Reveal>
-          <Reveal delay={120}><LeadForm dark service={serviceSlug} /></Reveal>
+          <Reveal delay={120}>
+            <LeadForm dark service={serviceSlug} />
+          </Reveal>
         </div>
       </section>
     </>

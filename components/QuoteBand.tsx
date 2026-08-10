@@ -21,7 +21,7 @@ export default function QuoteBand({
           <h2 className="mt-3 text-4xl md:text-5xl">{heading}</h2>
           <p className="mt-5 text-white/70">
             {text ??
-              `Tell us about your extension or loft conversion and ${site.director} will call you back, usually the same working day. Covering London, Kent and Essex.`}
+              `Tell us about your extension or loft conversion and ${site.director} will call you back, usually the same working day. Covering ${site.areaServed.join(' and ')}.`}
           </p>
           <p className="mt-6 font-display text-2xl text-gold"><a href={site.phoneHref}>{site.phone}</a></p>
         </Reveal>

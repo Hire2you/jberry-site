@@ -1,20 +1,15 @@
 {
-  "_note": "REPLACE — confirm representative towns for each region with Jason. Map marker positions live in lib/areaMapPaths.ts (generated).",
+  "_note": "Representative towns for Hertfordshire and Essex. Map marker positions live in lib/areaMapPaths.ts.",
   "regions": [
     {
-      "name": "London",
-      "blurb": "North and East London",
-      "towns": ["Woodford", "Chingford", "Enfield", "Walthamstow", "Wanstead"]
+      "name": "Hertfordshire",
+      "blurb": "Across the county",
+      "towns": ["Sawbridgeworth", "Bishop's Stortford", "Hertford", "Ware", "Hoddesdon"]
     },
     {
       "name": "Essex",
       "blurb": "Across the county",
-      "towns": ["Harlow", "Epping", "Ongar", "Brentwood", "Chelmsford"]
-    },
-    {
-      "name": "Kent",
-      "blurb": "North and West Kent",
-      "towns": ["Dartford", "Gravesend", "Sevenoaks", "Maidstone"]
+      "towns": ["Harlow", "Epping", "Loughton", "Brentwood", "Chelmsford"]
     }
   ],
   "hq": { "name": "Sawbridgeworth", "label": "HQ · CM21" }

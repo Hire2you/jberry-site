@@ -16,10 +16,33 @@ import {
 
 const s = services.find((x) => x.slug === 'loft-conversions')!;
 
+const title = `Loft Conversions in Hertfordshire & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k`;
+const description =
+  'Director-led loft conversions across Hertfordshire and Essex. Dormer, hip-to-gable, mansard and Velux, itemised and fixed-price, with a 10-year guarantee. Over 100 completed.';
+
 export const metadata: Metadata = {
-  title: `Loft Conversions in London, Kent & Essex, from £${(s.priceFrom / 1000).toFixed(0)}k`,
-  description: 'Director-led loft conversions across London, Kent and Essex. Dormer, hip-to-gable, mansard and Velux, itemised and fixed-price, backed by a 10-year guarantee.',
+  title,
+  description,
   alternates: { canonical: '/loft-conversions' },
+  openGraph: {
+    title: `${title} | ${site.name}`,
+    description,
+    url: '/loft-conversions',
+    images: [
+      {
+        url: '/images/hero-dormer.webp',
+        width: 2400,
+        height: 1600,
+        alt: 'Contemporary clad dormer loft conversion by J.Berry',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${title} | ${site.name}`,
+    description,
+    images: ['/images/hero-dormer.webp'],
+  },
 };
 
 export default async function LoftConversionsPage() {

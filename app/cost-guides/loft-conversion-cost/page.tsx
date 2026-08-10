@@ -4,8 +4,8 @@ import { faqSchema, JsonLd } from '@/lib/schema';
 import LeadForm from '@/components/LeadForm';
 
 export const metadata: Metadata = {
-  title: 'Loft Conversion Cost in London, Kent & Essex (2026 Guide)',
-  description: 'What a loft conversion really costs in London, Kent and Essex in 2026, dormer, hip-to-gable and mansard prices, what drives cost, and how to budget.',
+  title: 'Loft Conversion Cost in Hertfordshire & Essex (2026 Guide)',
+  description: 'What a loft conversion really costs in Hertfordshire and Essex in 2026, dormer, hip-to-gable and mansard prices, what drives cost, and how to budget.',
   alternates: { canonical: '/cost-guides/loft-conversion-cost' },
 };
 
@@ -21,8 +21,8 @@ export default function LoftCostGuide() {
   ];
   return (
     <article className="mx-auto max-w-3xl px-4 py-14">
-      <JsonLd data={faqSchema([{ q: 'How much is a loft conversion in London, Kent or Essex?', a: `Most loft conversions cost £${s.priceFrom.toLocaleString()}–£${s.priceTo.toLocaleString()} depending on type and specification.` }])} />
-      <h1 className="text-4xl leading-tight">What does a loft conversion cost in London, Kent &amp; Essex in 2026?</h1>
+      <JsonLd data={faqSchema([{ q: 'How much is a loft conversion in Hertfordshire or Essex?', a: `Most loft conversions cost £${s.priceFrom.toLocaleString()}–£${s.priceTo.toLocaleString()} depending on type and specification.` }])} />
+      <h1 className="text-4xl leading-tight">What does a loft conversion cost in Hertfordshire &amp; Essex in 2026?</h1>
       <p className="mt-4 text-stone">REPLACE: intro paragraph in Jason's voice, honest, specific, no fluff.</p>
       <table className="mt-8 w-full text-sm border-collapse">
         <thead><tr className="text-left border-b border-pine/30"><th className="py-2">Type</th><th>Guide price</th><th>Notes</th></tr></thead>

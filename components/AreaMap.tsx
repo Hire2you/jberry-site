@@ -2,7 +2,7 @@ import areas from '@/data/areas.json';
 import { VIEW, regionPaths, contextPath, markerPoints } from '@/lib/areaMapPaths';
 
 // Map of the South East built from real ONS boundary data (see scripts/generate-area-map.mjs).
-// Coverage regions (London, Essex, Kent) are highlighted; surrounding counties sit faintly behind.
+// Coverage regions (Hertfordshire, Essex) are highlighted; surrounding counties sit faintly behind.
 export default function AreaMap() {
   const { regions, hq } = areas;
   const hqPt = markerPoints.hq;
@@ -10,7 +10,7 @@ export default function AreaMap() {
     <svg
       viewBox={`0 0 ${VIEW.w} ${VIEW.h}`}
       role="img"
-      aria-label={`Map showing areas covered: ${regions.map((r) => r.name).join(', ')} — based in ${hq.name}`}
+      aria-label={`Map showing areas covered: ${regions.map((r) => r.name).join(', ')}. Based in ${hq.name}`}
       className="h-auto w-full"
     >
       <defs>
@@ -22,11 +22,8 @@ export default function AreaMap() {
       {/* Surrounding counties, faint, for context */}
       <path d={contextPath} fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.08)" strokeWidth="1" />
 
-      {/* Hertfordshire — home county, slightly brighter than context */}
-      <path d={regionPaths.herts} fill="rgba(255,255,255,0.03)" stroke="rgba(201,169,97,0.25)" strokeWidth="1" />
-
-      {/* Coverage regions */}
-      {[regionPaths.london, regionPaths.essex, regionPaths.kent].map((d, i) => (
+      {/* Coverage regions: Hertfordshire and Essex */}
+      {[regionPaths.herts, regionPaths.essex].map((d, i) => (
         <g key={i}>
           <path d={d} fill="rgba(255,255,255,0.05)" />
           <path d={d} fill="url(#map-lattice)" stroke="#C9A961" strokeWidth="1.1" strokeOpacity="0.55" strokeLinejoin="round" />
