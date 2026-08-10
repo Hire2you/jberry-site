@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Reveal from '@/components/Reveal';
+import BeforeAfterSlider from '@/components/BeforeAfterSlider';
 
 export type BeforeAfterPair = {
   id: string;
@@ -10,8 +10,7 @@ export type BeforeAfterPair = {
 };
 
 /**
- * Lightweight before-and-after gallery shell.
- * Populate `pairs` over time from genuine J.Berry loft photography only.
+ * Before-and-after gallery, populated over time from genuine J.Berry loft photography only.
  * Capture before / during / after on every future job.
  */
 export default function BeforeAfterGallery({
@@ -42,8 +41,9 @@ export default function BeforeAfterGallery({
         <p className="eyebrow">Transformation</p>
         <h3 className="mt-3 text-3xl md:text-4xl">{heading}</h3>
         <p className="mt-3 max-w-2xl text-stone leading-relaxed">{intro}</p>
+        <p className="mt-2 text-xs uppercase tracking-eyebrow text-goldDeep">Drag the slider to compare</p>
       </Reveal>
-      <div className="mt-10 grid gap-10">
+      <div className={`mt-10 grid gap-10 ${pairs.length > 1 ? 'md:grid-cols-2' : ''}`}>
         {pairs.map((pair, i) => (
           <Reveal key={pair.id} delay={i * 80}>
             <article>
@@ -58,34 +58,7 @@ export default function BeforeAfterGallery({
                   )}
                 </p>
               )}
-              <div className="grid gap-4 sm:grid-cols-2">
-                <figure className="relative aspect-[4/3] overflow-hidden bg-line/40">
-                  <Image
-                    src={pair.before.src}
-                    alt={pair.before.alt}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover"
-                    loading="lazy"
-                  />
-                  <figcaption className="absolute bottom-0 left-0 bg-charcoal/80 px-3 py-1.5 text-xs uppercase tracking-eyebrow text-white">
-                    Before
-                  </figcaption>
-                </figure>
-                <figure className="relative aspect-[4/3] overflow-hidden bg-line/40">
-                  <Image
-                    src={pair.after.src}
-                    alt={pair.after.alt}
-                    fill
-                    sizes="(max-width: 640px) 100vw, 50vw"
-                    className="object-cover"
-                    loading="lazy"
-                  />
-                  <figcaption className="absolute bottom-0 left-0 bg-charcoal/80 px-3 py-1.5 text-xs uppercase tracking-eyebrow text-white">
-                    After
-                  </figcaption>
-                </figure>
-              </div>
+              <BeforeAfterSlider before={pair.before} after={pair.after} className="border border-line shadow-[0_16px_48px_rgba(26,23,20,0.08)]" />
             </article>
           </Reveal>
         ))}
