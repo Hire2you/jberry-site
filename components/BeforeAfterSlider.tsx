@@ -48,7 +48,7 @@ export default function BeforeAfterSlider({ before, after, className = '' }: Bef
   return (
     <div
       ref={containerRef}
-      className={`group relative aspect-[4/3] w-full touch-none select-none overflow-hidden bg-line/40 ${className}`}
+      className={`group relative aspect-[16/10] w-full touch-none select-none overflow-hidden bg-line/40 ${className}`}
       onPointerDown={onPointerDown}
       onPointerMove={onPointerMove}
       onPointerUp={stopDragging}
@@ -106,10 +106,10 @@ export default function BeforeAfterSlider({ before, after, className = '' }: Bef
         aria-valuemin={0}
         aria-valuemax={100}
         onKeyDown={onKeyDown}
-        className="absolute top-1/2 z-[3] flex h-11 w-11 -translate-x-1/2 -translate-y-1/2 cursor-ew-resize items-center justify-center rounded-full border-2 border-gold bg-white shadow-[0_4px_16px_rgba(0,0,0,0.25)] outline-none transition-transform focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 group-hover:scale-105"
+        className="absolute top-1/2 z-[3] flex h-9 w-9 -translate-x-1/2 -translate-y-1/2 cursor-ew-resize items-center justify-center rounded-full border-2 border-gold bg-white shadow-[0_4px_16px_rgba(0,0,0,0.25)] outline-none transition-transform focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2 group-hover:scale-105"
         style={{ left: `${percent}%` }}
       >
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#B08D3E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#B08D3E" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
           <path d="M8 7l-5 5 5 5M16 7l5 5-5 5" />
         </svg>
       </div>

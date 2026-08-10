@@ -360,8 +360,8 @@ export default function ServiceLandingPage({
               <p className="eyebrow">Recent loft conversions</p>
               <h2 className="mt-3 text-4xl md:text-5xl">Built by Jason and his team</h2>
               <p className="mt-4 max-w-2xl text-stone leading-relaxed">
-                Genuine J.Berry loft work only. More photography is added as each conversion is completed and
-                photographed properly.
+                Genuine J.Berry loft work, drag the slider to compare. More added as each job is
+                photographed.
               </p>
             </Reveal>
             <div className="mt-10">

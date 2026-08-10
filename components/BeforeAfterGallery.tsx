@@ -15,54 +15,57 @@ export type BeforeAfterPair = {
  */
 export default function BeforeAfterGallery({
   pairs = [],
-  heading = 'Before and after',
-  intro = 'Genuine J.Berry loft conversions, shown as they were and as they finished. More pairs added as each job is photographed.',
+  ctaLabel = 'Get your itemised quote',
 }: {
   pairs?: BeforeAfterPair[];
-  heading?: string;
-  intro?: string;
+  ctaLabel?: string;
 }) {
   if (!pairs.length) {
     return (
-      <div className="border border-dashed border-line bg-white/50 px-6 py-10 text-center">
+      <div className="mx-auto max-w-2xl border border-dashed border-line bg-white/50 px-6 py-10 text-center">
         <p className="eyebrow">Coming soon</p>
-        <h3 className="mt-3 font-display text-2xl">{heading}</h3>
-        <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-stone">{intro}</p>
-        <p className="mt-4 text-xs text-stone">
-          Structure ready. Add before-and-after pairs when genuine loft photos are available.
+        <h3 className="mt-3 font-display text-2xl">Before and after</h3>
+        <p className="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-stone">
+          Genuine J.Berry loft conversions, shown as they were and as they finished. More pairs added as
+          each job is photographed.
         </p>
       </div>
     );
   }
 
+  const single = pairs.length === 1;
+
   return (
     <div>
-      <Reveal>
-        <p className="eyebrow">Transformation</p>
-        <h3 className="mt-3 text-3xl md:text-4xl">{heading}</h3>
-        <p className="mt-3 max-w-2xl text-stone leading-relaxed">{intro}</p>
-        <p className="mt-2 text-xs uppercase tracking-eyebrow text-goldDeep">Drag the slider to compare</p>
-      </Reveal>
-      <div className={`mt-10 grid gap-10 ${pairs.length > 1 ? 'md:grid-cols-2' : ''}`}>
+      <div className={`grid gap-8 ${single ? 'mx-auto max-w-2xl' : 'md:grid-cols-2'}`}>
         {pairs.map((pair, i) => (
           <Reveal key={pair.id} delay={i * 80}>
             <article>
+              <BeforeAfterSlider
+                before={pair.before}
+                after={pair.after}
+                className="border border-line shadow-[0_16px_48px_rgba(26,23,20,0.08)]"
+              />
               {(pair.title || pair.location) && (
-                <p className="mb-4 text-sm font-semibold uppercase tracking-eyebrow text-ink">
+                <p className="mt-3 text-xs font-semibold uppercase tracking-eyebrow text-stone">
                   {pair.title}
-                  {pair.location && (
-                    <span className="font-normal normal-case tracking-normal text-stone">
-                      {' '}
-                      · {pair.location}
-                    </span>
-                  )}
+                  {pair.location && <span className="font-normal normal-case tracking-normal"> · {pair.location}</span>}
                 </p>
               )}
-              <BeforeAfterSlider before={pair.before} after={pair.after} className="border border-line shadow-[0_16px_48px_rgba(26,23,20,0.08)]" />
             </article>
           </Reveal>
         ))}
       </div>
+      <Reveal delay={pairs.length * 80}>
+        <div className="mt-10 text-center">
+          <a
+            href="#quote"
+            className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+          >
+            {ctaLabel}
+          </a>
+        </div>
+      </Reveal>
     </div>
   );
 }
