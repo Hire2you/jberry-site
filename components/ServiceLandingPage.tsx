@@ -138,6 +138,11 @@ export default function ServiceLandingPage({
                   {landing.guaranteeLine && (
                     <p className="mt-4 max-w-xl text-sm text-white/75">{landing.guaranteeLine}</p>
                   )}
+                  {isLoft && (
+                    <div className="mt-5">
+                      <ReviewsBadges condensed />
+                    </div>
+                  )}
                 </div>
                 <div
                   id="quote"
