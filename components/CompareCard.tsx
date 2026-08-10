@@ -12,29 +12,37 @@ export type CompareData = {
   cta: string;
 };
 
-/** Placeholder icons — swap for final assets later. */
+/** Consistent, rounded line icons matched to each comparison point. */
 function MoveIcon({ index }: { index: number }) {
   const icons = [
-    // Stamp / tax
-    <svg key="stamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <rect x="4" y="6" width="16" height="12" rx="1" />
-      <path d="M8 10h8M8 14h5" />
+    // Stamp duty — receipt with a tax stamp
+    <svg key="stamp" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M6 3h9l3 3v15l-2.5-1.5L13 21l-2.5-1.5L8 21l-2-1.2V3z" />
+      <circle cx="15" cy="9.5" r="2.5" />
+      <path d="M8 15h5" />
     </svg>,
-    // Keys / legal
-    <svg key="keys" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <circle cx="8" cy="8" r="3" />
-      <path d="M11 8h10v3h-3v3" />
+    // Estate agent & legal fees — handshake
+    <svg key="handshake" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M2 12.5l4-4 4 2.5" />
+      <path d="M22 12.5l-4-4-3 2" />
+      <path d="M6 8.5l4.5 4.5a1.7 1.7 0 0 0 2.4 0 1.7 1.7 0 0 0 0-2.4" />
+      <path d="M13.5 11l1.3 1.3a1.7 1.7 0 0 1 0 2.4 1.7 1.7 0 0 1-2.4 0" />
+      <path d="M12.4 14.7a1.7 1.7 0 0 1-2.4 2.4" />
+      <path d="M2 12.5V18h3M22 12.5V18h-3" />
     </svg>,
-    // Moving box
-    <svg key="box" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <path d="M3 8l9-4 9 4v10l-9 4-9-4V8z" />
-      <path d="M12 4v18M3 8l9 4 9-4" />
+    // Removals & upheaval — moving van
+    <svg key="truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M2 6h10v10H2z" />
+      <path d="M12 10h4l4 3.2V16h-8z" />
+      <circle cx="6" cy="18" r="1.8" />
+      <circle cx="17" cy="18" r="1.8" />
     </svg>,
-    // Empty house
-    <svg key="house" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <path d="M3 12l9-8 9 8" />
-      <path d="M5 10v10h14V10" />
-      <path d="M9 20v-6h6v6" strokeDasharray="2 2" />
+    // Paying a premium — coin stack with upward arrow
+    <svg key="premium" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <ellipse cx="9" cy="7" rx="6" ry="2.5" />
+      <path d="M3 7v4c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5V7" />
+      <path d="M3 11v4c0 1.4 2.7 2.5 6 2.5s6-1.1 6-2.5v-4" />
+      <path d="M17 9l3.5-3.5M21 9V5.5h-3.5" />
     </svg>,
   ];
   return icons[index % icons.length];
@@ -42,26 +50,26 @@ function MoveIcon({ index }: { index: number }) {
 
 function StayIcon({ index }: { index: number }) {
   const icons = [
-    // Home / equity
-    <svg key="home" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <path d="M3 12l9-8 9 8" />
-      <path d="M5 10v10h14V10" />
-      <path d="M9 20v-6h6v6" />
+    // Structure already there — roof / loft
+    <svg key="roof" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M3 12L12 4l9 8" />
+      <path d="M6 10.5V20h12v-9.5" />
+      <path d="M6 10.5L12 6l6 4.5" />
+      <path d="M10 20v-4h4v4" />
     </svg>,
-    // No chain
-    <svg key="chain" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <path d="M8 12a4 4 0 0 1 4-4h1a4 4 0 0 1 0 8h-1a4 4 0 0 1-4-4" />
-      <path d="M16 12a4 4 0 0 1-4 4h-1a4 4 0 0 1 0-8h1a4 4 0 0 1 4 4" strokeDasharray="3 3" />
+    // Not an inch of garden lost — leaf
+    <svg key="leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M11 20a7 7 0 0 1-7-7c0-4 2-8 8-13 6 5 8 9 8 13a7 7 0 0 1-7 7 6.9 6.9 0 0 1-2-.3" />
+      <path d="M11.5 20V10" />
     </svg>,
-    // Design / plan
-    <svg key="plan" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <rect x="3" y="3" width="18" height="18" rx="1" />
-      <path d="M3 9h18M9 3v18" />
+    // Quickest way — speed / bolt
+    <svg key="bolt" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M13 2 4 14h7l-1 8 9-12h-7l1-8z" />
     </svg>,
-    // Value / upward
-    <svg key="value" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="h-4 w-4">
-      <path d="M4 18l6-8 4 5 6-10" />
-      <path d="M18 5h2v2" />
+    // Value added — trending up
+    <svg key="trend" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" className="h-5 w-5">
+      <path d="M3 17l6.5-6.5 4 4L21 6" />
+      <path d="M15 6h6v6" />
     </svg>,
   ];
   return icons[index % icons.length];
@@ -125,10 +133,10 @@ export default function CompareCard({ compare }: { compare: CompareData }) {
             <li key={item} className="flex items-start gap-3">
               <span
                 aria-hidden="true"
-                className={`mt-0.5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full ${
+                className={`flex h-11 w-11 shrink-0 items-center justify-center rounded-full border ${
                   variant === 'move'
-                    ? 'bg-line/80 text-stone/70'
-                    : 'bg-gold/20 text-goldDeep'
+                    ? 'border-line/70 bg-white text-stone'
+                    : 'border-gold/30 bg-gold/10 text-goldDeep'
                 }`}
               >
                 {variant === 'move' ? <MoveIcon index={i} /> : <StayIcon index={i} />}
