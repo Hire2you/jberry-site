@@ -117,11 +117,11 @@ export default function ServiceLandingPage({
                   <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">
                     {landing.heroEyebrow}
                   </p>
-                  <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
+                  <h1 className="mt-5 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
                     {landing.heroHeadline}
                   </h1>
-                  <p className="mt-4 max-w-xl text-white/85">{landing.heroSub}</p>
-                  <div className="mt-7 flex flex-wrap gap-3">
+                  <p className="mt-6 max-w-xl text-white/85">{landing.heroSub}</p>
+                  <div className="mt-9 flex flex-wrap gap-3">
                     <a
                       href="#quote"
                       className="inline-block bg-gold px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-charcoalDeep transition-colors hover:bg-white"
@@ -136,10 +136,10 @@ export default function ServiceLandingPage({
                     </a>
                   </div>
                   {landing.guaranteeLine && (
-                    <p className="mt-4 max-w-xl text-sm text-white/75">{landing.guaranteeLine}</p>
+                    <p className="mt-6 max-w-xl text-sm text-white/75">{landing.guaranteeLine}</p>
                   )}
                   {isLoft && (
-                    <div className="mt-5">
+                    <div className="mt-7">
                       <ReviewsBadges condensed />
                     </div>
                   )}
@@ -365,7 +365,22 @@ export default function ServiceLandingPage({
               </p>
             </Reveal>
             <div className="mt-10">
-              <BeforeAfterGallery />
+              <BeforeAfterGallery
+                pairs={[
+                  {
+                    id: 'roof-and-dormer',
+                    title: 'Roof re-cover and rear dormer',
+                    before: {
+                      src: '/images/loft-before-after-1-before.webp',
+                      alt: 'Roof before the loft conversion, freshly re-slated with scaffolding up and the dormer frame under construction',
+                    },
+                    after: {
+                      src: '/images/loft-before-after-1-after.webp',
+                      alt: 'Finished rear dormer loft conversion with slate cladding, uPVC windows and a Juliet balcony',
+                    },
+                  },
+                ]}
+              />
             </div>
           </div>
         </section>
