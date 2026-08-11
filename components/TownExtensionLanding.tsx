@@ -1,0 +1,411 @@
+import Image from 'next/image';
+import Link from 'next/link';
+import { site } from '@/lib/site';
+import type { SanityProject } from '@/lib/projects';
+import { toCarouselSlides } from '@/lib/projects';
+import type { Testimonial } from '@/lib/testimonials';
+import TrustBar from '@/components/TrustBar';
+import ProjectCarousel from '@/components/ProjectCarousel';
+import FaqSection from '@/components/FaqSection';
+import LeadForm from '@/components/LeadForm';
+import TestimonialShowcase from '@/components/TestimonialShowcase';
+import Reveal from '@/components/Reveal';
+import GoldPattern from '@/components/GoldPattern';
+import SectionIndex from '@/components/SectionIndex';
+import { sanityFetch } from '@/sanity/live';
+import { PROJECTS_BY_TYPE_QUERY, TESTIMONIALS_BY_CATEGORY_QUERY } from '@/sanity/queries';
+
+export type TownExtensionLandingData = {
+  serviceSlug: string;
+  town: string;
+  county: string;
+  countySlug: string;
+  townSlug: string;
+  hero: {
+    image: { src: string; alt: string; caption?: string };
+    eyebrow: string;
+    headline: string;
+  };
+  intro: {
+    paragraphs: string[];
+    cta: { title: string; text: string; secondaryCta: string };
+  };
+  homes: {
+    title: string;
+    intro: string;
+    body: string;
+    closing: string;
+    image: { src: string; alt: string };
+  };
+  flood: { title: string; paragraphs: string[] };
+  planning: { title: string; paragraphs: string[] };
+  cost: {
+    title: string;
+    paragraphs: string[];
+    cta: { title: string; text: string; secondaryCta: string };
+  };
+  buildProcess: { title: string; text: string };
+  recentWork: { title: string; placeholder: string };
+  testimonials: { placeholder: string };
+  faqs: { q: string; a: string }[];
+  relatedLinks: { href: string; label: string }[];
+  cta: { eyebrow: string; title: string; text: string };
+};
+
+export default async function TownExtensionLanding({ data }: { data: TownExtensionLandingData }) {
+  const { serviceSlug, town, county, hero } = data;
+
+  const [{ data: projectData }, { data: testimonialData }] = await Promise.all([
+    sanityFetch({
+      query: PROJECTS_BY_TYPE_QUERY,
+      params: { projectType: 'extension' },
+    }),
+    sanityFetch({
+      query: TESTIMONIALS_BY_CATEGORY_QUERY,
+      params: { category: 'extension' },
+    }),
+  ]);
+
+  const carouselProjects = toCarouselSlides((projectData || []) as SanityProject[]);
+  const testimonials = (testimonialData || []) as Testimonial[];
+  const hasTestimonials = testimonials.length > 0;
+
+  return (
+    <>
+      {/* Hero + carousel */}
+      <div className="bg-band">
+        <section className="relative overflow-hidden">
+          <div className="relative w-full">
+            <Image
+              src={hero.image.src}
+              alt={hero.image.alt}
+              fill
+              priority
+              fetchPriority="high"
+              quality={70}
+              sizes="100vw"
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-band from-[10%] via-black/75 via-[50%] to-black/45" />
+            <div className="absolute inset-x-0 top-0 bottom-20 hidden bg-gradient-to-l from-black/55 via-transparent to-transparent md:bottom-24 lg:block" />
+            <div className="pointer-events-none absolute inset-x-0 bottom-0 z-[1] h-20 bg-band md:h-24" aria-hidden="true" />
+            <div className="relative z-[2]">
+              <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 pb-12 pt-[4.5rem] md:pt-24 lg:min-h-[600px] lg:grid-cols-[1fr,400px] lg:gap-14 lg:pb-16">
+                <div>
+                  <p className="eyebrow !text-[#EBCF8E] [text-shadow:0_1px_8px_rgba(0,0,0,0.7)] md:[text-shadow:none]">
+                    {hero.eyebrow}
+                  </p>
+                  <h1 className="mt-3 max-w-2xl text-5xl leading-[1.05] text-white md:text-6xl md:[text-shadow:0_2px_12px_rgba(0,0,0,0.45)]">
+                    {hero.headline}
+                  </h1>
+                  <p className="mt-4 max-w-xl text-white/85">{data.intro.paragraphs[0]}</p>
+                  <div className="mt-7 flex flex-wrap items-center gap-4">
+                    <a
+                      href={site.phoneHref}
+                      className="inline-block border border-white/80 bg-charcoalDeep/30 px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:border-gold hover:text-gold"
+                    >
+                      Call {site.phone}
+                    </a>
+                    <a
+                      href="#quote"
+                      className="text-sm font-semibold text-white underline decoration-gold underline-offset-4 hover:text-gold"
+                    >
+                      Request a callback
+                    </a>
+                  </div>
+                </div>
+                <div
+                  id="quote"
+                  className="scroll-mt-28 border border-gold bg-white p-6 shadow-[0_16px_48px_rgba(0,0,0,0.35)] md:p-8"
+                >
+                  <p className="eyebrow">Your detailed quotation</p>
+                  <p className="mt-2 font-display text-2xl leading-snug">Priced line by line, before you commit</p>
+                  <div className="mt-5">
+                    <LeadForm compact service={serviceSlug} location={data.townSlug} />
+                  </div>
+                  <p className="mt-4 text-xs leading-relaxed text-stone">
+                    Free site visit, no obligation · Same working day reply
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <ProjectCarousel projects={carouselProjects} />
+      </div>
+
+      <TrustBar />
+
+      {/* Intro + inline CTA */}
+      <section className="relative">
+        <SectionIndex label="01 · Intro" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">House extensions in {town}</p>
+            <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.intro.paragraphs[1]}</p>
+          </Reveal>
+          <Reveal delay={100}>
+            <div className="mt-12 border border-gold bg-ivory p-8 md:p-10">
+              <h2 className="font-display text-3xl md:text-4xl">{data.intro.cta.title}</h2>
+              <p className="mt-4 max-w-2xl text-stone leading-relaxed">{data.intro.cta.text}</p>
+              <div className="mt-7 flex flex-wrap items-center gap-4">
+                <a
+                  href={site.phoneHref}
+                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  Call {site.phone}
+                </a>
+                <a
+                  href="#quote"
+                  className="text-sm font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                >
+                  {data.intro.cta.secondaryCta}
+                </a>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+        <figure className="relative aspect-[21/9] w-full md:aspect-[3/1]">
+          <Image src={hero.image.src} alt={hero.image.alt} fill sizes="100vw" className="object-cover" />
+          {hero.image.caption && (
+            <figcaption className="absolute bottom-0 left-0 right-0 bg-charcoal/80 px-4 py-3 text-sm text-white/90">
+              {hero.image.caption}
+            </figcaption>
+          )}
+        </figure>
+      </section>
+
+      {/* Chelmsford homes */}
+      <section className="relative bg-ivory">
+        <GoldPattern id={`lattice-homes-${data.townSlug}`} />
+        <SectionIndex label="02 · Homes" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+          <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
+            <Reveal>
+              <p className="eyebrow">Matched to your home</p>
+              <h2 className="mt-3 max-w-xl text-4xl md:text-5xl">{data.homes.title}</h2>
+              <p className="mt-4 text-stone leading-relaxed">{data.homes.intro}</p>
+              <p className="mt-6 text-stone leading-relaxed">{data.homes.body}</p>
+              <p className="mt-6 font-display italic text-lg text-stone">{data.homes.closing}</p>
+              <a
+                href="#quote"
+                className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+              >
+                Book a free site visit
+              </a>
+            </Reveal>
+            <Reveal delay={120}>
+              <div className="img-zoom relative aspect-[4/5]">
+                <Image
+                  src={data.homes.image.src}
+                  alt={data.homes.image.alt}
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
+            </Reveal>
+          </div>
+        </div>
+      </section>
+
+      {/* Flood risk */}
+      <section className="relative">
+        <SectionIndex label="03 · Flood & ground" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">Local conditions</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.flood.title}</h2>
+          </Reveal>
+          <div className="mt-10 grid gap-6 md:grid-cols-3">
+            {data.flood.paragraphs.map((para, i) => (
+              <Reveal key={para.slice(0, 40)} delay={i * 80}>
+                <p className="text-stone leading-relaxed">{para}</p>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Planning */}
+      <section className="relative bg-ivory">
+        <GoldPattern id={`lattice-planning-${data.townSlug}`} />
+        <SectionIndex label="04 · Planning" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">Planning & regulations</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.planning.title}</h2>
+          </Reveal>
+          <div className="mt-10 max-w-3xl space-y-6">
+            {data.planning.paragraphs.map((para, i) => (
+              <Reveal key={para.slice(0, 48)} delay={i * 60}>
+                <p className="text-stone leading-relaxed">{para}</p>
+              </Reveal>
+            ))}
+          </div>
+          <Reveal delay={200}>
+            <div className="mt-10">
+              <a
+                href="#quote"
+                className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+              >
+                We handle this as part of the job
+              </a>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Cost */}
+      <section className="relative">
+        <SectionIndex label="05 · Cost" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">Cost, in the open</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.cost.title}</h2>
+            <div className="mt-8 max-w-3xl space-y-6">
+              {data.cost.paragraphs.map((para) => (
+                <p key={para.slice(0, 48)} className="text-stone leading-relaxed">
+                  {para}
+                </p>
+              ))}
+            </div>
+          </Reveal>
+          <Reveal delay={100}>
+            <div className="mt-12 border border-gold bg-ivory p-8 md:p-10">
+              <h3 className="font-display text-3xl md:text-4xl">{data.cost.cta.title}</h3>
+              <p className="mt-4 max-w-2xl text-stone leading-relaxed">{data.cost.cta.text}</p>
+              <div className="mt-7 flex flex-wrap items-center gap-4">
+                <a
+                  href={site.phoneHref}
+                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  Call {site.phone}
+                </a>
+                <a
+                  href="#quote"
+                  className="text-sm font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                >
+                  {data.cost.cta.secondaryCta}
+                </a>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Build process */}
+      <section className="relative border-y border-line bg-white">
+        <SectionIndex label="06 · Process" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">How it works</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.buildProcess.title}</h2>
+            <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.buildProcess.text}</p>
+            <a
+              href="#quote"
+              className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+            >
+              Start with a site visit
+            </a>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Recent work placeholder */}
+      <section className="relative bg-ivory">
+        <GoldPattern id={`lattice-projects-${data.townSlug}`} />
+        <SectionIndex label="07 · Projects" />
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">Local work</p>
+            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.recentWork.title}</h2>
+            <p className="mt-6 max-w-2xl border border-dashed border-line bg-white/60 p-6 text-sm italic text-stone">
+              {data.recentWork.placeholder}
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="relative">
+        <SectionIndex label="08 · Reviews" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          {hasTestimonials ? (
+            <Reveal>
+              <p className="eyebrow">What homeowners say</p>
+              <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Trusted by homeowners across {county}</h2>
+              <div className="mt-10">
+                <TestimonialShowcase testimonials={testimonials} />
+              </div>
+            </Reveal>
+          ) : (
+            <Reveal>
+              <p className="eyebrow">What homeowners say</p>
+              <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Homeowner reviews</h2>
+              <p className="mt-6 max-w-xl border border-dashed border-line bg-ivory p-6 text-sm italic text-stone">
+                {data.testimonials.placeholder}
+              </p>
+            </Reveal>
+          )}
+        </div>
+      </section>
+
+      <FaqSection
+        faqs={data.faqs}
+        label="09 · Questions"
+        heading={`House extension questions in ${town}, answered straight`}
+        intro={`The questions every ${town} homeowner asks at the first site visit.`}
+      />
+
+      {/* Related links */}
+      <section className="relative">
+        <SectionIndex label="10 · Next steps" />
+        <div className="mx-auto max-w-6xl px-4 py-20">
+          <Reveal>
+            <p className="eyebrow">Useful next steps</p>
+            <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Keep reading</h2>
+            <div className="mt-8 flex flex-wrap gap-3">
+              {data.relatedLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </div>
+            <p className="mt-8 text-sm text-stone">
+              Back to{' '}
+              <Link
+                href={`/${serviceSlug}`}
+                className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+              >
+                house extensions across Hertfordshire and Essex
+              </Link>
+            </p>
+          </Reveal>
+        </div>
+      </section>
+
+      {/* Closing CTA */}
+      <section className="bg-charcoalDeep text-white">
+        <div className="mx-auto grid max-w-6xl gap-12 px-4 py-20 md:grid-cols-2">
+          <Reveal>
+            <p className="eyebrow">{data.cta.eyebrow}</p>
+            <h2 className="mt-3 text-4xl md:text-5xl">{data.cta.title}</h2>
+            <p className="mt-5 text-white/70">{data.cta.text}</p>
+            <p className="mt-6 font-display text-2xl text-gold">
+              <a href={site.phoneHref}>{site.phone}</a>
+            </p>
+          </Reveal>
+          <Reveal delay={120}>
+            <LeadForm dark service={serviceSlug} location={data.townSlug} />
+          </Reveal>
+        </div>
+      </section>
+    </>
+  );
+}

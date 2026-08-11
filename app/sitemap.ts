@@ -59,7 +59,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const locationPages = locationSitemapEntries((locationData || []) as SitemapLocation[])
 
-  const countyHubs = [{url: `${site.domain}/loft-conversions/essex`, changeFrequency: 'monthly' as const}]
+  const countyHubs = [
+    {url: `${site.domain}/loft-conversions/essex`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/chelmsford`, changeFrequency: 'monthly' as const},
+  ]
 
   return [
     {url: site.domain, changeFrequency: 'weekly'},

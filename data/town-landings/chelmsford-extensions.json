@@ -1,0 +1,117 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Chelmsford",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "chelmsford",
+  "seo": {
+    "title": "House Extensions in Chelmsford | J Berry Construction",
+    "description": "Extension design and build across Chelmsford, from new-build estates to Victorian terraces and the villages. Planning, flood and drainage handled. Free visit. Call.",
+    "canonical": "/extensions/essex/chelmsford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Chelmsford by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Chelmsford."
+    },
+    "eyebrow": "House extensions · Chelmsford",
+    "headline": "House Extensions in Chelmsford"
+  },
+  "intro": {
+    "paragraphs": [
+      "Chelmsford is the only city in this part of Essex, and it has been growing faster than almost anywhere in the county. New neighbourhoods at Beaulieu, Channels and Chelmer Waterside, a second railway station opened in 2025, thousands of new homes going up. And threaded through all of it, streets of Victorian terraces, postwar semis, and village houses out in Writtle, Great Baddow and Broomfield.",
+      "It is a broad, busy place, and the extensions people want here are just as varied. We build them across the whole mix, from a rear extension on a new-build estate house to opening up a tired Victorian terrace near the centre, managing the design, planning, building regulations and construction as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending in Chelmsford?",
+      "text": "Have a chat with us first. The site visit is free, there is no obligation, and you will come away knowing what is realistic on your home and what the planning looks like.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "Chelmsford homes, and what they tend to need",
+    "intro": "The city's housing splits roughly three ways, and each comes with its own kind of project.",
+    "body": "On the newer estates, the houses are well built but often short on ground-floor living space, so the usual job is a rear or wrap-around extension to make a proper open kitchen and family room. The Victorian and Edwardian homes around Moulsham, New London Road and Springfield tend to want a side return or rear extension and a good deal of modernising behind the period frontage. And the postwar semis and village houses are ideal candidates for rear extensions, double storeys and loft conversions to add bedrooms as families grow.",
+    "closing": "Whichever yours is, we plan the extension around the house rather than dropping a standard box on the back.",
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "flood": {
+    "title": "Rivers, flood risk and the ground beneath",
+    "paragraphs": [
+      "If there is one thing that sets building in Chelmsford apart, it is water. The city grew up where the Chelmer and the Can meet, with the Wid close by, and until the flood schemes of the 1960s the centre flooded regularly. It is still officially a Flood Risk Area, and the low-lying ground along the rivers and in the city's critical drainage areas can be caught by surface water in heavy rain.",
+      "For an extension, that has real consequences. On a plot near the rivers or in a flood-prone pocket, a project can need a flood risk assessment, raised floor levels, and drainage designed to modern sustainable standards rather than simply piped into an already busy system. Get that right early and it is straightforward. Ignore it and it stalls an application or, worse, causes trouble later.",
+      "The ground itself is mostly London Clay, which shifts with the seasons and near trees, with softer river gravels and alluvium down in the valleys and firmer glacial ground up on the ridges to the north and south. Near the water, foundations and drainage need more thought, which is exactly the sort of thing we check before pricing the work."
+    ]
+  },
+  "planning": {
+    "title": "Planning in a growing city",
+    "paragraphs": [
+      "Your planning authority is Chelmsford City Council, and there is one local catch that trips up a lot of homeowners on the newer estates.",
+      "Many new developments have permitted development rights removed by planning condition. In plain terms, that means the automatic right to extend without an application, which you would normally have, has been switched off for your house, so even a modest rear extension may need full permission. It is one of the first things we check, because assuming you are covered when you are not is an expensive mistake.",
+      "Closer to the centre, the picture is the older one: Chelmsford has a good number of conservation areas, including the central streets, Moulsham Street and New London Road, where permitted development is reduced and design is looked at closely. Listed buildings need separate consent. From April 2028 Chelmsford City Council becomes part of the new Mid Essex Council, though the rules carry over. Whatever regime your home falls under, we work it out and handle the application."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Chelmsford",
+    "paragraphs": [
+      "Cost depends on size, specification, structural work and finish, and on a flood-prone or difficult plot the groundwork and drainage can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure for your actual project."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will price the actual work, drainage and groundwork included, with a clear itemised quote and no pressure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "Rather than repeat a one-size-fits-all timeline, we set out the actual programme for your project at the site visit, allowing for its size, the ground and the time of year. If you want a feel for how a typical extension runs, week by week, our guide on what to expect during your build walks through it from groundworks to handover."
+  },
+  "recentWork": {
+    "title": "Recent work in Chelmsford",
+    "placeholder": "Real project slot. A completed Chelmsford project, whether a new-estate extension or a period-home reworking, will make this page far stronger. Send one and it goes here."
+  },
+  "testimonials": {
+    "placeholder": "Testimonial slot."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission to extend a new-build house in Chelmsford?",
+      "a": "Often, yes, and this catches people out. Many of Chelmsford's newer estates have permitted development rights removed by planning condition, so even a modest extension can need a full application. We check your property's conditions with Chelmsford City Council before you plan anything."
+    },
+    {
+      "q": "Does flood risk affect my extension?",
+      "a": "It can, if your home is near the Chelmer, Can or Wid or in one of the city's critical drainage areas. A project there may need a flood risk assessment, raised floor levels and sustainable drainage. We identify this early and handle it, so it does not derail your application."
+    },
+    {
+      "q": "Do I need permission to extend a period home near the city centre?",
+      "a": "Possibly. Chelmsford has several conservation areas, including the central streets, Moulsham Street and New London Road, where permitted development is reduced and design is judged closely, and listed buildings need separate consent. We confirm exactly how your home is affected."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit and give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Why does the ground near the rivers matter?",
+      "a": "Along the river valleys the ground is softer river gravel and alluvium, and drainage is tighter because the clay does not soak water away well. That affects foundations and how the extension drains, so we check it before starting rather than meeting it mid-build."
+    },
+    {
+      "q": "Which parts of Chelmsford and which villages do you cover?",
+      "a": "The city itself, including Springfield, Moulsham, Great Baddow, Beaulieu and Chelmer Village, and the surrounding villages such as Writtle, Broomfield, Galleywood and Danbury. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending in Chelmsford?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is realistic on your home, what the planning looks like, and what it would cost. No pressure, and no obligation to proceed."
+  }
+}

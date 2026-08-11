@@ -73,6 +73,39 @@ export function breadcrumbSchema(items: { name: string; path: string }[]) {
   };
 }
 
+/** Town landing Service schema: scoped to one City (e.g. Chelmsford). */
+export function townServiceSchema({
+  serviceType,
+  townName,
+  path,
+}: {
+  serviceType: string;
+  townName: string;
+  path: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    serviceType,
+    provider: {
+      '@type': 'GeneralContractor',
+      name: site.name,
+      url: site.domain,
+      telephone: e164Phone(site.phone),
+      address: {
+        '@type': 'PostalAddress',
+        streetAddress: '19 Mansfield, High Wych',
+        addressLocality: 'Sawbridgeworth',
+        addressRegion: 'Hertfordshire',
+        postalCode: 'CM21 0JT',
+        addressCountry: 'GB',
+      },
+    },
+    areaServed: { '@type': 'City', name: townName },
+    url: `${site.domain}${path}`,
+  };
+}
+
 /** County-hub Service schema: scoped to one AdministrativeArea (e.g. Essex). */
 export function countyServiceSchema({
   serviceType,
