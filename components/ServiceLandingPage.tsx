@@ -19,6 +19,7 @@ import CompareCard from '@/components/CompareCard';
 import Reveal from '@/components/Reveal';
 import GoldPattern from '@/components/GoldPattern';
 import SectionIndex from '@/components/SectionIndex';
+import { ArrowRight, HardHat, ShieldCheck, Users } from 'lucide-react';
 import type { Testimonial } from '@/lib/testimonials';
 import type { CarouselSlide } from '@/lib/projects';
 import { locationPageHref, type LocationPage } from '@/lib/locations';
@@ -437,20 +438,37 @@ export default function ServiceLandingPage({
       )}
 
       {/* Director */}
-      <section className="relative overflow-x-clip border-y border-line">
+      <section className="relative overflow-x-clip bg-ivory">
+        <GoldPattern id={`lattice-director-${serviceSlug}`} />
         <SectionIndex label={isLoft ? '05 · The team' : '05 · The director'} />
-        <div className="mx-auto max-w-6xl px-4 py-20">
-          <div className="grid gap-10 lg:grid-cols-[2fr,3fr] lg:items-center lg:gap-16">
+        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+          <div className="grid gap-14 lg:grid-cols-[2fr,3fr] lg:items-center lg:gap-16">
             <Reveal>
-              <div className={`img-zoom relative ${landing.directorImageAspect ?? 'aspect-[3/4]'}`}>
-                <Image
-                  src={landing.directorImage?.src ?? images.director.src}
-                  alt={landing.directorImage?.alt ?? images.director.alt}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                  className="object-cover"
-                  loading="lazy"
+              <div className="relative">
+                <div
+                  aria-hidden="true"
+                  className="absolute -inset-3 hidden border border-gold/30 sm:block lg:-inset-4"
                 />
+                <div className={`img-zoom relative ${landing.directorImageAspect ?? 'aspect-[3/4]'}`}>
+                  <Image
+                    src={landing.directorImage?.src ?? images.director.src}
+                    alt={landing.directorImage?.alt ?? images.director.alt}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 40vw"
+                    className="object-cover"
+                    loading="lazy"
+                  />
+                </div>
+                {isLoft && (
+                  <div className="absolute -bottom-5 -right-3 bg-charcoal px-5 py-4 text-white shadow-[0_16px_40px_rgba(26,23,20,0.25)] sm:-right-6">
+                    <p className="font-display text-3xl leading-none text-gold">100+</p>
+                    <p className="mt-1 text-[11px] font-semibold uppercase tracking-eyebrow text-white/80">
+                      Loft conversions
+                      <br />
+                      completed
+                    </p>
+                  </div>
+                )}
               </div>
             </Reveal>
             <Reveal delay={120}>
@@ -460,12 +478,41 @@ export default function ServiceLandingPage({
               {landing.scarcityLine && (
                 <p className="mt-5 text-stone leading-relaxed">{landing.scarcityLine}</p>
               )}
+
+              <div className="mt-8 flex flex-wrap items-center gap-x-8 gap-y-4 border-t border-line pt-6">
+                <div className="flex items-center gap-2.5">
+                  <HardHat className="h-5 w-5 shrink-0 text-gold" strokeWidth={1.75} aria-hidden="true" />
+                  <span className="text-sm text-ink">
+                    <span className="font-semibold">15–20</span> projects a year
+                  </span>
+                </div>
+                <div className="flex items-center gap-2.5">
+                  <Users className="h-5 w-5 shrink-0 text-gold" strokeWidth={1.75} aria-hidden="true" />
+                  <span className="text-sm text-ink">
+                    <span className="font-semibold">Same team</span> on every job
+                  </span>
+                </div>
+                {landing.guaranteeLine && (
+                  <div className="flex items-center gap-2.5">
+                    <ShieldCheck className="h-5 w-5 shrink-0 text-gold" strokeWidth={1.75} aria-hidden="true" />
+                    <span className="text-sm text-ink">
+                      <span className="font-semibold">10-year</span> guarantee
+                    </span>
+                  </div>
+                )}
+              </div>
+
               <div className="mt-8 flex flex-wrap gap-4">
                 <a
                   href="#quote"
-                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                  className="group inline-flex items-center gap-2 bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
                 >
                   Get your quote from {site.director}
+                  <ArrowRight
+                    className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1"
+                    strokeWidth={2}
+                    aria-hidden="true"
+                  />
                 </a>
               </div>
               {landing.guaranteeLine && (
