@@ -71,13 +71,6 @@
     "title": "How your build will run",
     "text": "Rather than repeat a one-size-fits-all timeline, we set out the actual programme for your project at the site visit, allowing for its size, the ground and the time of year. If you want a feel for how a typical extension runs, week by week, our guide on what to expect during your build walks through it from groundworks to handover."
   },
-  "recentWork": {
-    "title": "Recent work in Chelmsford",
-    "placeholder": "Real project slot. A completed Chelmsford project, whether a new-estate extension or a period-home reworking, will make this page far stronger. Send one and it goes here."
-  },
-  "testimonials": {
-    "placeholder": "Testimonial slot."
-  },
   "faqs": [
     {
       "q": "Do I need planning permission to extend a new-build house in Chelmsford?",
@@ -106,6 +99,7 @@
   ],
   "relatedLinks": [
     { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
     { "href": "/loft-conversions", "label": "Loft conversions" },
     { "href": "/contact", "label": "Contact us" }
   ],
