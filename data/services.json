@@ -260,7 +260,10 @@
         "Plastering and insulation to current regs (decoration priced separately if you'd like us to handle it)",
         "A build schedule with a start date and a finish date, agreed before we begin"
       ],
-      "costLink": null,
+      "costLink": {
+        "href": "/blog/house-extension-cost-guide",
+        "label": "Read the house extension cost guide"
+      },
       "directorHeadline": "Your extension, run by the director. Not handed to a foreman.",
       "directorBody": "Jason surveys every extension, prices every quotation and runs every build to handover himself. Across 15 to 20 projects a year he's on each one, so when you call, you're talking to the person who priced your job and is standing on your scaffold. Not a call centre, not a manager you've never met.",
       "processSteps": [
