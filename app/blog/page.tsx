@@ -11,6 +11,7 @@ import {
   readingMinutes,
   type BlogPostListItem,
 } from '@/lib/blog'
+import {mergeBlogPosts, staticPostCover} from '@/lib/static-blog'
 import {sanityFetch} from '@/sanity/live'
 import {POSTS_QUERY} from '@/sanity/queries'
 
@@ -21,9 +22,20 @@ export const metadata: Metadata = {
   alternates: {canonical: '/blog'},
 }
 
+function postImage(post: BlogPostListItem) {
+  const staticCover = staticPostCover(post.slug)
+  if (staticCover) {
+    return {src: staticCover.coverSrc, alt: staticCover.coverAlt}
+  }
+  return {
+    src: coverImageUrl(post.coverImage),
+    alt: coverImageAlt(post.coverImage, post.title),
+  }
+}
+
 export default async function BlogIndex() {
   const {data} = await sanityFetch({query: POSTS_QUERY})
-  const posts = (data || []) as BlogPostListItem[]
+  const posts = mergeBlogPosts((data || []) as BlogPostListItem[])
   const [featured, ...rest] = posts
 
   return (
@@ -54,8 +66,8 @@ export default async function BlogIndex() {
             >
               <div className="img-zoom relative aspect-[16/10]">
                 <Image
-                  src={coverImageUrl(featured.coverImage)}
-                  alt={coverImageAlt(featured.coverImage, featured.title)}
+                  src={postImage(featured).src}
+                  alt={postImage(featured).alt}
                   fill
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-cover"
@@ -91,33 +103,37 @@ export default async function BlogIndex() {
               <p className="eyebrow">All articles</p>
             </Reveal>
             <div className="mt-8 grid gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-3">
-              {rest.map((post, i) => (
-                <Reveal key={post._id} delay={i * 100}>
-                  <Link href={`/blog/${post.slug}`} className="group block">
-                    <div className="img-zoom relative aspect-[16/10]">
-                      <Image
-                        src={coverImageUrl(post.coverImage, 900, 560)}
-                        alt={coverImageAlt(post.coverImage, post.title)}
-                        fill
-                        sizes="(max-width: 640px) 100vw, 33vw"
-                        className="object-cover"
-                      />
-                      {post.category && (
-                        <span className="absolute left-0 top-4 bg-charcoal px-3 py-1.5 text-xs font-semibold uppercase tracking-eyebrow text-gold">
-                          {post.category}
-                        </span>
-                      )}
-                    </div>
-                    <p className="mt-4 text-xs font-semibold uppercase tracking-eyebrow text-stone">
-                      {formatPostDate(post.publishedAt)} · {readingMinutes(post.plainText)} min read
-                    </p>
-                    <h2 className="mt-2 text-2xl transition-colors group-hover:text-goldDeep">
-                      {post.title}
-                    </h2>
-                    <p className="mt-3 text-sm leading-relaxed text-stone">{post.description}</p>
-                  </Link>
-                </Reveal>
-              ))}
+              {rest.map((post, i) => {
+                const image = postImage(post)
+                return (
+                  <Reveal key={post._id} delay={i * 100}>
+                    <Link href={`/blog/${post.slug}`} className="group block">
+                      <div className="img-zoom relative aspect-[16/10]">
+                        <Image
+                          src={image.src}
+                          alt={image.alt}
+                          fill
+                          sizes="(max-width: 640px) 100vw, 33vw"
+                          className="object-cover"
+                        />
+                        {post.category && (
+                          <span className="absolute left-0 top-4 bg-charcoal px-3 py-1.5 text-xs font-semibold uppercase tracking-eyebrow text-gold">
+                            {post.category}
+                          </span>
+                        )}
+                      </div>
+                      <p className="mt-4 text-xs font-semibold uppercase tracking-eyebrow text-stone">
+                        {formatPostDate(post.publishedAt)} · {readingMinutes(post.plainText)} min
+                        read
+                      </p>
+                      <h2 className="mt-2 text-2xl transition-colors group-hover:text-goldDeep">
+                        {post.title}
+                      </h2>
+                      <p className="mt-3 text-sm leading-relaxed text-stone">{post.description}</p>
+                    </Link>
+                  </Reveal>
+                )
+              })}
             </div>
           </div>
         </section>

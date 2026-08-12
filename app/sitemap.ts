@@ -72,6 +72,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...countyHubs,
     {url: `${site.domain}/cost-guides/loft-conversion-cost`, changeFrequency: 'monthly'},
     {url: `${site.domain}/blog`, changeFrequency: 'weekly'},
+    {url: `${site.domain}/blog/house-extension-cost-guide`, changeFrequency: 'monthly'},
     ...blogPages,
     {url: `${site.domain}/contact`, changeFrequency: 'yearly'},
     ...locationPages,
