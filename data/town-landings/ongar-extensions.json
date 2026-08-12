@@ -1,0 +1,128 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Ongar",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "ongar",
+  "seo": {
+    "title": "House Extensions in Ongar | J Berry Construction",
+    "description": "Local extension design and build in Ongar. We handle the conservation, listed-building and Green Belt planning, the building regs and the build. Free visit. Call today.",
+    "canonical": "/extensions/essex/ongar"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a period home in Ongar by J Berry Construction",
+      "caption": "A rear extension on a period home in Ongar."
+    },
+    "eyebrow": "House extensions · Ongar",
+    "headline": "House Extensions in Ongar"
+  },
+  "intro": {
+    "paragraphs": [
+      "We are a local building firm, based nearby in Sawbridgeworth, and we design and build house extensions across Ongar and its surrounding villages. From careful work on a period cottage near the historic High Street to a family extension on one of the newer roads, we run the whole job as one team, from the first visit through design, planning and building regulations to the finished room.",
+      "Chipping Ongar is a genuinely old market town, the sort with a Norman castle mound, a Saxon church nearby and a High Street lined with listed buildings, wrapped in Green Belt farmland. People do not leave places like this lightly, so the work here is usually about making a much-loved home better rather than moving on."
+    ],
+    "cta": {
+      "title": "Talk to us about your Ongar extension",
+      "text": "The first visit is free and there is no obligation. We will look at what is possible, talk through your ideas, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "Trusting a team inside your home for months is a big decision, and being genuinely local helps. We are based nearby rather than travelling in from the other side of the county. You deal with one team throughout, run by the company director. We handle the planning and building regulations, which in a town as historic as Ongar takes real local know-how. Our quotes are itemised, not a lump sum. And most of our work comes by recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Ongar",
+    "intro": "Ongar's housing runs from timber-framed and weatherboarded cottages in the old town to Georgian and Victorian homes and more recent housing on the edges, along with village and farmhouse properties in the surrounding countryside. Each takes its own approach.",
+    "items": [
+      "Rear extensions opening the back of the house to the garden.",
+      "Side and wrap-around extensions where the plot allows.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic extensions to period, timber-framed and listed homes, matching local materials."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Ongar",
+    "paragraphs": [
+      "Ongar's planning is about heritage more than anything else, and it is worth understanding early.",
+      "Your planning authority is Epping Forest District Council. Chipping Ongar was one of the first conservation areas designated in Essex, largely because of its exceptional number of listed buildings, more than a hundred in the town and around seventy on the High Street alone. In the conservation area, and on or near a listed building, design and materials are judged closely, some permitted development rights fall away, and listed building consent is needed for most changes to a listed home. On top of that, the farmland around the town is Green Belt, where extensions are limited in scale so they are not a disproportionate addition to the original house.",
+      "That sounds like a lot, and it is why local experience matters here. It does not stop good projects, it just means the design has to be right and handled properly. Out on the newer roads, away from the historic core, many extensions still fall under permitted development. One note for the future: from April 2028 Epping Forest District Council becomes part of the new West Essex Council, though the rules carry over. We work out exactly where your property stands and manage any application for you."
+    ]
+  },
+  "ground": {
+    "title": "The ground around Ongar",
+    "paragraphs": [
+      "Ongar sits on London Clay and boulder clay, the stiff clays that cover this part of Essex, with the River Roding and Cripsey Brook running through and around the town. The clay swells and shrinks with the seasons and moves most near mature trees, and along the Roding and the brook the ground can be softer and wetter.",
+      "On a plot near a large tree, or down towards the water, foundations often need more depth and thought than people expect. We would rather design for that from the start than meet it as a surprise, so on trickier plots we get the ground checked before pricing the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Ongar",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heritage work to a period or listed home can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground:",
+    "steps": [
+      { "step": "01", "title": "Weeks 1 to 2", "text": "Setting up, then groundworks and foundations." },
+      { "step": "02", "title": "Weeks 3 to 4", "text": "Brickwork to damp-proof course, drainage and the slab." },
+      { "step": "03", "title": "Weeks 4 to 6", "text": "Walls up, structural steel in, roof on and watertight." },
+      { "step": "04", "title": "Weeks 6 to 8", "text": "Windows and doors, first-fix electrics and plumbing." },
+      { "step": "05", "title": "Weeks 8 to 10", "text": "Plastering, second fix and the kitchen fit-out." },
+      { "step": "06", "title": "Final week", "text": "Decorating, flooring and snagging before we hand over." }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Ongar?",
+      "a": "It often depends on your home's history. In the conservation area, or on a listed building, more work needs permission and the design is judged closely, and the Green Belt around the town limits scale. On the newer roads, many extensions fall under permitted development. We check your exact address with Epping Forest District Council and handle any application."
+    },
+    {
+      "q": "Do you work on listed and period homes?",
+      "a": "Yes. Ongar has a great many period and listed buildings, and we extend and renovate them sympathetically, matching local materials and handling listed building consent where it applies."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Ongar sits on London Clay and boulder clay, which move with the seasons and near trees, and the ground softens along the Roding and Cripsey Brook. That often means deeper or specially designed foundations, so we check the ground before starting."
+    },
+    {
+      "q": "Which areas around Ongar do you cover?",
+      "a": "Chipping Ongar itself, along with Greensted, Shelley, Marden Ash, High Ongar, the Rodings and the surrounding villages, and we are based nearby in Sawbridgeworth. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Talk to us about your Ongar extension",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through your ideas, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
