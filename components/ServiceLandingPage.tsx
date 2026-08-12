@@ -23,6 +23,7 @@ import { ArrowRight, HardHat, ShieldCheck, Users } from 'lucide-react';
 import type { Testimonial } from '@/lib/testimonials';
 import type { CarouselSlide } from '@/lib/projects';
 import { locationPageHref, type LocationPage } from '@/lib/locations';
+import { normalizeLocationSlug } from '@/lib/location-page';
 
 export type ServiceLandingData = {
   heroImage: { src: string; alt: string };
@@ -588,9 +589,21 @@ export default function ServiceLandingPage({
                   >
                     {shortName}s in Chigwell
                   </Link>
+                  <Link
+                    href="/extensions/essex/ongar"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Ongar
+                  </Link>
                 </>
               )}
-              {locationPages.map((l) => (
+              {locationPages
+                .filter((l) => {
+                  // Static town landings already linked above — avoid duplicate buttons
+                  const slug = normalizeLocationSlug(l.slug)
+                  return !['chelmsford', 'chigwell', 'ongar'].includes(slug)
+                })
+                .map((l) => (
                 <Link
                   key={l._id}
                   href={locationPageHref(l, serviceSlug)}
