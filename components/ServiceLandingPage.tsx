@@ -575,12 +575,20 @@ export default function ServiceLandingPage({
                 </Link>
               )}
               {serviceSlug === 'extensions' && (
-                <Link
-                  href="/extensions/essex/chelmsford"
-                  className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                >
-                  {shortName}s in Chelmsford
-                </Link>
+                <>
+                  <Link
+                    href="/extensions/essex/chelmsford"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Chelmsford
+                  </Link>
+                  <Link
+                    href="/extensions/essex/chigwell"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Chigwell
+                  </Link>
+                </>
               )}
               {locationPages.map((l) => (
                 <Link

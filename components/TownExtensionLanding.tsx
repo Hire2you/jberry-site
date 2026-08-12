@@ -30,23 +30,36 @@ export type TownExtensionLandingData = {
     paragraphs: string[];
     cta: { title: string; text: string; secondaryCta: string };
   };
-  homes: {
+  whyUs?: {
+    title: string;
+    text: string;
+  };
+  homes?: {
     title: string;
     intro: string;
     body: string;
     closing: string;
     image: { src: string; alt: string };
   };
-  flood: { title: string; paragraphs: string[] };
+  extensionTypes?: {
+    title: string;
+    intro: string;
+    items: string[];
+    image: { src: string; alt: string };
+  };
+  flood?: { title: string; paragraphs: string[] };
+  ground?: { title: string; paragraphs: string[] };
   planning: { title: string; paragraphs: string[] };
   cost: {
     title: string;
     paragraphs: string[];
     cta: { title: string; text: string; secondaryCta: string };
   };
-  buildProcess: { title: string; text: string };
-  recentWork: { title: string; placeholder: string };
-  testimonials: { placeholder: string };
+  buildProcess: {
+    title: string;
+    text: string;
+    steps?: { step: string; title: string; text: string }[];
+  };
   faqs: { q: string; a: string }[];
   relatedLinks: { href: string; label: string }[];
   cta: { eyebrow: string; title: string; text: string };
@@ -69,6 +82,8 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
   const carouselProjects = toCarouselSlides((projectData || []) as SanityProject[]);
   const testimonials = (testimonialData || []) as Testimonial[];
   const hasTestimonials = testimonials.length > 0;
+  let section = 1;
+  const nextLabel = (name: string) => `${String(section++).padStart(2, '0')} · ${name}`;
 
   return (
     <>
@@ -139,7 +154,7 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
 
       {/* Intro + inline CTA */}
       <section className="relative">
-        <SectionIndex label="01 · Intro" />
+        <SectionIndex label={nextLabel('Intro')} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">House extensions in {town}</p>
@@ -176,62 +191,122 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
         </figure>
       </section>
 
-      {/* Chelmsford homes */}
-      <section className="relative bg-ivory">
-        <GoldPattern id={`lattice-homes-${data.townSlug}`} />
-        <SectionIndex label="02 · Homes" />
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
-          <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
+      {/* Why us */}
+      {data.whyUs && (
+        <section className="relative bg-ivory">
+          <GoldPattern id={`lattice-why-${data.townSlug}`} />
+          <SectionIndex label={nextLabel('Why us')} />
+          <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
             <Reveal>
-              <p className="eyebrow">Matched to your home</p>
-              <h2 className="mt-3 max-w-xl text-4xl md:text-5xl">{data.homes.title}</h2>
-              <p className="mt-4 text-stone leading-relaxed">{data.homes.intro}</p>
-              <p className="mt-6 text-stone leading-relaxed">{data.homes.body}</p>
-              <p className="mt-6 font-display italic text-lg text-stone">{data.homes.closing}</p>
-              <a
-                href="#quote"
-                className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
-              >
-                Book a free site visit
-              </a>
-            </Reveal>
-            <Reveal delay={120}>
-              <div className="img-zoom relative aspect-[4/5]">
-                <Image
-                  src={data.homes.image.src}
-                  alt={data.homes.image.alt}
-                  fill
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-cover"
-                />
-              </div>
+              <p className="eyebrow">Why homeowners choose us</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.whyUs.title}</h2>
+              <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.whyUs.text}</p>
             </Reveal>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
-      {/* Flood risk */}
-      <section className="relative">
-        <SectionIndex label="03 · Flood & ground" />
-        <div className="mx-auto max-w-6xl px-4 py-20">
-          <Reveal>
-            <p className="eyebrow">Local conditions</p>
-            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.flood.title}</h2>
-          </Reveal>
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {data.flood.paragraphs.map((para, i) => (
-              <Reveal key={para.slice(0, 40)} delay={i * 80}>
-                <p className="text-stone leading-relaxed">{para}</p>
+      {/* Homes (Chelmsford-style) */}
+      {data.homes && (
+        <section className="relative bg-ivory">
+          <GoldPattern id={`lattice-homes-${data.townSlug}`} />
+          <SectionIndex label={nextLabel('Homes')} />
+          <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
+              <Reveal>
+                <p className="eyebrow">Matched to your home</p>
+                <h2 className="mt-3 max-w-xl text-4xl md:text-5xl">{data.homes.title}</h2>
+                <p className="mt-4 text-stone leading-relaxed">{data.homes.intro}</p>
+                <p className="mt-6 text-stone leading-relaxed">{data.homes.body}</p>
+                <p className="mt-6 font-display italic text-lg text-stone">{data.homes.closing}</p>
+                <a
+                  href="#quote"
+                  className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  Book a free site visit
+                </a>
               </Reveal>
-            ))}
+              <Reveal delay={120}>
+                <div className="img-zoom relative aspect-[4/5]">
+                  <Image
+                    src={data.homes.image.src}
+                    alt={data.homes.image.alt}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
+              </Reveal>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
+
+      {/* Extension types (Chigwell-style) */}
+      {data.extensionTypes && (
+        <section className="relative">
+          <SectionIndex label={nextLabel('Types')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
+            <div className="grid gap-12 lg:grid-cols-2 lg:items-center lg:gap-16">
+              <Reveal>
+                <p className="eyebrow">Matched to your home</p>
+                <h2 className="mt-3 max-w-xl text-4xl md:text-5xl">{data.extensionTypes.title}</h2>
+                <p className="mt-4 text-stone leading-relaxed">{data.extensionTypes.intro}</p>
+                <ul className="mt-8 space-y-4">
+                  {data.extensionTypes.items.map((item) => (
+                    <li key={item.slice(0, 48)} className="flex items-start gap-3 text-stone leading-relaxed">
+                      <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                      <span>{item}</span>
+                    </li>
+                  ))}
+                </ul>
+                <a
+                  href="#quote"
+                  className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  Book a free site visit
+                </a>
+              </Reveal>
+              <Reveal delay={120}>
+                <div className="img-zoom relative aspect-[4/5]">
+                  <Image
+                    src={data.extensionTypes.image.src}
+                    alt={data.extensionTypes.image.alt}
+                    fill
+                    sizes="(max-width: 1024px) 100vw, 50vw"
+                    className="object-cover"
+                  />
+                </div>
+              </Reveal>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Flood risk (Chelmsford) */}
+      {data.flood && (
+        <section className="relative">
+          <SectionIndex label={nextLabel('Flood & ground')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">Local conditions</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.flood.title}</h2>
+            </Reveal>
+            <div className="mt-10 grid gap-6 md:grid-cols-3">
+              {data.flood.paragraphs.map((para, i) => (
+                <Reveal key={para.slice(0, 40)} delay={i * 80}>
+                  <p className="text-stone leading-relaxed">{para}</p>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Planning */}
       <section className="relative bg-ivory">
         <GoldPattern id={`lattice-planning-${data.townSlug}`} />
-        <SectionIndex label="04 · Planning" />
+        <SectionIndex label={nextLabel('Planning')} />
         <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">Planning & regulations</p>
@@ -257,9 +332,29 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
         </div>
       </section>
 
+      {/* Ground (Chigwell) */}
+      {data.ground && (
+        <section className="relative">
+          <SectionIndex label={nextLabel('Ground')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">Local conditions</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.ground.title}</h2>
+            </Reveal>
+            <div className="mt-10 max-w-3xl space-y-6">
+              {data.ground.paragraphs.map((para, i) => (
+                <Reveal key={para.slice(0, 40)} delay={i * 80}>
+                  <p className="text-stone leading-relaxed">{para}</p>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Cost */}
       <section className="relative">
-        <SectionIndex label="05 · Cost" />
+        <SectionIndex label={nextLabel('Cost')} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">Cost, in the open</p>
@@ -297,42 +392,48 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
 
       {/* Build process */}
       <section className="relative border-y border-line bg-white">
-        <SectionIndex label="06 · Process" />
+        <SectionIndex label={nextLabel('Process')} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">How it works</p>
             <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.buildProcess.title}</h2>
             <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.buildProcess.text}</p>
+          </Reveal>
+          {data.buildProcess.steps && data.buildProcess.steps.length > 0 && (
+            <div className="mt-14 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+              {data.buildProcess.steps.map((s, i) => (
+                <Reveal key={s.step} delay={i * 60}>
+                  <div className="relative pt-16 md:pt-20">
+                    <span
+                      aria-hidden="true"
+                      className="pointer-events-none absolute left-0 top-0 select-none font-display text-[80px] leading-none text-gold/20 md:text-[100px]"
+                    >
+                      {s.step}
+                    </span>
+                    <h3 className="relative font-display text-xl">{s.title}</h3>
+                    <div className="mt-3 h-px w-10 bg-gold" />
+                    <p className="mt-3 text-sm leading-relaxed text-stone">{s.text}</p>
+                  </div>
+                </Reveal>
+              ))}
+            </div>
+          )}
+          <div className="mt-10">
             <a
               href="#quote"
-              className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+              className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
             >
               Start with a site visit
             </a>
-          </Reveal>
+          </div>
         </div>
       </section>
 
-      {/* Recent work placeholder */}
-      <section className="relative bg-ivory">
-        <GoldPattern id={`lattice-projects-${data.townSlug}`} />
-        <SectionIndex label="07 · Projects" />
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
-          <Reveal>
-            <p className="eyebrow">Local work</p>
-            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.recentWork.title}</h2>
-            <p className="mt-6 max-w-2xl border border-dashed border-line bg-white/60 p-6 text-sm italic text-stone">
-              {data.recentWork.placeholder}
-            </p>
-          </Reveal>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="relative">
-        <SectionIndex label="08 · Reviews" />
-        <div className="mx-auto max-w-6xl px-4 py-20">
-          {hasTestimonials ? (
+      {/* Testimonials — only when real reviews are available */}
+      {hasTestimonials && (
+        <section className="relative">
+          <SectionIndex label={nextLabel('Reviews')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
             <Reveal>
               <p className="eyebrow">What homeowners say</p>
               <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Trusted by homeowners across {county}</h2>
@@ -340,28 +441,20 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
                 <TestimonialShowcase testimonials={testimonials} />
               </div>
             </Reveal>
-          ) : (
-            <Reveal>
-              <p className="eyebrow">What homeowners say</p>
-              <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">Homeowner reviews</h2>
-              <p className="mt-6 max-w-xl border border-dashed border-line bg-ivory p-6 text-sm italic text-stone">
-                {data.testimonials.placeholder}
-              </p>
-            </Reveal>
-          )}
-        </div>
-      </section>
+          </div>
+        </section>
+      )}
 
       <FaqSection
         faqs={data.faqs}
-        label="09 · Questions"
+        label={nextLabel('Questions')}
         heading={`House extension questions in ${town}, answered straight`}
         intro={`The questions every ${town} homeowner asks at the first site visit.`}
       />
 
       {/* Related links */}
       <section className="relative">
-        <SectionIndex label="10 · Next steps" />
+        <SectionIndex label={nextLabel('Next steps')} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
             <p className="eyebrow">Useful next steps</p>

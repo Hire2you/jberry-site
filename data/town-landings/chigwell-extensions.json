@@ -1,0 +1,128 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Chigwell",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "chigwell",
+  "seo": {
+    "title": "House Extensions in Chigwell | J Berry Construction",
+    "description": "Extension design and build across Chigwell, from period cottages to large detached homes and Grange Hill. Green Belt and conservation planning handled. Free visit. Call.",
+    "canonical": "/extensions/essex/chigwell"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Chigwell by J Berry Construction",
+      "caption": "A full-width rear extension suited to Chigwell's larger homes."
+    },
+    "eyebrow": "House extensions · Chigwell",
+    "headline": "House Extensions in Chigwell"
+  },
+  "intro": {
+    "paragraphs": [
+      "Chigwell is not a place people leave in a hurry. The houses are large, the plots are generous, and the setting, wrapped around a historic village and backed by Epping Forest, is hard to better. So the work here is rarely about needing more space to cope. It is about making an already good house even better: a bigger kitchen, a proper entertaining space, an annexe, a home that finally does everything the family wants.",
+      "We design and build those extensions across Chigwell, and we run the job as one team, from the first visit through the design, the planning and the building regulations to the finished room. On a recent project nearby in Woodford we built a full-width extension and turned a cut-up ground floor into a single open-plan space, which is the kind of work Chigwell's homes lend themselves to."
+    ],
+    "cta": {
+      "title": "Talk to us about your Chigwell extension",
+      "text": "The first visit is free and there is no obligation. We will look at what your plot will take, talk through your ideas, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are trusting a team with a valuable home, so this matters. You deal with one team throughout, run by the company director, so there is always a clear person to answer to. We handle the planning and building regulations, which in Chigwell means knowing the Green Belt and conservation rules cold. Our quotes are properly itemised, and on larger projects that detail is what lets you compare builders fairly. And most of our work comes by recommendation, which is the only reputation that counts."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Chigwell",
+    "intro": "Chigwell's housing runs from period cottages in the old village to large detached homes on wide plots and the family homes of Grange Hill. That range suits ambitious projects.",
+    "items": [
+      "Substantial single-storey rear extensions, often with structural glazing.",
+      "Double storey extensions that add bedrooms and living space together.",
+      "Wrap-around extensions on the wider plots.",
+      "Kitchen extensions built for cooking and entertaining, with sliding doors and a lantern.",
+      "Annexe-style and garage projects where the plot allows.",
+      "Sympathetic work to period and listed homes in and around the old village."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Chigwell",
+    "paragraphs": [
+      "Here is a useful quirk of Chigwell worth knowing before you sketch anything. So many homes here are detached, and detached houses get the more generous permitted development allowances, a deeper rear extension than a semi or terrace is allowed, for instance. That means a lot can be done here without a full application.",
+      "Two things rein that in. The first is the Green Belt. Epping Forest District is around 92 per cent Green Belt, and much of the land around Chigwell falls within it, which caps how much you can add before the work becomes a disproportionate addition to the original house. It bites hardest on large outbuildings and annexes. The second is the Chigwell Village conservation area, the historic core around the 12th-century church of St Mary the Virgin and the old Kings Head, the inn Dickens turned into the Maypole. In a conservation area some permitted development rights fall away, and design and materials are judged properly.",
+      "Being close to Epping Forest brings the usual question too. The forest is a protected area with a zone of influence around it, but that mainly affects proposals that create a new, separate home, not a normal extension to the house you live in. Your planning authority is Epping Forest District Council, and we check exactly where your property stands, then prepare and manage any application for you."
+    ]
+  },
+  "ground": {
+    "title": "The ground around Chigwell",
+    "paragraphs": [
+      "Chigwell sits on London Clay, with the Roding valley running along its western edge. London Clay swells in the wet and shrinks in dry spells, and it moves most near large trees, of which the leafy plots here have plenty. Closer to the Roding the ground can be softer and wetter.",
+      "On a big plot with mature trees, foundations often need to go deeper than people expect, and that is worth designing for from the start rather than discovering halfway down a trench. On trickier ground we will get it checked before we price the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Chigwell",
+    "paragraphs": [
+      "Cost comes down to size, specification, the amount of structural work and the finish. Chigwell briefs tend to be larger and higher spec than average, which is reflected in the figure.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark numbers, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure on your project."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, structural steel and all, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground:",
+    "steps": [
+      { "step": "01", "title": "Weeks 1 to 2", "text": "Setting up, then groundworks and foundations." },
+      { "step": "02", "title": "Weeks 3 to 4", "text": "Brickwork to damp-proof course, drainage and the slab." },
+      { "step": "03", "title": "Weeks 4 to 6", "text": "Walls up, structural steel in, roof on and watertight." },
+      { "step": "04", "title": "Weeks 6 to 8", "text": "Windows and doors, first-fix electrics and plumbing." },
+      { "step": "05", "title": "Weeks 8 to 10", "text": "Plastering, second fix and the kitchen fit-out." },
+      { "step": "06", "title": "Final week", "text": "Decorating, flooring and snagging before we hand over." }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Chigwell?",
+      "a": "Often not. Chigwell's many detached homes get the more generous permitted development allowances, so a good deal can be done without a full application. But the Chigwell Village conservation area reduces those rights in the old village, and the Green Belt caps overall scale. We check your exact address with Epping Forest District Council and handle any application."
+    },
+    {
+      "q": "Can I extend my house if it is in the Green Belt?",
+      "a": "Usually, yes. The Green Belt does not ban extensions, it limits how much you can add before the work becomes a disproportionate addition to the original house. Well-judged schemes are approved regularly. We design to what the rules allow from the start."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Chigwell sits on London Clay, which moves with the seasons and near large trees, and the ground softens towards the Roding valley. That often means deeper or specially designed foundations, so we check the ground before starting."
+    },
+    {
+      "q": "Which areas around Chigwell do you cover?",
+      "a": "Chigwell itself, including the old village, Chigwell Row and Grange Hill, along with Buckhurst Hill, Loughton, Woodford and the wider area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Talk to us about your Chigwell extension",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what your plot will take, talk through your ideas, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
