@@ -1,0 +1,131 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Loughton",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "loughton",
+  "seo": {
+    "title": "House Extensions in Loughton | J Berry Construction",
+    "description": "Extension design and build in Loughton, from period homes on The Hills to family houses near Debden. Sloping sites, planning and building regs handled. Free visit. Call.",
+    "canonical": "/extensions/essex/loughton"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a period home in Loughton by J Berry Construction",
+      "caption": "A rear extension on a period home in Loughton."
+    },
+    "eyebrow": "House extensions · Loughton",
+    "headline": "House Extensions in Loughton"
+  },
+  "intro": {
+    "paragraphs": [
+      "Loughton covers a lot of ground, in every sense. It runs from grand Victorian houses on the forest ridge, the streets known locally as The Hills, down through Old Loughton along the High Road to the family homes around Debden. Whichever part you are in, the reasons for extending tend to be the same: more room, a better kitchen, a home that suits how you live now, without the upheaval and cost of moving.",
+      "We design and build extensions right across that range, and we run each job as one team, from the first visit through the design, planning and building regulations to the finished room. On a recent project nearby in Woodford we built a full-width extension and reworked an entire ground floor into one open-plan space, the kind of project that suits a lot of Loughton's houses."
+    ],
+    "cta": {
+      "title": "Talk to us about your Loughton extension",
+      "text": "The first visit is free and there is no obligation. We will look at what is possible on your plot, talk through your ideas, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "Handing your home over for a few months takes trust. With us you get one team throughout, run by the company director, so there is always a clear point of contact. We take on the planning and building regulations ourselves, which around here means knowing the conservation and Green Belt rules and the quirks of building on a slope. Our quotes are itemised rather than a lump sum. And most of our work comes by word of mouth."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Loughton",
+    "intro": "Loughton's housing is genuinely varied, from 17th-century weatherboarded cottages and Victorian villas to interwar homes and the postwar streets of Debden. Different homes, different moves.",
+    "items": [
+      "Rear extensions opening the back of the house to the garden.",
+      "Side return and wrap-around extensions on the older villas and terraces.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Extensions designed for sloping plots, which The Hills has in abundance.",
+      "Sympathetic work to period and listed homes."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Loughton",
+    "paragraphs": [
+      "Your planning authority is Epping Forest District Council, and Loughton has a bit more heritage protection than its neighbours. There are three conservation areas here, Baldwins Hill, York Hill and Staples Road, all up on The Hills overlooking the forest, along with a large number of listed and locally listed buildings. In a conservation area, some permitted development rights are reduced or removed, and design is judged more closely, so what is automatic elsewhere in town may need an application up on The Hills.",
+      "The Green Belt is the other factor. Most of the district is Green Belt, and where your home sits within it, extensions are limited in scale so they do not become a disproportionate addition to the original house. Plenty of good schemes still go ahead; the trick is designing to what the rules allow.",
+      "Being on the edge of Epping Forest raises the familiar question, and the familiar answer: the forest's protected status mainly affects proposals for a new, separate home, not a normal extension to your own house. Trees near the forest are often protected, so we factor that in. We check exactly where your property stands and manage any application for you."
+    ]
+  },
+  "ground": {
+    "title": "Why the slope matters here",
+    "paragraphs": [
+      "Loughton is the hilliest town in the district, and you notice it the moment you dig. The Hills fall away sharply towards the forest, and the little valleys of Loughton Brook and its streams leave soft, wet ground where they run down towards the Roding. The higher ground tends to be firmer and sandier, with London Clay on the slopes and below, and the clay moves with the seasons and near trees.",
+      "A sloping site changes how an extension is founded, and sometimes how it is designed, with split levels or retaining work. It is very doable, and we do it often, but it is not something to leave to chance. We look at levels and ground early, and on trickier plots we will get the ground checked before pricing the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Loughton",
+    "paragraphs": [
+      "Cost depends on size, specification, the structural work and the finish, and on a sloping or clay-heavy plot the groundwork can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, sloping ground and all, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground:",
+    "steps": [
+      { "step": "01", "title": "Weeks 1 to 2", "text": "Setting up, then groundworks and foundations, the part a sloping or clay plot affects most." },
+      { "step": "02", "title": "Weeks 3 to 4", "text": "Brickwork to damp-proof course, drainage and the slab." },
+      { "step": "03", "title": "Weeks 4 to 6", "text": "Walls up, structural steel in, roof on and watertight." },
+      { "step": "04", "title": "Weeks 6 to 8", "text": "Windows and doors, first-fix electrics and plumbing." },
+      { "step": "05", "title": "Weeks 8 to 10", "text": "Plastering, second fix and the kitchen fit-out." },
+      { "step": "06", "title": "Final week", "text": "Decorating, flooring and snagging before we hand over." }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Loughton?",
+      "a": "Sometimes. Many extensions fall under permitted development, but the Baldwins Hill, York Hill and Staples Road conservation areas up on The Hills reduce those rights, and the Green Belt caps scale. We check your exact address with Epping Forest District Council and handle any application."
+    },
+    {
+      "q": "Can you build an extension on a sloping plot?",
+      "a": "Yes, and Loughton has plenty of them. A slope changes how the extension is founded and sometimes designed, with split levels or retaining work, all of which we plan from the start. It is some of our more common work in this area."
+    },
+    {
+      "q": "Can I extend my house if it is in the Green Belt?",
+      "a": "Usually, yes. The Green Belt limits how much you can add before the work becomes a disproportionate addition to the original house, rather than banning extensions. Well-judged schemes go ahead regularly."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Which areas around Loughton do you cover?",
+      "a": "Loughton itself, including The Hills, Old Loughton and Debden, along with Buckhurst Hill, Chigwell, Woodford and the wider area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
+    { "href": "/extensions/essex/ongar", "label": "House extensions in Ongar" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Talk to us about your Loughton extension",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible on your plot, talk through your ideas, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
