@@ -1,0 +1,117 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Witham",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "witham",
+  "seo": {
+    "title": "House Extensions in Witham | J Berry Construction",
+    "description": "Extension design and build across Witham, from estate homes to Georgian and timber-framed period property. Planning and building regs handled. Free visit. Call today.",
+    "canonical": "/extensions/essex/witham"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a home in Witham by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Witham."
+    },
+    "eyebrow": "House extensions · Witham",
+    "headline": "House Extensions in Witham"
+  },
+  "intro": {
+    "paragraphs": [
+      "Plenty of people in Witham commute into London and could, in theory, move somewhere bigger. In practice, with fast trains on the doorstep and house prices what they are, most would rather stay and make the home they have work harder. That is the job we do here, more space and a better layout, without the upheaval and cost of moving.",
+      "We manage the whole thing as one team, from the design and planning through to the finished room, so you deal with the same people from start to finish."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Witham home?",
+      "text": "Start with a free, no-obligation visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are letting a team into your home for months, so it comes down to confidence. One team runs the job throughout, led by the company director, so there is always a clear person to speak to. We handle the planning and building regulations, and we are equally at home on a straightforward estate extension or a careful job on a period house. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build here",
+    "intro": "Witham's housing is genuinely mixed, and we work across all of it.",
+    "items": [
+      "Rear and wrap-around extensions on the 1960s and 70s estates around the town and the newer developments like Maltings Lane.",
+      "Side return and rear extensions on the Victorian homes near the station and the town centre.",
+      "Sympathetic work on the Georgian houses of Newland Street and the timber-framed homes around Chipping Hill.",
+      "Double storey extensions and loft conversions for growing families."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "What the planning usually comes down to",
+    "paragraphs": [
+      "Many extensions in Witham can go ahead under permitted development, but a few local points are worth checking before you plan anything.",
+      "The town has two conservation areas: the Georgian High Street around Newland Street, and the older timber-framed core at Chipping Hill, with its green and church. In both, design and materials are judged closely and some permitted development rights fall away, and listed buildings need separate consent. On some of the estates, permitted development rights have been removed by planning condition, so it is worth confirming your house is actually covered rather than assuming it is.",
+      "Your authority is Braintree District Council, becoming part of the new North East Essex Council in 2028. Working out which of these applies to your home, and handling the application if one is needed, is our job rather than yours."
+    ]
+  },
+  "ground": {
+    "title": "The ground under Witham",
+    "paragraphs": [
+      "Witham sits on heavy boulder clay, with the River Brain running through the town to meet the Blackwater just outside. That clay holds water, and down in the valley the ground turns soft and, in places, genuinely marshy, digs for the Maltings Lane houses turned up ancient marsh and trackways.",
+      "None of that is a problem when it is planned for. It just means foundations and drainage near the river need proper thought, which is why we check the ground early and, on wetter plots, get it investigated before pricing the work."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Witham",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heavy or wet ground can add to the groundwork.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Witham?",
+      "a": "Often not, but it depends on your home. The Newland Street and Chipping Hill conservation areas reduce permitted development rights, listed buildings need separate consent, and some estates have those rights removed by planning condition. We check your exact address with Braintree District Council and handle any application."
+    },
+    {
+      "q": "Do you work on period and timber-framed homes?",
+      "a": "Yes. Witham has elegant Georgian houses on Newland Street and timber-framed homes around Chipping Hill, and we extend and renovate them sympathetically, matching materials and handling listed building consent where it applies."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Witham sits on heavy boulder clay, with soft and sometimes marshy ground down in the River Brain valley. That affects both foundations and drainage, so we check it before starting rather than meeting it mid-build."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Witham do you cover?",
+      "a": "Witham itself, including Chipping Hill, along with Hatfield Peverel, Wickham Bishops, Kelvedon, Silver End and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/braintree", "label": "House extensions in Braintree" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/extensions/essex/epping", "label": "House extensions in Epping" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Witham home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
