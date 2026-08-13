@@ -1,0 +1,116 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Maldon",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "maldon",
+  "seo": {
+    "title": "House Extensions in Maldon | J Berry Construction",
+    "description": "Extension design and build across Maldon and Heybridge, from period hill-town homes to properties near the water. Flood risk and planning handled. Free visit. Call.",
+    "canonical": "/extensions/essex/maldon"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a period home in Maldon by J Berry Construction",
+      "caption": "A rear extension on a period home in Maldon."
+    },
+    "eyebrow": "House extensions · Maldon",
+    "headline": "House Extensions in Maldon"
+  },
+  "intro": {
+    "paragraphs": [
+      "Maldon is the sort of place people put down roots and stay. The estuary, the sailing barges, the old hill town, it is hard to better, so when a family needs more space the answer is usually to extend rather than leave. That is most of what we do here: making a much-loved home bigger and better without the wrench of moving.",
+      "We take it on as one team, from the design and planning through to the finished room, so you deal with the same people the whole way."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Maldon home?",
+      "text": "Start with a free, no-obligation visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are letting a team into your home for months, so it comes down to confidence. One team runs the job throughout, led by the company director, so there is always a clear person to speak to. We handle the planning and building regulations, and we are as comfortable on a careful job in the old town as on a straightforward extension in Heybridge or one of the newer estates. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build here",
+    "intro": "Maldon runs from timber-framed and Georgian houses up on the High Street to weatherboarded cottages near the quay and modern homes on the estates south of the town and across in Heybridge. Different homes, different jobs.",
+    "items": [
+      "Rear and wrap-around extensions on the newer estates and family homes.",
+      "Side return and rear extensions on the Victorian and cottage housing.",
+      "Sympathetic work on the period and listed homes of the old town.",
+      "Double storey extensions and loft conversions for growing families."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "flood": {
+    "title": "The one thing to sort out early: flood risk",
+    "paragraphs": [
+      "If your home is anywhere near the water, this is the question to settle before you design anything, and it is a genuinely local one.",
+      "The waterfront, Hythe Quay, Chandlers Quay, Chelmer Terrace, the Promenade and low-lying Heybridge, carries real tidal flood risk, and warnings come round more often than people outside the town realise. An extension in a flood zone can need a flood risk assessment, raised floor levels and flood-resilient detailing, alongside drainage designed to modern standards. Up on the higher ground of the old town it is far less of an issue. Either way, we work out exactly where your property sits and what it needs, so flood risk is handled at the design stage rather than becoming a problem with your application, or worse, after the work is done."
+    ]
+  },
+  "ground": {
+    "title": "The ground, and why the slope matters",
+    "paragraphs": [
+      "Maldon sits on a ridge above the estuary, and the ground is variable, layers of gravel and clay, rather than uniform. The steep northern side dropping to the river is the part to respect: it has a long history of movement, including the West Maldon Landslip, where the London Clay has repeatedly slipped as it tries to settle. Down by the water the ground turns to soft alluvium and salt marsh.",
+      "On a sloping plot near that northern edge, or on low ground near the estuary, foundations need proper thought and sometimes a ground investigation. We check the levels and the ground early rather than meeting a surprise once we have started."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Maldon",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and a flood-prone or sloping plot can add to the groundwork and detailing.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, drainage and groundwork included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Does flood risk affect my extension in Maldon?",
+      "a": "It can, if your home is near the waterfront or on the low ground around Heybridge. A project there may need a flood risk assessment, raised floor levels and flood-resilient detailing. Up in the old town it is usually far less of an issue. We check exactly where you stand and handle it as part of the design."
+    },
+    {
+      "q": "Do I need planning permission for an extension in Maldon?",
+      "a": "It depends on your home. The old town's conservation area and its many listed buildings mean more work needs permission and closer attention to design, while newer estates often allow more under permitted development, though some have those rights removed by condition. We check your address with Maldon District Council and handle any application."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Maldon sits on a ridge of mixed gravel and clay, with a history of landslips on the steep northern side and soft alluvium down by the estuary. On a sloping or low-lying plot that affects how the extension is founded, so we check the ground before starting."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Maldon do you cover?",
+      "a": "Maldon and Heybridge, along with Heybridge Basin, Wickham Bishops, Great Totham, Tolleshunt and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/extensions/essex/witham", "label": "House extensions in Witham" },
+    { "href": "/extensions/essex/braintree", "label": "House extensions in Braintree" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Maldon home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
