@@ -1,0 +1,118 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Braintree",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "braintree",
+  "seo": {
+    "title": "House Extensions in Braintree | J Berry Construction",
+    "description": "Extension design and build across Braintree, Bocking, Witham and the villages, from modern estates to period and listed homes. Planning handled. Free visit. Call today.",
+    "canonical": "/extensions/essex/braintree"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a home in Braintree by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Braintree."
+    },
+    "eyebrow": "House extensions · Braintree",
+    "headline": "House Extensions in Braintree"
+  },
+  "intro": {
+    "paragraphs": [
+      "Most extensions in Braintree start from the same place: a family that likes where they live and simply needs the house to do more. A bigger kitchen to cook and eat in, room to have people over, another bedroom as the children grow. Moving costs more than it is worth, so the sensible answer is to build.",
+      "We take that on as one team, from the design and planning through to the finished room, so you deal with the same people the whole way rather than being handed between trades."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Braintree home?",
+      "text": "Start with a free, no-obligation visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are letting a team into your home for months, so it comes down to confidence. One team runs the job throughout, led by the company director, so there is always a clear person to speak to. We handle the planning and building regulations ourselves, and we are as comfortable on a careful period job as on a straightforward estate extension. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build here",
+    "intro": "Braintree has an unusually varied housing stock, and we work across all of it.",
+    "items": [
+      "Rear and wrap-around extensions on the modern estates around Great Notley and the town edges.",
+      "Side return and rear extensions on the Victorian terraces near the old mills.",
+      "Sympathetic work on the timber-framed and Georgian homes of Bradford Street, Bocking and the villages.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Careful extensions to unusual and listed homes, including the Modern Movement houses at Silver End that Crittall built, which need a very particular hand."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "What the planning usually comes down to",
+    "paragraphs": [
+      "A lot of extensions in Braintree can go ahead under permitted development, but there are a few local points worth checking before you get attached to a design.",
+      "The town and its villages hold a good number of conservation areas, including the fine timber-framed street of Bradford Street and the nationally unusual Modern Movement estate at Silver End, where design and materials are judged closely and some permitted development rights fall away. Listed buildings need separate consent. And on the newer estates, permitted development rights are sometimes removed by planning condition, so it is worth confirming your house is actually covered rather than assuming.",
+      "Your authority is Braintree District Council, becoming part of the new North East Essex Council in 2028. Working out which of these applies to your home, and handling the application if one is needed, is our job rather than yours."
+    ]
+  },
+  "ground": {
+    "title": "The ground under Braintree",
+    "paragraphs": [
+      "Braintree sits on a plateau of chalky boulder clay, cut through by the valleys of the Brain, Blackwater and Pant. That clay is heavy and holds water, so it can be slow to work in a wet spell and needs foundations and drainage designed with that in mind, while down in the river valleys the ground turns to softer gravels and alluvium.",
+      "It is all perfectly buildable once it is understood. We check the ground early, and on trickier or wetter plots we get it properly investigated before pricing, so the groundworks hold no surprises."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Braintree",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heavy ground or heritage work can add to it.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure for your project."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Braintree?",
+      "a": "Often not, but it depends on your home. Conservation areas such as Bradford Street and Silver End reduce permitted development rights, listed buildings need separate consent, and some newer estates have those rights removed by planning condition. We check your exact address with Braintree District Council and handle any application."
+    },
+    {
+      "q": "Do you work on period, timber-framed and listed homes?",
+      "a": "Yes. Braintree's housing runs from timber-framed wool-town houses to the unusual Modern Movement homes at Silver End, and we extend and renovate them sympathetically, matching materials and handling listed building consent where it applies."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Braintree sits on heavy chalky boulder clay that holds water, with softer ground down in the river valleys. That affects both foundations and how an extension drains, so we check it before starting rather than meeting it mid-build."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas and villages do you cover?",
+      "a": "Braintree and Bocking, along with Witham, Halstead, Coggeshall, Finchingfield, Kelvedon, Great Notley and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/extensions/essex/epping", "label": "House extensions in Epping" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Braintree home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
