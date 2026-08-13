@@ -1,0 +1,131 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Epping",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "epping",
+  "seo": {
+    "title": "House Extensions in Epping | J Berry Construction",
+    "description": "Local extension design and build in Epping. We handle the Green Belt and conservation planning, the building regs and the build. Free no-obligation visit. Call today.",
+    "canonical": "/extensions/essex/epping"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a home in Epping by J Berry Construction",
+      "caption": "A rear extension on a period home in Epping."
+    },
+    "eyebrow": "House extensions · Epping",
+    "headline": "House Extensions in Epping"
+  },
+  "intro": {
+    "paragraphs": [
+      "We are a local building firm, based just up the road in Sawbridgeworth, and we design and build house extensions across Epping and the surrounding villages. From a rear extension on a High Street-era home to a larger project out towards the forest, we run the whole job as one team, from the first visit through the design, planning and building regulations to the finished room.",
+      "Epping is a town people stay in, an old market and coaching town with the forest on its doorstep and a fast line into London. So the work here is usually about making a much-loved house bigger and better rather than moving on."
+    ],
+    "cta": {
+      "title": "Talk to us about your Epping extension",
+      "text": "The first visit is free and there is no obligation. We will look at what is possible, talk through your ideas, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "Trusting a team in your home for months is a big decision, and being genuinely local helps. We are based nearby, so Epping is on our doorstep, not the far end of a long drive. You deal with one team throughout, run by the company director. We handle the planning and building regulations, which in Epping means knowing the Green Belt and conservation rules. Our quotes are itemised, not a lump sum. And most of our work comes by recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Epping",
+    "intro": "Epping runs from the Georgian and Victorian buildings of the High Street to Edwardian and modern homes and the villages beyond. Different homes, different moves.",
+    "items": [
+      "Rear extensions opening the back of the house to the garden.",
+      "Side return and wrap-around extensions on the older homes.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic work to period and listed homes in and around the old town."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Epping",
+    "paragraphs": [
+      "Your planning authority is Epping Forest District Council, and Epping sits at the heart of it, so two local factors shape most projects.",
+      "The first is the Green Belt. The district is around 92 per cent Green Belt, and much of the land in and around the town falls within it. You can still extend in the Green Belt, but the scale is limited so the work is not a disproportionate addition to the original house. The second is the conservation area covering the historic High Street, once lined with coaching inns, where design and materials are judged closely and some permitted development rights fall away.",
+      "Being beside Epping Forest raises the usual question. The forest is protected with a zone of influence around it, but that mainly affects proposals for a new, separate home, not a normal extension. Trees near the forest are often protected, so we allow for that. One thing worth noting: from April 2028 Epping Forest District Council becomes part of the new West Essex Council, though the rules will carry over. We check exactly where your property stands and manage any application for you."
+    ]
+  },
+  "ground": {
+    "title": "The ground around Epping",
+    "paragraphs": [
+      "Epping stands on high ground at the northern end of the forest ridge, so the ground here is not uniform. The higher parts tend to be firmer and sandier, with London Clay on the slopes and below. London Clay swells and shrinks with the seasons and moves most near large trees, of which the area has plenty.",
+      "On a sloping plot or one near mature trees, foundations often need more depth and thought than people expect. We would rather work that out at the design stage than meet it as a surprise, so on trickier plots we get the ground checked before pricing the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Epping",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Protected settings and difficult ground can add to the groundwork. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground:",
+    "steps": [
+      { "step": "01", "title": "Weeks 1 to 2", "text": "Setting up, then groundworks and foundations." },
+      { "step": "02", "title": "Weeks 3 to 4", "text": "Brickwork to damp-proof course, drainage and the slab." },
+      { "step": "03", "title": "Weeks 4 to 6", "text": "Walls up, structural steel in, roof on and watertight." },
+      { "step": "04", "title": "Weeks 6 to 8", "text": "Windows and doors, first-fix electrics and plumbing." },
+      { "step": "05", "title": "Weeks 8 to 10", "text": "Plastering, second fix and the kitchen fit-out." },
+      { "step": "06", "title": "Final week", "text": "Decorating, flooring and snagging before we hand over." }
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Epping?",
+      "a": "Sometimes. Many extensions fall under permitted development, but the High Street conservation area reduces those rights, and the Green Belt caps scale. We check your exact address with Epping Forest District Council and handle any application."
+    },
+    {
+      "q": "Can I extend my house if it is in the Green Belt?",
+      "a": "Usually, yes. The Green Belt limits how much you can add before the work becomes a disproportionate addition to the original house, rather than banning extensions. Well-judged schemes go ahead regularly."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Epping sits on high ground on the forest ridge, so the ground varies from firmer and sandier on top to London Clay on the slopes, and the clay moves near trees. That often means deeper or specially designed foundations, so we check the ground before starting."
+    },
+    {
+      "q": "Which areas around Epping do you cover?",
+      "a": "Epping itself, along with Theydon Bois, Coopersale, North Weald, Ongar and the wider area, and we are based nearby in Sawbridgeworth. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/loughton", "label": "House extensions in Loughton" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
+    { "href": "/extensions/essex/ongar", "label": "House extensions in Ongar" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Talk to us about your Epping extension",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through your ideas, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}

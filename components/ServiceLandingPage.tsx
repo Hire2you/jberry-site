@@ -607,13 +607,19 @@ export default function ServiceLandingPage({
                   >
                     {shortName}s in Brentwood
                   </Link>
+                  <Link
+                    href="/extensions/essex/epping"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Epping
+                  </Link>
                 </>
               )}
               {locationPages
                 .filter((l) => {
                   // Static town landings already linked above — avoid duplicate buttons
                   const slug = normalizeLocationSlug(l.slug)
-                  return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood'].includes(slug)
+                  return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood', 'epping'].includes(slug)
                 })
                 .map((l) => (
                 <Link
