@@ -1,0 +1,123 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Brentwood",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "brentwood",
+  "seo": {
+    "title": "House Extensions in Brentwood | J Berry Construction",
+    "description": "Extension design and build in Brentwood, Shenfield and Hutton. Higher-spec work, Green Belt planning clarified, and itemised quotes. Free site visit. Call today.",
+    "canonical": "/extensions/essex/brentwood"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Brentwood by J Berry Construction",
+      "caption": "A rear extension suited to Brentwood's larger family homes."
+    },
+    "eyebrow": "House extensions · Brentwood",
+    "headline": "House Extensions in Brentwood"
+  },
+  "intro": {
+    "paragraphs": [
+      "In Brentwood, trading up to a bigger house costs a small fortune, so more and more families are choosing to stay put and extend instead. That is most of what we do here: turning a home you already like into the one you actually want, a proper open kitchen, space to have people over, the extra bedroom the family needs.",
+      "We handle the whole job as one team, from the design and planning through to the finished room, so you deal with the same people start to finish rather than being passed around."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Brentwood home?",
+      "text": "Start with a free, no-obligation visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are trusting a team with a valuable home for months, so it comes down to confidence. One team runs your project throughout, led by the company director, so there is always a clear person to speak to. We are used to the higher-spec, architect-led work a lot of Brentwood projects call for, and we handle the planning and building regulations ourselves. Our quotes are properly itemised, which is what lets you compare builders honestly on a bigger job. And most of our work comes through recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build here",
+    "intro": "From large detached homes in Shenfield and Hutton to Victorian and Arts and Crafts houses in Warley and period cottages in the villages, Brentwood's homes suit ambitious work.",
+    "items": [
+      "Substantial single-storey rear extensions, often with structural glazing.",
+      "Double storey extensions, adding bedrooms and living space together.",
+      "Wrap-around extensions on the wider plots.",
+      "Kitchen extensions built for cooking and entertaining.",
+      "Sympathetic work to period, Arts and Crafts and listed homes."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "A bit of good news on planning",
+    "paragraphs": [
+      "A lot of Brentwood homeowners assume they are boxed in by the Green Belt. Often they are not, and it is worth knowing before you rule anything out.",
+      "Although the whole borough is technically Green Belt, the main settlements, Brentwood, Shenfield, Hutton, Ingatestone and the rest, are inset from it. So for a great many town homes, the Green Belt is not actually the obstacle people fear. What does apply is more specific: green wedges of protected land run into the town, there are thirteen conservation areas where design is judged closely, and detached homes, which Brentwood has plenty of, get the more generous permitted development allowances. Homes out in the surrounding countryside are the ones properly in the Green Belt, where scale is limited.",
+      "Your authority is Brentwood Borough Council, becoming part of the new Mid Essex Council in 2028. We work out exactly where your home stands and handle the application, so this is our job to untangle, not yours."
+    ]
+  },
+  "ground": {
+    "title": "The ground worth knowing about",
+    "paragraphs": [
+      "There is one genuinely local thing worth a builder getting right in Brentwood. The town sits on a ridge, sand over the Claygate Beds over London Clay, and where those layers meet, springs and unstable ground can show up on the slopes. The Claygate Beds here have a real reputation for movement; they caused genuine problems when the Brentwood bypass was built through them.",
+      "In practice that just means a sloping plot is not somewhere to guess at foundations. We look at the levels and the ground early, and on trickier sites we get it properly investigated before pricing, so there are no nasty surprises once we start."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Brentwood",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and Brentwood briefs tend to run larger and higher spec than average.",
+      "As a rough guide, single-storey extensions commonly work out at a few thousand pounds per square metre, with double storey often better value per square metre, and sloping or difficult ground can add to the groundwork. For a real figure rather than a ballpark, the site visit is the step that counts."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Is my home in the Green Belt in Brentwood?",
+      "a": "Quite possibly not. The built-up parts of Brentwood, Shenfield, Hutton, Ingatestone and the other main settlements are inset from the Green Belt, while the countryside and green wedges around them are within it. We confirm exactly where your property sits before you plan anything."
+    },
+    {
+      "q": "Do I need planning permission for an extension in Brentwood?",
+      "a": "Often not. With many town homes outside the Green Belt, and detached houses getting the more generous permitted development allowances, a lot can be done without a full application. Conservation areas and Green Belt countryside change that in places. We check your exact address with Brentwood Borough Council and handle any application."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Brentwood sits on a ridge of sand over clay, so springs and movement can affect sloping plots, and the London Clay lower down shifts near trees. That often means careful foundation design, and sometimes a ground investigation, which we sort before starting."
+    },
+    {
+      "q": "Do you work on large detached and period homes?",
+      "a": "Yes. Much of Brentwood's housing is substantial detached and period property, and we design and build extensions to match, working with architects where needed and handling listed building consent where it applies."
+    },
+    {
+      "q": "Which areas around Brentwood do you cover?",
+      "a": "Brentwood itself, plus Shenfield, Hutton, Warley, Ingatestone, Ingrave, Blackmore and Doddinghurst. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
+    { "href": "/extensions/essex/loughton", "label": "House extensions in Loughton" },
+    { "href": "/extensions/essex/ongar", "label": "House extensions in Ongar" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Brentwood home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}
