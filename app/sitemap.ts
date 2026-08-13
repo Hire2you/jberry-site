@@ -69,7 +69,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${site.domain}/extensions/essex/epping`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/braintree`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/witham`, changeFrequency: 'monthly' as const},
-
+    {url: `${site.domain}/extensions/essex/maldon`, changeFrequency: 'monthly' as const},
   ]
 
   return [

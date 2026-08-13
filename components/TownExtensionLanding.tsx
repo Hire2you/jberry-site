@@ -49,7 +49,7 @@ export type TownExtensionLandingData = {
   };
   flood?: { title: string; paragraphs: string[] };
   ground?: { title: string; paragraphs: string[] };
-  planning: { title: string; paragraphs: string[] };
+  planning?: { title: string; paragraphs: string[] };
   cost: {
     title: string;
     paragraphs: string[];
@@ -304,33 +304,35 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
       )}
 
       {/* Planning */}
-      <section className="relative bg-ivory">
-        <GoldPattern id={`lattice-planning-${data.townSlug}`} />
-        <SectionIndex label={nextLabel('Planning')} />
-        <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
-          <Reveal>
-            <p className="eyebrow">Planning & regulations</p>
-            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.planning.title}</h2>
-          </Reveal>
-          <div className="mt-10 max-w-3xl space-y-6">
-            {data.planning.paragraphs.map((para, i) => (
-              <Reveal key={para.slice(0, 48)} delay={i * 60}>
-                <p className="text-stone leading-relaxed">{para}</p>
-              </Reveal>
-            ))}
-          </div>
-          <Reveal delay={200}>
-            <div className="mt-10">
-              <a
-                href="#quote"
-                className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
-              >
-                We handle this as part of the job
-              </a>
+      {data.planning && (
+        <section className="relative bg-ivory">
+          <GoldPattern id={`lattice-planning-${data.townSlug}`} />
+          <SectionIndex label={nextLabel('Planning')} />
+          <div className="relative z-10 mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">Planning & regulations</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.planning.title}</h2>
+            </Reveal>
+            <div className="mt-10 max-w-3xl space-y-6">
+              {data.planning.paragraphs.map((para, i) => (
+                <Reveal key={para.slice(0, 48)} delay={i * 60}>
+                  <p className="text-stone leading-relaxed">{para}</p>
+                </Reveal>
+              ))}
             </div>
-          </Reveal>
-        </div>
-      </section>
+            <Reveal delay={200}>
+              <div className="mt-10">
+                <a
+                  href="#quote"
+                  className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  We handle this as part of the job
+                </a>
+              </div>
+            </Reveal>
+          </div>
+        </section>
+      )}
 
       {/* Ground (Chigwell) */}
       {data.ground && (
