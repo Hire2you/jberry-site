@@ -86,6 +86,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${site.domain}/cost-guides/loft-conversion-cost`, changeFrequency: 'monthly'},
     {url: `${site.domain}/blog`, changeFrequency: 'weekly'},
     {url: `${site.domain}/blog/house-extension-cost-guide`, changeFrequency: 'monthly'},
+    {url: `${site.domain}/blog/how-long-does-a-house-extension-take`, changeFrequency: 'monthly'},
+    {url: `${site.domain}/blog/how-long-does-a-loft-conversion-take`, changeFrequency: 'monthly'},
     ...blogPages,
     {url: `${site.domain}/contact`, changeFrequency: 'yearly'},
     ...locationPages,
