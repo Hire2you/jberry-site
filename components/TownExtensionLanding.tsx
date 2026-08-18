@@ -337,10 +337,10 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
               </ul>
             )}
             {data.planning.closingParagraphs?.map((para, i) => (
-              <Reveal key={para.slice(0, 48)} delay={(data.planning!.paragraphs.length + i) * 60}>
+              <Reveal key={para.slice(0, 48)} delay={(data.planning.paragraphs.length + i) * 60}>
                 <p className="text-stone leading-relaxed">{para}</p>
               </Reveal>
-            )}
+            ))}
             </div>
             <Reveal delay={200}>
               <div className="mt-10">
