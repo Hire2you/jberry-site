@@ -444,6 +444,18 @@ export default function HouseExtensionCostGuidePage() {
               Loft conversions
             </Link>
             <Link
+              href="/blog/how-long-does-a-house-extension-take"
+              className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+            >
+              How long a house extension takes
+            </Link>
+            <Link
+              href="/blog/how-long-does-a-loft-conversion-take"
+              className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+            >
+              How long a loft conversion takes
+            </Link>
+            <Link
               href="/cost-guides/loft-conversion-cost"
               className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
             >
