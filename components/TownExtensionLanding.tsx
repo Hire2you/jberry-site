@@ -43,13 +43,15 @@ export type TownExtensionLandingData = {
   };
   extensionTypes?: {
     title: string;
-    intro: string;
+    intro?: string;
     items: string[];
+    closing?: string;
     image: { src: string; alt: string };
   };
   flood?: { title: string; paragraphs: string[] };
   ground?: { title: string; paragraphs: string[] };
-  planning?: { title: string; paragraphs: string[] };
+  planning?: { title: string; paragraphs: string[]; items?: string[]; closingParagraphs?: string[] };
+  place?: { title: string; paragraphs: string[] };
   cost: {
     title: string;
     paragraphs: string[];
@@ -251,7 +253,9 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
               <Reveal>
                 <p className="eyebrow">Matched to your home</p>
                 <h2 className="mt-3 max-w-xl text-4xl md:text-5xl">{data.extensionTypes.title}</h2>
-                <p className="mt-4 text-stone leading-relaxed">{data.extensionTypes.intro}</p>
+                {data.extensionTypes.intro && (
+                  <p className="mt-4 text-stone leading-relaxed">{data.extensionTypes.intro}</p>
+                )}
                 <ul className="mt-8 space-y-4">
                   {data.extensionTypes.items.map((item) => (
                     <li key={item.slice(0, 48)} className="flex items-start gap-3 text-stone leading-relaxed">
@@ -260,6 +264,9 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
                     </li>
                   ))}
                 </ul>
+                {data.extensionTypes.closing && (
+                  <p className="mt-6 text-stone leading-relaxed">{data.extensionTypes.closing}</p>
+                )}
                 <a
                   href="#quote"
                   className="mt-8 inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
@@ -314,11 +321,26 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
               <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.planning.title}</h2>
             </Reveal>
             <div className="mt-10 max-w-3xl space-y-6">
-              {data.planning.paragraphs.map((para, i) => (
-                <Reveal key={para.slice(0, 48)} delay={i * 60}>
-                  <p className="text-stone leading-relaxed">{para}</p>
-                </Reveal>
-              ))}
+            {data.planning.paragraphs.map((para, i) => (
+              <Reveal key={para.slice(0, 48)} delay={i * 60}>
+                <p className="text-stone leading-relaxed">{para}</p>
+              </Reveal>
+            ))}
+            {data.planning.items && data.planning.items.length > 0 && (
+              <ul className="space-y-4">
+                {data.planning.items.map((item) => (
+                  <li key={item.slice(0, 48)} className="flex items-start gap-3 text-stone leading-relaxed">
+                    <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                    <span>{item}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {data.planning.closingParagraphs?.map((para, i) => (
+              <Reveal key={para.slice(0, 48)} delay={(data.planning!.paragraphs.length + i) * 60}>
+                <p className="text-stone leading-relaxed">{para}</p>
+              </Reveal>
+            )}
             </div>
             <Reveal delay={200}>
               <div className="mt-10">
@@ -430,6 +452,25 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
           </div>
         </div>
       </section>
+
+      {data.place && (
+        <section className="relative">
+          <SectionIndex label={nextLabel('The place')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">Why stay</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.place.title}</h2>
+            </Reveal>
+            <div className="mt-10 max-w-3xl space-y-6">
+              {data.place.paragraphs.map((para, i) => (
+                <Reveal key={para.slice(0, 40)} delay={i * 80}>
+                  <p className="text-stone leading-relaxed">{para}</p>
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Testimonials — only when real reviews are available */}
       {hasTestimonials && (

@@ -1,0 +1,122 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Billericay",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "billericay",
+  "seo": {
+    "title": "House Extensions in Billericay | J Berry Construction",
+    "description": "Extension design and build in Billericay, from large detached homes to period houses near the High Street. Planning and building regs handled. Free visit. Call today.",
+    "canonical": "/extensions/essex/billericay"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a detached home in Billericay by J Berry Construction",
+      "caption": "A rear extension on a detached home in Billericay."
+    },
+    "eyebrow": "House extensions · Billericay",
+    "headline": "House Extensions in Billericay"
+  },
+  "intro": {
+    "paragraphs": [
+      "Moving up the ladder in Billericay is expensive, which is why so many families here decide the smarter move is to stay and build. That is what we do: extensions designed and built properly on the town's larger detached homes, its period houses near the centre, and the family houses in between, with the planning and building regulations handled for you and one team on the job from the drawings through to the finished room."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Billericay home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property and what the planning looks like.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact and nobody passing the buck. We handle the planning and building regulations. Our quotes are properly itemised, which is what lets you compare builders honestly on a larger job. And most of our work comes through recommendation."
+  },
+  "planning": {
+    "title": "The good news on planning here",
+    "paragraphs": [
+      "A lot of Billericay homeowners assume an extension means a long planning battle. Often it does not, and it is worth knowing before you rule anything out.",
+      "Much of the town's housing is detached, and detached homes get the more generous permitted development allowances, a deeper rear extension than a semi or terrace is permitted, for instance. So on plenty of Billericay plots, a well-judged extension can go ahead without a full application at all.",
+      "The main exceptions are worth knowing. The High Street and Chapel Street area is a conservation area, the largest in the borough, where design and materials are looked at closely and some permitted development rights fall away. The countryside around the town is Green Belt, where extensions are limited in scale rather than ruled out. And some newer developments have permitted development rights removed by planning condition, so it is worth confirming rather than assuming.",
+      "Your authority is Basildon Borough Council, becoming part of the new South West Essex Council in 2028. Working out which of these applies to your home, and handling any application, is our job rather than yours."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "intro": "Billericay's housing suits ambitious work, and the projects reflect that.",
+    "items": [
+      "Large single-storey rear extensions, often with bifold or sliding doors and a roof lantern.",
+      "Double storey extensions, adding bedrooms above new living space, usually the best value per square metre.",
+      "Wrap-around extensions on the wider plots.",
+      "Kitchen extensions built for cooking and entertaining.",
+      "Careful work on the older and period homes near the centre, where we match brickwork and materials to suit the age of the house. A closer match takes more care and can affect the quote, and it is what stops an extension looking bolted on."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground under Billericay",
+    "paragraphs": [
+      "Billericay sits on London Clay, on the higher ground that gives the town its hilltop High Street, with woodland like Norsey Wood on its edge and mature trees on many of the older plots.",
+      "Clay is the thing to respect here. It swells in the wet and shrinks in dry spells, and it moves most near large trees, so on a leafy plot foundations often need to go deeper than people expect. It is entirely manageable when it is planned for and a genuine problem when it is not, so we check the ground early and, on trickier plots, get it properly investigated before pricing the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Billericay",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and on a period home any material matching adds to that. Billericay briefs tend to run larger and higher spec than average, which shows in the figure.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Billericay?",
+      "a": "Often not. With so much detached housing here, and detached homes getting the more generous permitted development allowances, a good deal can be done without a full application. The conservation area around the High Street and Chapel Street, Green Belt land around the town, and planning conditions on some newer developments are the main exceptions. We check your exact address with Basildon Borough Council."
+    },
+    {
+      "q": "Is my home in the Billericay conservation area?",
+      "a": "It depends where you are. The conservation area covers much of the town centre, including the High Street and Chapel Street, and it is the largest in the borough. If your home is in it, design and materials are judged more closely and some permitted development rights fall away. We confirm exactly where your property sits."
+    },
+    {
+      "q": "Why does the clay matter for my foundations?",
+      "a": "Billericay sits on London Clay, which moves with the seasons and shifts most near large trees, and many plots here are leafy. That often means deeper foundations than people expect, so we check the ground before pricing rather than meeting it mid-build."
+    },
+    {
+      "q": "Can you match the brickwork on an older house?",
+      "a": "Yes. On period homes we match brickwork and materials to suit the age of the property, which is what keeps an extension looking like part of the house. A closer match takes more care, so it can affect the quote."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Billericay do you cover?",
+      "a": "Billericay itself, along with Great Burstead, Little Burstead, Ramsden Bellhouse, Stock, Wickford and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/basildon", "label": "House extensions in Basildon" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Billericay home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property and what the planning looks like. No pressure, and no obligation to proceed."
+  }
+}

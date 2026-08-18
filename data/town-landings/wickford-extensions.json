@@ -1,0 +1,125 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Wickford",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "wickford",
+  "seo": {
+    "title": "House Extensions in Wickford | J Berry Construction",
+    "description": "Extension design and build in Wickford. We handle the planning, the drainage and flood risk questions, and the build. Free no-obligation visit. Call today.",
+    "canonical": "/extensions/essex/wickford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Wickford by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Wickford."
+    },
+    "eyebrow": "House extensions · Wickford",
+    "headline": "House Extensions in Wickford"
+  },
+  "intro": {
+    "paragraphs": [
+      "Most Wickford homes have a decent plot and a tight ground floor, which is exactly the situation an extension solves. A proper open kitchen and family room, or an extra bedroom above, is nearly always better value than moving. We design and build those extensions across Wickford, handling the planning, the building regulations and the build itself as one team, so you deal with the same people from the drawings to the finished room.",
+      "There is one local question worth settling early here, and it is the river."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Wickford home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property, flood risk and planning included.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact. We handle the planning and building regulations, including the flood and drainage side where it applies. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "flood": {
+    "title": "The flood question, sorted early",
+    "paragraphs": [
+      "The River Crouch rises just outside Wickford and runs straight through the middle of the town, and Wickford has a long history of flooding. For a lot of homes here that is not an issue at all. For those on the low ground near the river, it very much is, and it is the sort of thing that stops a planning application dead if it has not been thought about.",
+      "An extension in a flood zone can need a flood risk assessment, careful floor levels and drainage designed to modern standards rather than simply tied into an already busy system. None of that is a barrier when it is picked up at the design stage. It becomes an expensive problem when it is discovered at the application stage or, worse, afterwards.",
+      "We check where your property sits before anything is drawn, and if flood risk applies, we design for it and handle the paperwork."
+    ]
+  },
+  "planning": {
+    "title": "The rest of the planning picture",
+    "paragraphs": [
+      "Wickford is mostly 20th-century housing, and a lot of it retains normal permitted development rights, so many extensions here can go ahead without a full planning application.",
+      "Two things to check. Some of the newer developments have permitted development rights removed by planning condition, so it is worth confirming your house is actually covered rather than assuming it is. And around the edges of the town, out towards Runwell, Shotgate and the countryside, land is Green Belt, where extensions are limited in scale rather than ruled out.",
+      "Your authority is Basildon Borough Council, becoming part of the new South West Essex Council in 2028. Sorting out which of these applies to your home is our job rather than yours."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "items": [
+      "Rear and wrap-around extensions to open up the ground floor.",
+      "Kitchen extensions with bifold or sliding doors and a roof lantern.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Side extensions where the plot allows.",
+      "On the older homes around the original village core, we match brickwork and materials to suit the age of the house. A closer match takes more care and can affect the quote."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground under Wickford",
+    "paragraphs": [
+      "Wickford sits on London Clay, with softer alluvium and river deposits down along the Crouch. Clay swells and shrinks with the seasons and moves most near large trees, so foundations often need more depth than people expect, and near the river the ground is softer and wetter again, and drainage needs more thought because clay does not soak water away well.",
+      "We check the ground early, and on low-lying or trickier plots we get it properly investigated before pricing, so the groundworks hold no surprises."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Wickford",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and on a flood-risk or low-lying plot the drainage and groundwork can add to it.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, drainage and groundwork included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Does flood risk affect my extension in Wickford?",
+      "a": "It can. The Crouch runs through the town and Wickford has a history of flooding, so homes on the low ground near the river may need a flood risk assessment, careful floor levels and properly designed drainage. Plenty of homes here are unaffected. We check where your property sits before anything is designed."
+    },
+    {
+      "q": "Do I need planning permission for an extension in Wickford?",
+      "a": "Often not. Much of Wickford's 20th-century housing keeps normal permitted development rights. The exceptions are newer developments where those rights have been removed by planning condition, and homes on Green Belt land around the town, where scale is limited. We check your exact address with Basildon Borough Council."
+    },
+    {
+      "q": "Why does the ground near the river matter?",
+      "a": "Along the Crouch the ground is softer and wetter, and the clay elsewhere in town does not drain well. That affects both foundations and how the extension drains away, so we check it before pricing rather than meeting it mid-build."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Wickford do you cover?",
+      "a": "Wickford itself, along with Runwell, Shotgate, Ramsden Bellhouse, Battlesbridge, Billericay and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/basildon", "label": "House extensions in Basildon" },
+    { "href": "/extensions/essex/billericay", "label": "House extensions in Billericay" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Wickford home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property, flood risk and planning included. No pressure, and no obligation to proceed."
+  }
+}

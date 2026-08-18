@@ -1,0 +1,123 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Colchester",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "colchester",
+  "seo": {
+    "title": "House Extensions in Colchester | J Berry Construction",
+    "description": "Extension design and build across Colchester, from new garrison-quarter homes to Victorian terraces and period houses. Planning and building regs handled. Free visit.",
+    "canonical": "/extensions/essex/colchester"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a home in Colchester by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Colchester."
+    },
+    "eyebrow": "House extensions · Colchester",
+    "headline": "House Extensions in Colchester"
+  },
+  "intro": {
+    "paragraphs": [
+      "We design and build house extensions across Colchester, and we handle the whole job as one team, from the first drawings and the planning application through to the finished, decorated room. Single storey, double storey, kitchen extensions, side returns, we build them across the city and its surrounding villages, on everything from new homes in the garrison quarter to Victorian terraces and period houses near the old centre.",
+      "If you are weighing up extending rather than moving, the quickest way to find out what is possible is a free visit."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Colchester home?",
+      "text": "Book a free, no-obligation visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are letting a team into your home for months, so it comes down to confidence. One team runs the job throughout, led by the company director, so there is always a clear person to speak to. We handle the planning and building regulations, and we work as readily on a straightforward estate extension as on a careful job in a conservation area. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "extensionTypes": {
+    "title": "The extensions we build here",
+    "intro": "Colchester has one of the most varied housing stocks in Essex, and we work across all of it.",
+    "items": [
+      "Rear and wrap-around extensions on the new homes in the garrison development and the estates around the edges.",
+      "Side return and rear extensions on the Victorian and Edwardian terraces near the centre and the station.",
+      "Sympathetic work on the period and listed homes of the old town and the Dutch Quarter.",
+      "Double storey extensions and loft conversions for growing families."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "planning": {
+    "title": "What the planning usually comes down to",
+    "paragraphs": [
+      "Many extensions in Colchester can go ahead under permitted development, but a few local points are worth checking before you commit to a design.",
+      "The historic core has several conservation areas, including the old town and the Dutch Quarter, where design and materials are looked at closely and some permitted development rights fall away, and the city has a large number of listed buildings that need separate consent. On the newer developments, including much of the garrison quarter, permitted development rights are often removed by planning condition, so even a modest extension can need a full application. It is one of the first things we check, because assuming you are covered when you are not is an expensive mistake.",
+      "Your authority is Colchester City Council, becoming part of the new North East Essex Council in 2028. Working out which of these applies to your home, and handling the application if one is needed, is our job rather than yours."
+    ]
+  },
+  "ground": {
+    "title": "The ground under Colchester",
+    "paragraphs": [
+      "Colchester sits mostly on London Clay, with sands and gravels along the Colne valley and the terraces above it. London Clay swells and shrinks with the seasons and moves most near mature trees, while near the river the ground turns softer and wetter.",
+      "On a plot near a large tree, or down towards the Colne, foundations often need more depth and thought than people expect. We check the ground early, and on trickier sites we get it properly investigated before pricing, so the groundworks hold no surprises."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Colchester",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heavy ground or heritage work can add to it.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "place": {
+    "title": "A city worth staying in",
+    "paragraphs": [
+      "Once people have found the answer they came for, this is where the character of the place earns its keep. Colchester is Britain's oldest recorded town and now a city, with Roman walls, a Norman castle and streets of genuine history, alongside a university, a garrison and fast trains to London. It is a place families want to stay in, which is exactly why so much of our work here is extending and improving rather than helping people move on."
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Colchester?",
+      "a": "Often not, but it depends on your home. The old town and Dutch Quarter conservation areas reduce permitted development rights, listed buildings need separate consent, and much of the newer housing, including the garrison quarter, has those rights removed by planning condition. We check your exact address with Colchester City Council and handle any application."
+    },
+    {
+      "q": "Do you work on period and listed homes?",
+      "a": "Yes. Colchester has a great deal of period and listed property, especially around the old town and the Dutch Quarter, and we extend and renovate it sympathetically, matching materials and handling listed building consent where it applies."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Colchester sits mostly on London Clay, which moves with the seasons and near trees, with softer ground down in the Colne valley. That affects foundations and drainage, so we check it before starting rather than meeting it mid-build."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Colchester do you cover?",
+      "a": "Colchester itself, including the garrison quarter, Lexden, Stanway, the Hythe and the surrounding villages such as West Bergholt, Wivenhoe and Marks Tey. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/braintree", "label": "House extensions in Braintree" },
+    { "href": "/extensions/essex/witham", "label": "House extensions in Witham" },
+    { "href": "/extensions/essex/maldon", "label": "House extensions in Maldon" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Colchester home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will look at what is possible, talk through what you want the space to do, and give you honest advice on the build and the planning. No pressure, and no obligation to proceed."
+  }
+}

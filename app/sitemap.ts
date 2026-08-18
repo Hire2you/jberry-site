@@ -70,6 +70,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${site.domain}/extensions/essex/braintree`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/witham`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/maldon`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/colchester`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/basildon`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/billericay`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/wickford`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/harlow`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/grays`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/essex/leigh-on-sea`, changeFrequency: 'monthly' as const},
   ]
 
   return [

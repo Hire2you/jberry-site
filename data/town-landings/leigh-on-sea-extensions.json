@@ -1,0 +1,130 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Leigh-on-Sea",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "leigh-on-sea",
+  "seo": {
+    "title": "House Extensions in Leigh-on-Sea | J Berry Construction",
+    "description": "Extension design and build in Leigh-on-Sea. We know the three conservation areas and their Article 4 rules, and we build sympathetically. Free visit. Call today.",
+    "canonical": "/extensions/essex/leigh-on-sea"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a Victorian home in Leigh-on-Sea by J Berry Construction",
+      "caption": "A rear extension on a period home in Leigh-on-Sea."
+    },
+    "eyebrow": "House extensions · Leigh-on-Sea",
+    "headline": "House Extensions in Leigh-on-Sea"
+  },
+  "intro": {
+    "paragraphs": [
+      "Extending in Leigh is not quite like extending anywhere else in Essex, and it pays to know that before you get attached to a design. Three separate conservation areas cover much of the town, each with its own Article 4 direction, and between them they are some of the tightest rules in the county. Get the design right for the house and the street and good schemes go through. Get it wrong and you lose months.",
+      "We design and build extensions across Leigh with that in mind, handling the drawings, the planning, the building regulations and the build itself as one team, so you have the same people with you from start to finish."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Leigh home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property and exactly where you stand on planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact and nobody passing the buck. We handle the planning and building regulations, including the Article 4 and conservation questions that make Leigh trickier than most towns. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "planning": {
+    "title": "The three conservation areas, and what they actually mean",
+    "paragraphs": [
+      "Leigh has three: Leigh Old Town, down by the water; Leigh Cliff, the late Victorian and Edwardian streets that spread east along the hilltop after the railway arrived in 1856; and Leigh itself. Each carries an Article 4 direction, which withdraws permitted development rights that homeowners elsewhere take for granted.",
+      "In practice, that means planning permission is needed for work that would be automatic on the next street over. In Leigh Old Town the direction is particularly strict, covering the alteration of any window, not just those facing the road, along with rendering brickwork, re-roofing with different materials and putting in a rooflight. In the Leigh and Leigh Cliff areas it covers windows fronting a highway, rendering, re-roofing and new hardstanding.",
+      "Three things worth knowing that most builders will not mention:"
+    ],
+    "items": [
+      "If your application is needed only because of the Article 4 direction, it is free of charge.",
+      "If your property is a flat, there are no permitted development rights at all, so every external alteration needs permission. In a town with this many converted houses, that catches people out.",
+      "The council's Design and Townscape Guide is what your application will be judged against, so designing to it from the start is far quicker than arguing with it later."
+    ],
+    "closingParagraphs": [
+      "Away from the conservation areas, plenty of Leigh homes keep normal permitted development rights and a well-sized rear extension can go ahead without an application. We check exactly where your property sits with Southend-on-Sea City Council before anything is drawn."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "intro": "Leigh's housing is largely late Victorian and Edwardian, much of it designed to make the most of the estuary views, so the work is mostly about opening up the back and adding light without spoiling the front.",
+    "items": [
+      "Rear extensions opening the ground floor to the garden.",
+      "Side return extensions on the terraces and semis.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Kitchen extensions with sliding doors and a roof lantern.",
+      "Sympathetic work on period homes, where we match brickwork and materials to suit the age of the house. A closer match takes more care and can affect the quote, but in a conservation area it is often the difference between an approval and a refusal."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground, and why the hill matters",
+    "paragraphs": [
+      "Leigh runs up a hillside from the estuary, and that slope is not just a view, it is an engineering consideration.",
+      "The London Clay here has a weathered brown layer over darker unweathered clay, with a softened band between them that water can work into. Once it does, that band loses grip and the ground above can move, a rotational slip, which is exactly why the cliffs along this stretch have a long history of slippage. Add the clay's ordinary habit of swelling in the wet and shrinking near large trees, and a sloping Leigh plot becomes a place to check rather than assume.",
+      "We look at the levels and the ground before we price the groundworks, and on trickier plots we get a proper investigation done first."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Leigh",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish. In Leigh two local factors push it: sympathetic materials in a conservation area, and more groundwork on a sloping plot.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, groundwork and materials included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Leigh-on-Sea?",
+      "a": "Very possibly. Three conservation areas cover much of Leigh, each with an Article 4 direction removing permitted development rights, so more work needs permission here than in most towns. Outside them, many homes keep normal rights. We check your exact address with Southend-on-Sea City Council and handle any application."
+    },
+    {
+      "q": "What does the Leigh Old Town Article 4 direction cover?",
+      "a": "It is the strictest of the three. It requires planning permission for altering any window, not just those facing the road, along with rendering brickwork, re-roofing with different materials and installing a rooflight. The Leigh and Leigh Cliff directions cover windows fronting a highway, rendering, re-roofing and hardstanding."
+    },
+    {
+      "q": "Is it true the planning application can be free?",
+      "a": "Yes. Where an application is needed only because of the Article 4 direction, there is no application fee. It is a small thing, but worth knowing."
+    },
+    {
+      "q": "I live in a flat. Is it different?",
+      "a": "Yes. Flats have no permitted development rights at all, so any external alteration needs planning permission wherever you are. With so many converted period houses in Leigh, this catches a lot of people out."
+    },
+    {
+      "q": "Why does the hillside matter for my foundations?",
+      "a": "The London Clay here has a softened band between its layers that water can get into, which can trigger ground movement on slopes, hence the cliffs' history of slippage. On a sloping plot, foundations need designing for that, so we check the ground before pricing."
+    },
+    {
+      "q": "Which parts of Leigh do you cover?",
+      "a": "All of it, including Old Leigh, Leigh Cliff, the Broadway, Highlands and Chalkwell, along with Westcliff, Southend and Rayleigh nearby. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/basildon", "label": "House extensions in Basildon" },
+    { "href": "/extensions/essex/maldon", "label": "House extensions in Maldon" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Leigh home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property and exactly where you stand on planning. No pressure, and no obligation to proceed."
+  }
+}
