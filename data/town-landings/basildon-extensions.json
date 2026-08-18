@@ -1,0 +1,120 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Basildon",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "basildon",
+  "seo": {
+    "title": "House Extensions in Basildon | J Berry Construction",
+    "description": "Extension design and build across Basildon, Billericay and Wickford, from New Town estates to period market-town homes. Planning handled. Free visit. Call today.",
+    "canonical": "/extensions/essex/basildon"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a home in Basildon by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Basildon."
+    },
+    "eyebrow": "House extensions · Basildon",
+    "headline": "House Extensions in Basildon"
+  },
+  "intro": {
+    "paragraphs": [
+      "If your Basildon home has good bones but a cramped ground floor, extending is almost always the better move than trading up, and yes, it is exactly what we do across the borough. We design and build extensions in the New Town itself and out in Billericay and Wickford, running the whole job as one team from the first drawings and the planning through to the finished room.",
+      "The one thing worth knowing up front is that Basildon is really three different places to build in, and which one you are in changes the rules. Here is how that breaks down."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Basildon home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property and what the planning looks like.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact. We handle the planning and building regulations. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation, which keeps the standard honest."
+  },
+  "planning": {
+    "title": "Which part of Basildon are you in?",
+    "paragraphs": [
+      "The New Town: Basildon, Laindon, Pitsea and Vange. Most of this is planned post-war housing, well laid out but often tight on ground-floor space, so the usual project is a rear or wrap-around extension to open up a proper kitchen and family room. The catch is that many of these estates have permitted development rights removed or limited by planning condition, so an extension that would be automatic elsewhere can need a full application. It is the first thing to check, and we do.",
+      "Billericay. A historic market town with a proper conservation area running through the High Street and centre, plus more spacious, older housing around it. Here the questions are about design and materials that suit the area, and where the conservation area applies, some permitted development rights fall away.",
+      "Wickford and the edges. More of a mix again, older cores, newer estates, and, around the fringes of the borough, Green Belt. Roughly half of Basildon Borough is Green Belt, and if your home sits in it, extensions are limited in scale rather than ruled out.",
+      "Whichever of the three you are in, working out what applies to your home is our job, not yours."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "intro": "Across all three, the work is mostly the same handful of projects.",
+    "items": [
+      "Rear and wrap-around extensions to open up the ground floor.",
+      "Side return extensions on the older and terraced homes.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Kitchen extensions with bifold or sliding doors."
+    ],
+    "closing": "On the older homes in Billericay and the borough's villages, we match brickwork and materials to suit the age of the house, which is worth factoring in, as a closer match can affect the quote.",
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground under Basildon",
+    "paragraphs": [
+      "Basildon sits largely on London Clay, the heavy soil that made this poor farmland before the New Town arrived. Clay swells and shrinks with the seasons and moves most near mature trees, so foundations often need more depth than people expect. To the south, towards Pitsea, Vange and the Thames marshes, the ground turns softer and wetter, and around Langdon Hills it rises and changes again.",
+      "We check the ground early, and on trickier or low-lying plots we get it properly investigated before pricing, so the groundworks hold no surprises."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Basildon",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, plus, on an older home, any material matching.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission to extend a home on a Basildon New Town estate?",
+      "a": "Often, yes, and it catches people out. Many of the New Town estates have permitted development rights limited or removed by planning condition, so even a modest extension can need a full application. We check your property's conditions with Basildon Borough Council before you plan anything."
+    },
+    {
+      "q": "Is extending in Billericay different?",
+      "a": "It can be. Billericay's High Street and centre sit in a conservation area, where design and materials are looked at more closely and some permitted development rights fall away. Outside the conservation area, more is often possible without an application. We confirm which applies to your address."
+    },
+    {
+      "q": "What if my home is in the Green Belt?",
+      "a": "Around half the borough is Green Belt, mostly the countryside and the plotland areas around the towns. If your home is in it, you can usually still extend, but the scale is limited. We check where your property sits and design to what is allowed."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which parts of the borough do you cover?",
+      "a": "The whole of it: Basildon, Laindon, Pitsea and Vange, along with Billericay, Wickford and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/billericay", "label": "House extensions in Billericay" },
+    { "href": "/extensions/essex/wickford", "label": "House extensions in Wickford" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/extensions/essex/chelmsford", "label": "House extensions in Chelmsford" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Basildon home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property and what the planning looks like. No pressure, and no obligation to proceed."
+  }
+}

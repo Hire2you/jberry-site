@@ -631,13 +631,55 @@ export default function ServiceLandingPage({
                   >
                     {shortName}s in Maldon
                   </Link>
+                  <Link
+                    href="/extensions/essex/colchester"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Colchester
+                  </Link>
+                  <Link
+                    href="/extensions/essex/basildon"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Basildon
+                  </Link>
+                  <Link
+                    href="/extensions/essex/billericay"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Billericay
+                  </Link>
+                  <Link
+                    href="/extensions/essex/wickford"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Wickford
+                  </Link>
+                  <Link
+                    href="/extensions/essex/harlow"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Harlow
+                  </Link>
+                  <Link
+                    href="/extensions/essex/grays"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Grays
+                  </Link>
+                  <Link
+                    href="/extensions/essex/leigh-on-sea"
+                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                  >
+                    {shortName}s in Leigh-on-Sea
+                  </Link>
                 </>
               )}
               {locationPages
                 .filter((l) => {
                   // Static town landings already linked above — avoid duplicate buttons
                   const slug = normalizeLocationSlug(l.slug)
-                  return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood', 'epping', 'braintree', 'witham', 'maldon'].includes(slug)
+                  return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood', 'epping', 'braintree', 'witham', 'maldon', 'colchester', 'basildon', 'billericay', 'wickford', 'harlow', 'grays', 'leigh-on-sea', 'leigh'].includes(slug)
                 })
                 .map((l) => (
                 <Link

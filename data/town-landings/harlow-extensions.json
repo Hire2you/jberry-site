@@ -1,0 +1,121 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Harlow",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "harlow",
+  "seo": {
+    "title": "House Extensions in Harlow | J Berry Construction",
+    "description": "Extension design and build in Harlow from a builder based four miles away. We handle the Article 4 and conservation planning, and the build. Free visit. Call today.",
+    "canonical": "/extensions/essex/harlow"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Harlow by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Harlow."
+    },
+    "eyebrow": "House extensions · Harlow",
+    "headline": "House Extensions in Harlow"
+  },
+  "intro": {
+    "paragraphs": [
+      "Harlow's houses were well planned but rarely generous downstairs, so the job most families here want is the same one: open up the back, get a kitchen you can actually live in, or add a bedroom above. We build those extensions across the town, and we are based four miles up the road in Sawbridgeworth, so this is genuinely local work for us rather than a long drive.",
+      "We take the whole thing on as one team, the drawings, the planning, the building regulations and the build, so you deal with the same people from start to finish."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Harlow home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property and where you stand on planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "Being local matters, and we are, four miles away rather than travelling in from the far side of the county. One team runs the job from start to finish, so there is always a clear point of contact. We handle the planning and building regulations, including the Article 4 and conservation questions that make Harlow trickier than it looks. Our quotes are properly itemised. And most of our work comes through recommendation."
+  },
+  "planning": {
+    "title": "The planning catch that trips people up in Harlow",
+    "paragraphs": [
+      "Here is the thing worth knowing before you sketch anything, because a lot of Harlow homeowners get caught out by it.",
+      "Harlow has Article 4 directions covering parts of the town, including Old Harlow, Mark Hall North and Morley Grove. In plain English, an Article 4 direction removes permitted development rights you would normally have, so work that would be automatic on the next street can need a full planning application on yours.",
+      "On top of that, Harlow has ten conservation areas. Some are the historic bits you would expect, like Old Harlow and Churchgate Street. Others are more surprising: Mark Hall North was designated to protect the architecture of the New Town itself, being the first neighbourhood Gibberd completed. If you live in one, design and materials get looked at more closely.",
+      "Away from those areas, plenty of Harlow homes keep normal permitted development rights and a well-sized extension can go ahead without an application at all. The point is simply that it varies street by street here more than in most towns, and assuming you are covered when you are not is an expensive mistake. We check your address with Harlow Council before anything is drawn, and handle the application if one is needed."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "items": [
+      "Rear and wrap-around extensions to open up the ground floor.",
+      "Kitchen extensions with bifold or sliding doors and a roof lantern.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Side extensions where the plot allows.",
+      "On the older homes in Old Harlow and the original village cores, we match brickwork and materials to suit the age of the house. A closer match takes more care and can affect the quote."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground under Harlow",
+    "paragraphs": [
+      "Harlow sits on boulder clay over London Clay, on ground that rises from the Stort valley in the north up to the higher land in the south. Gibberd deliberately built on the high ground and left the valleys open, which is one reason the town itself has largely avoided serious flooding.",
+      "The clay is the thing that matters for your foundations. It swells in the wet and shrinks in dry spells, and it moves most near mature trees, of which Harlow's green wedges and parks give you plenty. On a leafy plot, foundations often need to go deeper than people expect, and closer to the Stort the ground softens. We check the ground early and, on trickier plots, get it properly investigated before pricing the groundworks."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Harlow",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, plus any material matching on an older home.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "What is an Article 4 direction, and does it affect my Harlow home?",
+      "a": "An Article 4 direction removes permitted development rights that homeowners normally have, meaning you need planning permission for work that would otherwise be automatic. In Harlow they apply to areas including Old Harlow, Mark Hall North and Morley Grove. We check whether yours is affected before you plan anything."
+    },
+    {
+      "q": "Do I need planning permission for an extension in Harlow?",
+      "a": "It genuinely depends on your street. Away from the Article 4 areas and the town's ten conservation areas, many homes keep normal permitted development rights and can extend without a full application. Inside them, more work needs permission. We confirm your position with Harlow Council and handle any application."
+    },
+    {
+      "q": "Is Mark Hall North really a conservation area?",
+      "a": "Yes, and it surprises people. It was designated to protect the architecture of the New Town itself, as the first neighbourhood completed under Gibberd's plan, so its original housing styles and features are protected in the same way an old high street would be."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Harlow sits on boulder clay over London Clay, which moves with the seasons and shifts most near large trees, and this is a leafy town. That often means deeper foundations than expected, so we check the ground before pricing rather than meeting it mid-build."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas around Harlow do you cover?",
+      "a": "All of Harlow, including Old Harlow, Church Langley, Newhall, Potter Street and Katherines, along with Sawbridgeworth, Bishop's Stortford, Epping and the surrounding villages. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/epping", "label": "House extensions in Epping" },
+    { "href": "/extensions/essex/ongar", "label": "House extensions in Ongar" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Harlow home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property and where you stand on planning. No pressure, and no obligation to proceed."
+  }
+}

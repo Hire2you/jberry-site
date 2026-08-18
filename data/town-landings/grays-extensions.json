@@ -1,0 +1,130 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Grays",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "grays",
+  "seo": {
+    "title": "House Extensions in Grays & Thurrock | J Berry Construction",
+    "description": "Extension design and build across Grays, Chafford Hundred and Thurrock. Most homes here keep full permitted development rights. Ground and planning handled. Free visit.",
+    "canonical": "/extensions/essex/grays"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Grays, Thurrock, by J Berry Construction",
+      "caption": "A rear kitchen extension on a family home in Grays."
+    },
+    "eyebrow": "House extensions · Grays & Thurrock",
+    "headline": "House Extensions in Grays and Thurrock"
+  },
+  "intro": {
+    "paragraphs": [
+      "Here is something worth knowing before you start: most homes in Thurrock keep their full permitted development rights. Unlike a lot of Essex, there are no Article 4 directions here stripping them away, so a well-sized rear extension can often go ahead without a full planning application at all.",
+      "We design and build those extensions across Grays, Chafford Hundred and the wider Thurrock area, running the drawings, the planning, the building regulations and the build as one team, so you deal with the same people from start to finish."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Thurrock home?",
+      "text": "Book a free, no-obligation visit and we will tell you what is possible on your property and exactly where you stand on planning.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact and nobody passing the buck. We handle the planning and building regulations. Our quotes are properly itemised, not a single lump sum. And most of our work comes through recommendation."
+  },
+  "planning": {
+    "title": "Where the exceptions apply",
+    "paragraphs": [
+      "Permitted development is not a free pass everywhere, and there are two things to check.",
+      "Thurrock has seven conservation areas, mostly protecting the historic village centres like Horndon on the Hill, Orsett, Fobbing and the Tilburys. In those, design and materials are looked at more closely, traditional weatherboarding, red brick and clay tiles are expected, and some permitted development rights fall away.",
+      "The rural north and east of the borough is Green Belt, where extensions are limited in size rather than ruled out. And some newer developments have permitted development rights removed by planning condition, so it is worth confirming rather than assuming.",
+      "Your authority is Thurrock Council, a unitary, so it handles planning, building control and flood risk all in-house. We check exactly where your property stands before anything is drawn, and handle the application if one is needed."
+    ]
+  },
+  "extensionTypes": {
+    "title": "What we build here",
+    "items": [
+      "Rear and wrap-around extensions to open up the ground floor.",
+      "Kitchen extensions with bifold or sliding doors and a roof lantern.",
+      "Double storey extensions and loft conversions for growing families.",
+      "Side extensions where the plot allows.",
+      "On the older homes in Grays and the conservation villages, we match brickwork and materials to suit the age and character of the house. A closer match takes more care and can affect the quote."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "ground": {
+    "title": "The ground here needs checking, and here is why",
+    "paragraphs": [
+      "This is the part that genuinely sets Thurrock apart, and it is not something a builder from outside the area will think about.",
+      "Much of Grays and Chafford Hundred is built on and around old chalk quarries. The land was worked for chalk, gravel and brickearth from the 18th century until the 1970s, leaving cliffs up to thirty metres deep, and Chafford Hundred's five thousand homes were built on that reclaimed quarry landscape from the late 1980s. There are also deneholes across parts of Thurrock, ancient shafts sunk more than twenty metres to reach the chalk, most of them long since infilled.",
+      "What that means in practice is simple. On some plots here you are building on made ground or backfill rather than undisturbed soil, and how deep and how well compacted it is varies enormously. Elsewhere it is chalk, gravel or, in the north, London Clay that swells and shrinks with the seasons.",
+      "So we do not assume. We check the ground and the site history before we price the groundworks, and on anything questionable we get a proper investigation done first. That is the difference between a foundation that sits quietly for decades and one that gives you trouble."
+    ]
+  },
+  "flood": {
+    "title": "Flooding on the low ground",
+    "paragraphs": [
+      "Grays sits on a chalk and gravel terrace above the Thames, but the low riverside frontage is a different story, protected by a continuous line of tidal walls and embankments. Thurrock also has fourteen Areas of Critical Drainage, where surface water can trigger a flood risk assessment even on ground that looks low risk on the map.",
+      "If your home is on the low ground or in one of those areas, a project can need a flood risk assessment and drainage designed properly rather than tied into an already stretched system. We identify that early rather than letting it stall an application."
+    ]
+  },
+  "cost": {
+    "title": "What an extension costs in Thurrock",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, plus any material matching on an older home. Made ground or a difficult plot can add to the groundwork, which is exactly why we check before quoting.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate, and a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, groundwork and drainage included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme for your project at the site visit, allowing for its size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on what to expect during your build."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Thurrock?",
+      "a": "Often not. Thurrock has no Article 4 directions, so most homes keep full permitted development rights and a well-sized extension can go ahead without an application. The exceptions are the seven conservation areas, Green Belt land in the north and east, and some newer developments with rights removed by planning condition. We check your exact address with Thurrock Council."
+    },
+    {
+      "q": "I live in Chafford Hundred. Is the ground an issue for foundations?",
+      "a": "It can be. Chafford Hundred was built on reclaimed chalk quarry land, so on some plots you are building on made ground rather than undisturbed soil, and its depth and compaction vary. It is entirely buildable, but it needs checking rather than assuming, which is why we look at the ground and site history before pricing."
+    },
+    {
+      "q": "What are deneholes, and do they affect me?",
+      "a": "They are ancient shafts, over twenty metres deep in places, sunk to reach the chalk beneath. Most across Thurrock have long been infilled. They are only relevant on a small number of plots, but they are one more reason we check the ground history rather than take it on trust."
+    },
+    {
+      "q": "Does flood risk affect my extension?",
+      "a": "It can, if you are on the low riverside ground or in one of Thurrock's fourteen Areas of Critical Drainage, where surface water can trigger an assessment even on ground that looks low risk. We check this early and design for it where it applies."
+    },
+    {
+      "q": "How do I get a quote?",
+      "a": "Call us on 07734 683686 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Grays, Chafford Hundred, South Ockendon, Aveley, Stanford-le-Hope, Corringham, Tilbury and the Thurrock villages, along with Basildon and Brentwood nearby. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/essex/basildon", "label": "House extensions in Basildon" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Thurrock home?",
+    "text": "Call 07734 683686, request a callback, or book a free, no-obligation site visit. We will tell you what is possible on your property and exactly where you stand on planning. No pressure, and no obligation to proceed."
+  }
+}
