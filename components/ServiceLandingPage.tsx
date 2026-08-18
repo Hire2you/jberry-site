@@ -575,112 +575,42 @@ export default function ServiceLandingPage({
                   {shortName}s in Essex
                 </Link>
               )}
-              {serviceSlug === 'extensions' && (
-                <>
-                  <Link
-                    href="/extensions/essex/chelmsford"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Chelmsford
-                  </Link>
-                  <Link
-                    href="/extensions/essex/chigwell"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Chigwell
-                  </Link>
-                  <Link
-                    href="/extensions/essex/ongar"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Ongar
-                  </Link>
-                  <Link
-                    href="/extensions/essex/loughton"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Loughton
-                  </Link>
-                  <Link
-                    href="/extensions/essex/brentwood"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Brentwood
-                  </Link>
-                  <Link
-                    href="/extensions/essex/epping"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Epping
-                  </Link>
-                  <Link
-                    href="/extensions/essex/braintree"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Braintree
-                  </Link>
-                  <Link
-                    href="/extensions/essex/witham"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Witham
-                  </Link>
-                  <Link
-                    href="/extensions/essex/maldon"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Maldon
-                  </Link>
-                  <Link
-                    href="/extensions/essex/colchester"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Colchester
-                  </Link>
-                  <Link
-                    href="/extensions/essex/basildon"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Basildon
-                  </Link>
-                  <Link
-                    href="/extensions/essex/billericay"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Billericay
-                  </Link>
-                  <Link
-                    href="/extensions/essex/wickford"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Wickford
-                  </Link>
-                  <Link
-                    href="/extensions/essex/harlow"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Harlow
-                  </Link>
-                  <Link
-                    href="/extensions/essex/grays"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Grays
-                  </Link>
-                  <Link
-                    href="/extensions/essex/leigh-on-sea"
-                    className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                  >
-                    {shortName}s in Leigh-on-Sea
-                  </Link>
-                </>
-              )}
+              {serviceSlug === 'extensions' &&
+                [
+                  { slug: 'basildon', town: 'Basildon' },
+                  { slug: 'billericay', town: 'Billericay' },
+                  { slug: 'braintree', town: 'Braintree' },
+                  { slug: 'brentwood', town: 'Brentwood' },
+                  { slug: 'chelmsford', town: 'Chelmsford' },
+                  { slug: 'chigwell', town: 'Chigwell' },
+                  { slug: 'colchester', town: 'Colchester' },
+                  { slug: 'epping', town: 'Epping' },
+                  { slug: 'grays', town: 'Grays' },
+                  { slug: 'harlow', town: 'Harlow' },
+                  { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
+                  { slug: 'loughton', town: 'Loughton' },
+                  { slug: 'maldon', town: 'Maldon' },
+                  { slug: 'ongar', town: 'Ongar' },
+                  { slug: 'wickford', town: 'Wickford' },
+                  { slug: 'witham', town: 'Witham' },
+                ]
+                  .sort((a, b) => a.town.localeCompare(b.town))
+                  .map((t) => (
+                    <Link
+                      key={t.slug}
+                      href={`/extensions/essex/${t.slug}`}
+                      className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
+                    >
+                      {shortName}s in {t.town}
+                    </Link>
+                  ))}
               {locationPages
                 .filter((l) => {
                   // Static town landings already linked above — avoid duplicate buttons
                   const slug = normalizeLocationSlug(l.slug)
                   return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood', 'epping', 'braintree', 'witham', 'maldon', 'colchester', 'basildon', 'billericay', 'wickford', 'harlow', 'grays', 'leigh-on-sea', 'leigh'].includes(slug)
                 })
+                .sort((a, b) => a.town.localeCompare(b.town))
                 .map((l) => (
                 <Link
                   key={l._id}
