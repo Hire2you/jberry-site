@@ -24,6 +24,31 @@ import type { Testimonial } from '@/lib/testimonials';
 import type { CarouselSlide } from '@/lib/projects';
 import { locationPageHref, type LocationPage } from '@/lib/locations';
 import { normalizeLocationSlug } from '@/lib/location-page';
+import TownLinkList from '@/components/TownLinkList';
+
+const ESSEX_EXTENSION_TOWNS = [
+  { slug: 'basildon', town: 'Basildon' },
+  { slug: 'billericay', town: 'Billericay' },
+  { slug: 'braintree', town: 'Braintree' },
+  { slug: 'brentwood', town: 'Brentwood' },
+  { slug: 'chelmsford', town: 'Chelmsford' },
+  { slug: 'chigwell', town: 'Chigwell' },
+  { slug: 'colchester', town: 'Colchester' },
+  { slug: 'epping', town: 'Epping' },
+  { slug: 'grays', town: 'Grays' },
+  { slug: 'harlow', town: 'Harlow' },
+  { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
+  { slug: 'loughton', town: 'Loughton' },
+  { slug: 'maldon', town: 'Maldon' },
+  { slug: 'ongar', town: 'Ongar' },
+  { slug: 'wickford', town: 'Wickford' },
+  { slug: 'witham', town: 'Witham' },
+] as const;
+
+const STATIC_TOWN_SLUGS: string[] = [
+  ...ESSEX_EXTENSION_TOWNS.map((t) => t.slug),
+  'leigh',
+];
 
 export type ServiceLandingData = {
   heroImage: { src: string; alt: string };
@@ -566,61 +591,30 @@ export default function ServiceLandingPage({
             <p className="mt-4 max-w-2xl text-sm text-stone">
               Dedicated {lower} pages for the towns we work in most:
             </p>
-            <div className="mt-8 flex flex-wrap gap-3">
-              {serviceSlug === 'loft-conversions' && (
-                <Link
-                  href="/loft-conversions/essex"
-                  className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                >
-                  {shortName}s in Essex
-                </Link>
-              )}
-              {serviceSlug === 'extensions' &&
-                [
-                  { slug: 'basildon', town: 'Basildon' },
-                  { slug: 'billericay', town: 'Billericay' },
-                  { slug: 'braintree', town: 'Braintree' },
-                  { slug: 'brentwood', town: 'Brentwood' },
-                  { slug: 'chelmsford', town: 'Chelmsford' },
-                  { slug: 'chigwell', town: 'Chigwell' },
-                  { slug: 'colchester', town: 'Colchester' },
-                  { slug: 'epping', town: 'Epping' },
-                  { slug: 'grays', town: 'Grays' },
-                  { slug: 'harlow', town: 'Harlow' },
-                  { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
-                  { slug: 'loughton', town: 'Loughton' },
-                  { slug: 'maldon', town: 'Maldon' },
-                  { slug: 'ongar', town: 'Ongar' },
-                  { slug: 'wickford', town: 'Wickford' },
-                  { slug: 'witham', town: 'Witham' },
-                ]
-                  .sort((a, b) => a.town.localeCompare(b.town))
-                  .map((t) => (
-                    <Link
-                      key={t.slug}
-                      href={`/extensions/essex/${t.slug}`}
-                      className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                    >
-                      {shortName}s in {t.town}
-                    </Link>
-                  ))}
-              {locationPages
-                .filter((l) => {
-                  // Static town landings already linked above — avoid duplicate buttons
-                  const slug = normalizeLocationSlug(l.slug)
-                  return !['chelmsford', 'chigwell', 'ongar', 'loughton', 'brentwood', 'epping', 'braintree', 'witham', 'maldon', 'colchester', 'basildon', 'billericay', 'wickford', 'harlow', 'grays', 'leigh-on-sea', 'leigh'].includes(slug)
-                })
-                .sort((a, b) => a.town.localeCompare(b.town))
-                .map((l) => (
-                <Link
-                  key={l._id}
-                  href={locationPageHref(l, serviceSlug)}
-                  className="border border-line px-5 py-3 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
-                >
-                  {shortName}s in {l.town}
-                </Link>
-              ))}
-            </div>
+            <TownLinkList
+              links={[
+                ...(serviceSlug === 'loft-conversions'
+                  ? [{ href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' }]
+                  : []),
+                ...(serviceSlug === 'extensions'
+                  ? ESSEX_EXTENSION_TOWNS.map((t) => ({
+                      href: `/extensions/essex/${t.slug}`,
+                      label: `${shortName}s in ${t.town}`,
+                      town: t.town,
+                    }))
+                  : []),
+                ...locationPages
+                  .filter((l) => {
+                    const slug = normalizeLocationSlug(l.slug)
+                    return !STATIC_TOWN_SLUGS.includes(slug)
+                  })
+                  .map((l) => ({
+                    href: locationPageHref(l, serviceSlug),
+                    label: `${shortName}s in ${l.town}`,
+                    town: l.town,
+                  })),
+              ].sort((a, b) => a.town.localeCompare(b.town))}
+            />
           </Reveal>
         </div>
       </section>
