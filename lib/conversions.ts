@@ -8,7 +8,7 @@ export const CONVERSIONS = {
     value: 1.0,
   },
   phone: {
-    label: process.env.NEXT_PUBLIC_GADS_PHONE_LABEL || '',
+    label: process.env.NEXT_PUBLIC_GADS_PHONE_LABEL || 'S1GsCPGG_OQcEOvT-bxE',
     value: 1.0,
   },
   whatsapp: {
