@@ -1,6 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { site } from '@/lib/site';
+import { GADS_ID } from '@/components/GoogleAds';
 
 // Floating WhatsApp widget with pre-qualification step.
 // Fires the Google Ads conversion (secondary action to start — same rule as before)
@@ -17,10 +18,9 @@ export default function WhatsAppWidget() {
   const [open, setOpen] = useState(false);
 
   function go(msg: string) {
-    const id = process.env.NEXT_PUBLIC_GADS_ID;
     const label = process.env.NEXT_PUBLIC_GADS_WHATSAPP_LABEL;
-    if (window.gtag && id && label) {
-      window.gtag('event', 'conversion', { send_to: `${id}/${label}` });
+    if (window.gtag && label) {
+      window.gtag('event', 'conversion', { send_to: `${GADS_ID}/${label}` });
     }
     window.open(`https://wa.me/${site.whatsapp}?text=${encodeURIComponent(msg)}`, '_blank');
     setOpen(false);
