@@ -1,6 +1,5 @@
 import Script from 'next/script';
-
-export const GADS_ID = process.env.NEXT_PUBLIC_GADS_ID || 'AW-18381433323';
+import { GADS_ID } from '@/lib/conversions';
 
 export default function GoogleAds() {
   return (

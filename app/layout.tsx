@@ -9,6 +9,7 @@ import WhatsAppWidgetLazy from '@/components/WhatsAppWidgetLazy';
 import StickyCallBar from '@/components/StickyCallBar';
 import DisableDraftMode from '@/components/DisableDraftMode';
 import GoogleAds from '@/components/GoogleAds';
+import OutboundConversions from '@/components/OutboundConversions';
 import { site } from '@/lib/site';
 import { SanityLive } from '@/sanity/live';
 
@@ -59,6 +60,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
     <html lang="en-GB" className={`${display.variable} ${body.variable}`}>
       <body>
         <GoogleAds />
+        <OutboundConversions />
         <Header />
         <main>{children}</main>
         <Footer />

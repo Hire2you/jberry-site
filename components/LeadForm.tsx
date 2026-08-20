@@ -37,7 +37,8 @@ export default function LeadForm({
       }),
     });
     setState(res.ok ? 'sent' : 'error');
-    if (res.ok) window.location.assign('/thank-you');
+    // The conversion fires on /thank-you; the id keeps a refresh from counting twice.
+    if (res.ok) window.location.assign(`/thank-you?lead=${Date.now().toString(36)}`);
   }
 
   if (state === 'sent') return null;
