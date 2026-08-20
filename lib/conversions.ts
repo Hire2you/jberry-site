@@ -12,7 +12,7 @@ export const CONVERSIONS = {
     value: 1.0,
   },
   whatsapp: {
-    label: process.env.NEXT_PUBLIC_GADS_WHATSAPP_LABEL || '',
+    label: process.env.NEXT_PUBLIC_GADS_WHATSAPP_LABEL || 'ZSSICL7T8eQcEOvT-bxE',
     value: 1.0,
   },
 } as const;
