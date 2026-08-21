@@ -1,0 +1,144 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Romford",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "romford",
+  "seo": {
+    "title": "House Extensions in Romford | J Berry Construction",
+    "description": "Extension design and build across Romford, Gidea Park, Hornchurch and Emerson Park. Rear, side and double storey extensions. Planning handled. Free site visit.",
+    "canonical": "/extensions/london/romford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a family home in Romford by J Berry Construction",
+      "caption": "A rear and side extension on a family home in Romford."
+    },
+    "eyebrow": "House extensions · Romford",
+    "headline": "House Extensions in Romford"
+  },
+  "intro": {
+    "paragraphs": [
+      "Romford's houses were built with something most of London has run out of: room. Wide plots, side access, garages, decent gardens. That means the question here is rarely \"can we fit an extension\", it is \"which of the three or four things you could build is actually worth doing\".",
+      "We design and build extensions across Romford and the surrounding area, handling the drawings, the planning, the building regulations and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Romford home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The options, and which one is usually right",
+    "items": [
+      "The rear extension. Three to four metres out, the back wall opened right up, kitchen and dining and family space combined into one room. On these plots you can usually do this and still have a proper garden left, which is not true everywhere in London.",
+      "The side extension. Most Romford semis and detached houses have two to three metres down the side doing nothing. Filling it in gives you the wide kitchen these houses were never designed to have. Set the front face back slightly from the original and keep the new roof below the ridge, and it looks like it was always there.",
+      "The double storey. If you need bedrooms as well as living space, this is almost always the best value on the page. One set of foundations, one roof, two floors of new space. The design challenge is the roof line, tying a new ridge into the original hip properly.",
+      "The garage. Most Romford garages are too narrow for a modern car and are full of bikes and boxes. Converting one is the cheapest floor area you will ever add, because the walls, roof and foundations exist. Done properly, it needs an insulated floor build-up with a damp membrane, insulated walls, a proper ceiling and real heating. Skip those and it will always feel like a garage. And if the garage is at the side, the room above it is often the cheapest bedroom available to you, subject to whether the existing foundations will take a storey.",
+      "If you are doing more than one of these, do them together. One scaffold, one set of groundwork, one period of disruption."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Rear extension with sliding doors on an interwar home"
+    }
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "Opening up the back of the house means removing the original rear wall, and usually the wall between the kitchen and dining room. Both are load-bearing, so the weight above goes onto steel beams, sized by a structural engineer and signed off under building regs.",
+    "body": "The wider the opening, the heavier the steel, the deeper the padstones, and sometimes the deeper the foundations underneath them. A cheaper quote that leaves a stub of wall or drops a post into the middle of your new kitchen is not the same job, and you will look at it every day. If you are going above a garage, there is a second question: whether the existing garage foundations and walls will carry a storey. Sometimes they will, sometimes they need strengthening. Either way it gets checked before we price it.",
+    "closing": "We size the steel for the opening you actually want, and we itemise it.",
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Open-plan rear extension on a Romford family home"
+    }
+  },
+  "place": {
+    "title": "Materials and the choices that matter",
+    "paragraphs": [
+      "Brick and tile matching. Interwar Romford brick is distinctive, often with render or tile hanging above. Matching brick, bond and roof tile is what makes an extension read as part of the house rather than stuck to it. It takes more care and can affect the quote.",
+      "The set-back. On a side extension, setting the front face back from the original elevation and keeping the ridge below the original is what looks right and usually what gets it approved. It costs nothing to do and everything to get wrong.",
+      "Sliders or bifolds. Sliders give bigger panes, slimmer frames and a better view for the eleven months a year they are shut. Bifolds fold fully away. Most people land on sliders once they have seen both.",
+      "A lantern or rooflights. Extend across the back and the middle of the house goes dark. A lantern over the island or dining table is what saves it, and it is the most commonly forgotten line in a budget.",
+      "The utility. With the plots you have here, stealing a metre for a utility or boot room is nearly always worth it. It is the thing people are most glad of afterwards."
+    ]
+  },
+  "planning": {
+    "title": "Planning in Romford",
+    "paragraphs": [
+      "Your authority is the London Borough of Havering.",
+      "For most Romford homes this is genuinely good news: these are ordinary suburban streets, so many rear and side extensions, and most garage conversions, fall under permitted development and need no full application. A two-storey side extension normally needs full permission.",
+      "The exceptions worth checking: Gidea Park, unusual and strictly protected. Much of it was built as a 1911 architectural exhibition, so the houses were individually designed by named architects, and the conservation area is taken seriously. Expect close scrutiny of design, materials and anything visible from the street. Emerson Park and the other conservation areas, where permitted development is reduced. Flats, which have no permitted development rights at all. Green Belt land around the edges of the borough, where extensions are limited in scale. Newer developments where rights have been removed by planning condition.",
+      "We check your exact address before anything is drawn, and handle the application if you need one."
+    ]
+  },
+  "ground": {
+    "title": "The ground",
+    "paragraphs": [
+      "Romford sits on London Clay, with river gravels along the Rom and the Ingrebourne.",
+      "Clay swells in the wet, shrinks in dry spells and moves most near mature trees, and these are leafy streets with big gardens. A large tree near the back of the house usually means deeper foundations than people expect. Down near the rivers the water table is higher and drainage needs more thought.",
+      "We check the ground and the trees before pricing the groundworks, rather than finding out halfway down a trench."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning and the building regulations. Our quotes are itemised, so you can see what the steel, the groundwork and the glazing actually cost. And most of our work comes through recommendation."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork and the finish. Worth knowing how the options compare: a garage conversion is the cheapest floor area you can add. A rear extension is the middle. A double storey is the best value per square metre if you need bedrooms too.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "How your build will run",
+    "text": "We set out the actual programme at the site visit, allowing for the size of the job, the ground and the season."
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Romford?",
+      "a": "Often not. Most Romford streets are ordinary suburban housing, so many rear and side extensions and garage conversions fall under permitted development. The exceptions are conservation areas like Gidea Park and Emerson Park, flats, Green Belt land, and some newer estates with rights removed by condition. We check your address with Havering first."
+    },
+    {
+      "q": "Is Gidea Park different?",
+      "a": "Yes, significantly. Much of it was built as a 1911 architectural exhibition with individually designed houses, and its conservation area is taken seriously. Design, materials and anything visible from the street get close scrutiny, so a standard extension design will not do."
+    },
+    {
+      "q": "Is a garage conversion worth it?",
+      "a": "It is the cheapest square metre you can add, because the structure already exists. The important part is doing it properly: an insulated floor build-up with a damp membrane, insulated walls, a proper ceiling and real heating. Without those it will always feel like a garage."
+    },
+    {
+      "q": "Can I build a room above my garage?",
+      "a": "Often, and it is usually the cheapest bedroom available. The question is whether the existing garage foundations and walls will carry a storey, which needs checking rather than assuming. It normally needs full planning permission."
+    },
+    {
+      "q": "Will my kitchen be dark in the middle after a rear extension?",
+      "a": "It can be, if all the glazing is at the back. A lantern or a run of rooflights over the middle of the new space keeps it bright, and it is the element most often left out of a budget."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Romford itself, along with Gidea Park, Emerson Park, Hornchurch, Collier Row, Harold Wood, Upminster and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
+    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
+    { "href": "/extensions/essex/chigwell", "label": "House extensions in Chigwell" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Romford home?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will talk through what will actually work on your house and what it will cost. No pressure, and no obligation to proceed."
+  }
+}

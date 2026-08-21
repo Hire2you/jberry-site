@@ -1,0 +1,139 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Ilford",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "ilford",
+  "seo": {
+    "title": "House Extensions in Ilford | J Berry Construction",
+    "description": "Extension design and build in Ilford. Side returns, rear extensions, double storeys and lofts, with the steel, party wall and planning handled. Free site visit.",
+    "canonical": "/extensions/london/ilford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Side return kitchen extension on a terraced home in Ilford by J Berry Construction",
+      "caption": "A side return and rear extension on a period home in Ilford."
+    },
+    "eyebrow": "House extensions · Ilford",
+    "headline": "House Extensions in Ilford"
+  },
+  "intro": {
+    "paragraphs": [
+      "The most common brief we get in Ilford is not a bigger house, it is a house that works for more people. More bedrooms, a kitchen the whole family can actually sit in, and often somewhere for grandparents or grown-up children to have their own space. That shapes what is worth building here, and it usually means going up as well as out.",
+      "We design and build extensions across Ilford, handling the drawings, the planning, the building regulations and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Ilford home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "What is worth building here",
+    "items": [
+      "The side return plus rear. On the Victorian and Edwardian terraces around Ilford, Seven Kings and Goodmayes, this is the standard fix. Fill in the alley beside the rear projection, extend two or three metres out, and you get one wide kitchen and dining space running the full width of the house. It changes how the whole ground floor works.",
+      "The loft, done properly. If you need bedrooms, this is usually the best value on the list, because you are not building foundations. A rear dormer, and on a hipped roof a hip-to-gable, turns wasted roof space into a proper double bedroom with an ensuite rather than an attic you stoop in.",
+      "The double storey side extension. On the 1930s semis, where there is side space, this gives you a bedroom above new living space below. One set of foundations and one roof do two jobs, which makes it the best value per square metre if you need both.",
+      "Both at once. If you are doing the ground floor and the loft, do them together. One scaffold, one period of disruption, one lot of making good. Splitting them means paying twice for the same setup, and it is the single easiest saving on a job like this."
+    ],
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear kitchen extension with sliding doors"
+    }
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "Opening up the back of a terrace means removing two load-bearing walls: the flank of the rear projection and part or all of the wall into the middle room. The floors, the wall above and the roof are all carried on steel beams, sized by a structural engineer and signed off under building regs.",
+    "body": "There is a second issue on houses of this age that cheap quotes skip. The original footings are shallow, often a couple of courses of brick, and were never designed to take a concentrated point load from a beam end. That is what properly designed padstones are for, and sometimes underpinning.",
+    "closing": "A quote that leaves a stub of wall standing, or drops a post into the middle of your new kitchen, is not the same job. We size the steel for the opening you actually want and itemise it.",
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Open-plan kitchen after a terraced side return"
+    }
+  },
+  "place": {
+    "title": "Light: the thing people get wrong",
+    "paragraphs": [
+      "Fill in a side return and you have roofed over the one place daylight reached your kitchen. Without a proper run of rooflights along the new roof, you have made the room bigger and darker.",
+      "Extend across the back of a deep terrace and the middle of the house goes dark too, because all the glazing is now three metres further away. A lantern over the island or table is what saves it.",
+      "Rooflights are the first thing cut from a budget and the first thing missed afterwards. We would rather have that conversation before the roof goes on.",
+      "Brick. Yellow London stock and red brick dominate. Matching brick, bond and mortar to the original, which on older houses means reclaimed stock and a softer mix, is what stops the rear elevation looking patched.",
+      "Sliders over bifolds, usually. Sliders give bigger panes, slimmer frames and a better view for the eleven months a year they are shut. One floor finish, running the same floor from the hall through to the new kitchen, is what makes it read as one space. Kitchen layout before the walls go up: sink, hob and extractor drive the drainage and ductwork. Deciding them afterwards is expensive."
+    ]
+  },
+  "planning": {
+    "title": "Planning in Ilford",
+    "paragraphs": [
+      "Your authority is the London Borough of Redbridge.",
+      "Many side returns, rear extensions and loft conversions here fall under permitted development and need no full application, which is genuinely good news. The things that change that: conservation areas, where permitted development is reduced, design is judged closely, and rear dormers usually need permission; flats, which have no permitted development rights at all, and a great many period houses around here have been converted, so this catches people out; Article 4 directions, which remove rights that would otherwise be automatic; and a two-storey side extension, which normally needs full permission.",
+      "We check your exact address before anything is drawn and handle the application if you need one.",
+      "You are in a terrace or a semi, building up to a shared wall. The Party Wall etc. Act applies to most extensions here, which means serving formal notice on your neighbours before work starts, usually two months ahead. It is a process, not an obstacle, and doing it properly and early is what keeps things civil when you are noisy and dusty for weeks a wall away from them. We handle the notices and the sequencing."
+    ]
+  },
+  "ground": {
+    "title": "The ground",
+    "paragraphs": [
+      "Ilford sits on London Clay, with gravels down towards the Roding.",
+      "The clay swells in the wet, shrinks in dry spells and moves most near mature trees. On a terrace, though, the bigger constraint is usually the shallow existing footings, which the new foundations have to be designed against, and the fact that you are digging within inches of a neighbour's wall. That needs care and sometimes underpinning.",
+      "We check the ground and the existing footings before pricing the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning, the building regulations and the party wall notices. Our quotes are itemised, so you can see what the steel and the groundwork actually cost. And most of our work comes through recommendation."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork and the finish.",
+      "Worth knowing how the options compare. A loft conversion is usually the cheapest way to add a bedroom, because there are no new foundations. A side return is small in floor area but structurally demanding, so its cost per square metre runs higher than a simple rear extension. A double storey is the best value per square metre if you need bedrooms and living space together.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Ilford?",
+      "a": "Often not. Many side returns, rear extensions and loft conversions fall under permitted development. But conservation areas reduce those rights, flats have none at all, and Article 4 directions can remove them. A two-storey side extension normally needs full permission. We check your address with Redbridge first."
+    },
+    {
+      "q": "What is the cheapest way to add a bedroom?",
+      "a": "Usually a loft conversion, because you are not paying for foundations. On a hipped roof, squaring the hip to a gable and adding a rear dormer is what makes it a proper double with an ensuite rather than a cramped attic room."
+    },
+    {
+      "q": "Should I do the loft and the kitchen at the same time?",
+      "a": "If you can, yes. One scaffold, one period of disruption, one lot of making good. Doing them separately means paying twice for the same setup."
+    },
+    {
+      "q": "Will a side return make my kitchen darker?",
+      "a": "Only if you skip the rooflights. You are building over the alley the light came through, so a proper run of rooflights along the new roof is essential."
+    },
+    {
+      "q": "Do I need to tell my neighbours?",
+      "a": "Yes. In a terrace or semi, the Party Wall etc. Act nearly always applies, which means formal notice, usually two months before work starts. We handle the notices."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Ilford itself, along with Seven Kings, Goodmayes, Barkingside, Gants Hill, Redbridge, Wanstead and Woodford. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london/leytonstone", "label": "House extensions in Leytonstone" },
+    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
+    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Ilford home?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will talk through what will work on your house and what it will cost. No pressure, and no obligation to proceed."
+  }
+}
