@@ -111,10 +111,12 @@ export function countyServiceSchema({
   serviceType,
   areaName,
   path,
+  areaType,
 }: {
   serviceType: string;
   areaName: string;
   path: string;
+  areaType?: 'AdministrativeArea' | 'City';
 }) {
   return {
     '@context': 'https://schema.org',
@@ -134,7 +136,7 @@ export function countyServiceSchema({
       },
     },
     areaServed: {
-      '@type': 'AdministrativeArea',
+      '@type': areaType ?? 'AdministrativeArea',
       name: areaName,
     },
     url: `${site.domain}${path}`,

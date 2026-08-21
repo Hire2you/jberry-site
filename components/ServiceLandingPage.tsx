@@ -631,6 +631,7 @@ export default function ServiceLandingPage({
                   : []),
                 ...(serviceSlug === 'extensions'
                   ? [
+                      { href: '/extensions/london', label: `${shortName}s in London`, town: 'London' },
                       ...ESSEX_EXTENSION_TOWNS.map((t) => ({
                         href: `/extensions/essex/${t.slug}`,
                         label: `${shortName}s in ${t.town}`,
