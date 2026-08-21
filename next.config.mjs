@@ -19,6 +19,16 @@ const nextConfig = {
         destination: 'https://jberryextensions.co.uk/:path*',
         permanent: true,
       },
+      {
+        source: '/house-extensions',
+        destination: '/extensions',
+        permanent: true,
+      },
+      {
+        source: '/house-extensions/:path*',
+        destination: '/extensions/:path*',
+        permanent: true,
+      },
     ];
   },
 };
