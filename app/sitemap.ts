@@ -82,6 +82,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${site.domain}/loft-conversions/essex/leigh-on-sea`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/loft-conversions/essex/loughton`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/loft-conversions/essex/southend-on-sea`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/essex/billericay`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/essex/braintree`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/essex/buckhurst-hill`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/essex/colchester`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/essex/witham`, changeFrequency: 'monthly' as const},
   ]
 
   return [
