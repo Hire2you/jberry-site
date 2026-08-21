@@ -1,0 +1,139 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Hornchurch",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "hornchurch",
+  "seo": {
+    "title": "House Extensions in Hornchurch | J Berry Construction",
+    "description": "Extension design and build in Hornchurch and Emerson Park. Rear, side and double storey extensions on wide plots. Planning handled. Free site visit. Call today.",
+    "canonical": "/extensions/london/hornchurch"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension on a detached home in Hornchurch by J Berry Construction",
+      "caption": "A rear extension and open-plan kitchen on a family home in Hornchurch."
+    },
+    "eyebrow": "House extensions · Hornchurch",
+    "headline": "House Extensions in Hornchurch"
+  },
+  "intro": {
+    "paragraphs": [
+      "Hornchurch houses tend to have the one thing that makes an extension straightforward: space. Wide plots, side access, garages, gardens with room to spare. So the question here is usually not whether you can build, but which of several options is actually the best use of your money.",
+      "We design and build extensions across Hornchurch and Emerson Park, handling the drawings, the planning, the building regulations and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Hornchurch home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "Your options, and which one usually wins",
+    "items": [
+      "The rear extension. Three to four metres out, the back wall opened right up, kitchen and dining and living combined into one room. On these plots you can do that and still have a proper garden left over.",
+      "The side extension. Most Hornchurch semis and detached homes have two to three metres of side ground doing nothing. Filling it in gives you the wide, open kitchen these houses were never designed to have. The design rule: set the front face back slightly from the original elevation and keep the new roof below the ridge. It costs nothing to do and everything to get wrong.",
+      "The double storey. If you need bedrooms as well as living space, this is nearly always the best value on the list. One set of foundations, one roof, two floors of new space. The design challenge is tying the new ridge into the original hipped roof so it looks intentional rather than added.",
+      "The garage. Most are too narrow for a modern car and full of boxes. Converting one is the cheapest floor area you will ever add, because the structure exists. Done properly it needs an insulated floor build-up with a damp membrane, insulated walls, a proper ceiling and real heating. The cheap version, a plasterboard box over a cold slab, is what makes converted garages feel like converted garages. And if the garage is at the side, the space above it is often the cheapest bedroom available to you.",
+      "Combine them. If you are doing more than one, do them together. One scaffold, one lot of groundwork, one period of disruption."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Single-storey rear extension with bifold doors"
+    }
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "Opening up the back means removing the original rear wall and usually the wall between kitchen and dining room. Both are load-bearing, so the weight above goes onto steel beams, sized by a structural engineer and signed off under building regs.",
+    "body": "The wider the opening, the heavier the steel, the deeper the padstones, and sometimes the deeper the foundations under them. A cheaper quote that keeps a stub of wall or puts a post in the middle of your new kitchen is not the same job.",
+    "closing": "Going above the garage brings a second question: whether the existing garage foundations and walls will take a storey. Often they will; sometimes they need strengthening. Either way it gets checked before we price it, not after.",
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Open-plan kitchen extension with structural opening"
+    }
+  },
+  "place": {
+    "title": "Materials and the choices that matter",
+    "paragraphs": [
+      "Brick and tile matching. These interwar houses have distinctive brick, often with render or tile hanging above. Matching brick, bond and roof tile is what makes an extension read as part of the house.",
+      "Sliders or bifolds. Sliders give bigger panes, slimmer frames and a better view for the eleven months of the year they are closed. Bifolds fold fully away. Most people choose sliders once they have seen both.",
+      "A lantern. Extend across the back and the middle of the house goes dark. A lantern over the island or dining table is what keeps it bright, and it is the line most often cut from a budget and most often missed afterwards.",
+      "One floor finish. From the hall through to the new kitchen, so the ground floor reads as one space.",
+      "A utility or boot room. With these plots, take the metre. It is what people are gladdest of afterwards."
+    ]
+  },
+  "planning": {
+    "title": "Planning in Hornchurch",
+    "paragraphs": [
+      "Your authority is the London Borough of Havering.",
+      "Good news for most: these are ordinary suburban streets, so many rear and side extensions, and most garage conversions, fall under permitted development and need no full application. A two-storey side extension normally needs full permission.",
+      "The exceptions to check: Emerson Park and the other conservation areas, where permitted development is reduced and design is judged closely; flats, which have no permitted development rights at all; Green Belt land around the borough's edges and out towards the Ingrebourne, where extensions are limited in scale; and newer developments where rights have been removed by planning condition.",
+      "We check your exact address before anything is drawn and handle the application if you need one."
+    ]
+  },
+  "ground": {
+    "title": "The ground",
+    "paragraphs": [
+      "Hornchurch sits on London Clay, with gravels and softer ground down towards the Ingrebourne valley.",
+      "Clay swells in the wet, shrinks in dry spells and moves most near mature trees, and these are leafy streets with substantial gardens. A big tree near the back of the house usually means deeper foundations than people expect. Down near the Ingrebourne the water table is higher and drainage needs more thought.",
+      "We check the ground and the trees before pricing the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning and the building regulations. Our quotes are itemised, so you can see what the steel, the groundwork and the glazing actually cost. And most of our work comes through recommendation."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork and the finish. Worth knowing how the options compare: a garage conversion is the cheapest floor area available. A rear extension is the middle. A double storey is the best value per square metre if you need bedrooms as well.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Hornchurch?",
+      "a": "Often not. Most streets here are ordinary suburban housing, so many rear and side extensions and garage conversions fall under permitted development. The exceptions are conservation areas including Emerson Park, flats, Green Belt land, and some newer estates. We check your address with Havering first."
+    },
+    {
+      "q": "Which extension gives the best value?",
+      "a": "It depends what you need. A garage conversion is the cheapest floor area you can add. A double storey is the best value per square metre if you need bedrooms as well as living space. A rear extension sits in between. We will tell you honestly which suits your house."
+    },
+    {
+      "q": "Can I build a room above my garage?",
+      "a": "Often, and it is usually the cheapest bedroom available. The question is whether the existing garage foundations and walls will carry a storey, which needs checking rather than assuming. It normally needs full planning permission."
+    },
+    {
+      "q": "Is a garage conversion worth doing properly?",
+      "a": "Yes, and the difference is entirely in what you cannot see: an insulated floor build-up with a damp membrane, insulated walls, a proper ceiling and real heating. Skip those and it will always feel like a converted garage."
+    },
+    {
+      "q": "Will my kitchen be dark in the middle after a rear extension?",
+      "a": "It can be, if all the glazing is at the back. A lantern over the island or dining table is what keeps it bright, and it is the element most often left out of a budget."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Hornchurch and Emerson Park, along with Upminster, Elm Park, Romford, Gidea Park and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
+    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
+    { "href": "/extensions/essex/brentwood", "label": "House extensions in Brentwood" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Hornchurch home?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will talk through what will actually work on your house and what it will cost. No pressure, and no obligation to proceed."
+  }
+}

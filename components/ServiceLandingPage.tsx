@@ -58,10 +58,19 @@ const ESSEX_LOFT_TOWNS = [
   { slug: 'witham', town: 'Witham' },
 ] as const;
 
+const LONDON_EXTENSION_TOWNS = [
+  { slug: 'hornchurch', town: 'Hornchurch' },
+  { slug: 'ilford', town: 'Ilford' },
+  { slug: 'leytonstone', town: 'Leytonstone' },
+  { slug: 'romford', town: 'Romford' },
+] as const;
+
 const STATIC_TOWN_SLUGS: string[] = [
   ...ESSEX_EXTENSION_TOWNS.map((t) => t.slug),
+  ...LONDON_EXTENSION_TOWNS.map((t) => t.slug),
   ...ESSEX_LOFT_TOWNS.map((t) => t.slug),
   'leigh',
+  'leyton',
 ];
 
 export type ServiceLandingData = {
@@ -618,11 +627,18 @@ export default function ServiceLandingPage({
                     ]
                   : []),
                 ...(serviceSlug === 'extensions'
-                  ? ESSEX_EXTENSION_TOWNS.map((t) => ({
-                      href: `/extensions/essex/${t.slug}`,
-                      label: `${shortName}s in ${t.town}`,
-                      town: t.town,
-                    }))
+                  ? [
+                      ...ESSEX_EXTENSION_TOWNS.map((t) => ({
+                        href: `/extensions/essex/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                      ...LONDON_EXTENSION_TOWNS.map((t) => ({
+                        href: `/extensions/london/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                    ]
                   : []),
                 ...locationPages
                   .filter((l) => {

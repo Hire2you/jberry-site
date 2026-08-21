@@ -87,6 +87,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     {url: `${site.domain}/loft-conversions/essex/buckhurst-hill`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/loft-conversions/essex/colchester`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/loft-conversions/essex/witham`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/london/hornchurch`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/london/ilford`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/london/leytonstone`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/london/romford`, changeFrequency: 'monthly' as const},
   ]
 
   return [

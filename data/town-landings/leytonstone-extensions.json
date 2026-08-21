@@ -1,0 +1,140 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Leytonstone",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "leytonstone",
+  "seo": {
+    "title": "House Extensions in Leytonstone | J Berry Construction",
+    "description": "Side return and rear extensions in Leytonstone E11. Open up a Victorian kitchen properly, with the steel, underpinning and party wall handled. Free site visit.",
+    "canonical": "/extensions/london/leytonstone"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Side return kitchen extension on a Victorian terrace in Leytonstone by J Berry Construction",
+      "caption": "A side return and rear extension on a Victorian terrace in Leytonstone."
+    },
+    "eyebrow": "House extensions · Leytonstone",
+    "headline": "House Extensions in Leytonstone"
+  },
+  "intro": {
+    "paragraphs": [
+      "Leytonstone terraces are a classic case of a good house with a bad back end. Handsome at the front, decent rooms, and then a dark galley kitchen squeezed into the old rear projection with an alley stealing what light is left. Fixing that is the job we do most here, and doing it properly is mostly a structural question rather than a decorative one.",
+      "We design and build side return and rear extensions across Leytonstone, handling the drawings, the planning, the party wall notices and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Leytonstone home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "The side return, and what it actually gives you",
+    "intro": "The back of a Victorian terrace is L-shaped: a rear projection with a strip of alley beside it, two to three metres wide, currently occupied by bins and weeds.",
+    "body": "Filling it in squares off the plan. You gain maybe eight to twelve square metres, which is not much on paper. What you gain in practice is a different shape of room: a kitchen the full width of the house instead of a corridor. Add two or three metres of rear extension and you have the long, open kitchen and dining space these houses never had. Two decisions make or break it. The rooflights: you have just roofed over the only place light reached the kitchen, so a proper continuous run of rooflights along the new side return roof is essential. Without it, you have made the room bigger and darker, and it is the most common regret on these jobs.",
+    "closing": "How much you open up. How much of the wall between the new kitchen and the middle room comes out decides whether the ground floor genuinely flows or stays chopped up. It is a structural call, and it sets the size of the steel.",
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Open kitchen extension with rooflights on a terraced house"
+    }
+  },
+  "place": {
+    "title": "The steel and the footings, honestly",
+    "paragraphs": [
+      "This is where quotes for Leytonstone houses genuinely diverge, and it is worth understanding before you compare them.",
+      "A full side return usually means removing two load-bearing walls: the flank of the rear projection and part or all of the wall into the middle room. The floors above, the wall above, and the roof all have to be carried on steel beams, sized by a structural engineer and signed off under building regs.",
+      "Then there is the ground. Victorian footings here are shallow, often two or three courses of brick sitting on clay, and they were never designed to take the concentrated point load of a beam end. That means properly designed padstones, and often underpinning of the existing walls, which is real work and real money.",
+      "A quote that skips the underpinning, leaves a stub of wall standing, or drops a column into the middle of your new island is not the same job. We size the steel for the opening you actually want, price the underpinning honestly, and itemise both."
+    ]
+  },
+  "extensionTypes": {
+    "title": "Materials and the choices that matter",
+    "intro": "Most of these houses have usable roof volume. A rear dormer turns it into a proper double bedroom with an ensuite rather than a room you stoop in. If you are doing the ground floor anyway, doing the loft at the same time is the easiest saving available: one scaffold, one period of disruption, one lot of making good. Splitting them means paying twice for the same setup.",
+    "items": [
+      "Brick. Yellow London stock. Matching it means reclaimed stock brick and a softer, lime-based mortar rather than modern cement. It is right for the building and it stops the rear elevation looking patched.",
+      "Rooflights. A continuous run, not two token panels. This is the whole ballgame for light.",
+      "Sliders over bifolds, usually. Bigger panes, slimmer frames, and a better view for the eleven months a year they are shut.",
+      "One floor finish. From the hall through to the new kitchen. It is what makes the ground floor read as one space.",
+      "The kitchen layout, before the walls go up. Sink, hob and extractor positions drive the drainage and the ductwork, and moving them later is expensive.",
+      "A utility. On a side return you can usually steal a metre for one. Take it."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Side return kitchen extension with a run of rooflights"
+    }
+  },
+  "planning": {
+    "title": "Planning in Leytonstone",
+    "paragraphs": [
+      "Your authority is the London Borough of Waltham Forest.",
+      "Many side returns and rear extensions here fall under permitted development and need no full application. What changes that: conservation areas, including Bushwood and others around E11, where permitted development is reduced, design is judged closely and rear dormers usually need permission; flats, which have no permitted development rights at all, and a very large number of period houses here have been converted into flats, so this catches a lot of people; and Article 4 directions, which remove rights that would otherwise be automatic.",
+      "We check your exact address before anything is drawn and handle the application if you need one.",
+      "You are in a terrace, building up to and often into a shared wall, and digging within inches of theirs. The Party Wall etc. Act applies, which means formal notice, usually two months before work starts. Do it properly and early. You are going to be noisy and dusty for a couple of months, a wall away from someone's sofa, and the difference between a neighbour who is on side and one who is not will shape the whole job. We handle the notices and the sequencing."
+    ]
+  },
+  "ground": {
+    "title": "The ground",
+    "paragraphs": [
+      "Leytonstone sits on London Clay, with gravels down towards the Lea.",
+      "The clay moves with the seasons and near mature trees, but on a terrace the dominant issue is the shallow Victorian footings and the fact that you are excavating right beside a neighbour's wall. That is what drives the underpinning, and it needs designing rather than guessing.",
+      "We check the ground and the existing footings before pricing the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning, the building regulations and the party wall notices. Our quotes are itemised, so you can see exactly what the steel and the underpinning cost rather than comparing two vague lump sums. And most of our work comes through recommendation."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "A side return is a small floor area but a heavy structural job, so the cost per square metre runs higher than a simple rear extension. That is the honest explanation for why two quotes can look so far apart: one has priced the underpinning and the steel properly, and one has not.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure with the steel, underpinning and glazing priced separately."
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Why do two quotes for the same side return differ so much?",
+      "a": "Usually because of what is under the surface. A proper job prices the steel for the opening you actually want, plus padstones and often underpinning for shallow Victorian footings. A cheaper quote may have skipped the underpinning, kept a stub of wall, or planned a column in the middle of your kitchen."
+    },
+    {
+      "q": "Do I need underpinning?",
+      "a": "Often, yes, on a Victorian terrace. The original footings are shallow and were not designed to carry a concentrated load from a steel beam. Whether you need it, and how much, is a structural question we sort out before pricing."
+    },
+    {
+      "q": "Will my kitchen be darker after a side return?",
+      "a": "Only if you skip the rooflights. You are building over the alley the light came through, so a continuous run of rooflights along the new roof is essential rather than optional."
+    },
+    {
+      "q": "Do I need planning permission?",
+      "a": "Often not. Many side returns and rear extensions fall under permitted development. But conservation areas including Bushwood reduce those rights, flats have none at all, and Article 4 directions can remove them. We check your address with Waltham Forest first."
+    },
+    {
+      "q": "Should I do the loft at the same time?",
+      "a": "If you can, yes. One scaffold, one period of disruption, one lot of making good. It is the easiest saving on a job like this."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Leytonstone and E11, along with Leyton, Walthamstow, Wanstead, Wanstead Flats and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
+    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
+    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/loft-conversions", "label": "Loft conversions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Leytonstone home?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will talk through what will work on your house and what it will cost. No pressure, and no obligation to proceed."
+  }
+}
