@@ -31,7 +31,7 @@
           { "name": "Woodford", "slug": null },
           { "name": "South Woodford", "slug": null },
           { "name": "Wanstead", "slug": null },
-          { "name": "Ilford", "slug": null, "href": "/extensions/london/ilford" }
+          { "name": "Ilford", "slug": null }
         ]
       },
       {
@@ -39,14 +39,14 @@
         "towns": [
           { "name": "Chingford", "slug": null },
           { "name": "Walthamstow", "slug": null },
-          { "name": "Leytonstone", "slug": null, "href": "/extensions/london/leytonstone" }
+          { "name": "Leytonstone", "slug": null }
         ]
       },
       {
         "name": "Havering & Enfield",
         "towns": [
-          { "name": "Romford", "slug": null, "href": "/extensions/london/romford" },
-          { "name": "Hornchurch", "slug": null, "href": "/extensions/london/hornchurch" },
+          { "name": "Romford", "slug": null },
+          { "name": "Hornchurch", "slug": null },
           { "name": "Enfield", "slug": null }
         ]
       }
@@ -223,10 +223,6 @@
   "relatedLinks": [
     { "href": "/loft-conversions", "label": "Loft conversions overview" },
     { "href": "/loft-conversions/essex", "label": "Loft conversions in Essex" },
-    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
-    { "href": "/extensions/london/leytonstone", "label": "House extensions in Leytonstone" },
-    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
-    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
     { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
     { "href": "/blog/how-long-does-a-loft-conversion-take", "label": "How long does a loft conversion take?" },
     { "href": "/extensions", "label": "House extensions" },
