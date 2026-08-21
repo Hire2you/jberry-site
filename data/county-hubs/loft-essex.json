@@ -28,7 +28,7 @@
       {
         "name": "London fringe",
         "towns": [
-          { "name": "Buckhurst Hill", "slug": null },
+          { "name": "Buckhurst Hill", "slug": "essex/buckhurst-hill" },
           { "name": "Chigwell", "slug": null },
           { "name": "Loughton", "slug": "essex/loughton" },
           { "name": "Epping", "slug": null },
@@ -39,11 +39,12 @@
         "name": "Central corridor",
         "towns": [
           { "name": "Brentwood", "slug": null },
-          { "name": "Billericay", "slug": null },
+          { "name": "Billericay", "slug": "essex/billericay" },
           { "name": "Chelmsford", "slug": "essex/chelmsford" },
-          { "name": "Braintree", "slug": null },
+          { "name": "Braintree", "slug": "essex/braintree" },
+          { "name": "Witham", "slug": "essex/witham" },
           { "name": "Great Dunmow", "slug": null },
-          { "name": "Colchester", "slug": null }
+          { "name": "Colchester", "slug": "essex/colchester" }
         ]
       },
       {
@@ -237,6 +238,11 @@
     { "href": "/loft-conversions/essex/leigh-on-sea", "label": "Loft conversions in Leigh-on-Sea" },
     { "href": "/loft-conversions/essex/loughton", "label": "Loft conversions in Loughton" },
     { "href": "/loft-conversions/essex/southend-on-sea", "label": "Loft conversions in Southend-on-Sea" },
+    { "href": "/loft-conversions/essex/billericay", "label": "Loft conversions in Billericay" },
+    { "href": "/loft-conversions/essex/braintree", "label": "Loft conversions in Braintree" },
+    { "href": "/loft-conversions/essex/buckhurst-hill", "label": "Loft conversions in Buckhurst Hill" },
+    { "href": "/loft-conversions/essex/colchester", "label": "Loft conversions in Colchester" },
+    { "href": "/loft-conversions/essex/witham", "label": "Loft conversions in Witham" },
     { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
     { "href": "/extensions", "label": "House extensions" },
     { "href": "/contact", "label": "Contact us" }

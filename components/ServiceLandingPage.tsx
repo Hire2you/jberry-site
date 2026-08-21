@@ -46,11 +46,16 @@ const ESSEX_EXTENSION_TOWNS = [
 ] as const;
 
 const ESSEX_LOFT_TOWNS = [
+  { slug: 'billericay', town: 'Billericay' },
+  { slug: 'braintree', town: 'Braintree' },
+  { slug: 'buckhurst-hill', town: 'Buckhurst Hill' },
   { slug: 'chelmsford', town: 'Chelmsford' },
+  { slug: 'colchester', town: 'Colchester' },
   { slug: 'grays', town: 'Grays' },
   { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
   { slug: 'loughton', town: 'Loughton' },
   { slug: 'southend-on-sea', town: 'Southend-on-Sea' },
+  { slug: 'witham', town: 'Witham' },
 ] as const;
 
 const STATIC_TOWN_SLUGS: string[] = [
