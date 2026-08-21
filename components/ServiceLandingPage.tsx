@@ -71,6 +71,8 @@ const STATIC_TOWN_SLUGS: string[] = [
   ...ESSEX_LOFT_TOWNS.map((t) => t.slug),
   'leigh',
   'leyton',
+  'essex',
+  'london',
 ];
 
 export type ServiceLandingData = {
@@ -619,6 +621,7 @@ export default function ServiceLandingPage({
                 ...(serviceSlug === 'loft-conversions'
                   ? [
                       { href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
+                      { href: '/loft-conversions/london', label: `${shortName}s in London`, town: 'London' },
                       ...ESSEX_LOFT_TOWNS.map((t) => ({
                         href: `/loft-conversions/essex/${t.slug}`,
                         label: `${shortName}s in ${t.town}`,

@@ -39,7 +39,7 @@ export async function generateLocationStaticParams(serviceSlug: ServiceSlug) {
   return ((data || []) as Array<{slug: string}>)
     .map((doc) => normalizeLocationSlug(doc.slug))
     .filter(Boolean)
-    .filter((slug) => !(serviceSlug === 'loft-conversions' && slug === 'essex'))
+    .filter((slug) => !(serviceSlug === 'loft-conversions' && (slug === 'essex' || slug === 'london')))
     .map((location) => ({location}))
 }
 

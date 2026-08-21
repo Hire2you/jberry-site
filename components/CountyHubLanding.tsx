@@ -31,7 +31,7 @@ export type CountyHubData = {
     intro: string;
     clusters: {
       name: string;
-      towns: { name: string; slug: string | null }[];
+      towns: { name: string; slug: string | null; href?: string }[];
     }[];
   };
   roofs: {
@@ -51,7 +51,7 @@ export type CountyHubData = {
     intro: string;
     permitted: { title: string; points: string[] };
     always: { title: string; points: string[] };
-    blogLink: { href: string; label: string };
+    blogLink?: { href: string; label: string };
   };
   involves: {
     title: string;
@@ -74,6 +74,8 @@ export type CountyHubData = {
   };
   faqs: { q: string; a: string }[];
   relatedLinks: { href: string; label: string }[];
+  overviewLinkLabel?: string;
+  faqIntro?: string;
   cta: {
     eyebrow: string;
     title: string;
@@ -177,11 +179,12 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
               <Reveal key={cluster.name} delay={i * 80}>
                 <p className="eyebrow">{cluster.name}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
-                  {cluster.towns.map((town) =>
-                    town.slug ? (
+                  {cluster.towns.map((town) => {
+                    const href = town.href || (town.slug ? `/${serviceSlug}/${town.slug}` : null);
+                    return href ? (
                       <Link
                         key={town.name}
-                        href={`/${serviceSlug}/${town.slug}`}
+                        href={href}
                         className="border border-line bg-white px-4 py-2 text-sm text-ink transition-colors hover:border-gold hover:text-goldDeep"
                       >
                         {town.name}
@@ -193,8 +196,8 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
                       >
                         {town.name}
                       </span>
-                    ),
-                  )}
+                    );
+                  })}
                 </div>
               </Reveal>
             ))}
@@ -203,7 +206,7 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
             <p className="mt-10 text-sm text-stone">
               Prefer the full service overview?{' '}
               <Link href={`/${serviceSlug}`} className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep">
-                Loft conversions across Hertfordshire and Essex
+                {data.overviewLinkLabel || 'Loft conversions across Hertfordshire and Essex'}
               </Link>
             </p>
           </Reveal>
@@ -288,12 +291,14 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
           </div>
           <Reveal delay={200}>
             <div className="mt-12 flex flex-wrap items-center gap-6">
-              <Link
-                href={data.planning.blogLink.href}
-                className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
-              >
-                {data.planning.blogLink.label}
-              </Link>
+              {data.planning.blogLink && (
+                <Link
+                  href={data.planning.blogLink.href}
+                  className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
+                >
+                  {data.planning.blogLink.label}
+                </Link>
+              )}
               <a href="#quote" className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep">
                 We handle this as part of the job
               </a>
@@ -411,7 +416,7 @@ export default async function CountyHubLanding({ data }: { data: CountyHubData }
         faqs={data.faqs}
         label="08 · Questions"
         heading={`Loft conversion questions in ${county}, answered straight`}
-        intro="The questions every Essex homeowner asks at the first site visit."
+        intro={data.faqIntro || `The questions every ${county} homeowner asks at the first site visit.`}
       />
 
       {/* Related links */}
