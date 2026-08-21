@@ -1,0 +1,288 @@
+{
+  "slug": "flood-risk-and-home-building-projects",
+  "title": "Flood Risk and Home Building Projects: What You Need to Know",
+  "metaTitle": "Flood Risk and Home Building Projects Explained",
+  "description": "Whether you can extend in a flood risk area, how to check, when you need a flood risk assessment, and how to design for it. A plain-English guide.",
+  "publishedAt": "2026-08-21",
+  "category": "Planning",
+  "author": "Jason Berry",
+  "coverSrc": "/images/blog/flood.webp",
+  "coverAlt": "Foundation trench excavated through a patio for a house extension, the stage where ground and drainage issues show up",
+  "coverCaption": "Flood risk rarely stops you extending. It changes how the extension is designed, drained and signed off.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "If your home is in a flood risk area, you can usually still extend or build. What changes is that flood risk becomes something your project has to be designed around, and in some cases a flood risk assessment is required as part of the planning application. Ignoring it is one of the most common reasons an application gets refused, applications have been turned down purely for arriving without one."
+    },
+    {
+      "type": "p",
+      "text": "The reassuring part is that, handled at the design stage, flood risk is manageable. This guide explains how to find out whether your home is affected, the different kinds of flood risk, when you need a flood risk assessment, and how an extension is designed to cope, so flooding shapes your project sensibly rather than derailing it. Requirements vary by council and project, so treat the detail as the general picture and confirm your own case."
+    },
+    {
+      "type": "h2",
+      "text": "Does flood risk stop you extending?"
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/foundations.webp",
+      "alt": "Groundworks for an extension with excavation and concrete beams alongside the existing house",
+      "caption": "Deeper or more complex foundations, and drainage that has to be diverted, are where flood risk usually shows up in the quote."
+    },
+    {
+      "type": "p",
+      "text": "For the great majority of homes, no. Being in a flood risk area does not mean you cannot extend. It means the project has to be designed to be safe from flooding and not to make flooding worse, either for you or for anyone else, and that this has to be demonstrated where the council requires it."
+    },
+    {
+      "type": "p",
+      "text": "Well-designed extensions in flood risk areas are approved all the time. What gets refused is work that ignores the risk: an application in a flood zone with no flood risk assessment where one was needed, or a design that would increase flooding elsewhere. The distinction is between building thoughtlessly in a flood area and building thoughtfully, and it is entirely within your control."
+    },
+    {
+      "type": "p",
+      "text": "So the right reaction to \"we're in a flood risk area\" is not \"we can't extend\", it is \"we need to design for it and show we've done so\"."
+    },
+    {
+      "type": "h2",
+      "text": "How to find out if your home is at flood risk"
+    },
+    {
+      "type": "p",
+      "text": "Before you design anything, this is the first thing to check, and it is free and quick."
+    },
+    {
+      "type": "p",
+      "text": "The Environment Agency publishes a flood map that shows the flood risk for any address in England, and it is the standard starting point. It places land in flood zones, broadly: Zone 1 (low probability), Zone 2 (medium), and Zone 3 (high), based on the chance of flooding from rivers and the sea. It also shows the separate risk of surface water flooding, which does not follow the rivers and can affect places well away from any watercourse."
+    },
+    {
+      "type": "p",
+      "text": "Checking it takes a couple of minutes and tells you which zone you are in, which in turn tells you how much flood risk is likely to matter for your project. Doing this at the very start, before you get attached to a design, is far better than discovering the position late."
+    },
+    {
+      "type": "callout",
+      "label": "Worth knowing",
+      "text": "Check the Environment Agency flood map before you design your extension, not after. It is free, it takes two minutes, and it tells you which flood zone your home is in and whether surface water is a factor. Designing the extension first and finding out about the flood risk later is the expensive way round, because it can mean redesigning, or a refused application."
+    },
+    {
+      "type": "h2",
+      "text": "The different types of flood risk"
+    },
+    {
+      "type": "p",
+      "text": "\"Flooding\" is not one thing, and the type matters, because it affects both whether you need an assessment and how you design. The main kinds:"
+    },
+    {
+      "type": "p",
+      "text": "River (fluvial) flooding, from rivers and streams overtopping their banks. The classic type, and the one the flood zones are largely based on."
+    },
+    {
+      "type": "p",
+      "text": "Coastal or tidal flooding, from the sea and tidal rivers, relevant to homes near the coast or an estuary, often managed by tidal defences."
+    },
+    {
+      "type": "p",
+      "text": "Surface water (pluvial) flooding, from heavy rainfall overwhelming the ground and drains before it reaches any river. This is the one people forget, because it can affect homes nowhere near a watercourse."
+    },
+    {
+      "type": "p",
+      "text": "Groundwater flooding, from the water table rising, and sewer flooding, from overwhelmed drainage."
+    },
+    {
+      "type": "p",
+      "text": "Some areas are also designated as having critical drainage problems, where surface water and drainage are known issues and extra care is needed even where the river flood risk looks low. Knowing which type affects your home shapes the whole approach."
+    },
+    {
+      "type": "h2",
+      "text": "When you need a flood risk assessment"
+    },
+    {
+      "type": "p",
+      "text": "A flood risk assessment (FRA) is a report that assesses the flooding risk to a proposed development and shows it can be made safe. Whether you need one for an extension depends on where you are and the nature of the project. In general terms, an FRA is more likely to be required when:"
+    },
+    {
+      "type": "p",
+      "text": "Your home is in flood zone 2 or 3 (medium or high river or coastal risk)."
+    },
+    {
+      "type": "p",
+      "text": "The site is in an area with known surface water or critical drainage problems."
+    },
+    {
+      "type": "p",
+      "text": "There are other flood sources the council considers relevant."
+    },
+    {
+      "type": "p",
+      "text": "For smaller householder extensions the requirements can be lighter than for new buildings, and they vary from council to council, so this is something to confirm for your specific project rather than assume. The key point is that in a higher flood zone, a flood risk assessment is a real possibility rather than a rarity, and it needs planning for, not leaving to chance."
+    },
+    {
+      "type": "h2",
+      "text": "What a flood risk assessment involves"
+    },
+    {
+      "type": "p",
+      "text": "Where one is needed, a flood risk assessment is prepared by a suitably qualified specialist, and it essentially answers three questions:"
+    },
+    {
+      "type": "p",
+      "text": "What is the flood risk to the site, now and allowing for the future, from all relevant sources."
+    },
+    {
+      "type": "p",
+      "text": "Will the development be safe, with appropriate floor levels, resilience and, where relevant, access and escape considered."
+    },
+    {
+      "type": "p",
+      "text": "Will it increase flood risk elsewhere, and if so, how that is prevented, for example by managing surface water so the project does not push water onto neighbours or downstream."
+    },
+    {
+      "type": "p",
+      "text": "A good FRA does not just describe the risk, it shows how the design responds to it. That is what turns a flood-zone application from a likely refusal into an approvable scheme, which is why it is worth doing properly rather than treating as a box to tick."
+    },
+    {
+      "type": "h2",
+      "text": "Designing an extension for flood risk"
+    },
+    {
+      "type": "p",
+      "text": "Whether or not a formal assessment is required, designing sensibly for flood risk is good practice on any at-risk plot. The main measures:"
+    },
+    {
+      "type": "p",
+      "text": "Floor levels. Setting finished floor levels appropriately, sometimes slightly raised, so the living space sits above the likely flood level."
+    },
+    {
+      "type": "p",
+      "text": "Flood-resilient construction. Where risk is real, using materials and details lower down that cope with, and recover from, water better than standard ones."
+    },
+    {
+      "type": "p",
+      "text": "Managing surface water. Making sure the extension does not increase run-off, by keeping permeable surfaces, using sustainable drainage where appropriate, and not simply sending more water into an already stretched system."
+    },
+    {
+      "type": "p",
+      "text": "Drainage that copes. Designing the drainage so it works, connects properly, and deals with any drain the extension affects, rather than overwhelming it."
+    },
+    {
+      "type": "p",
+      "text": "Not building over drains badly. If the extension covers a public drain or sewer, that has to be dealt with correctly, which can require the water company's agreement."
+    },
+    {
+      "type": "p",
+      "text": "None of this is exotic. It is sensible, well-understood design, and on an at-risk plot it is what makes the difference between a home that copes and one that does not."
+    },
+    {
+      "type": "h2",
+      "text": "Surface water: the flood risk people forget"
+    },
+    {
+      "type": "p",
+      "text": "This deserves its own mention, because it is the risk homeowners most often overlook, and the one they can most easily make worse."
+    },
+    {
+      "type": "p",
+      "text": "You can be nowhere near a river and still be in a surface water flood risk area, or in a designated critical drainage area, where heavy rain overwhelms the ground and drains. And ordinary home improvements can add to it: paving over a front garden for parking, for instance, replaces ground that soaked up rain with a hard surface that sheds it, sending more water into the street and the drains."
+    },
+    {
+      "type": "p",
+      "text": "That is why permeable surfaces and sustainable drainage matter, and why there are rules about paving over front gardens. On an extension, keeping surface water under control, so your project does not worsen flooding for you or your neighbours, is both good design and, increasingly, what the council expects to see."
+    },
+    {
+      "type": "callout",
+      "label": "Common misconception",
+      "text": "\"Flood risk is only a problem if I'm next to a river.\" Not so. Surface water flooding, from rainfall overwhelming the ground and drains, can affect homes far from any watercourse, and hard surfaces like paved gardens make it worse. When you check the flood map, look at the surface water risk as well as the river and sea zones, because that is the one most likely to catch you out."
+    },
+    {
+      "type": "h2",
+      "text": "Why ignoring flood risk gets applications refused"
+    },
+    {
+      "type": "p",
+      "text": "It is worth being blunt about the consequence, because it is real and avoidable."
+    },
+    {
+      "type": "p",
+      "text": "Where a flood risk assessment is required and an application arrives without one, the council can refuse it outright, and does. An application can be turned down purely for failing to address flood risk, regardless of how good the extension itself is. That is a wasted application, wasted fees and lost time, over something that was foreseeable from the flood map at the very start."
+    },
+    {
+      "type": "p",
+      "text": "The flip side is the encouraging part: flood risk handled properly, checked early, assessed where needed, and designed for, is rarely a barrier. The refusals come from ignoring it, not from the risk itself. Which is exactly why it belongs at the front of the process, not the end."
+    },
+    {
+      "type": "h2",
+      "text": "How flood risk is handled on your project"
+    },
+    {
+      "type": "p",
+      "text": "Flood risk is one more thing to get right early, and on a water-affected plot it is the difference between a smooth application and a refused one, so it is best dealt with as part of the design rather than discovered late."
+    },
+    {
+      "type": "p",
+      "text": "This is where we come in, gently. We design and build extensions, and on any plot where flooding could be a factor we check the flood position at the start, identify where your property sits, and design for it, floor levels, drainage and surface water, so the project is safe and does not make flooding worse. Where a flood risk assessment is needed for the planning application, we make sure it is arranged and the application addresses it properly, rather than letting it stall or refuse the scheme. You get one team handling the planning, the flood-risk side and the build together, and honest advice on what your plot needs. Most of our work comes through recommendation, which depends on applications going through cleanly."
+    },
+    {
+      "type": "p",
+      "text": "Extending on a plot that might be at flood risk? Book a free, no-obligation site visit on 07920 731533 and we will check the flood position, design for it, and handle the planning. No pressure, and no obligation to proceed."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Can I extend my house if it's in a flood risk area?",
+      "a": "Usually yes. Being in a flood risk area does not stop you extending; it means the project must be designed to be safe from flooding and not to make flooding worse, and this must be demonstrated where the council requires it. Well-designed extensions in flood areas are regularly approved. What gets refused is work that ignores the risk."
+    },
+    {
+      "q": "How do I find out if my home is at flood risk?",
+      "a": "Check the Environment Agency flood map for planning, which shows the flood risk for any address in England, including the flood zone (broadly Zone 1 low, Zone 2 medium, Zone 3 high) and the separate surface water risk. It is free and takes a couple of minutes, and it is the right first step before designing anything."
+    },
+    {
+      "q": "Do I need a flood risk assessment for an extension?",
+      "a": "It depends. A flood risk assessment is more likely to be required if your home is in flood zone 2 or 3, or in an area with known surface water or critical drainage problems. For smaller householder extensions the requirements can be lighter and vary by council, so confirm for your specific project. In a higher flood zone, expect it to be a real possibility."
+    },
+    {
+      "q": "What is a flood risk assessment?",
+      "a": "It is a report, prepared by a qualified specialist, that assesses the flood risk to a proposed development, shows the development will be safe (for example through appropriate floor levels and resilience), and demonstrates it will not increase flood risk elsewhere. A good assessment shows how the design responds to the risk, which is what makes a flood-zone application approvable."
+    },
+    {
+      "q": "What are the different types of flood risk?",
+      "a": "River (fluvial) flooding from watercourses, coastal or tidal flooding from the sea and estuaries, surface water (pluvial) flooding from heavy rain overwhelming the ground and drains, groundwater flooding from a rising water table, and sewer flooding. Surface water is the one people most often overlook, because it can affect homes far from any river."
+    },
+    {
+      "q": "Can building an extension increase flood risk?",
+      "a": "It can, if it is not designed carefully. Adding hard surfaces and replacing ground that absorbed rainwater can increase surface water run-off, and poor drainage can push water onto neighbours. Good design manages this, through permeable surfaces, sustainable drainage and proper drainage design, so the project does not worsen flooding for you or anyone else."
+    },
+    {
+      "q": "Why do flood-affected planning applications get refused?",
+      "a": "Most commonly because they fail to address flood risk, an application in a flood zone submitted without a required flood risk assessment can be refused outright, however good the extension itself is. The risk is foreseeable from the flood map at the start, so refusals of this kind are avoidable by checking and designing for flood risk early."
+    },
+    {
+      "q": "Does paving over my garden affect flood risk?",
+      "a": "Yes. Replacing an absorbent garden with a hard, non-permeable surface sheds rainwater into the street and drains instead of soaking it up, which can increase surface water flooding. This is why permeable surfaces and sustainable drainage are encouraged, and why there are rules about paving over front gardens with non-permeable materials."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/blog/planning-permission-and-building-regulations",
+      "label": "Planning permission and building regulations"
+    },
+    {
+      "href": "/blog/building-regulations-vs-planning-permission",
+      "label": "Building regulations vs planning permission"
+    },
+    {
+      "href": "/extensions/essex/grays",
+      "label": "House extensions in Grays"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Thinking about your own project?",
+    "heading": "Get a straight answer for your home",
+    "text": "Extending on a plot that might be at flood risk? Book a free, no-obligation site visit on 07920 731533 and we will check the flood position, design for it, and handle the planning. No pressure, and no obligation to proceed."
+  },
+  "plainText": "If your home is in a flood risk area, you can usually still extend or build. What changes is that flood risk becomes something your project has to be designed around, and in some cases a flood risk assessment is required as part of the planning application. Ignoring it is one of the most common reasons an application gets refused, applications have been turned down purely for arriving without one. The reassuring part is that, handled at the design stage, flood risk is manageable. This guide explains how to find out whether your home is affected, the different kinds of flood risk, when you need a flood risk assessment, and how an extension is designed to cope, so flooding shapes your project sensibly rather than derailing it. Requirements vary by council and project, so treat the detail as the general picture and confirm your own case. Does flood risk stop you extending? For the great majority of homes, no. Being in a flood risk area does not mean you cannot extend. It means the project has to be designed to be safe from flooding and not to make flooding worse, either for you or for anyone else, and that this has to be demonstrated where the council requires it. Well-designed extensions in flood risk areas are approved all the time. What gets refused is work that ignores the risk: an application in a flood zone with no flood risk assessment where one was needed, or a design that would increase flooding elsewhere. The distinction is between building thoughtlessly in a flood area and building thoughtfully, and it is entirely within your control. So the right reaction to \"we're in a flood risk area\" is not \"we can't extend\", it is \"we need to design for it and show we've done so\". How to find out if your home is at flood risk Before you design anything, this is the first thing to check, and it is free and quick. The Environment Agency publishes a flood map that shows the flood risk for any address in England, and it is the standard starting point. It places land in flood zones, broadly: Zone 1 (low probability), Zone 2 (medium), and Zone 3 (high), based on the chance of flooding from rivers and the sea. It also shows the separate risk of surface water flooding, which does not follow the rivers and can affect places well away from any watercourse. Checking it takes a couple of minutes and tells you which zone you are in, which in turn tells you how much flood risk is likely to matter for your project. Doing this at the very start, before you get attached to a design, is far better than discovering the position late. Check the Environment Agency flood map before you design your extension, not after. It is free, it takes two minutes, and it tells you which flood zone your home is in and whether surface water is a factor. Designing the extension first and finding out about the flood risk later is the expensive way round, because it can mean redesigning, or a refused application. The different types of flood risk \"Flooding\" is not one thing, and the type matters, because it affects both whether you need an assessment and how you design. The main kinds: River (fluvial) flooding, from rivers and streams overtopping their banks. The classic type, and the one the flood zones are largely based on. Coastal or tidal flooding, from the sea and tidal rivers, relevant to homes near the coast or an estuary, often managed by tidal defences. Surface water (pluvial) flooding, from heavy rainfall overwhelming the ground and drains before it reaches any river. This is the one people forget, because it can affect homes nowhere near a watercourse. Groundwater flooding, from the water table rising, and sewer flooding, from overwhelmed drainage. Some areas are also designated as having critical drainage problems, where surface water and drainage are known issues and extra care is needed even where the river flood risk looks low. Knowing which type affects your home shapes the whole approach. When you need a flood risk assessment A flood risk assessment (FRA) is a report that assesses the flooding risk to a proposed development and shows it can be made safe. Whether you need one for an extension depends on where you are and the nature of the project. In general terms, an FRA is more likely to be required when: Your home is in flood zone 2 or 3 (medium or high river or coastal risk). The site is in an area with known surface water or critical drainage problems. There are other flood sources the council considers relevant. For smaller householder extensions the requirements can be lighter than for new buildings, and they vary from council to council, so this is something to confirm for your specific project rather than assume. The key point is that in a higher flood zone, a flood risk assessment is a real possibility rather than a rarity, and it needs planning for, not leaving to chance. What a flood risk assessment involves Where one is needed, a flood risk assessment is prepared by a suitably qualified specialist, and it essentially answers three questions: What is the flood risk to the site, now and allowing for the future, from all relevant sources. Will the development be safe, with appropriate floor levels, resilience and, where relevant, access and escape considered. Will it increase flood risk elsewhere, and if so, how that is prevented, for example by managing surface water so the project does not push water onto neighbours or downstream. A good FRA does not just describe the risk, it shows how the design responds to it. That is what turns a flood-zone application from a likely refusal into an approvable scheme, which is why it is worth doing properly rather than treating as a box to tick. Designing an extension for flood risk Whether or not a formal assessment is required, designing sensibly for flood risk is good practice on any at-risk plot. The main measures: Floor levels. Setting finished floor levels appropriately, sometimes slightly raised, so the living space sits above the likely flood level. Flood-resilient construction. Where risk is real, using materials and details lower down that cope with, and recover from, water better than standard ones. Managing surface water. Making sure the extension does not increase run-off, by keeping permeable surfaces, using sustainable drainage where appropriate, and not simply sending more water into an already stretched system. Drainage that copes. Designing the drainage so it works, connects properly, and deals with any drain the extension affects, rather than overwhelming it. Not building over drains badly. If the extension covers a public drain or sewer, that has to be dealt with correctly, which can require the water company's agreement. None of this is exotic. It is sensible, well-understood design, and on an at-risk plot it is what makes the difference between a home that copes and one that does not. Surface water: the flood risk people forget This deserves its own mention, because it is the risk homeowners most often overlook, and the one they can most easily make worse. You can be nowhere near a river and still be in a surface water flood risk area, or in a designated critical drainage area, where heavy rain overwhelms the ground and drains. And ordinary home improvements can add to it: paving over a front garden for parking, for instance, replaces ground that soaked up rain with a hard surface that sheds it, sending more water into the street and the drains. That is why permeable surfaces and sustainable drainage matter, and why there are rules about paving over front gardens. On an extension, keeping surface water under control, so your project does not worsen flooding for you or your neighbours, is both good design and, increasingly, what the council expects to see. \"Flood risk is only a problem if I'm next to a river.\" Not so. Surface water flooding, from rainfall overwhelming the ground and drains, can affect homes far from any watercourse, and hard surfaces like paved gardens make it worse. When you check the flood map, look at the surface water risk as well as the river and sea zones, because that is the one most likely to catch you out. Why ignoring flood risk gets applications refused It is worth being blunt about the consequence, because it is real and avoidable. Where a flood risk assessment is required and an application arrives without one, the council can refuse it outright, and does. An application can be turned down purely for failing to address flood risk, regardless of how good the extension itself is. That is a wasted application, wasted fees and lost time, over something that was foreseeable from the flood map at the very start. The flip side is the encouraging part: flood risk handled properly, checked early, assessed where needed, and designed for, is rarely a barrier. The refusals come from ignoring it, not from the risk itself. Which is exactly why it belongs at the front of the process, not the end. How flood risk is handled on your project Flood risk is one more thing to get right early, and on a water-affected plot it is the difference between a smooth application and a refused one, so it is best dealt with as part of the design rather than discovered late. This is where we come in, gently. We design and build extensions, and on any plot where flooding could be a factor we check the flood position at the start, identify where your property sits, and design for it, floor levels, drainage and surface water, so the project is safe and does not make flooding worse. Where a flood risk assessment is needed for the planning application, we make sure it is arranged and the application addresses it properly, rather than letting it stall or refuse the scheme. You get one team handling the planning, the flood-risk side and the build together, and honest advice on what your plot needs. Most of our work comes through recommendation, which depends on applications going through cleanly. Extending on a plot that might be at flood risk? Book a free, no-obligation site visit on 07920 731533 and we will check the flood position, design for it, and handle the planning. No pressure, and no obligation to proceed."
+}

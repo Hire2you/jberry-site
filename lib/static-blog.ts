@@ -1,4 +1,5 @@
 import type { BlogPostListItem } from '@/lib/blog'
+import { staticGuides } from '@/lib/static-guides'
 
 /** In-repo blog guides that sit alongside Sanity posts. */
 export type StaticBlogPost = BlogPostListItem & {
@@ -51,10 +52,26 @@ export const staticBlogPosts: StaticBlogPost[] = [
   },
 ]
 
+const allStaticBlogPosts: StaticBlogPost[] = [
+  ...staticBlogPosts,
+  ...staticGuides.map((guide) => ({
+    _id: `static-${guide.slug}`,
+    title: guide.title,
+    slug: guide.slug,
+    description: guide.description,
+    publishedAt: guide.publishedAt,
+    category: guide.category,
+    author: guide.author,
+    coverSrc: guide.coverSrc,
+    coverAlt: guide.coverAlt,
+    plainText: guide.plainText,
+  })),
+]
+
 export function mergeBlogPosts(sanityPosts: BlogPostListItem[]): BlogPostListItem[] {
-  const staticSlugs = new Set(staticBlogPosts.map((p) => p.slug))
+  const staticSlugs = new Set(allStaticBlogPosts.map((p) => p.slug))
   const merged = [
-    ...staticBlogPosts.map(({ coverSrc: _c, coverAlt: _a, ...post }) => post),
+    ...allStaticBlogPosts.map(({ coverSrc: _c, coverAlt: _a, ...post }) => post),
     ...sanityPosts.filter((p) => !staticSlugs.has(p.slug)),
   ]
   return merged.sort(
@@ -63,5 +80,5 @@ export function mergeBlogPosts(sanityPosts: BlogPostListItem[]): BlogPostListIte
 }
 
 export function staticPostCover(slug: string) {
-  return staticBlogPosts.find((p) => p.slug === slug)
+  return allStaticBlogPosts.find((p) => p.slug === slug)
 }

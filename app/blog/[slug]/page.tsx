@@ -13,6 +13,8 @@ import {
 import {site} from '@/lib/site'
 import {JsonLd} from '@/lib/schema'
 import QuoteBand from '@/components/QuoteBand'
+import {getStaticGuide, staticGuides} from '@/lib/static-guides'
+import StaticBlogGuide from '@/components/StaticBlogGuide'
 import {sanityFetch} from '@/sanity/live'
 import {POST_QUERY, POST_SLUGS_QUERY} from '@/sanity/queries'
 
@@ -25,11 +27,36 @@ export async function generateStaticParams() {
     stega: false,
   })
 
-  return ((data || []) as Array<{slug: string}>).map((post) => ({slug: post.slug}))
+  const sanitySlugs = ((data || []) as Array<{slug: string}>).map((post) => ({slug: post.slug}))
+  const guideSlugs = staticGuides.map((post) => ({slug: post.slug}))
+  const seen = new Set<string>()
+  return [...guideSlugs, ...sanitySlugs].filter((item) => {
+    if (seen.has(item.slug)) return false
+    seen.add(item.slug)
+    return true
+  })
 }
 
 export async function generateMetadata({params}: Props): Promise<Metadata> {
   const {slug} = await params
+  const guide = getStaticGuide(slug)
+  if (guide) {
+    return {
+      title: {absolute: guide.metaTitle || guide.title},
+      description: guide.description,
+      alternates: {canonical: `/blog/${guide.slug}`},
+      openGraph: {
+        title: guide.title,
+        description: guide.description,
+        type: 'article',
+        publishedTime: guide.publishedAt,
+        authors: [guide.author || site.director],
+        url: `/blog/${guide.slug}`,
+        images: [{url: guide.coverSrc, alt: guide.coverAlt}],
+      },
+    }
+  }
+
   const {data} = await sanityFetch({
     query: POST_QUERY,
     params: {slug},
@@ -73,6 +100,9 @@ function blogPostingSchema(post: BlogPost, imageUrl: string) {
 
 export default async function BlogPostPage({params}: Props) {
   const {slug} = await params
+  const guide = getStaticGuide(slug)
+  if (guide) return <StaticBlogGuide data={guide} />
+
   const {data} = await sanityFetch({
     query: POST_QUERY,
     params: {slug},
