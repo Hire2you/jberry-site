@@ -21,8 +21,8 @@ function locationSitemapEntries(docs: SitemapLocation[]): MetadataRoute.Sitemap 
       urls.add(`${site.domain}/extensions/${slug}`)
     }
     if (doc.serviceType === 'loft-conversion' || doc.serviceType === 'both') {
-      // County hub lives at /loft-conversions/essex — skip duplicate town slug
-      if (slug === 'essex') continue
+      // County hubs live at /loft-conversions/essex and /loft-conversions/london
+      if (slug === 'essex' || slug === 'london') continue
       urls.add(`${site.domain}/loft-conversions/${slug}`)
     }
   }
@@ -61,6 +61,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const countyHubs = [
     {url: `${site.domain}/loft-conversions/essex`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/loft-conversions/london`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/chelmsford`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/chigwell`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/ongar`, changeFrequency: 'monthly' as const},

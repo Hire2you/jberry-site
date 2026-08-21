@@ -1,0 +1,242 @@
+{
+  "serviceSlug": "loft-conversions",
+  "county": "London",
+  "countySlug": "london",
+  "seo": {
+    "title": "Loft Conversions in London | L-Shaped Dormer, Mansard & More",
+    "description": "Loft conversions across North-East London, L-shaped dormer, mansard, hip-to-gable and rooflight, matched to your roof. We handle the planning, party wall and building regs.",
+    "canonical": "/loft-conversions/london"
+  },
+  "hero": {
+    "image": { "src": "/images/hero-dormer.webp", "alt": "Contemporary clad dormer loft conversion in North-East London by J.Berry" },
+    "eyebrow": "Loft conversions · London",
+    "headline": "Loft Conversions in London",
+    "sub": "Add a bedroom, bathroom or home office without losing your garden or the cost of moving. We design and build every type — and handle planning, party wall and building regs through to sign-off."
+  },
+  "intro": [
+    "Yes, we can almost certainly convert your loft. We design and build loft conversions of every type, L-shaped dormer, mansard, hip-to-gable and rooflight, for homeowners across North-East London and the London-Essex border, and we handle the whole job from the first design through the planning, party wall and building regulations to the finished, signed-off room. In London, where there is rarely room to extend outward and every square foot counts, converting the loft is very often the smartest way to add a bedroom, a bathroom or a home office.",
+    "That is really the London story: you cannot always go out, so you go up. Gardens are small, prices are high, and moving for one more bedroom is expensive, so the space already sitting under your roof is the space worth using. Whether your roof suits an L-shaped dormer, a mansard, a hip-to-gable or a simple rooflight conversion depends on the house and, in London especially, on the local planning, and working that out honestly is where we start. To talk it through, book a free, no-obligation site visit on 07920 731533."
+  ],
+  "introImage": {
+    "src": "/images/loft-dormer-front.webp",
+    "alt": "Contemporary clad dormer loft conversion, front elevation"
+  },
+  "areas": {
+    "title": "The London areas we cover",
+    "intro": "We work across North-East London and the London-Essex border, and have built for homeowners throughout that area, including Woodford, Wanstead, South Woodford, Chingford, Walthamstow, Leytonstone, Ilford, Romford, Hornchurch and Enfield, along with the surrounding streets. Each of those has, or will have, its own loft-conversion page with detail specific to the area, follow the links to the one nearest you. Covering them from a hub makes sense because London's roof stock, while dominated by terraces, still varies street to street: the Victorian and Edwardian terraces of the inner boroughs, the 1930s semis of the outer suburbs, and the many conservation areas that shape what is allowed. The right loft conversion follows from the roof you have and the rules where you live.",
+    "clusters": [
+      {
+        "name": "Redbridge",
+        "towns": [
+          { "name": "Woodford", "slug": null },
+          { "name": "South Woodford", "slug": null },
+          { "name": "Wanstead", "slug": null },
+          { "name": "Ilford", "slug": null, "href": "/extensions/london/ilford" }
+        ]
+      },
+      {
+        "name": "Waltham Forest",
+        "towns": [
+          { "name": "Chingford", "slug": null },
+          { "name": "Walthamstow", "slug": null },
+          { "name": "Leytonstone", "slug": null, "href": "/extensions/london/leytonstone" }
+        ]
+      },
+      {
+        "name": "Havering & Enfield",
+        "towns": [
+          { "name": "Romford", "slug": null, "href": "/extensions/london/romford" },
+          { "name": "Hornchurch", "slug": null, "href": "/extensions/london/hornchurch" },
+          { "name": "Enfield", "slug": null }
+        ]
+      }
+    ]
+  },
+  "roofs": {
+    "title": "London roofs, and the loft conversions that suit them",
+    "intro": "Because a loft conversion is shaped by your roof, and in London by the planning too, it is worth knowing what the city's common house types tend to suit. This is the heart of it.",
+    "closing": "The point is that your roof, and the local planning, largely choose the conversion, and an honest look at both tells us what is possible.",
+    "types": [
+      {
+        "roofStock": "Victorian & Edwardian terraces",
+        "conversion": "L-shaped dormer",
+        "text": "The Victorian and Edwardian terraces and villas that define so much of London usually have a rear projection (the \"outrigger\"), and the classic London loft for these is the L-shaped dormer, combining a dormer on the main rear roof with one over the rear projection to create real space, often enough for a bedroom and a bathroom. It is the most common loft conversion across London's terraced streets.",
+        "image": "/images/loft-dormer-front.webp",
+        "imageAlt": "L-shaped dormer loft conversion on a London terrace"
+      },
+      {
+        "roofStock": "Conservation & terraced streets",
+        "conversion": "Mansard",
+        "text": "Where a terrace sits in a conservation area, or where you want the maximum possible space, a mansard is often the answer: it rebuilds the rear (or whole) roof slope to near-vertical, creating a full extra storey of headroom, and it is the form many London boroughs prefer in sensitive streets because, done well, it sits quietly on the roofline. Mansards almost always need planning permission, but they are a London speciality for good reason.",
+        "image": "/images/loft-mansard.webp",
+        "imageAlt": "Mansard loft conversion on a period terrace"
+      },
+      {
+        "roofStock": "1930s outer-suburb semis",
+        "conversion": "Hip-to-gable",
+        "text": "The 1930s semi-detached houses of the outer suburbs, around Chingford, Hornchurch and parts of the north-east, usually have hipped roofs, which suit a hip-to-gable conversion, squaring the roof off to a gable, often with a rear dormer.",
+        "image": "/images/loft-hip-to-gable.webp",
+        "imageAlt": "Hip-to-gable loft conversion with tiled dormer and rooflights"
+      },
+      {
+        "roofStock": "Good head height or tight planning",
+        "conversion": "Rooflight",
+        "text": "Homes with good existing head height, or those in conservation areas where dormers are restricted, may suit a rooflight conversion that leaves the roofline untouched.",
+        "image": "/images/loft-wardrobes.webp",
+        "imageAlt": "Rooflight loft conversion bedroom with built-in wardrobes"
+      }
+    ]
+  },
+  "planning": {
+    "title": "Loft planning in London: what to know",
+    "intro": "A quick, honest word on planning, because in London it shapes loft projects more than almost anywhere, and we handle it for you as part of the job.",
+    "permitted": {
+      "title": "Often permitted development, but London is different",
+      "points": [
+        "In principle, many loft conversions can be done under permitted development, within the volume limits (broadly 40 cubic metres for terraces and 50 for semis) and the conditions, notably that dormers should not be on the front roof slope.",
+        "In practice, London is different: conservation areas are extensive across the boroughs, and many boroughs apply Article 4 directions that remove permitted-development rights for roof extensions, so a full planning application is needed more often here than in the suburbs.",
+        "Several boroughs also publish their own guidance on how roof extensions and mansards should be designed. Mansards and front dormers in particular usually need permission."
+      ]
+    },
+    "always": {
+      "title": "Always required",
+      "points": [
+        "A loft conversion always needs full building-regulations approval, for the structure, the new floor, the fire-safety escape route and the staircase, ending in a completion certificate that protects the work at resale.",
+        "In London's terraced and semi-detached streets, the Party Wall Act almost always applies, because the work involves the shared party walls with your neighbours, notices have to be served and the timing managed properly.",
+        "We check your borough's position, design to what is actually achievable there, and deal with the planning, the party wall notices and the building regulations, so you do not have to."
+      ]
+    }
+  },
+  "involves": {
+    "title": "What a loft conversion involves",
+    "intro": "A loft conversion is a proper building project, not a tidy-up. We design and build the whole thing with one team from start to finish, and because much of the work happens in the roof, reached from scaffolding, you can usually live in the house throughout, the main disruption being a short, dusty spell when we break through to fit the staircase. In terraced London, we also manage the party wall process with your neighbours, which matters for keeping things civil on a shared street.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Structural floor",
+        "text": "A new structural floor, often on steel beams, built to carry the room and meet building regulations."
+      },
+      {
+        "step": "02",
+        "title": "Roof works",
+        "text": "The roof works for a dormer or mansard, tiled, weatherproofed and finished to match your home."
+      },
+      {
+        "step": "03",
+        "title": "Staircase & fire escape",
+        "text": "A compliant staircase and the fire-safety escape route the regs require, planned around how you use the house."
+      },
+      {
+        "step": "04",
+        "title": "Insulation & fit-out",
+        "text": "Insulation, plastering, electrics and plumbing, then the room itself, plastered, fitted and finished, with an ensuite if there is room and you want one."
+      },
+      {
+        "step": "05",
+        "title": "Planning & sign-off",
+        "text": "We handle the planning and building regulations through to the completion certificate that protects the work at resale."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Why London homeowners choose us for loft conversions",
+    "intro": "A few honest reasons homeowners here choose us:",
+    "reasons": [
+      {
+        "title": "Established since 1995",
+        "text": "We have been building for homeowners since 1995, and over 80 per cent of our work comes through recommendation, the accountability that matters most, it only continues if the last job was done well."
+      },
+      {
+        "title": "One team, planning and party wall",
+        "text": "We work as one team with a clear point of contact, are honest about cost and time, quote clearly and itemise it, and handle the planning, the party wall side and the building regulations through to the completion certificate, which matters more in London, where the borough planning is often involved and the party wall almost always applies."
+      },
+      {
+        "title": "Honest cost and time",
+        "text": "We are honest about cost and time, quote clearly and itemise it, so you can see what you are paying for rather than comparing two vague lump sums."
+      },
+      {
+        "title": "Honest advice, not a sales pitch",
+        "text": "Because we do the whole range, lofts, extensions, kitchens and renovations, we can tell you honestly whether a loft is the right way to get your space, or whether reworking the ground floor would serve you better, rather than pushing one kind of job."
+      }
+    ],
+    "sidewaysLink": {
+      "href": "/extensions",
+      "label": "Considering ground-floor space instead? See our house extensions"
+    }
+  },
+  "cost": {
+    "title": "What a loft conversion costs",
+    "intro": "Every loft is different, so the honest answer on cost is that it depends most on the type of conversion your roof calls for, a rooflight conversion is the cheapest, an L-shaped dormer more, a mansard the most, along with the finish and whether you add an ensuite. The only figure that means anything is a real quote on your actual loft.",
+    "ladder": [
+      { "name": "Rooflight", "note": "Usually the most cost-effective" },
+      { "name": "L-shaped dormer", "note": "The classic London terrace loft" },
+      { "name": "Mansard", "note": "Maximum space, highest cost" }
+    ],
+    "closing": "In London, a loft conversion is often especially worthwhile, because the alternative, moving to a larger home in the same area, is so expensive, so the space you add tends to be valuable. For a real figure, we will give you a clear, itemised quote after a free, no-obligation site visit, with no hidden extras.",
+    "costLink": {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Read the loft conversion cost guide"
+    },
+    "included": [
+      "Full structural work: steels, floor joists and building regs compliance",
+      "Dormer or roof alterations, tiling and weatherproofing",
+      "Staircase design and installation",
+      "First and second fix electrics and plumbing",
+      "Plastering, insulation to current regs, and decoration",
+      "Planning and building regulations through to completion certificate"
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do you do loft conversions across London?",
+      "a": "We work across North-East London and the London-Essex border, and have built in Woodford, Wanstead, South Woodford, Chingford, Walthamstow, Leytonstone, Ilford, Romford, Hornchurch and Enfield, among others. Each area has, or will have, its own loft-conversion page with local detail. If you are in or near any of these, call and we will confirm we cover you."
+    },
+    {
+      "q": "What type of loft conversion suits my London house?",
+      "a": "It depends on your roof and your borough's planning. The Victorian and Edwardian terraces common across London suit an L-shaped dormer, using the rear projection; in conservation areas or where you want maximum space, a mansard is often the answer; the 1930s hipped-roof semis of the outer suburbs suit a hip-to-gable; and homes with good head height or tight planning may suit a rooflight conversion. We look at your roof and the local rules and tell you honestly which suits."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in London?",
+      "a": "More often than in the suburbs. While many conversions are permitted development in principle, London's extensive conservation areas and Article 4 directions mean permitted-development rights are frequently removed, so a planning application is needed. Mansards and front dormers usually need permission anyway. Every loft still needs full building-regulations approval. We check your borough's position and handle the application."
+    },
+    {
+      "q": "What is a mansard, and why are they common in London?",
+      "a": "A mansard rebuilds the roof slope to near-vertical, creating a full extra storey of headroom and the most space of any loft type. It is common in London because it suits terraced houses and, done well, sits quietly on the roofline, which is often what conservation areas and boroughs prefer. Mansards almost always need planning permission, but they are a London speciality for good reason."
+    },
+    {
+      "q": "Does the Party Wall Act apply to my London loft conversion?",
+      "a": "Almost always, in London's terraced and semi-detached streets, because the work involves the party walls shared with your neighbours. Notices must be served on the affected neighbours and the timing managed properly before work starts. We handle the party wall process as part of the job, which keeps things straightforward and civil on a shared street."
+    },
+    {
+      "q": "Can I live in my house during a loft conversion?",
+      "a": "Usually yes. Most of the work happens in the roof, reached from scaffolding, so the rest of the house keeps functioning, the main disruption being a short, dusty spell when we break through to fit the staircase. In London terraces we also keep the neighbours informed through the party wall process. It is far less disruptive than an extension."
+    },
+    {
+      "q": "How much does a loft conversion cost in London?",
+      "a": "It depends most on the type your roof calls for, rooflight cheapest, L-shaped dormer more, mansard most, plus the finish and any ensuite, so the only reliable figure is a quote on your actual loft. In London a loft is often especially worthwhile given how expensive moving to a bigger home is. We provide a clear, itemised quote after a free, no-obligation site visit."
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Book a free, no-obligation site visit on 07920 731533. We will look at your roof, check the head height and structure, work out where the stairs can go, review your borough's planning position, and tell you honestly which type of conversion suits and what it would cost, with an itemised quote. There is no pressure and no obligation to proceed."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/loft-conversions", "label": "Loft conversions overview" },
+    { "href": "/loft-conversions/essex", "label": "Loft conversions in Essex" },
+    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
+    { "href": "/extensions/london/leytonstone", "label": "House extensions in Leytonstone" },
+    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
+    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
+    { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
+    { "href": "/blog/how-long-does-a-loft-conversion-take", "label": "How long does a loft conversion take?" },
+    { "href": "/extensions", "label": "House extensions" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "overviewLinkLabel": "Loft conversions across Hertfordshire, Essex and London",
+  "faqIntro": "The questions every London homeowner asks at the first site visit.",
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Thinking about converting your loft in London?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will check your roof and the local planning, and tell you honestly which type of conversion suits your house, and what it would cost. No pressure, and no obligation to proceed."
+  }
+}
