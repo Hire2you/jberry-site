@@ -41,6 +41,7 @@ export default function RomfordExtensionsPage() {
         data={breadcrumbSchema([
           { name: 'Home', path: '/' },
           { name: 'House Extensions', path: '/extensions' },
+          { name: 'London', path: '/extensions/london' },
           { name: landing.town, path: landing.seo.canonical },
         ])}
       />

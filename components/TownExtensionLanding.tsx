@@ -528,10 +528,12 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
             <p className="mt-8 text-sm text-stone">
               Back to{' '}
               <Link
-                href={`/${serviceSlug}`}
+                href={data.countySlug === 'london' ? `/${serviceSlug}/london` : `/${serviceSlug}`}
                 className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
               >
-                {servicePhrase.toLowerCase()} across Hertfordshire and Essex
+                {data.countySlug === 'london'
+                  ? `${servicePhrase.toLowerCase()} in London`
+                  : `${servicePhrase.toLowerCase()} across Hertfordshire and Essex`}
               </Link>
             </p>
           </Reveal>

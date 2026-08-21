@@ -18,7 +18,7 @@ function locationSitemapEntries(docs: SitemapLocation[]): MetadataRoute.Sitemap 
     if (!slug) continue
 
     if (doc.serviceType === 'extension' || doc.serviceType === 'both') {
-      urls.add(`${site.domain}/extensions/${slug}`)
+      if (slug !== 'london') urls.add(`${site.domain}/extensions/${slug}`)
     }
     if (doc.serviceType === 'loft-conversion' || doc.serviceType === 'both') {
       // County hubs live at /loft-conversions/essex and /loft-conversions/london
@@ -62,6 +62,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const countyHubs = [
     {url: `${site.domain}/loft-conversions/essex`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/loft-conversions/london`, changeFrequency: 'monthly' as const},
+    {url: `${site.domain}/extensions/london`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/chelmsford`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/chigwell`, changeFrequency: 'monthly' as const},
     {url: `${site.domain}/extensions/essex/ongar`, changeFrequency: 'monthly' as const},

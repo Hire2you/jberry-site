@@ -125,6 +125,7 @@
   ],
   "relatedLinks": [
     { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london", "label": "House extensions in London" },
     { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
     { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
     { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },

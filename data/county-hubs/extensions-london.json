@@ -1,0 +1,177 @@
+{
+  "serviceSlug": "extensions",
+  "county": "London",
+  "countySlug": "london",
+  "seo": {
+    "title": "House Extensions in London | J Berry Construction",
+    "description": "House extensions across London, side returns, rear and wrap-around extensions on terraced and period homes. Planning, party wall and building regs handled. Free site visit.",
+    "canonical": "/extensions/london"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/hero-rear-extension.webp",
+      "alt": "Side return extension in a London Victorian terrace creating an open-plan kitchen and dining room"
+    },
+    "eyebrow": "House extensions · London",
+    "headline": "House Extensions in London",
+    "sub": "Most London houses have more room to gain than their owners think, and it is rarely at the bottom of the garden."
+  },
+  "intro": [
+    "It is the narrow strip of dead space beside the kitchen, the awkward return that has held a bin and a drainpipe since 1890. Fill that in, open up the back, and a cramped galley kitchen becomes the open-plan kitchen and dining room the house never had.",
+    "We have been extending homes for families since 1995, most of our work comes by recommendation, and we know how these houses are put together. If you are wondering what your house could take, call 07920 731533, request a callback, or book a free site visit and we will tell you straight."
+  ],
+  "introImage": {
+    "src": "/images/extension-bifolds.webp",
+    "alt": "Side return extension in a London Victorian terrace creating an open-plan kitchen and dining room",
+    "caption": "A side return extension squares off the ground floor, turning a narrow galley kitchen into a room with proper width."
+  },
+  "sideReturn": {
+    "title": "The side return: London's most useful extension",
+    "paragraphs": [
+      "If you live in a Victorian or Edwardian terrace, and much of London does, your house probably has a two-storey rear projection with a narrow alley running alongside it. That alley is the side return. It is usually a metre or two wide, gets no real light, and does nothing for you.",
+      "A side return extension roofs that strip over and brings it inside, squaring off the ground floor. The gain in floor area sounds modest on paper. In practice it transforms the plan, because it converts a long, thin, badly lit kitchen into a room with proper width, and width is what makes a kitchen work. You get space for an island or a table, a run of units that does not force you to shuffle sideways, and a room the whole family can be in at once.",
+      "The catch is that the wall you are removing is usually holding the house up. Taking out the flank wall of the rear projection means the load above has to be picked up by steel, sized to a structural design and inspected by building control, and carried down through new supports to foundations that can take it. Where the extension meets the neighbour's boundary, the work touches the party wall, which brings its own process. And because the new roof sits low against the existing building, the light has to come from above: rooflights or a glazed section along the flank are what stop the new space feeling like a corridor with a lid on it. Get the structure, the glazing and the levels right and a side return is the best value extension in London. Get them wrong and it is a dark box."
+    ],
+    "image": {
+      "src": "/images/kitchen-granite.webp",
+      "alt": "Open-plan kitchen in a side return extension with daylight from above"
+    }
+  },
+  "types": {
+    "title": "Rear, wrap-around and double storey",
+    "intro": "The side return is one route. Which one suits you depends on your house and what you actually need.",
+    "closing": "We also do the work that goes with these: structural alterations internally, knocking through to open up the existing plan, bespoke kitchens fitted into the new space, and full renovations where the extension is part of a wider improvement. Doing it as one project, with one team, is usually less disruptive and better value than splitting it up.",
+    "items": [
+      {
+        "name": "Rear extension",
+        "text": "A rear extension pushes straight out into the garden. It is the simplest form, it suits houses without a useful side return, and on many London properties a single-storey rear extension falls within permitted development, subject to the depth limits and the conditions.",
+        "image": "/images/extension-rear-bifolds.webp",
+        "imageAlt": "Single-storey rear extension with bifold doors to the garden"
+      },
+      {
+        "name": "Wrap-around",
+        "text": "A wrap-around combines the two, taking the side return and the rear extension as one L-shaped piece of work. It is the most transformative option for a terrace, giving a genuinely large open-plan ground floor, and because it is doing more, it costs more and is more likely to need planning permission.",
+        "image": "/images/extension-bifolds.webp",
+        "imageAlt": "Wrap-around kitchen extension opening onto a garden"
+      },
+      {
+        "name": "Double storey",
+        "text": "A double storey extension adds a bedroom or bathroom above the new ground-floor space. It is a bigger structural job, foundations and steels have to carry more, and it needs closer thought about how it looks from neighbouring gardens, but it is the option that changes the house rather than just the kitchen.",
+        "image": "/images/extension-double-storey.webp",
+        "imageAlt": "Double storey house extension on a family home"
+      }
+    ]
+  },
+  "tightSite": {
+    "title": "Building on a tight London site",
+    "intro": "Extending a London house is as much a logistics problem as a building one, and it is worth knowing what that means before you start.",
+    "closing": "None of this is exotic. It is simply the difference between a builder who works on London houses and one who does not.",
+    "items": [
+      {
+        "title": "No side access",
+        "text": "Most terraces have no side access, so materials come in and rubble goes out through the house, or through whatever rear route exists. That means protecting floors and hallways, keeping the route clean, and working tidily because you are living there while we do it. Skips need permits on many streets, and on a red route or a controlled parking zone the logistics of deliveries have to be planned rather than assumed."
+      },
+      {
+        "title": "Drains",
+        "text": "Drains are the other London constant. Victorian terraces often have a shared or nearby drain run, sometimes crossing exactly where you want to build. That may mean building over or near a public sewer, which needs agreement with the water authority, or diverting a run. It is entirely normal and entirely solvable, but it needs finding at survey stage, not when the foundations are half dug, because that is where budgets get blown."
+      },
+      {
+        "title": "Neighbours",
+        "text": "Then there are the neighbours, who in London are close, often attached on both sides, and entitled to notice under the Party Wall Act. Handled properly, with notices served early and work timed considerately, it stays civil. Handled badly, it stops the job."
+      }
+    ]
+  },
+  "project": {
+    "title": "A recent project",
+    "text": "In Woodford, we built a full-width single-storey rear extension and renovated the whole ground floor into an open-plan kitchen, dining and living space. The client had gathered several quotes before choosing us, and the project was completed on time and on budget. They now recommend us to others, which, given that most of our work arrives by recommendation, is the part we are most pleased about."
+  },
+  "planning": {
+    "title": "Planning permission and party walls in London",
+    "intro": "London planning varies more by borough than by anything else, so the honest answer is that your street matters more than your postcode.",
+    "paragraphs": [
+      "Many single-storey rear and side return extensions are permitted development, within the size limits and conditions, meaning no full planning application. Larger single-storey rear extensions can sometimes use the prior approval route, where the council notifies your neighbours and considers any objections before allowing it. Where a scheme goes beyond permitted development, or the house sits in a conservation area, or the borough has an Article 4 direction removing permitted development rights on that street, a full planning application is needed. Article 4 areas are common in London and catch people out, so it is one of the first things we check.",
+      "Whatever the planning route, every extension always needs building-regulations approval, covering the structure, foundations, drainage, insulation, fire safety and ventilation, with building control inspecting as the work goes and issuing a completion certificate at the end. That certificate matters when you sell.",
+      "And because London houses are attached, the Party Wall etc. Act applies to most extensions here: notices to the neighbours either side, and to anyone whose foundations you are excavating near. We serve the notices, manage the timings and keep the process moving, and we handle the planning and building regulations for you, so you are not the one chasing the council."
+    ]
+  },
+  "whyUs": {
+    "title": "Why London homeowners choose us",
+    "paragraphs": [
+      "We have been building for homeowners since 1995, and over 80% of our work comes from recommendation, which only happens if the last job went well and the last client would have us back.",
+      "What that means in practice: one team runs your project from first visit to final certificate, with a clear point of contact, so you are never chasing three different trades for an answer. We quote itemised, so you can see where the money goes and compare us honestly against anyone else. We are straight about what a house will and will not take, including when an extension is not the best route and a loft conversion would serve you better. And we work clean, which matters more than anything when you are living in the house while we build."
+    ],
+    "sidewaysLink": {
+      "href": "/loft-conversions/london",
+      "label": "Need a bedroom instead of a bigger kitchen? See loft conversions in London"
+    }
+  },
+  "areas": {
+    "title": "Where we work in London",
+    "intro": "We work across London, with most of our work in the north east and the surrounding boroughs. Local pages with detail on housing stock and planning in each area:",
+    "closing": "If your area is not listed, call us anyway. We cover more of London and the surrounding counties than the pages above suggest.",
+    "towns": [
+      { "name": "Woodford", "slug": null },
+      { "name": "Wanstead", "slug": null },
+      { "name": "Chingford", "slug": null },
+      { "name": "Walthamstow", "slug": null },
+      { "name": "Leytonstone", "slug": "leytonstone" },
+      { "name": "Ilford", "slug": "ilford" },
+      { "name": "Romford", "slug": "romford" },
+      { "name": "Hornchurch", "slug": "hornchurch" },
+      { "name": "Enfield", "slug": null }
+    ]
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Extension costs in London depend on the size, the structure, the ground and the finish, and anyone quoting a firm figure without seeing your house is guessing. What moves the number most: how much steel the structure needs, what the foundations have to deal with, whether drains have to be built over or diverted, how much glazing you want, and the specification of the kitchen and finishes.",
+      "Our cost calculator gives an early sense of scale, useful before you talk to anyone. After that, a free, no-obligation site visit gets you a real, itemised quote for your actual house, with nothing hidden and no pressure to proceed. If you are comparing quotes, our house extension cost guide is worth reading first, because in London the difference between two prices is usually something one of them has left out."
+    ],
+    "costLink": {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "Read the house extension cost guide"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is a side return extension, and will it work on my house?",
+      "a": "It is an extension that roofs over the narrow alley beside your rear projection, bringing that dead strip inside and squaring off the ground floor. It works on most Victorian and Edwardian terraces, which is a very large share of London housing. The gain looks small on a plan but transforms the room, because it gives a narrow kitchen proper width. Whether yours suits one depends on the side return's width, the structure of the flank wall and where your drains run, all of which we check at the site visit."
+    },
+    {
+      "q": "Do I need planning permission for an extension in London?",
+      "a": "Often not. Many single-storey rear and side return extensions are permitted development within the size limits, and some larger single-storey rear extensions can go through the prior approval route, where neighbours are consulted. You will usually need a full application if the scheme exceeds those limits, if you are in a conservation area, or if your street has an Article 4 direction removing permitted development rights, which is common in London. Every extension needs building-regulations approval regardless. We check your position before you spend anything."
+    },
+    {
+      "q": "How disruptive is an extension when there's no side access?",
+      "a": "Manageable, but it needs planning. Materials and waste come through the house or via any rear route, so we protect floors and hallways and keep the route clean, and we plan skips, permits and deliveries around your street's parking restrictions. Most clients stay living at home throughout, with the kitchen out of action for part of it. We will give you a realistic picture of the disruption before you commit rather than a rosy one."
+    },
+    {
+      "q": "What happens about my neighbours and the party wall?",
+      "a": "Because London houses are attached, the Party Wall etc. Act applies to most extensions here, so notices go to the neighbours either side, and to anyone whose foundations we are excavating close to. It is a standard process, not a fight, and served early with the work timed considerately it usually stays entirely amicable. We handle the notices and the timings as part of the job."
+    },
+    {
+      "q": "Should I extend or convert the loft?",
+      "a": "It depends on what you are short of. If you need living space, a bigger kitchen or somewhere for the family to be together, extend. If you need a bedroom or a quiet office, a loft conversion is usually cheaper, less disruptive and does not cost you garden. Plenty of London homeowners eventually do both. We will give you an honest view of which gets you what you want, and we build both."
+    },
+    {
+      "q": "How long does a London extension take?",
+      "a": "A single-storey rear or side return extension is generally a matter of months rather than weeks on site, with wrap-arounds and double storey extensions taking longer, and the whole project running longer than the build once design and any planning are included. Ground conditions and drains are the usual causes of variation. We give you a realistic programme for your specific house rather than a best case."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/extensions", "label": "House extensions overview" },
+    { "href": "/extensions/london/hornchurch", "label": "House extensions in Hornchurch" },
+    { "href": "/extensions/london/leytonstone", "label": "House extensions in Leytonstone" },
+    { "href": "/extensions/london/ilford", "label": "House extensions in Ilford" },
+    { "href": "/extensions/london/romford", "label": "House extensions in Romford" },
+    { "href": "/loft-conversions/london", "label": "Loft conversions in London" },
+    { "href": "/blog/house-extension-cost-guide", "label": "House extension cost guide" },
+    { "href": "/blog/how-long-does-a-house-extension-take", "label": "How long does a house extension take?" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your London home?",
+    "text": "Call 07920 731533, request a callback, or book a free site visit. We will look at the house, tell you honestly what it will take, and give you a real, itemised figure. No pressure, no obligation."
+  }
+}
