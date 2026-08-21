@@ -1,0 +1,251 @@
+{
+  "slug": "open-plan-living-steel-beams",
+  "title": "Open-Plan Living: What Steel Beams and Knocking Through Actually Involve",
+  "metaTitle": "Knocking Through & Steel Beams: What's Involved",
+  "description": "What knocking through for open-plan living really involves: load-bearing walls, steel beams, padstones, building regs and foundations, explained in plain English.",
+  "publishedAt": "2026-08-21",
+  "category": "Guides",
+  "author": "Jason Berry",
+  "coverSrc": "/images/blog/open-plan.webp",
+  "coverAlt": "Open-plan kitchen extension with sliding doors to a sandstone patio, the finished result of a structural opening",
+  "coverCaption": "Knocking through is a structural job: the wall you remove is usually holding the house up, and a steel beam has to take that load.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Knocking through to create an open-plan space means removing a wall, and if that wall is load-bearing, the weight it was holding up, the floors, the wall above, sometimes the roof, has to be carried instead by a steel beam. That beam has to be sized by a structural engineer and signed off under building regulations. It is the single biggest structural element in most extensions and open-plan projects, and it is exactly where a lot of quotes quietly differ."
+    },
+    {
+      "type": "p",
+      "text": "This guide explains, in plain English, what is involved in knocking through: how to tell whether a wall is load-bearing, what a steel beam does and how it is sized, why the ends of the beam matter as much as the middle, and why this is one part of the job that cannot be guessed at, skipped or done on the cheap."
+    },
+    {
+      "type": "h2",
+      "text": "What \"knocking through\" actually involves"
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/open-plan-kitchen.webp",
+      "alt": "Finished open-plan kitchen with an island after knocking through",
+      "caption": "The room you actually live in is the point of the steel. Get the opening and the light right, and the structure disappears."
+    },
+    {
+      "type": "p",
+      "text": "\"Knocking through\" sounds like a demolition job, but the demolition is the easy part. The real work is replacing the support the wall was providing before it comes out."
+    },
+    {
+      "type": "p",
+      "text": "Walls in a house do two jobs: they divide up space, and some of them also hold up whatever is above them. When you remove a wall that is only dividing space, you can simply take it out. When you remove a wall that is also holding things up, you have to give that load a new path to the ground, and that is what the steel beam does."
+    },
+    {
+      "type": "p",
+      "text": "So a proper knock-through is really three jobs: work out what the wall is carrying, install a beam that can carry it, and support the ends of that beam all the way down to solid ground. Get any of the three wrong and you have a structural problem, not a nicer kitchen."
+    },
+    {
+      "type": "h2",
+      "text": "Load-bearing or not? Why you must never guess"
+    },
+    {
+      "type": "p",
+      "text": "The first and most important question is whether the wall is load-bearing, because it changes everything about the job."
+    },
+    {
+      "type": "p",
+      "text": "A load-bearing wall carries weight from above, another wall, floor joists, a roof. A non-load-bearing (or partition) wall only divides the room. Removing a partition wall is straightforward. Removing a load-bearing wall without proper support is dangerous and can, in the worst case, bring part of the house down."
+    },
+    {
+      "type": "p",
+      "text": "There are clues, which way the floor joists run, whether a wall sits above another wall, whether it is solid or hollow-sounding, but clues are not proof. Internal walls can carry load in ways that are not obvious from looking, and mistakes here are catastrophic."
+    },
+    {
+      "type": "callout",
+      "label": "Worth knowing",
+      "text": "Never assume a wall is safe to remove because it looks flimsy or because someone \"reckons\" it is not load-bearing. Even a modest-looking wall can be holding up a floor or a roof, and even a stud wall can be structural. The only safe approach is to have it properly assessed before anything comes out. This is not a corner to cut."
+    },
+    {
+      "type": "h2",
+      "text": "What a steel beam does, and how it is sized"
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/open-plan-steel.webp",
+      "alt": "Red-primed structural steel beams in place on the foundations of a house extension",
+      "caption": "The steels go in before the new floor and walls. They are sized to a structural design and inspected by building control."
+    },
+    {
+      "type": "p",
+      "text": "When you remove a load-bearing wall, the weight it carried has to be picked up by something that spans the new opening. That something is usually a steel beam, often still called an RSJ (rolled steel joist), though modern beams are typically a related section called a universal beam."
+    },
+    {
+      "type": "p",
+      "text": "The beam bridges the gap where the wall used to be and carries the load across to supports at each end, which then take it down to the foundations. In effect, it does the wall's structural job while leaving the space open."
+    },
+    {
+      "type": "p",
+      "text": "Crucially, the beam is not chosen by guesswork or by picking a size that \"looks about right\". The calculations come from a structural engineer, who works out exactly what the wall is carrying and specifies a beam that can take it, its depth, its weight, and how it is supported. A wider opening or a heavier load needs a bigger, heavier beam. Under-size it and it can deflect or fail; the size is a matter of physics, not preference."
+    },
+    {
+      "type": "callout",
+      "label": "Common misconception",
+      "text": "\"Builders spec a big steel to bump up the bill.\" Almost the opposite. The beam is sized to the load by an engineer's calculation, not to inflate a quote, and the real risk is a beam that is too small, not too large. If anything, the corner some cheaper jobs cut is under-supporting a beam, not over-specifying one. A properly sized steel is the beam doing its job safely, not an upsell."
+    },
+    {
+      "type": "h2",
+      "text": "Padstones: why the ends of the beam matter as much as the beam"
+    },
+    {
+      "type": "p",
+      "text": "Here is the part homeowners rarely hear about, and where a lot of the skill, and a lot of the difference between a good job and a bad one, actually lies."
+    },
+    {
+      "type": "p",
+      "text": "A steel beam does not just need to be strong enough across its span. Its ends have to bear onto something that can take the concentrated load being funnelled into them. Drop a heavily loaded beam end onto ordinary brickwork and it can crush it. The answer is a padstone, a solid, engineered pad (often concrete) built into the wall at each end to spread that load safely into the structure below."
+    },
+    {
+      "type": "p",
+      "text": "The size and type of padstone is part of the engineer's calculation, just like the beam. It is easy to overlook because it disappears inside the wall, but the ends of the beam are where many structural problems actually occur when a job has been done carelessly. The beam and its bearings are one system; both have to be right."
+    },
+    {
+      "type": "h2",
+      "text": "The wider the opening, the bigger the steel"
+    },
+    {
+      "type": "p",
+      "text": "This is the single most useful thing to understand about the cost of knocking through, and it explains a lot of the variation between quotes."
+    },
+    {
+      "type": "p",
+      "text": "The wider and clearer the opening you want, the more the beam has to span unsupported, and the bigger, heavier and more expensive the steel becomes, along with deeper padstones and sometimes stronger foundations beneath them. A narrow opening with a wall or a post left in the middle needs a much smaller, cheaper beam."
+    },
+    {
+      "type": "p",
+      "text": "That is why a cheaper quote can look attractive and quietly deliver a worse result. If it keeps a stub of wall or drops a supporting post into the middle of your open-plan room to reduce the span, the steel is smaller and the price is lower, but you are left with the very obstruction you were trying to remove. A genuinely clear, open span costs more because the structure to achieve it costs more."
+    },
+    {
+      "type": "callout",
+      "label": "Worth knowing",
+      "text": "When you compare quotes for an open-plan job, look closely at the opening each one is actually giving you. Two prices for \"knocking through\" can describe very different rooms: one a single clear span, the other with a post or a nib of wall left in to save on steel. The structure is where that difference lives, and it is worth asking each builder to be explicit about it."
+    },
+    {
+      "type": "h2",
+      "text": "Why this needs building regulations, and cannot be skipped"
+    },
+    {
+      "type": "p",
+      "text": "Removing a load-bearing wall is exactly the kind of work building regulations exist to govern, and it is not optional."
+    },
+    {
+      "type": "p",
+      "text": "The structural calculations for the beam and its supports have to be produced and approved, and the work has to be inspected and signed off by building control. This is separate from planning permission: even where knocking through needs no planning application at all, it still needs building regulations sign-off, because it is a structural alteration."
+    },
+    {
+      "type": "p",
+      "text": "There are two reasons this matters beyond the legal one. First, safety: the sign-off is what confirms the structure is adequate. Second, resale: an unsigned-off structural alteration is exactly the kind of thing a buyer's solicitor flags, and it can stall or sink a sale. The completion certificate is the proof that the work was done properly, and it is worth having."
+    },
+    {
+      "type": "h2",
+      "text": "Foundations under the steel, especially in older houses"
+    },
+    {
+      "type": "p",
+      "text": "The load does not stop at the beam. It travels down through the padstones and the supports into the foundations, which have to be able to take it."
+    },
+    {
+      "type": "p",
+      "text": "In a newer house this is often straightforward. In an older one, it frequently is not. Victorian and Edwardian houses typically have shallow original footings, sometimes just a few courses of brick, that were never designed to take the concentrated point load a beam end delivers. In those cases the supports may need underpinning, deepening and strengthening the foundation locally so it can carry the new load."
+    },
+    {
+      "type": "p",
+      "text": "This is real, below-ground work, and it is another place cheaper quotes quietly economise, by assuming the existing footings will cope when they may not. On an older house especially, what happens beneath the beam ends is as important as the beam itself."
+    },
+    {
+      "type": "h2",
+      "text": "What the job looks like on site"
+    },
+    {
+      "type": "p",
+      "text": "In outline, and without turning it into a manual, a knock-through runs roughly like this. The structure above the wall is first held up with temporary supports (props and, where a wall runs above, needles passed through it). With the load safely carried, the old wall is removed. The new steel beam is lifted into position onto its prepared padstones, levelled and secured. The supports above are transferred onto the beam, and only then are the temporary props removed. Finally the beam is finished, often boxed in or protected for fire, and the openings made good."
+    },
+    {
+      "type": "p",
+      "text": "It is careful, sequenced work, and the sequence exists for a reason: at every stage the load has to be supported by something. For how this fits into the wider run of a build, see the shared guide on what to expect during your build."
+    },
+    {
+      "type": "h2",
+      "text": "Getting it done properly"
+    },
+    {
+      "type": "p",
+      "text": "Knocking through is the one part of an open-plan project where doing it right and doing it cheap genuinely diverge, and where the consequences of cutting corners are structural rather than cosmetic."
+    },
+    {
+      "type": "p",
+      "text": "This is where we come in, gently. We design and build open-plan extensions and knock-throughs, and the structural side is central to how we do it. The calculations come from a structural engineer, and the building control sign-off is part of what we handle for you, so the beam is properly sized, properly supported on engineered padstones, and properly founded, rather than value-engineered down to a post in the middle of your room. You get an itemised quote, so the steel and the groundwork are visible line items you can understand, not buried in a lump sum. Most of our work comes through recommendation, which is what happens when the structure is right as well as the finish."
+    },
+    {
+      "type": "p",
+      "text": "Planning an open-plan extension or knock-through? Book a free, no-obligation site visit on 07920 731533 to talk through the opening you want and how it is best supported, with an itemised quote and the building regulations side handled. No pressure, and no obligation to proceed."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "Do I need a steel beam to knock through into an open-plan room?",
+      "a": "If the wall you are removing is load-bearing, then yes, effectively. The weight it carries has to be picked up by something that spans the new opening, which is usually a steel beam sized by a structural engineer. If the wall is only a partition and carries no load, you may not need a beam, but that has to be confirmed, not assumed."
+    },
+    {
+      "q": "How do I know if a wall is load-bearing?",
+      "a": "There are clues, the direction the floor joists run, whether another wall sits directly above, whether it is solid or hollow, but clues are not proof. Internal walls can carry load in ways that are not obvious. The only safe way to know is to have the wall properly assessed before removing anything, because getting it wrong is dangerous."
+    },
+    {
+      "q": "How is a steel beam sized?",
+      "a": "By a structural engineer, who calculates exactly what the wall is carrying and specifies a beam that can take it, along with the supports and padstones at each end. The size is determined by the span and the load, not by preference. A wider opening or a heavier load needs a bigger beam."
+    },
+    {
+      "q": "What are padstones and why do they matter?",
+      "a": "Padstones are solid, engineered pads built into the wall at each end of the beam to spread the concentrated load safely into the structure below. Without them, a heavily loaded beam end can crush ordinary brickwork. The ends of a beam are where many structural problems occur when a job is done carelessly, so the padstones are as important as the beam itself."
+    },
+    {
+      "q": "Why is a wider opening more expensive?",
+      "a": "Because the beam has to span further unsupported, which needs a bigger, heavier and more expensive steel, along with deeper padstones and sometimes stronger foundations. A cheaper quote often achieves its lower price by leaving a post or a stub of wall in the middle to shorten the span, which gives you a smaller steel but not the clear, open room you wanted."
+    },
+    {
+      "q": "Does knocking through need building regulations approval?",
+      "a": "Yes. Removing a load-bearing wall is a structural alteration that requires building regulations sign-off, with the engineer's calculations approved and the work inspected. This is separate from planning permission and is required even when no planning application is needed. The completion certificate also matters at resale."
+    },
+    {
+      "q": "Can I knock through myself to save money?",
+      "a": "Removing a non-load-bearing partition is within reach of a competent DIYer, but removing a load-bearing wall is not a DIY job. It needs a structural engineer's calculations, the correct beam and supports, building regulations sign-off, and careful temporary support during the work. Done wrong, it is dangerous and unlawful, and it will cause problems when you sell."
+    },
+    {
+      "q": "Why might I need underpinning as well as a beam?",
+      "a": "Because the load carried by the beam travels down into the foundations, which have to be able to take it. Older houses often have shallow original footings not designed for a concentrated point load, so the supports may need underpinning, deepening and strengthening the foundation locally. It is real below-ground work and a common reason quotes differ."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/blog/house-extension-mistakes",
+      "label": "House extension mistakes"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/blog/building-regulations-vs-planning-permission",
+      "label": "Building regulations vs planning permission"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Thinking about your own project?",
+    "heading": "Get a straight answer for your home",
+    "text": "Planning an open-plan extension or knock-through? Book a free, no-obligation site visit on 07920 731533 to talk through the opening you want and how it is best supported, with an itemised quote and the building regulations side handled. No pressure, and no obligation to proceed."
+  },
+  "plainText": "Knocking through to create an open-plan space means removing a wall, and if that wall is load-bearing, the weight it was holding up, the floors, the wall above, sometimes the roof, has to be carried instead by a steel beam. That beam has to be sized by a structural engineer and signed off under building regulations. It is the single biggest structural element in most extensions and open-plan projects, and it is exactly where a lot of quotes quietly differ. This guide explains, in plain English, what is involved in knocking through: how to tell whether a wall is load-bearing, what a steel beam does and how it is sized, why the ends of the beam matter as much as the middle, and why this is one part of the job that cannot be guessed at, skipped or done on the cheap. What \"knocking through\" actually involves \"Knocking through\" sounds like a demolition job, but the demolition is the easy part. The real work is replacing the support the wall was providing before it comes out. Walls in a house do two jobs: they divide up space, and some of them also hold up whatever is above them. When you remove a wall that is only dividing space, you can simply take it out. When you remove a wall that is also holding things up, you have to give that load a new path to the ground, and that is what the steel beam does. So a proper knock-through is really three jobs: work out what the wall is carrying, install a beam that can carry it, and support the ends of that beam all the way down to solid ground. Get any of the three wrong and you have a structural problem, not a nicer kitchen. Load-bearing or not? Why you must never guess The first and most important question is whether the wall is load-bearing, because it changes everything about the job. A load-bearing wall carries weight from above, another wall, floor joists, a roof. A non-load-bearing (or partition) wall only divides the room. Removing a partition wall is straightforward. Removing a load-bearing wall without proper support is dangerous and can, in the worst case, bring part of the house down. There are clues, which way the floor joists run, whether a wall sits above another wall, whether it is solid or hollow-sounding, but clues are not proof. Internal walls can carry load in ways that are not obvious from looking, and mistakes here are catastrophic. Never assume a wall is safe to remove because it looks flimsy or because someone \"reckons\" it is not load-bearing. Even a modest-looking wall can be holding up a floor or a roof, and even a stud wall can be structural. The only safe approach is to have it properly assessed before anything comes out. This is not a corner to cut. What a steel beam does, and how it is sized When you remove a load-bearing wall, the weight it carried has to be picked up by something that spans the new opening. That something is usually a steel beam, often still called an RSJ (rolled steel joist), though modern beams are typically a related section called a universal beam. The beam bridges the gap where the wall used to be and carries the load across to supports at each end, which then take it down to the foundations. In effect, it does the wall's structural job while leaving the space open. Crucially, the beam is not chosen by guesswork or by picking a size that \"looks about right\". The calculations come from a structural engineer, who works out exactly what the wall is carrying and specifies a beam that can take it, its depth, its weight, and how it is supported. A wider opening or a heavier load needs a bigger, heavier beam. Under-size it and it can deflect or fail; the size is a matter of physics, not preference. \"Builders spec a big steel to bump up the bill.\" Almost the opposite. The beam is sized to the load by an engineer's calculation, not to inflate a quote, and the real risk is a beam that is too small, not too large. If anything, the corner some cheaper jobs cut is under-supporting a beam, not over-specifying one. A properly sized steel is the beam doing its job safely, not an upsell. Padstones: why the ends of the beam matter as much as the beam Here is the part homeowners rarely hear about, and where a lot of the skill, and a lot of the difference between a good job and a bad one, actually lies. A steel beam does not just need to be strong enough across its span. Its ends have to bear onto something that can take the concentrated load being funnelled into them. Drop a heavily loaded beam end onto ordinary brickwork and it can crush it. The answer is a padstone, a solid, engineered pad (often concrete) built into the wall at each end to spread that load safely into the structure below. The size and type of padstone is part of the engineer's calculation, just like the beam. It is easy to overlook because it disappears inside the wall, but the ends of the beam are where many structural problems actually occur when a job has been done carelessly. The beam and its bearings are one system; both have to be right. The wider the opening, the bigger the steel This is the single most useful thing to understand about the cost of knocking through, and it explains a lot of the variation between quotes. The wider and clearer the opening you want, the more the beam has to span unsupported, and the bigger, heavier and more expensive the steel becomes, along with deeper padstones and sometimes stronger foundations beneath them. A narrow opening with a wall or a post left in the middle needs a much smaller, cheaper beam. That is why a cheaper quote can look attractive and quietly deliver a worse result. If it keeps a stub of wall or drops a supporting post into the middle of your open-plan room to reduce the span, the steel is smaller and the price is lower, but you are left with the very obstruction you were trying to remove. A genuinely clear, open span costs more because the structure to achieve it costs more. When you compare quotes for an open-plan job, look closely at the opening each one is actually giving you. Two prices for \"knocking through\" can describe very different rooms: one a single clear span, the other with a post or a nib of wall left in to save on steel. The structure is where that difference lives, and it is worth asking each builder to be explicit about it. Why this needs building regulations, and cannot be skipped Removing a load-bearing wall is exactly the kind of work building regulations exist to govern, and it is not optional. The structural calculations for the beam and its supports have to be produced and approved, and the work has to be inspected and signed off by building control. This is separate from planning permission: even where knocking through needs no planning application at all, it still needs building regulations sign-off, because it is a structural alteration. There are two reasons this matters beyond the legal one. First, safety: the sign-off is what confirms the structure is adequate. Second, resale: an unsigned-off structural alteration is exactly the kind of thing a buyer's solicitor flags, and it can stall or sink a sale. The completion certificate is the proof that the work was done properly, and it is worth having. Foundations under the steel, especially in older houses The load does not stop at the beam. It travels down through the padstones and the supports into the foundations, which have to be able to take it. In a newer house this is often straightforward. In an older one, it frequently is not. Victorian and Edwardian houses typically have shallow original footings, sometimes just a few courses of brick, that were never designed to take the concentrated point load a beam end delivers. In those cases the supports may need underpinning, deepening and strengthening the foundation locally so it can carry the new load. This is real, below-ground work, and it is another place cheaper quotes quietly economise, by assuming the existing footings will cope when they may not. On an older house especially, what happens beneath the beam ends is as important as the beam itself. What the job looks like on site In outline, and without turning it into a manual, a knock-through runs roughly like this. The structure above the wall is first held up with temporary supports (props and, where a wall runs above, needles passed through it). With the load safely carried, the old wall is removed. The new steel beam is lifted into position onto its prepared padstones, levelled and secured. The supports above are transferred onto the beam, and only then are the temporary props removed. Finally the beam is finished, often boxed in or protected for fire, and the openings made good. It is careful, sequenced work, and the sequence exists for a reason: at every stage the load has to be supported by something. For how this fits into the wider run of a build, see the shared guide on what to expect during your build. Getting it done properly Knocking through is the one part of an open-plan project where doing it right and doing it cheap genuinely diverge, and where the consequences of cutting corners are structural rather than cosmetic. This is where we come in, gently. We design and build open-plan extensions and knock-throughs, and the structural side is central to how we do it. The calculations come from a structural engineer, and the building control sign-off is part of what we handle for you, so the beam is properly sized, properly supported on engineered padstones, and properly founded, rather than value-engineered down to a post in the middle of your room. You get an itemised quote, so the steel and the groundwork are visible line items you can understand, not buried in a lump sum. Most of our work comes through recommendation, which is what happens when the structure is right as well as the finish. Planning an open-plan extension or knock-through? Book a free, no-obligation site visit on 07920 731533 to talk through the opening you want and how it is best supported, with an itemised quote and the building regulations side handled. No pressure, and no obligation to proceed."
+}

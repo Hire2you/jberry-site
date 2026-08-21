@@ -1,0 +1,276 @@
+{
+  "slug": "planning-permission-and-building-regulations",
+  "title": "Planning Permission and Building Regulations: The Homeowner's Guide",
+  "metaTitle": "Planning Permission & Building Regulations Guide",
+  "description": "A homeowner's overview of planning permission, permitted development, building regulations, conservation areas, Green Belt, party wall and flood risk.",
+  "publishedAt": "2026-08-21",
+  "category": "Planning",
+  "author": "Jason Berry",
+  "coverSrc": "/images/blog/planning.webp",
+  "coverAlt": "Completed single-storey rear extension with bifold doors on a brick family house",
+  "coverCaption": "Planning permission is about whether you are allowed to build it. Building regulations are about whether it is built properly.",
+  "blocks": [
+    {
+      "type": "p",
+      "text": "Almost every home project runs into the same two questions: am I allowed to build this, and will it be signed off as safe? Those are two separate approvals, planning permission and building regulations, and understanding how they fit together, along with the handful of local rules that can change the picture, is what turns a daunting subject into a manageable one."
+    },
+    {
+      "type": "p",
+      "text": "This guide is the overview. It walks through the whole landscape at a high level, planning permission, permitted development, the designations that tighten the rules, building regulations, the Party Wall Act and the paperwork that protects you, and links to a detailed guide on each. Read it to get your bearings, then follow the links to whatever applies to your project."
+    },
+    {
+      "type": "h2",
+      "text": "The two approvals, in one minute"
+    },
+    {
+      "type": "image",
+      "src": "/images/blog/foundations.webp",
+      "alt": "Beam-and-block floor going in against an existing house during an extension",
+      "caption": "Building control inspects the work as it goes: foundations, structure, drainage, insulation and fire safety, then issues a completion certificate."
+    },
+    {
+      "type": "p",
+      "text": "Start here, because this one distinction underpins everything else."
+    },
+    {
+      "type": "p",
+      "text": "Planning permission decides whether you can build something, its size, appearance and effect on neighbours and the area."
+    },
+    {
+      "type": "p",
+      "text": "Building regulations decide whether it is built safely and properly, its structure, foundations, insulation, drainage and fire safety."
+    },
+    {
+      "type": "p",
+      "text": "They are run by different parts of the council, judged against different rules, and neither covers the other. Many projects need both. Getting planning permission tells you nothing about whether the work is safe to build, and satisfying building regulations tells you nothing about whether you were allowed to build it. Keep the two separate in your mind and the rest falls into place. For the full comparison, see the guide on building regulations versus planning permission."
+    },
+    {
+      "type": "callout",
+      "label": "Worth knowing",
+      "text": "The single most common and most costly planning misunderstanding is treating these two as one thing. \"I've got planning permission\" does not mean the work is signed off as safe, and \"it's permitted development\" does not mean it escapes building regulations. Two separate approvals, checked separately, every time."
+    },
+    {
+      "type": "h2",
+      "text": "Do you need planning permission?"
+    },
+    {
+      "type": "p",
+      "text": "Often, you do not. Many home extensions and improvements are allowed under permitted development, a national grant of planning permission that means you do not have to apply to the council, as long as the work stays within set limits on size, height and position."
+    },
+    {
+      "type": "p",
+      "text": "Whether your project needs a full application comes down to two things: whether it fits within those permitted development limits, and whether your home is somewhere those rights have been reduced or removed. A modest rear extension on an ordinary house often needs no application at all; a larger one, or one on a restricted property, does."
+    },
+    {
+      "type": "p",
+      "text": "The full detail, the size limits, the exceptions, the prior approval route for larger single-storey extensions, is in the guide on whether you need planning permission for an extension."
+    },
+    {
+      "type": "h2",
+      "text": "Permitted development: what you can build without applying"
+    },
+    {
+      "type": "p",
+      "text": "Permitted development is the reason so much home improvement happens without a planning application. Broadly, it covers things like single-storey rear extensions within set depths and heights, certain side and two-storey extensions on unrestricted homes, and various other works, all subject to conditions."
+    },
+    {
+      "type": "p",
+      "text": "The key limits worth knowing early: extensions must generally stay within specific depth and height figures, must not project forward of the front of the house, and must not cover more than half the land around the original house, with the exterior materials in keeping. Step beyond any of those and you need planning permission."
+    },
+    {
+      "type": "p",
+      "text": "Crucially, permitted development is a planning concept only. It never removes the need for building regulations. And it can be switched off by the designations covered next."
+    },
+    {
+      "type": "h2",
+      "text": "The designations that change the rules"
+    },
+    {
+      "type": "p",
+      "text": "This is where two identical houses can face completely different rules, because of where they sit. Four designations commonly reduce or remove permitted development rights and change what needs permission. Each has its own full guide."
+    },
+    {
+      "type": "p",
+      "text": "Conservation areas. If your home is in one, permitted development is reduced, side extensions and cladding generally need permission, and design and materials are judged closely to protect the area's character. Matching brick, mortar and detailing is often what secures approval. See the guide on extending in a conservation area."
+    },
+    {
+      "type": "p",
+      "text": "Article 4 directions. A council can remove specific permitted development rights in a defined area, often within a conservation area, so that work like changing windows or adding a porch needs permission. A useful quirk: an application forced on you purely by an Article 4 direction is usually free of a fee. See the guide on Article 4 directions."
+    },
+    {
+      "type": "p",
+      "text": "Green Belt. You can usually still extend in the Green Belt, extensions are an explicit exception, but the scale is limited so the addition is not disproportionate to the original house. And many town homes are not actually in the Green Belt even when surrounded by it. See the guide on extending in the Green Belt."
+    },
+    {
+      "type": "p",
+      "text": "Flood risk. If your home is in a flood risk area, you can usually still build, but the project must be designed around the risk, and a flood risk assessment may be required with the application. Ignoring it is a common cause of refusal. See the guide on flood risk and home building projects."
+    },
+    {
+      "type": "p",
+      "text": "Checking which of these apply to your specific address, before you design anything, is the single most valuable early step you can take."
+    },
+    {
+      "type": "h2",
+      "text": "Building regulations: building it safely"
+    },
+    {
+      "type": "p",
+      "text": "Whatever the planning position, if your project involves structure, drainage, insulation or safety, and most do, it needs building regulations approval. This is the technical sign-off that the work is built properly: foundations deep enough for the ground, a correctly sized steel beam over any opening, insulation and drainage to standard, safe glazing and electrics."
+    },
+    {
+      "type": "p",
+      "text": "Building control, either the council's team or a registered private provider, inspects the work at key stages and issues a completion certificate at the end. That certificate is not a formality: it is the proof that matters when you sell, because a buyer's solicitor will ask for it. The full picture is in the building regulations versus planning permission guide."
+    },
+    {
+      "type": "h2",
+      "text": "The Party Wall Act: building near your neighbours"
+    },
+    {
+      "type": "p",
+      "text": "If your project involves a shared wall, building at a boundary, or digging foundations near a neighbour's property, a third piece of law applies: the Party Wall etc. Act. It requires you to give your neighbours formal notice before work starts, usually two months ahead."
+    },
+    {
+      "type": "p",
+      "text": "It is not planning permission and it is not a veto, your neighbour cannot stop reasonable work to your own home, but it is a legal process that protects both sides, and handling it well (and talking to your neighbours early) keeps the whole job civil. The detail, notices, timescales, surveyors and the schedule of condition, is in the guide on the Party Wall Act."
+    },
+    {
+      "type": "h2",
+      "text": "Proving your work was lawful"
+    },
+    {
+      "type": "p",
+      "text": "Finally, the paperwork that protects you. If your project was permitted development and needed no planning application, it is worth obtaining a Lawful Development Certificate, the council's formal confirmation that the work was lawful without permission."
+    },
+    {
+      "type": "p",
+      "text": "You are not required to have one, but it is the document a buyer's solicitor will want, alongside the building regulations completion certificate, when you sell. Together those two certificates, the planning proof and the construction proof, make an extension trouble-free at resale. The full case is in the guide on Lawful Development Certificates."
+    },
+    {
+      "type": "h2",
+      "text": "The sensible order to approach it all"
+    },
+    {
+      "type": "p",
+      "text": "Pulling the whole thing together, here is a practical order that keeps projects out of trouble. This is the synthesis the individual guides cannot give on their own."
+    },
+    {
+      "type": "p",
+      "text": "Check your designations first. Before any design, find out whether your home is in a conservation area, under an Article 4 direction, in the Green Belt, or in a flood risk area. These shape everything."
+    },
+    {
+      "type": "p",
+      "text": "Establish the planning route. With the designations known, work out whether the project is permitted development or needs a full application, and confirm it, ideally with a Lawful Development Certificate for permitted development work."
+    },
+    {
+      "type": "p",
+      "text": "Design to what is achievable, rather than designing something ambitious and hoping. On sensitive sites, pre-application advice can save a refusal."
+    },
+    {
+      "type": "p",
+      "text": "Deal with building regulations in parallel, since they apply regardless of the planning route and involve the structural detail."
+    },
+    {
+      "type": "p",
+      "text": "Handle the Party Wall Act early if it applies, because its two-month notice can set your start date."
+    },
+    {
+      "type": "p",
+      "text": "See it through to the certificates, the completion certificate and, where relevant, the Lawful Development Certificate, so the work is fully documented."
+    },
+    {
+      "type": "p",
+      "text": "Follow that order and the approvals support the project instead of ambushing it."
+    },
+    {
+      "type": "callout",
+      "label": "Common misconception",
+      "text": "\"I'll sort the planning and paperwork out as I go.\" The approvals are much cheaper and simpler to deal with in the right order at the start than to retrofit later. Checking designations before you design, and finishing with the certificates, bookends a project that will not trip you up when you sell. Leaving it to chance is how people end up with refused applications and stalled sales."
+    },
+    {
+      "type": "h2",
+      "text": "How we handle planning and building regulations for you"
+    },
+    {
+      "type": "p",
+      "text": "The whole approvals landscape, planning, permitted development, the designations, building regulations, party wall and the certificates, is a lot to navigate, and it is easy for one piece to slip."
+    },
+    {
+      "type": "p",
+      "text": "This is where we come in, gently. We design and build home projects and handle the planning and building regulations as part of the job. We check your designations at the start, establish whether you need permission or can build under permitted development, design to what is achievable, manage the building-control inspections, deal with the party wall side where it applies, and see the work through to the certificates that protect it at resale. You get one team keeping all of it moving together, rather than juggling several systems yourself. Most of our work comes through recommendation, which depends on getting exactly this right."
+    },
+    {
+      "type": "p",
+      "text": "Starting a home project and unsure where to begin on planning? Book a free, no-obligation site visit on 07920 731533 and we will check your planning position, tell you what your project needs, and handle the planning and building regulations. No pressure, and no obligation to proceed."
+    }
+  ],
+  "faqs": [
+    {
+      "q": "What is the difference between planning permission and building regulations?",
+      "a": "Planning permission decides whether you can build something, its size, appearance and effect on neighbours and the area. Building regulations decide whether it is built safely and properly, its structure, foundations, insulation, drainage and fire safety. They are separate approvals, run by different parts of the council, and neither covers the other."
+    },
+    {
+      "q": "Do I need planning permission for a home extension?",
+      "a": "Often not. Many extensions are allowed under permitted development if they stay within limits on size, height and position. You do need permission if the project exceeds those limits, or if your home is a flat, in a conservation area, under an Article 4 direction, in the Green Belt, or otherwise restricted. Check your specific property before designing."
+    },
+    {
+      "q": "What can change my permitted development rights?",
+      "a": "Chiefly four designations: conservation areas, Article 4 directions, Green Belt, and, for how you must design, flood risk areas. Each reduces or removes some rights or adds requirements. A house can look ordinary and still be affected, so checking your address against all of them before designing is the key early step."
+    },
+    {
+      "q": "Do I need building regulations if my extension is permitted development?",
+      "a": "Yes. Permitted development only means no planning application is needed; it says nothing about building regulations. A permitted development extension still needs full building-regulations approval for its structure, foundations, insulation and drainage, and a completion certificate at the end."
+    },
+    {
+      "q": "When does the Party Wall Act apply?",
+      "a": "When your project involves work to a shared or boundary wall, building a new wall at the boundary, or excavating foundations near a neighbour's property. It requires formal written notice to your neighbours before work starts, usually two months ahead. It protects both sides and does not give your neighbour a veto over reasonable work."
+    },
+    {
+      "q": "What paperwork should I keep from a home project?",
+      "a": "Any planning permission or, for permitted development work, a Lawful Development Certificate, and the building regulations completion certificate. Together these prove the work was lawful and built to standard. A buyer's solicitor will ask for them when you sell, so keeping them with the house's records avoids problems later."
+    },
+    {
+      "q": "What order should I deal with planning, building regs and party wall in?",
+      "a": "Check your designations first, then establish the planning route (permitted development or full application), then design to what is achievable, deal with building regulations in parallel, handle the Party Wall Act early if it applies, and finish by obtaining the certificates. Approaching it in that order keeps projects out of trouble."
+    },
+    {
+      "q": "Do you handle the planning and building regulations, or do I?",
+      "a": "We handle both as part of the job, checking your planning position, dealing with any application, managing the building-control inspections, handling the party wall side where relevant, and seeing the work through to the certificates. You are not left to navigate the systems yourself."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/blog/building-regulations-vs-planning-permission",
+      "label": "Building regulations vs planning permission"
+    },
+    {
+      "href": "/blog/article-4-directions-explained",
+      "label": "Article 4 directions explained"
+    },
+    {
+      "href": "/blog/lawful-development-certificates",
+      "label": "Lawful development certificates"
+    },
+    {
+      "href": "/blog/party-wall-act-explained",
+      "label": "The Party Wall Act"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions"
+    },
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Thinking about your own project?",
+    "heading": "Get a straight answer for your home",
+    "text": "Starting a home project and unsure where to begin on planning? Book a free, no-obligation site visit on 07920 731533 and we will check your planning position, tell you what your project needs, and handle the planning and building regulations. No pressure, and no obligation to proceed."
+  },
+  "plainText": "Almost every home project runs into the same two questions: am I allowed to build this, and will it be signed off as safe? Those are two separate approvals, planning permission and building regulations, and understanding how they fit together, along with the handful of local rules that can change the picture, is what turns a daunting subject into a manageable one. This guide is the overview. It walks through the whole landscape at a high level, planning permission, permitted development, the designations that tighten the rules, building regulations, the Party Wall Act and the paperwork that protects you, and links to a detailed guide on each. Read it to get your bearings, then follow the links to whatever applies to your project. The two approvals, in one minute Start here, because this one distinction underpins everything else. Planning permission decides whether you can build something, its size, appearance and effect on neighbours and the area. Building regulations decide whether it is built safely and properly, its structure, foundations, insulation, drainage and fire safety. They are run by different parts of the council, judged against different rules, and neither covers the other. Many projects need both. Getting planning permission tells you nothing about whether the work is safe to build, and satisfying building regulations tells you nothing about whether you were allowed to build it. Keep the two separate in your mind and the rest falls into place. For the full comparison, see the guide on building regulations versus planning permission. The single most common and most costly planning misunderstanding is treating these two as one thing. \"I've got planning permission\" does not mean the work is signed off as safe, and \"it's permitted development\" does not mean it escapes building regulations. Two separate approvals, checked separately, every time. Do you need planning permission? Often, you do not. Many home extensions and improvements are allowed under permitted development, a national grant of planning permission that means you do not have to apply to the council, as long as the work stays within set limits on size, height and position. Whether your project needs a full application comes down to two things: whether it fits within those permitted development limits, and whether your home is somewhere those rights have been reduced or removed. A modest rear extension on an ordinary house often needs no application at all; a larger one, or one on a restricted property, does. The full detail, the size limits, the exceptions, the prior approval route for larger single-storey extensions, is in the guide on whether you need planning permission for an extension. Permitted development: what you can build without applying Permitted development is the reason so much home improvement happens without a planning application. Broadly, it covers things like single-storey rear extensions within set depths and heights, certain side and two-storey extensions on unrestricted homes, and various other works, all subject to conditions. The key limits worth knowing early: extensions must generally stay within specific depth and height figures, must not project forward of the front of the house, and must not cover more than half the land around the original house, with the exterior materials in keeping. Step beyond any of those and you need planning permission. Crucially, permitted development is a planning concept only. It never removes the need for building regulations. And it can be switched off by the designations covered next. The designations that change the rules This is where two identical houses can face completely different rules, because of where they sit. Four designations commonly reduce or remove permitted development rights and change what needs permission. Each has its own full guide. Conservation areas. If your home is in one, permitted development is reduced, side extensions and cladding generally need permission, and design and materials are judged closely to protect the area's character. Matching brick, mortar and detailing is often what secures approval. See the guide on extending in a conservation area. Article 4 directions. A council can remove specific permitted development rights in a defined area, often within a conservation area, so that work like changing windows or adding a porch needs permission. A useful quirk: an application forced on you purely by an Article 4 direction is usually free of a fee. See the guide on Article 4 directions. Green Belt. You can usually still extend in the Green Belt, extensions are an explicit exception, but the scale is limited so the addition is not disproportionate to the original house. And many town homes are not actually in the Green Belt even when surrounded by it. See the guide on extending in the Green Belt. Flood risk. If your home is in a flood risk area, you can usually still build, but the project must be designed around the risk, and a flood risk assessment may be required with the application. Ignoring it is a common cause of refusal. See the guide on flood risk and home building projects. Checking which of these apply to your specific address, before you design anything, is the single most valuable early step you can take. Building regulations: building it safely Whatever the planning position, if your project involves structure, drainage, insulation or safety, and most do, it needs building regulations approval. This is the technical sign-off that the work is built properly: foundations deep enough for the ground, a correctly sized steel beam over any opening, insulation and drainage to standard, safe glazing and electrics. Building control, either the council's team or a registered private provider, inspects the work at key stages and issues a completion certificate at the end. That certificate is not a formality: it is the proof that matters when you sell, because a buyer's solicitor will ask for it. The full picture is in the building regulations versus planning permission guide. The Party Wall Act: building near your neighbours If your project involves a shared wall, building at a boundary, or digging foundations near a neighbour's property, a third piece of law applies: the Party Wall etc. Act. It requires you to give your neighbours formal notice before work starts, usually two months ahead. It is not planning permission and it is not a veto, your neighbour cannot stop reasonable work to your own home, but it is a legal process that protects both sides, and handling it well (and talking to your neighbours early) keeps the whole job civil. The detail, notices, timescales, surveyors and the schedule of condition, is in the guide on the Party Wall Act. Proving your work was lawful Finally, the paperwork that protects you. If your project was permitted development and needed no planning application, it is worth obtaining a Lawful Development Certificate, the council's formal confirmation that the work was lawful without permission. You are not required to have one, but it is the document a buyer's solicitor will want, alongside the building regulations completion certificate, when you sell. Together those two certificates, the planning proof and the construction proof, make an extension trouble-free at resale. The full case is in the guide on Lawful Development Certificates. The sensible order to approach it all Pulling the whole thing together, here is a practical order that keeps projects out of trouble. This is the synthesis the individual guides cannot give on their own. Check your designations first. Before any design, find out whether your home is in a conservation area, under an Article 4 direction, in the Green Belt, or in a flood risk area. These shape everything. Establish the planning route. With the designations known, work out whether the project is permitted development or needs a full application, and confirm it, ideally with a Lawful Development Certificate for permitted development work. Design to what is achievable, rather than designing something ambitious and hoping. On sensitive sites, pre-application advice can save a refusal. Deal with building regulations in parallel, since they apply regardless of the planning route and involve the structural detail. Handle the Party Wall Act early if it applies, because its two-month notice can set your start date. See it through to the certificates, the completion certificate and, where relevant, the Lawful Development Certificate, so the work is fully documented. Follow that order and the approvals support the project instead of ambushing it. \"I'll sort the planning and paperwork out as I go.\" The approvals are much cheaper and simpler to deal with in the right order at the start than to retrofit later. Checking designations before you design, and finishing with the certificates, bookends a project that will not trip you up when you sell. Leaving it to chance is how people end up with refused applications and stalled sales. How we handle planning and building regulations for you The whole approvals landscape, planning, permitted development, the designations, building regulations, party wall and the certificates, is a lot to navigate, and it is easy for one piece to slip. This is where we come in, gently. We design and build home projects and handle the planning and building regulations as part of the job. We check your designations at the start, establish whether you need permission or can build under permitted development, design to what is achievable, manage the building-control inspections, deal with the party wall side where it applies, and see the work through to the certificates that protect it at resale. You get one team keeping all of it moving together, rather than juggling several systems yourself. Most of our work comes through recommendation, which depends on getting exactly this right. Starting a home project and unsure where to begin on planning? Book a free, no-obligation site visit on 07920 731533 and we will check your planning position, tell you what your project needs, and handle the planning and building regulations. No pressure, and no obligation to proceed."
+}
