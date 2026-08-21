@@ -45,8 +45,17 @@ const ESSEX_EXTENSION_TOWNS = [
   { slug: 'witham', town: 'Witham' },
 ] as const;
 
+const ESSEX_LOFT_TOWNS = [
+  { slug: 'chelmsford', town: 'Chelmsford' },
+  { slug: 'grays', town: 'Grays' },
+  { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
+  { slug: 'loughton', town: 'Loughton' },
+  { slug: 'southend-on-sea', town: 'Southend-on-Sea' },
+] as const;
+
 const STATIC_TOWN_SLUGS: string[] = [
   ...ESSEX_EXTENSION_TOWNS.map((t) => t.slug),
+  ...ESSEX_LOFT_TOWNS.map((t) => t.slug),
   'leigh',
 ];
 
@@ -594,7 +603,14 @@ export default function ServiceLandingPage({
             <TownLinkList
               links={[
                 ...(serviceSlug === 'loft-conversions'
-                  ? [{ href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' }]
+                  ? [
+                      { href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
+                      ...ESSEX_LOFT_TOWNS.map((t) => ({
+                        href: `/loft-conversions/essex/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                    ]
                   : []),
                 ...(serviceSlug === 'extensions'
                   ? ESSEX_EXTENSION_TOWNS.map((t) => ({
