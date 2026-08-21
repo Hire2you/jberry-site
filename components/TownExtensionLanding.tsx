@@ -44,7 +44,7 @@ export type TownExtensionLandingData = {
   extensionTypes?: {
     title: string;
     intro?: string;
-    items: string[];
+    items?: string[];
     closing?: string;
     image: { src: string; alt: string };
   };
@@ -57,7 +57,7 @@ export type TownExtensionLandingData = {
     paragraphs: string[];
     cta: { title: string; text: string; secondaryCta: string };
   };
-  buildProcess: {
+  buildProcess?: {
     title: string;
     text: string;
     steps?: { step: string; title: string; text: string }[];
@@ -69,15 +69,19 @@ export type TownExtensionLandingData = {
 
 export default async function TownExtensionLanding({ data }: { data: TownExtensionLandingData }) {
   const { serviceSlug, town, county, hero } = data;
+  const isLoft = serviceSlug === 'loft-conversions';
+  const projectType = isLoft ? 'loft-conversion' : 'extension';
+  const servicePhrase = isLoft ? 'Loft conversions' : 'House extensions';
+  const serviceNoun = isLoft ? 'loft conversion' : 'house extension';
 
   const [{ data: projectData }, { data: testimonialData }] = await Promise.all([
     sanityFetch({
       query: PROJECTS_BY_TYPE_QUERY,
-      params: { projectType: 'extension' },
+      params: { projectType },
     }),
     sanityFetch({
       query: TESTIMONIALS_BY_CATEGORY_QUERY,
-      params: { category: 'extension' },
+      params: { category: projectType },
     }),
   ]);
 
@@ -159,8 +163,12 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
         <SectionIndex label={nextLabel('Intro')} />
         <div className="mx-auto max-w-6xl px-4 py-20">
           <Reveal>
-            <p className="eyebrow">House extensions in {town}</p>
-            <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.intro.paragraphs[1]}</p>
+            <p className="eyebrow">{servicePhrase} in {town}</p>
+            {data.intro.paragraphs.slice(1).map((para) => (
+              <p key={para.slice(0, 48)} className="mt-6 max-w-3xl text-stone leading-relaxed">
+                {para}
+              </p>
+            ))}
           </Reveal>
           <Reveal delay={100}>
             <div className="mt-12 border border-gold bg-ivory p-8 md:p-10">
@@ -256,14 +264,16 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
                 {data.extensionTypes.intro && (
                   <p className="mt-4 text-stone leading-relaxed">{data.extensionTypes.intro}</p>
                 )}
-                <ul className="mt-8 space-y-4">
-                  {data.extensionTypes.items.map((item) => (
-                    <li key={item.slice(0, 48)} className="flex items-start gap-3 text-stone leading-relaxed">
-                      <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
-                      <span>{item}</span>
-                    </li>
-                  ))}
-                </ul>
+                {data.extensionTypes.items && data.extensionTypes.items.length > 0 && (
+                  <ul className="mt-8 space-y-4">
+                    {data.extensionTypes.items.map((item) => (
+                      <li key={item.slice(0, 48)} className="flex items-start gap-3 text-stone leading-relaxed">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 bg-gold" aria-hidden="true" />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                )}
                 {data.extensionTypes.closing && (
                   <p className="mt-6 text-stone leading-relaxed">{data.extensionTypes.closing}</p>
                 )}
@@ -415,43 +425,45 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
       </section>
 
       {/* Build process */}
-      <section className="relative border-y border-line bg-white">
-        <SectionIndex label={nextLabel('Process')} />
-        <div className="mx-auto max-w-6xl px-4 py-20">
-          <Reveal>
-            <p className="eyebrow">How it works</p>
-            <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.buildProcess.title}</h2>
-            <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.buildProcess.text}</p>
-          </Reveal>
-          {data.buildProcess.steps && data.buildProcess.steps.length > 0 && (
-            <div className="mt-14 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
-              {data.buildProcess.steps.map((s, i) => (
-                <Reveal key={s.step} delay={i * 60}>
-                  <div className="relative pt-16 md:pt-20">
-                    <span
-                      aria-hidden="true"
-                      className="pointer-events-none absolute left-0 top-0 select-none font-display text-[80px] leading-none text-gold/20 md:text-[100px]"
-                    >
-                      {s.step}
-                    </span>
-                    <h3 className="relative font-display text-xl">{s.title}</h3>
-                    <div className="mt-3 h-px w-10 bg-gold" />
-                    <p className="mt-3 text-sm leading-relaxed text-stone">{s.text}</p>
-                  </div>
-                </Reveal>
-              ))}
+      {data.buildProcess && (
+        <section className="relative border-y border-line bg-white">
+          <SectionIndex label={nextLabel('Process')} />
+          <div className="mx-auto max-w-6xl px-4 py-20">
+            <Reveal>
+              <p className="eyebrow">How it works</p>
+              <h2 className="mt-3 max-w-3xl text-4xl md:text-5xl">{data.buildProcess.title}</h2>
+              <p className="mt-6 max-w-3xl text-stone leading-relaxed">{data.buildProcess.text}</p>
+            </Reveal>
+            {data.buildProcess.steps && data.buildProcess.steps.length > 0 && (
+              <div className="mt-14 grid gap-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+                {data.buildProcess.steps.map((s, i) => (
+                  <Reveal key={s.step} delay={i * 60}>
+                    <div className="relative pt-16 md:pt-20">
+                      <span
+                        aria-hidden="true"
+                        className="pointer-events-none absolute left-0 top-0 select-none font-display text-[80px] leading-none text-gold/20 md:text-[100px]"
+                      >
+                        {s.step}
+                      </span>
+                      <h3 className="relative font-display text-xl">{s.title}</h3>
+                      <div className="mt-3 h-px w-10 bg-gold" />
+                      <p className="mt-3 text-sm leading-relaxed text-stone">{s.text}</p>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            )}
+            <div className="mt-10">
+              <a
+                href="#quote"
+                className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+              >
+                Start with a site visit
+              </a>
             </div>
-          )}
-          <div className="mt-10">
-            <a
-              href="#quote"
-              className="inline-block bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
-            >
-              Start with a site visit
-            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       {data.place && (
         <section className="relative">
@@ -491,7 +503,7 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
       <FaqSection
         faqs={data.faqs}
         label={nextLabel('Questions')}
-        heading={`House extension questions in ${town}, answered straight`}
+        heading={`${serviceNoun.charAt(0).toUpperCase()}${serviceNoun.slice(1)} questions in ${town}, answered straight`}
         intro={`The questions every ${town} homeowner asks at the first site visit.`}
       />
 
@@ -519,7 +531,7 @@ export default async function TownExtensionLanding({ data }: { data: TownExtensi
                 href={`/${serviceSlug}`}
                 className="font-semibold text-ink underline decoration-gold underline-offset-4 hover:text-goldDeep"
               >
-                house extensions across Hertfordshire and Essex
+                {servicePhrase.toLowerCase()} across Hertfordshire and Essex
               </Link>
             </p>
           </Reveal>

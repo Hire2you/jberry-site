@@ -1,0 +1,111 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Loughton",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "loughton",
+  "seo": {
+    "title": "Loft Conversions in Loughton | J Berry Construction",
+    "description": "Loft conversions in Loughton, hip-to-gable, dormer and rooflight, matched to your roof. Planning and building regs handled. Free site visit. Call today.",
+    "canonical": "/loft-conversions/essex/loughton"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/loft-hip-to-gable.webp",
+      "alt": "Hip-to-gable loft conversion on a family home in Loughton by J Berry Construction",
+      "caption": "A hip-to-gable loft conversion suited to Loughton's inter-war roofs."
+    },
+    "eyebrow": "Loft conversions · Loughton",
+    "headline": "Loft Conversions in Loughton"
+  },
+  "intro": {
+    "paragraphs": [
+      "Yes, we can almost certainly convert your Loughton loft, and given how many of the town's houses are inter-war semis and detached homes with hipped roofs, a hip-to-gable conversion is very often the answer, squaring off the roof to create a proper full-size room where a cramped, sloping loft was. We design and build loft conversions of every type across Loughton and the surrounding Epping Forest area, handling the whole job from the first design through the planning and building regulations to the finished, signed-off room. To talk it through, call 07920 731533, request a callback, or book a free, no-obligation site visit.",
+      "In a town like Loughton, where prices are high and moving for one more bedroom is expensive, the loft is usually the smartest space you have, no foundations, no garden lost, just the room already under your roof made usable. Which type of conversion suits comes down to your roof, and that is where we start."
+    ],
+    "cta": {
+      "title": "Thinking about converting your loft in Loughton?",
+      "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will check your roof and head height and tell you honestly which type of conversion suits your house, and what it would cost.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "Loughton roofs, and the loft that suits yours",
+    "intro": "Loughton's housing points fairly clearly to the loft that suits it, which is why the roof is the first thing we look at.",
+    "body": "Much of the town is 1920s and 1930s semi-detached and detached housing, and these very often have hipped roofs that slope in on the side and waste the internal volume. The natural answer is a hip-to-gable conversion, which squares the hip off to a vertical gable wall and, usually combined with a rear dormer, turns that awkward hipped loft into a full, usable room, frequently with space for an ensuite. It is the most common and most transformative loft project across Loughton's streets.",
+    "closing": "Where the town has Victorian and Edwardian houses, often with a rear projection, an L-shaped dormer suits better, combining a dormer on the main roof with one over the rear projection for generous space. And the larger detached homes Loughton is known for sometimes have enough head height already for a simpler rooflight conversion, or take a dormer to add headroom and floor area. An honest look at your roof, its shape, the head height, whether it is a traditional cut roof or a modern trussed one, tells us which of these fits.",
+    "image": {
+      "src": "/images/loft-dormer-front.webp",
+      "alt": "Dormer loft conversion suited to Loughton homes"
+    }
+  },
+  "planning": {
+    "title": "Planning for a Loughton loft conversion",
+    "paragraphs": [
+      "Many Loughton loft conversions can be done under permitted development, without a full planning application, provided they stay within the volume limits (broadly 40 cubic metres for terraces, 50 for semis and detached houses, measured against the original roof) and the conditions, notably that dormers should not sit on the front roof slope facing the road. Mansards and front dormers usually need planning permission.",
+      "The main local factor is that Loughton has conservation areas, where permitted-development rights for roof extensions are reduced, so dormers there often need permission and sometimes only a rooflight conversion remains permitted development. Whatever the route, every loft conversion always needs full building-regulations approval, for the structure, the new floor, the fire escape and the staircase, ending in a completion certificate that protects the work at resale, and on semis and terraces the Party Wall Act usually applies too. We check exactly where your property stands, design to what is achievable, and handle the planning, party wall and building regulations for you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why Loughton homeowners choose us",
+    "text": "We have been building for homeowners since 1995, and over 80 per cent of our work comes through recommendation, the kind of accountability that only continues if the last job was done well. We work as one team with a clear point of contact, are honest about cost and time, quote clearly and itemise it, and handle the planning and building regulations through to the completion certificate. And because we do the whole range, lofts, extensions, kitchens and renovations, we will tell you honestly whether a loft is genuinely the best way to get your space, or whether an extension would serve you better, rather than pushing one kind of job."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "A loft conversion's cost depends most on the type your roof calls for, a rooflight conversion is the cheapest, a hip-to-gable or dormer more, a mansard the most, along with the finish and whether you add an ensuite. The only figure that means anything is a real quote on your actual loft. Our cost calculator gives an early sense of scale, and we provide a clear, itemised quote after a free, no-obligation site visit, with no hidden extras."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will price the actual conversion, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "buildProcess": {
+    "title": "What's involved, and living through it",
+    "text": "A loft conversion is a proper build: a new structural floor, often on steel beams, the roof works for a dormer or hip-to-gable, a compliant staircase, insulation, the fire-safety escape route, and then the finished, plastered room. Because most of the work happens in the roof, reached from scaffolding outside, you can usually live in the house throughout, the main disruption being a short, dusty spell when we break through to fit the staircase. We run it with one team from start to finish."
+  },
+  "faqs": [
+    {
+      "q": "What type of loft conversion is best for a Loughton house?",
+      "a": "It depends on your roof, but because so much of Loughton is inter-war semis and detached homes with hipped roofs, a hip-to-gable conversion (usually with a rear dormer) is the most common answer, squaring off the roof to create a full room. Victorian and Edwardian houses with a rear projection suit an L-shaped dormer, and larger detached homes with good head height may need only a rooflight conversion. We look at your roof and advise honestly."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Loughton?",
+      "a": "Often not. Many hip-to-gable, dormer and rooflight conversions fall under permitted development within the volume limits and the front-dormer rule. Mansards, front dormers, anything over the limits, and conversions in Loughton's conservation areas usually need permission. Every loft still needs full building-regulations approval. We check your position and handle whichever route applies."
+    },
+    {
+      "q": "Can my Loughton loft be converted?",
+      "a": "Most can. It comes down to head height (roughly 2.2 to 2.4 metres at the highest point before you lose some to the new floor and ceiling), the roof structure (cut roofs convert more easily than modern trussed ones, which need extra structural work), and room for a compliant staircase. Lofts that are too low can often still be converted with a dormer or hip-to-gable. We assess it honestly at the site visit."
+    },
+    {
+      "q": "Can I live at home during the conversion?",
+      "a": "Usually yes. Most of the work is in the roof, reached from scaffolding outside, so the rest of the house keeps functioning, the main disruption being a short, dusty spell when we break through for the staircase. It is far less disruptive than an extension."
+    },
+    {
+      "q": "How much does a loft conversion cost in Loughton?",
+      "a": "It depends most on the type your roof needs, rooflight cheapest, hip-to-gable or dormer more, mansard most, plus the finish and any ensuite, so the only reliable figure is a quote on your actual loft. Our cost calculator gives an early estimate, and we provide an itemised quote after a free site visit."
+    },
+    {
+      "q": "Do you also do extensions in Loughton?",
+      "a": "Yes. If a loft is not the right answer, or you need ground-floor space as well, we design and build extensions in Loughton too. At the site visit we will tell you honestly whether a loft, an extension or both best suits what you are trying to achieve."
+    }
+  ],
+  "relatedLinks": [
+    { "href": "/loft-conversions", "label": "Loft conversions overview" },
+    { "href": "/loft-conversions/essex", "label": "Loft conversions in Essex" },
+    { "href": "/loft-conversions/essex/chelmsford", "label": "Loft conversions in Chelmsford" },
+    { "href": "/loft-conversions/essex/leigh-on-sea", "label": "Loft conversions in Leigh-on-Sea" },
+    { "href": "/loft-conversions/essex/southend-on-sea", "label": "Loft conversions in Southend-on-Sea" },
+    { "href": "/loft-conversions/essex/grays", "label": "Loft conversions in Grays" },
+    { "href": "/extensions/essex/loughton", "label": "House extensions in Loughton" },
+    { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
+    { "href": "/blog/how-long-does-a-loft-conversion-take", "label": "How long does a loft conversion take?" },
+    { "href": "/contact", "label": "Contact us" }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Thinking about converting your loft in Loughton?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will check your roof and head height and tell you honestly which type of conversion suits your house, and what it would cost. No pressure, and no obligation to proceed."
+  }
+}

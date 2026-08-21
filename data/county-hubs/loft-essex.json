@@ -30,7 +30,7 @@
         "towns": [
           { "name": "Buckhurst Hill", "slug": null },
           { "name": "Chigwell", "slug": null },
-          { "name": "Loughton", "slug": null },
+          { "name": "Loughton", "slug": "essex/loughton" },
           { "name": "Epping", "slug": null },
           { "name": "Harlow", "slug": "harlow" }
         ]
@@ -40,7 +40,7 @@
         "towns": [
           { "name": "Brentwood", "slug": null },
           { "name": "Billericay", "slug": null },
-          { "name": "Chelmsford", "slug": null },
+          { "name": "Chelmsford", "slug": "essex/chelmsford" },
           { "name": "Braintree", "slug": null },
           { "name": "Great Dunmow", "slug": null },
           { "name": "Colchester", "slug": null }
@@ -49,8 +49,9 @@
       {
         "name": "Thames-side",
         "towns": [
-          { "name": "Southend-on-Sea", "slug": null },
-          { "name": "Leigh-on-Sea", "slug": null }
+          { "name": "Southend-on-Sea", "slug": "essex/southend-on-sea" },
+          { "name": "Leigh-on-Sea", "slug": "essex/leigh-on-sea" },
+          { "name": "Grays", "slug": "essex/grays" }
         ]
       }
     ]
@@ -231,8 +232,12 @@
   ],
   "relatedLinks": [
     { "href": "/loft-conversions", "label": "Loft conversions overview" },
+    { "href": "/loft-conversions/essex/chelmsford", "label": "Loft conversions in Chelmsford" },
+    { "href": "/loft-conversions/essex/grays", "label": "Loft conversions in Grays" },
+    { "href": "/loft-conversions/essex/leigh-on-sea", "label": "Loft conversions in Leigh-on-Sea" },
+    { "href": "/loft-conversions/essex/loughton", "label": "Loft conversions in Loughton" },
+    { "href": "/loft-conversions/essex/southend-on-sea", "label": "Loft conversions in Southend-on-Sea" },
     { "href": "/cost-guides/loft-conversion-cost", "label": "Loft conversion cost guide" },
-    { "href": "/blog/do-you-need-planning-permission-for-a-loft-conversion", "label": "Do you need planning permission?" },
     { "href": "/extensions", "label": "House extensions" },
     { "href": "/contact", "label": "Contact us" }
   ],
