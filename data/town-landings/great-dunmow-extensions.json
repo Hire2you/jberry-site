@@ -1,0 +1,134 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Great Dunmow",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "great-dunmow",
+  "seo": {
+    "title": "House Extensions in Great Dunmow | J Berry Construction",
+    "description": "Extension design and build in Great Dunmow. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/essex/great-dunmow"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/blog/conservation.webp",
+      "alt": "House extension in Great Dunmow by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Great Dunmow",
+    "headline": "House Extensions in Great Dunmow"
+  },
+  "intro": {
+    "paragraphs": [
+      "We are a local building firm, based nearby in Sawbridgeworth, and we design and build house extensions across Great Dunmow and the surrounding villages. Whether your home is a timber-framed house near the Market Place or a newer property on one of the town's modern estates, we run the whole job as one team, from the first visit through design, planning and building regulations to the finished room.",
+      "Great Dunmow is a genuinely old market town, the sort with a Grade I church, timber-framed houses and the famous Flitch of Bacon tradition, alongside a good deal of newer housing. Both need a different hand, and we work on both."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Great Dunmow home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Great Dunmow",
+    "items": [
+      "Rear extensions opening the back of the house to the garden.",
+      "Side and wrap-around extensions where the plot allows.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with bifold or sliding doors and a roof lantern.",
+      "Sympathetic extensions to timber-framed, period and listed homes, matching local materials."
+    ],
+    "image": {
+      "src": "/images/blog/green-belt.webp",
+      "alt": "Rear extension suited to homes in Great Dunmow"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Great Dunmow",
+    "paragraphs": [
+      "Here Great Dunmow differs from the towns nearer London, and it works in your favour on scale. Unlike the Epping Forest area, Great Dunmow is not hemmed in by Green Belt, so the main planning question is usually heritage rather than how big you can go.",
+      "Your planning authority is Uttlesford District Council. The historic core, around St Mary the Virgin church, the High Street and Market Place, the War Memorial and Doctor's Pond, is a designated conservation area, and the town has a large number of listed buildings. In the conservation area, and on or near a listed building, design and materials are judged closely, some permitted development rights fall away, and listed building consent is needed for most changes. Out on the newer estates, many extensions still fall under permitted development.",
+      "One note for the future: from April 2028 Uttlesford joins the new West Essex Council, though the rules carry over. We check exactly where your property stands and manage any application for you.",
+      "The ground around Great Dunmow",
+      "The ground here is different from the London Clay nearer the city. Great Dunmow sits in the upper Chelmer valley on boulder clay, the chalky glacial till that blankets much of north-west Essex, with chalk beneath and bands of glacial sand and gravel along the river valley.",
+      "Boulder clay is generally firm but variable, changing over a short distance and carrying pockets of softer or stonier ground, and near the Chelmer the ground can be softer and wetter, with some surface-water flooding after heavy rain in low spots. All of which is fine when it is understood first. We check the ground and design the foundations to suit, which on trickier plots means a ground investigation before we price the work."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "Being local matters, and we are. Based just over the way in Sawbridgeworth, Great Dunmow is right on our patch rather than a long haul. You get one team throughout, run by the company director. We handle the planning and building regulations, which in a town with a big conservation area and many listed buildings takes local know-how. Our quotes are itemised, not a lump sum. And most of our work comes by recommendation."
+  },
+  "cost": {
+    "title": "What an extension costs in Great Dunmow",
+    "paragraphs": [
+      "Cost depends on size, specification, structural work and finish, and heritage work to a timber-framed or listed home can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Great Dunmow?",
+      "a": "It depends where your home is. In the historic conservation area, or on a listed building, more work needs permission and the design is judged closely. On the newer estates, many extensions fall under permitted development. We check your exact address with Uttlesford District Council and handle any application."
+    },
+    {
+      "q": "Do you work on timber-framed and listed homes?",
+      "a": "Yes. Great Dunmow has a lot of period and listed property, and we extend and renovate it sympathetically, matching local materials and handling listed building consent where it applies."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Great Dunmow sits on boulder clay in the Chelmer valley, which is firm but variable, with softer, wetter ground near the river. That affects how foundations are designed, so we check the ground before we start."
+    },
+    {
+      "q": "Which areas around Great Dunmow do you cover?",
+      "a": "Great Dunmow itself, along with Little Dunmow, Barnston, Felsted, the Rodings and the surrounding villages, and we are based nearby in Sawbridgeworth. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex",
+      "label": "House extensions in Essex"
+    },
+    {
+      "href": "/extensions/essex/braintree",
+      "label": "House extensions in Braintree"
+    },
+    {
+      "href": "/loft-conversions/essex/great-dunmow",
+      "label": "Loft conversions in Great Dunmow"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Great Dunmow home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground: Weeks 1 to 2: setting up, then groundworks and foundations. Weeks 3 to 4: brickwork to damp-proof course, drainage and the slab. Weeks 4 to 6: walls up, structural steel in, roof on and watertight. Weeks 6 to 8: windows and doors, first-fix electrics and plumbing. Weeks 8 to 10: plastering, second fix and the kitchen fit-out. Final week: decorating, flooring and snagging before we hand over. Recent work near Great Dunmow [Real project slot. A completed Great Dunmow project, ideally on a period or timber-framed home, will make this page far stronger. Being based nearby, we are well placed to take one on.] [Testimonial slot.]"
+  }
+}

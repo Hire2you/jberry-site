@@ -1,0 +1,134 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Sawbridgeworth",
+  "county": "Hertfordshire",
+  "countySlug": "hertfordshire",
+  "townSlug": "sawbridgeworth",
+  "seo": {
+    "title": "House Extensions in Sawbridgeworth | J Berry Construction",
+    "description": "Extension design and build in Sawbridgeworth. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/hertfordshire/sawbridgeworth"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "House extension in Sawbridgeworth by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Sawbridgeworth",
+    "headline": "House Extensions in Sawbridgeworth"
+  },
+  "intro": {
+    "paragraphs": [
+      "We are based right here in Sawbridgeworth, and we design and build house extensions across the town and its surrounding villages. From a rear extension on a period cottage near the centre to a larger project on one of the newer roads, we run the whole job as one team, from the first visit through design, planning and building regulations to the finished room.",
+      "Being the local firm, not one travelling in, is something we are quietly proud of. It means we know the streets, the housing and the ground here, and a good deal of our work in the town comes from people who were recommended to us by a neighbour or friend."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Sawbridgeworth home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Sawbridgeworth",
+    "items": [
+      "Rear extensions opening the back of the house to the garden.",
+      "Side return and wrap-around extensions on the older homes.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic work to period and listed homes in and around the conservation area."
+    ],
+    "image": {
+      "src": "/images/extension-brick-orangery.webp",
+      "alt": "Rear extension suited to homes in Sawbridgeworth"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Sawbridgeworth",
+    "paragraphs": [
+      "Your planning authority is East Hertfordshire District Council, and the historic heart of Sawbridgeworth has been a conservation area since 1968, so a little local knowledge saves a lot of trouble.",
+      "In a conservation area, some permitted development rights are reduced, and design and materials are judged more closely. It is also worth knowing that East Herts has been rolling out Article 4 directions across its conservation areas, having piloted them in nearby Bishop's Stortford, which remove further permitted development rights and can mean planning permission is needed for changes that are automatic elsewhere. Whether that applies to your specific street is something we check for you. Listed buildings, of which the old town has several, need separate consent.",
+      "On the newer roads outside the conservation area, many extensions still fall under permitted development. Knowing which applies to your home is where we start. One note for the future: East Herts is due to be replaced by a new unitary council around 2028, though the rules will carry over. We work out exactly where your property stands and manage any application for you.",
+      "The ground around Sawbridgeworth",
+      "The ground here is boulder clay over London Clay, the stiff glacial clay that covers this part of the Hertfordshire and Essex border, with the River Stort running along the edge of the town. Boulder clay is generally firm but variable, and the London Clay beneath swells and shrinks with the seasons, moving most near mature trees. Down towards the Stort the ground can be softer and wetter.",
+      "On a plot near a large tree, or closer to the river, foundations often need more depth and thought than people expect. We would rather design for that from the start than meet it as a surprise, so on trickier plots we get the ground checked before pricing the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are trusting a team inside your home for months, and there is a lot to be said for using a builder based in your own town. You deal with one team throughout, run by the company director. Because we are local, we are easy to reach and quick to get to. We handle the planning and building regulations, including the conservation rules that apply in the older parts of Sawbridgeworth. Our quotes are itemised, not a lump sum. And our reputation here is genuinely on the line with every job, which is exactly how it should be."
+  },
+  "cost": {
+    "title": "What an extension costs in Sawbridgeworth",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heritage work in the conservation area can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Sawbridgeworth?",
+      "a": "It depends where your home is. In the conservation area covering the old town, some rights are reduced and East Herts has been extending Article 4 directions across its conservation areas, which can mean more work needs permission. On the newer roads, many extensions fall under permitted development. We check your exact address with East Herts District Council and handle any application."
+    },
+    {
+      "q": "Are there extra restrictions in the older part of Sawbridgeworth?",
+      "a": "Often, yes. The historic centre has been a conservation area since 1968, so design and materials are judged more closely, and an Article 4 direction may apply to your street. We tell you exactly how it affects your home before you plan the work."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Sawbridgeworth sits on boulder clay over London Clay, which moves with the seasons and near trees, and the ground softens towards the Stort. That often means deeper or specially designed foundations, so we check the ground before starting."
+    },
+    {
+      "q": "Which areas around Sawbridgeworth do you cover?",
+      "a": "Sawbridgeworth itself, along with Bishop's Stortford, Harlow, Much Hadham, Hatfield Heath and the surrounding villages. Being based in the town, we are right on hand. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/hertfordshire",
+      "label": "House extensions in Hertfordshire"
+    },
+    {
+      "href": "/extensions/hertfordshire/bishops-stortford",
+      "label": "House extensions in Bishop's Stortford"
+    },
+    {
+      "href": "/extensions/essex/harlow",
+      "label": "House extensions in Harlow"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Sawbridgeworth home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground: Weeks 1 to 2: setting up, then groundworks and foundations. Weeks 3 to 4: brickwork to damp-proof course, drainage and the slab. Weeks 4 to 6: walls up, structural steel in, roof on and watertight. Weeks 6 to 8: windows and doors, first-fix electrics and plumbing. Weeks 8 to 10: plastering, second fix and the kitchen fit-out. Final week: decorating, flooring and snagging before we hand over. Recent work in Sawbridgeworth [Real project slot. This is our home town, so a completed local project with two or three photos and a line on the brief would make this page genuinely strong. It is also the most natural place to show that we build where we live.] [Testimonial slot: a real quote from a local client, with a first name, lands especially well on your home-town page.]"
+  }
+}

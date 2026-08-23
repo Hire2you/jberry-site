@@ -1,0 +1,167 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Woodford",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "woodford",
+  "seo": {
+    "title": "House Extensions in Woodford | J Berry Construction",
+    "description": "Extension design and build in Woodford. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/london/woodford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "House extension in Woodford by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Woodford",
+    "headline": "House Extensions in Woodford"
+  },
+  "intro": {
+    "paragraphs": [
+      "Most extensions in Woodford start with the same wish. More room to actually live in. A kitchen you can cook and sit in, space to have people over, somewhere the family ends up together instead of scattered across small separate rooms.",
+      "That is very often what we build here. We design and construct house extensions across Woodford and the surrounding area, and we manage the whole thing as one team, from the first visit through the drawings, the planning and the building regulations to the finished room."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Woodford home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Woodford",
+    "items": [
+      "Rear extensions that open the back of the house to the garden.",
+      "Full-width and wrap-around extensions for a larger open-plan ground floor.",
+      "Side return extensions on the older terraces and villas.",
+      "Double storey extensions when you need bedrooms as well as living space.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic work to period and Arts and Crafts homes, matching the original detail."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Rear extension suited to homes in Woodford"
+    }
+  },
+  "planning": {
+    "title": "Planning permission for an extension in Woodford",
+    "paragraphs": [
+      "Your planning authority is the London Borough of Redbridge. A lot of extensions here fall under permitted development and can go ahead without a full application, but Woodford has a few local wrinkles worth knowing about.",
+      "The greens and the older streets around them sit in the Woodford Green conservation area, and the large houses of Monkhams have their own protected character. In conservation areas some permitted development rights are reduced, and Article 4 directions remove them entirely in places, so what is automatic on one street may need permission on the next. Any listed building needs separate consent.",
+      "Being on the edge of Epping Forest raises one more question people often worry about. The forest is a protected Special Area of Conservation with a zone of influence around it, but in practice that mainly affects proposals that create a new, separate home. A straightforward extension to the house you already live in is generally not caught by it. What does matter near the forest is trees, which are frequently protected, so where a project sits close to one we deal with that as part of the design.",
+      "We check exactly where your property stands before you commit to anything, and we prepare and manage any application for you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners in Woodford choose us",
+    "text": "Letting a team into your home for a few months is a big call. Here is what you get with us. You deal with one team throughout, run by the company director, so there is always a clear person to speak to. We handle the planning and building regulations, so you are not the one chasing Redbridge. Our quotes are detailed and itemised rather than a single vague figure, which, as it happens, is what the Woodford family above told us won them over when they were comparing builders. And a lot of our work comes by recommendation, which is the only advertising that really counts."
+  },
+  "cost": {
+    "title": "What an extension costs in Woodford",
+    "paragraphs": [
+      "Cost depends on size, specification, the amount of structural work and the finish you want. A full-width open-plan project with steelwork and high-end glazing sits at a very different point to a modest rear extension.",
+      "As a general guide for this part of London, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. For an early estimate use our cost calculator, and for a real, itemised figure book a free site visit so we can price your actual project.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, structural steel and all, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Woodford?",
+      "a": "Often not. Many extensions fall under permitted development, but the Woodford Green conservation area, the Monkhams area and any Article 4 directions reduce or remove those rights in places, and listed buildings need separate consent. We check your exact address with the London Borough of Redbridge and handle any application."
+    },
+    {
+      "q": "Does being near Epping Forest affect my extension?",
+      "a": "For a normal extension to your own home, usually not. The forest's protected status and its surrounding zone mainly affect proposals that create a new separate dwelling. Trees near the forest are often protected, though, so we factor that into the design where it applies."
+    },
+    {
+      "q": "Can you open up my ground floor into one open-plan space?",
+      "a": "Yes. It is some of our most common work here, as with the full-width Woodford project above. It involves removing load-bearing walls and supporting the floors above on steel, all designed and signed off under building regulations, which we handle."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project rather than a vague figure."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Woodford sits on London Clay, which moves with the seasons and especially near large trees. That often means deeper or specially designed foundations, so we check the ground before we start rather than assuming it is simple."
+    },
+    {
+      "q": "Which areas around Woodford do you cover?",
+      "a": "Woodford Green, South Woodford, Woodford Bridge and Woodford Wells, along with Buckhurst Hill, Chigwell, Wanstead and the wider area. Call us and we will confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/london/wanstead",
+      "label": "House extensions in Wanstead"
+    },
+    {
+      "href": "/extensions/essex/chigwell",
+      "label": "House extensions in Chigwell"
+    },
+    {
+      "href": "/loft-conversions/london",
+      "label": "Loft conversions in London"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Woodford home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  },
+  "homes": {
+    "title": "A recent Woodford project: one open-plan ground floor",
+    "intro": "The brief was familiar. A good-sized house, but a ground floor cut into separate rooms that did not work for how the family actually lived. They wanted the kitchen, dining and relaxing areas brought together into a single open space, and the rest of the ground floor brought up to match.",
+    "body": "We built a full-width single-storey extension across the rear and renovated the whole ground floor alongside it. Opening a floor up to full width like this is not just knocking rooms together. It means taking out load-bearing walls and carrying the weight above on steel, which is the part that turns a simple-sounding job into a genuinely structural one. It is work we do often, and it is exactly where a properly planned steel and foundation design earns its money.",
+    "closing": "We had been chosen after the family gathered quotes from several builders, and they later told us it was the detail in our quotation that gave them the confidence we understood the job and could hold their budget. A couple of unexpected things came up during the build, as they nearly always do on a project like this, and we worked them out on site as we went. It finished on time and on budget, and they have sent us work since.",
+    "image": {
+      "src": "/images/extension-brick-orangery.webp",
+      "alt": "Open-plan extension in Woodford"
+    }
+  },
+  "ground": {
+    "title": "A recent Woodford project: one open-plan ground floor",
+    "paragraphs": [
+      "The brief was familiar. A good-sized house, but a ground floor cut into separate rooms that did not work for how the family actually lived. They wanted the kitchen, dining and relaxing areas brought together into a single open space, and the rest of the ground floor brought up to match.",
+      "We built a full-width single-storey extension across the rear and renovated the whole ground floor alongside it. Opening a floor up to full width like this is not just knocking rooms together. It means taking out load-bearing walls and carrying the weight above on steel, which is the part that turns a simple-sounding job into a genuinely structural one. It is work we do often, and it is exactly where a properly planned steel and foundation design earns its money.",
+      "We had been chosen after the family gathered quotes from several builders, and they later told us it was the detail in our quotation that gave them the confidence we understood the job and could hold their budget. A couple of unexpected things came up during the build, as they nearly always do on a project like this, and we worked them out on site as we went. It finished on time and on budget, and they have sent us work since."
+    ]
+  },
+  "place": {
+    "title": "A recent Woodford project: one open-plan ground floor",
+    "paragraphs": [
+      "The brief was familiar. A good-sized house, but a ground floor cut into separate rooms that did not work for how the family actually lived. They wanted the kitchen, dining and relaxing areas brought together into a single open space, and the rest of the ground floor brought up to match.",
+      "We built a full-width single-storey extension across the rear and renovated the whole ground floor alongside it. Opening a floor up to full width like this is not just knocking rooms together. It means taking out load-bearing walls and carrying the weight above on steel, which is the part that turns a simple-sounding job into a genuinely structural one. It is work we do often, and it is exactly where a properly planned steel and foundation design earns its money.",
+      "We had been chosen after the family gathered quotes from several builders, and they later told us it was the detail in our quotation that gave them the confidence we understood the job and could hold their budget. A couple of unexpected things came up during the build, as they nearly always do on a project like this, and we worked them out on site as we went. It finished on time and on budget, and they have sent us work since."
+    ]
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground: Weeks 1 to 2: setting up, then groundworks and foundations, the part the local clay and any nearby trees affect most. Weeks 3 to 4: brickwork up to damp-proof course, drainage and the slab. Weeks 4 to 6: walls up, structural steel in for the open-plan spans, roof on and made watertight. Weeks 6 to 8: windows and doors, first-fix electrics and plumbing. Weeks 8 to 10: plastering, second fix and the kitchen fit-out. Final week: decorating, flooring and snagging before we hand the room back."
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Brentwood",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "brentwood",
+  "seo": {
+    "title": "Loft Conversions in Brentwood | J Berry Construction",
+    "description": "Loft conversions in Brentwood, suites and dormers for larger homes, plus honest advice on Green Belt and village properties. Planning and building regs handled",
+    "canonical": "/loft-conversions/essex/brentwood"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/loft-mansard.webp",
+      "alt": "Loft conversion on a family home in Brentwood by J Berry Construction"
+    },
+    "eyebrow": "Loft conversions · Brentwood",
+    "headline": "Loft Conversions in Brentwood"
+  },
+  "intro": {
+    "paragraphs": [
+      "In Brentwood, a loft conversion is often less about squeezing in a box room and more about adding a proper suite. So much of the town is larger semis and detached houses that the roof usually has the space, and the head height, to become a real room, sometimes two, with a bathroom between them. We design and build loft conversions across Brentwood and its villages, and because these are bigger homes we can usually be more ambitious with them than on a tight terrace. Call 07920 731533 or request a callback, and we will tell you what your roof could become."
+    ],
+    "cta": {
+      "title": "Weighing up a loft conversion in Brentwood?",
+      "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "Bigger homes, more scope",
+    "intro": "Brentwood's housing works in your favour for a loft conversion. Much of the town is substantial semi-detached and detached housing, often inter-war and post-war, with generous roofs, and being detached or semi-detached rather than terraced usually means more design freedom and, in a detached house, no party wall to work around at all.",
+    "body": "That scope shows up in what the conversion can be. A hip-to-gable on one of Brentwood's hipped-roof semis, squaring off the roof and adding a rear dormer, can create a full suite rather than a single room. A large rear dormer on a detached house can give two rooms or a bedroom with a proper ensuite and dressing area. Houses with good head height may take a cleaner rooflight conversion, and the period and village homes out toward Ingatestone, Blackmore and the surrounding villages often suit a more restrained, sympathetic approach that respects the character of the street. The point is that we start from what your particular house can carry, and in Brentwood that is often more than people expect.",
+    "closing": "That scope shows up in what the conversion can be. A hip-to-gable on one of Brentwood's hipped-roof semis, squaring off the roof and adding a rear dormer, can create a full suite rather than a single room. A large rear dormer on a detached house can give two rooms or a bedroom with a proper ensuite and dressing area. Houses with good head height may take a cleaner rooflight conversion, and the period and village homes out toward Ingatestone, Blackmore and the surrounding villages often suit a more restrained, sympathetic approach that respects the character of the street. The point is that we start from what your particular house can carry, and in Brentwood that is often more than people expect.",
+    "image": {
+      "src": "/images/hero-dormer.webp",
+      "alt": "Finished loft conversion suited to Brentwood homes"
+    }
+  },
+  "extensionTypes": {
+    "title": "Planning, the Green Belt and party wall",
+    "intro": "Here is the reassuring part, because it worries a lot of Brentwood homeowners: most of the borough is Green Belt, but that generally does not stop a loft conversion. Green Belt rules bear on building outward and on the size of extensions; the permitted-development rights that cover loft conversions are removed by conservation-area status, not by Green Belt, so a loft in the Green Belt is usually still possible, and often still permitted development, within the volume limits and the usual conditions (no dormer on the front roof slope). Where it does get more involved is in conservation areas and the character parts of the villages, where dormers often need planning permission and a rooflight conversion may be the cleaner route. Mansards and front dormers need permission anywhere. Every loft conversion always needs full building-regulations approval, and on a semi or terrace the Party Wall Act applies, though on a fully detached house it usually will not. We check exactly where your property stands, Green Belt, conservation area or neither, and handle the planning, party wall and building regulations for you.",
+    "image": {
+      "src": "/images/loft-wardrobes.webp",
+      "alt": "Loft conversion type suited to houses in Brentwood"
+    }
+  },
+  "planning": {
+    "title": "Planning, the Green Belt and party wall",
+    "paragraphs": [
+      "Here is the reassuring part, because it worries a lot of Brentwood homeowners: most of the borough is Green Belt, but that generally does not stop a loft conversion. Green Belt rules bear on building outward and on the size of extensions; the permitted-development rights that cover loft conversions are removed by conservation-area status, not by Green Belt, so a loft in the Green Belt is usually still possible, and often still permitted development, within the volume limits and the usual conditions (no dormer on the front roof slope).",
+      "Where it does get more involved is in conservation areas and the character parts of the villages, where dormers often need planning permission and a rooflight conversion may be the cleaner route. Mansards and front dormers need permission anywhere. Every loft conversion always needs full building-regulations approval, and on a semi or terrace the Party Wall Act applies, though on a fully detached house it usually will not. We check exactly where your property stands, Green Belt, conservation area or neither, and handle the planning, party wall and building regulations for you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose us",
+    "text": "The main driver of cost is the type and scale of the conversion, a rooflight conversion is the least, a hip-to-gable or dormer more, a larger suite or mansard more again, before the finish and any ensuite. Because Brentwood conversions tend to be more ambitious, they can sit toward the higher end simply because they are doing more, which is worth bearing in mind when comparing quotes. Our cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure with nothing hidden."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "The main driver of cost is the type and scale of the conversion, a rooflight conversion is the least, a hip-to-gable or dormer more, a larger suite or mansard more again, before the finish and any ensuite. Because Brentwood conversions tend to be more ambitious, they can sit toward the higher end simply because they are doing more, which is worth bearing in mind when comparing quotes. Our cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure with nothing hidden."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will look at your actual roof and give you a real, itemised figure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Can a loft conversion in Brentwood give me a master suite rather than just a bedroom?",
+      "a": "Often, yes, which is one of the advantages of Brentwood's larger homes. Many of the town's semis and detached houses have the roof space and head height for a hip-to-gable or a generous dormer that creates a full suite, a double bedroom with an ensuite and sometimes a dressing area, rather than a single room. We look at your roof and tell you honestly how much you can get from it."
+    },
+    {
+      "q": "I'm in the Green Belt, can I still convert my loft?",
+      "a": "Usually yes. This surprises people, but the Green Belt mainly restricts building outward and the size of extensions; it does not, by itself, remove the permitted-development rights that cover loft conversions. Those are removed by conservation-area status, not Green Belt. So a loft in the Green Belt is often still possible, and frequently still permitted development. We check your specific position and confirm it before designing anything."
+    },
+    {
+      "q": "What type of loft conversion suits my Brentwood house?",
+      "a": "It depends on the roof. Hipped-roof semis suit a hip-to-gable, usually with a rear dormer; detached houses often take a large rear dormer creating two rooms or a suite; houses with good head height may need only a rooflight conversion; and period or village homes suit a more sympathetic approach. Being detached or semi rather than terraced usually gives more design freedom."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Brentwood?",
+      "a": "Often not. Many hip-to-gable, dormer and rooflight conversions are permitted development within the volume limits and the front-dormer rule, and being in the Green Belt does not usually change that for a loft. Conservation areas, the character parts of the villages, mansards and front dormers usually need permission. Every loft still needs full building-regulations approval. We check and handle whichever route applies."
+    },
+    {
+      "q": "Can my Brentwood loft be converted?",
+      "a": "Most can, and the larger homes here often convert particularly well. It comes down to head height (roughly 2.2 to 2.4 metres at the ridge before losing some to the new floor and ceiling), the roof structure (older cut roofs are easier than modern trussed ones), and room for the staircase, which bigger houses tend to have. We give you a straight answer at the site visit."
+    },
+    {
+      "q": "Do you also do extensions in Brentwood?",
+      "a": "Yes. If you need ground-floor space as well, or instead, we design and build extensions in Brentwood, see our Brentwood extension page. On a larger home a loft and a ground-floor extension can work well together, and we will advise honestly on the best combination."
+    },
+    {
+      "q": "Thinking about a loft conversion in Brentwood?",
+      "a": "Call 07920 731533 or request a callback, and we will look at your roof, work out how much you can get from it, and give you a real, itemised figure, whether you are in the town, the Green Belt or one of the villages. Free site visit, no pressure, no obligation."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex/brentwood",
+      "label": "House extensions in Brentwood"
+    },
+    {
+      "href": "/loft-conversions/essex/billericay",
+      "label": "Loft conversions in Billericay"
+    },
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions overview"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/blog/how-long-does-a-loft-conversion-take",
+      "label": "How long does a loft conversion take?"
+    },
+    {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Loft conversion cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Weighing up a loft conversion in Brentwood?",
+    "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+  }
+}

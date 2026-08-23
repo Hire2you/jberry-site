@@ -1,0 +1,126 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Dartford",
+  "county": "Kent",
+  "countySlug": "kent",
+  "townSlug": "dartford",
+  "seo": {
+    "title": "Loft Conversions in Dartford | J Berry Construction",
+    "description": "Loft conversions in Dartford, designed around the light, rooflights, dormer windows, gable glazing and Juliet balconies, so the room feels bright, not boxed in. Free site visit",
+    "canonical": "/loft-conversions/kent/dartford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/loft-hip-to-gable.webp",
+      "alt": "Loft conversion on a family home in Dartford by J Berry Construction"
+    },
+    "eyebrow": "Loft conversions · Dartford",
+    "headline": "Loft Conversions in Dartford"
+  },
+  "intro": {
+    "paragraphs": [
+      "The difference between a loft that feels like a proper room and one that feels like a done-up attic is usually light. A conversion can have all the space in the world and still feel dark and boxed-in if the glazing is an afterthought, whereas get real thought into the windows and even a modest loft feels open, bright and genuinely worth being in. How the light comes in, through rooflights, a dormer window, a new gable, or a glazed Juliet door, is one of the first things we design, not the last. We convert lofts across Dartford and the surrounding area, designed around the light as much as the space. Call 07920 731533 or request a callback."
+    ],
+    "cta": {
+      "title": "Weighing up a loft conversion in Dartford?",
+      "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "What suits your Dartford roof",
+    "intro": "The type of conversion, and the glazing that suits it, follows your roof, and Dartford has a real mix. The town's Victorian and Edwardian terraces suit an L-shaped or rear dormer, often with rooflights on the front slope to keep the street elevation unchanged while lighting the room from both sides. The 1930s and post-war semis with hipped roofs suit a hip-to-gable, which conveniently creates that new gable wall for a feature window. Homes with good head height may need only a rooflight conversion, bright and simple. And Dartford's many newer estate houses, part of the area's recent growth, often have trussed roofs that convert well but need the trusses reworked and extra steel to open up, which we would flag early. We match both the conversion and its glazing to your actual roof and its outlook.",
+    "body": "The type of conversion, and the glazing that suits it, follows your roof, and Dartford has a real mix. The town's Victorian and Edwardian terraces suit an L-shaped or rear dormer, often with rooflights on the front slope to keep the street elevation unchanged while lighting the room from both sides. The 1930s and post-war semis with hipped roofs suit a hip-to-gable, which conveniently creates that new gable wall for a feature window. Homes with good head height may need only a rooflight conversion, bright and simple. And Dartford's many newer estate houses, part of the area's recent growth, often have trussed roofs that convert well but need the trusses reworked and extra steel to open up, which we would flag early. We match both the conversion and its glazing to your actual roof and its outlook.",
+    "closing": "The type of conversion, and the glazing that suits it, follows your roof, and Dartford has a real mix. The town's Victorian and Edwardian terraces suit an L-shaped or rear dormer, often with rooflights on the front slope to keep the street elevation unchanged while lighting the room from both sides. The 1930s and post-war semis with hipped roofs suit a hip-to-gable, which conveniently creates that new gable wall for a feature window. Homes with good head height may need only a rooflight conversion, bright and simple. And Dartford's many newer estate houses, part of the area's recent growth, often have trussed roofs that convert well but need the trusses reworked and extra steel to open up, which we would flag early. We match both the conversion and its glazing to your actual roof and its outlook.",
+    "image": {
+      "src": "/images/loft-wardrobes.webp",
+      "alt": "Finished loft conversion suited to Dartford homes"
+    }
+  },
+  "extensionTypes": {
+    "title": "What suits your Dartford roof",
+    "intro": "The type of conversion, and the glazing that suits it, follows your roof, and Dartford has a real mix. The town's Victorian and Edwardian terraces suit an L-shaped or rear dormer, often with rooflights on the front slope to keep the street elevation unchanged while lighting the room from both sides. The 1930s and post-war semis with hipped roofs suit a hip-to-gable, which conveniently creates that new gable wall for a feature window. Homes with good head height may need only a rooflight conversion, bright and simple. And Dartford's many newer estate houses, part of the area's recent growth, often have trussed roofs that convert well but need the trusses reworked and extra steel to open up, which we would flag early. We match both the conversion and its glazing to your actual roof and its outlook.",
+    "image": {
+      "src": "/images/loft-mansard.webp",
+      "alt": "Loft conversion type suited to houses in Dartford"
+    }
+  },
+  "planning": {
+    "title": "Planning in Dartford",
+    "paragraphs": [
+      "Many Dartford loft conversions are permitted development, within the volume limits, broadly 40 cubic metres for a terrace and 50 for a semi or detached house, and the conditions, notably no dormer on the front roof slope. Where windows would overlook neighbours, obscured glazing or high-level windows are often expected, and rooflights sidestep the issue entirely by facing the sky. Mansards, front dormers and conversions in a conservation area usually need planning permission. Homes near the River Darent or the Thames may sit in a flood-risk area, which affects an extension more than a loft, since a loft adds space clear of any flood risk. Every conversion always needs full building-regulations approval, covering the structure, the staircase, insulation and that fire-escape window, and on a terrace or semi the Party Wall Act usually applies. We check your property's position and handle the planning, party wall and building regulations for you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose us",
+    "text": "Designing a loft that is bright and pleasant to be in, not just structurally sound, is much of what people come to us for. We have built for homeowners since 1995, most of our work comes through recommendation, and we run each conversion with one team from start to finish."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "On cost, the main factor is the type of conversion, a rooflight conversion is the most economical, a dormer or hip-to-gable more, before the finish, and glazing choices sit within that, more rooflights, a larger dormer or a Juliet door add to the figure, which we set out honestly so you can decide what is worth it to you. The cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure with nothing hidden."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will look at your actual roof and give you a real, itemised figure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "How do you get enough natural light into a loft conversion?",
+      "a": "By designing the glazing in from the start and usually combining types. Rooflights set flush in the slope bring in a lot of daylight for their size because they face the sky; a dormer adds a vertical window with a proper outlook; a hip-to-gable creates a new gable wall for a feature window; and a glazed Juliet door floods the room with light and opens it up. The best conversions light the room from more than one direction, so it feels bright rather than lit from a single spot."
+    },
+    {
+      "q": "Rooflights or dormer windows, which is better for a loft?",
+      "a": "They do different jobs, and often you want both. Rooflights are the most efficient and economical way to bring in light, face the sky so they never overlook neighbours, and add no bulk outside. A dormer costs more but adds head height and floor space as well as light, and its window gives a normal standing outlook rather than a view of the sky. A common approach is a dormer on one slope for space and outlook, with rooflights on the other to balance the light."
+    },
+    {
+      "q": "Will a loft conversion overlook my neighbours?",
+      "a": "It does not have to, and it is something we design around. Rooflights face upward at the sky, so they do not overlook anyone, which is one reason they sit easily with planners. Where a dormer or gable window would look into a neighbour's garden, obscured glazing or higher-level windows solve it. We consider overlooking from the outset, both to respect neighbours and to make the planning smoother."
+    },
+    {
+      "q": "Can I have a Juliet balcony in my Dartford loft?",
+      "a": "Often, yes, and it is a lovely feature. A Juliet balcony is a full-height glazed door with a balustrade across it rather than a projecting balcony, so it opens to let air and light in and gives a real sense of openness and outlook, without the cost or planning complication of a true balcony. Whether it suits depends on the house, the outlook and any overlooking, which we will advise on honestly."
+    },
+    {
+      "q": "What type of loft conversion suits my Dartford house?",
+      "a": "It depends on the roof. Victorian and Edwardian terraces suit an L-shaped or rear dormer; hipped 1930s and post-war semis suit a hip-to-gable, which also creates a gable for a feature window; homes with good head height may need only a rooflight conversion; and newer trussed-roof houses need the trusses reworked and extra steel. We match both the conversion and its glazing to your roof."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Dartford?",
+      "a": "Often not. Many hip-to-gable, dormer and rooflight conversions are permitted development within the volume limits and the front-dormer rule, though overlooking may call for obscured or high-level glazing. Mansards, front dormers and conversions in a conservation area usually need permission. Every conversion needs full building-regulations approval regardless. We check your position and handle whichever route applies."
+    },
+    {
+      "q": "Do you also do extensions in Dartford?",
+      "a": "Yes. If a loft cannot give you enough space, or you need ground-floor room too, we design and build extensions in Dartford, see our Dartford extension page. We will advise honestly on which route, or combination, best suits what you are after."
+    },
+    {
+      "q": "Thinking about a loft conversion in Dartford?",
+      "a": "Call 07920 731533 or request a callback, and we will look at your roof and its outlook, design a room that is bright and comfortable, and give you a real, itemised figure. Free site visit, no pressure, no obligation. IMAGE OPTIMISATION SEO image prompt (hero, representative until real project photos are supplied): \"Photorealistic interior of a bright loft conversion bedroom in a UK home, a flat-roof dormer with two large windows on one side and two flush rooflights in the sloping ceiling opposite, sunlight streaming across a wooden floor and neutral contemporary décor, airy and open, estate-agent photography style, wide angle.\" Optional secondary image prompt: \"Photorealistic loft conversion with a glazed Juliet balcony, full-height doors open with a slim balustrade across them, daylight flooding a neutral modern room, view of green treetops beyond, interior design photography style.\" Image filename: loft-conversion-dartford-dormer-rooflights.jpg Alt text: Bright loft conversion bedroom in a Dartford home lit by a dormer and rooflights Caption: A loft conversion lit from two sides, a dormer for outlook and rooflights opposite to balance the daylight. Suggested compression filename: loft-conversion-dartford-dormer-rooflights-opt.webp Note: replace with a genuine J Berry Dartford (or nearby) project photo once available, and update the alt text and caption to the real project. Until then keep the caption generic so no specific completed job is implied."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/loft-conversions/kent",
+      "label": "Loft conversions in Kent"
+    },
+    {
+      "href": "/loft-conversions/kent/gravesend",
+      "label": "Loft conversions in Gravesend"
+    },
+    {
+      "href": "/loft-conversions/kent/bromley",
+      "label": "Loft conversions in Bromley"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Weighing up a loft conversion in Dartford?",
+    "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+  }
+}

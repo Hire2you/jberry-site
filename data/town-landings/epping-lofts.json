@@ -1,0 +1,137 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Epping",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "epping",
+  "seo": {
+    "title": "Loft Conversions in Epping | J Berry Construction",
+    "description": "Loft conversions in Epping, including how to establish whether yours needs permission and give it the best chance. Green Belt and conservation handled. Free site visit",
+    "canonical": "/loft-conversions/essex/epping"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/hero-dormer.webp",
+      "alt": "Loft conversion on a family home in Epping by J Berry Construction"
+    },
+    "eyebrow": "Loft conversions · Epping",
+    "headline": "Loft Conversions in Epping"
+  },
+  "intro": {
+    "paragraphs": [
+      "In a town as tightly conserved as Epping, ringed by Green Belt with a long conservation area running down the High Street, the first real question about a loft conversion is often not what it will look like but whether you will get permission for it. The reassuring answer is that a great many Epping loft conversions are still perfectly possible, plenty are still permitted development needing no application at all, and where permission is required, a well-judged, well-designed scheme usually gets there. We convert lofts across Epping and its villages, and we work out your planning position, and how to give it the best chance, before anything else. Call 07920 731533 or request a callback."
+    ],
+    "cta": {
+      "title": "Weighing up a loft conversion in Epping?",
+      "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "Will you get permission? Usually, yes",
+    "intro": "Because this is the worry that stops people even enquiring here, it is worth setting out clearly.",
+    "body": "Away from the conservation area, on most of Epping's ordinary residential streets, a lot of loft conversions are permitted development: within the volume limits (broadly 40 cubic metres for a terrace, 50 for a semi or detached house) and the conditions, notably no dormer on the front roof slope, you can often proceed without a planning application. Being in or near the Green Belt does not usually change that for a loft, because the permitted-development rights for roof extensions are removed by conservation-area status, not by Green Belt.",
+    "closing": "Inside the High Street conservation area, and on prominent frontages, it is different: dormers there generally need planning permission, and a rooflight conversion that leaves the roofline untouched is often the route that gains a straightforward approval. Where a full application is needed, a scheme designed sympathetically to the house and street has a good chance of success, and it is exactly the kind of application we prepare and manage. One more thing worth knowing: where your conversion is permitted development, it is often worth obtaining a Lawful Development Certificate, a formal confirmation from the council that the work is lawful. It is not compulsory, but it removes any doubt and is the sort of proof a buyer's solicitor looks for later. Our guides on planning permission for lofts and lawful development certificates explain both, and we sort whichever route applies to you.",
+    "image": {
+      "src": "/images/loft-hip-to-gable.webp",
+      "alt": "Finished loft conversion suited to Epping homes"
+    }
+  },
+  "extensionTypes": {
+    "title": "What suits your Epping roof",
+    "intro": "With the planning position clear, the conversion follows the roof. Epping's Victorian and Edwardian houses with a rear projection suit an L-shaped dormer, or a rear dormer without one; the 1930s semis with hipped roofs suit a hip-to-gable; the period houses near the centre, and anything in the conservation area, often suit a discreet rooflight conversion; and homes with good head height may need only a rooflight in any case. We match the conversion both to your roof and to what your street's planning position will allow.",
+    "image": {
+      "src": "/images/loft-dormer-front.webp",
+      "alt": "Loft conversion type suited to houses in Epping"
+    }
+  },
+  "planning": {
+    "title": "Will you get permission? Usually, yes",
+    "paragraphs": [
+      "Because this is the worry that stops people even enquiring here, it is worth setting out clearly.",
+      "Away from the conservation area, on most of Epping's ordinary residential streets, a lot of loft conversions are permitted development: within the volume limits (broadly 40 cubic metres for a terrace, 50 for a semi or detached house) and the conditions, notably no dormer on the front roof slope, you can often proceed without a planning application. Being in or near the Green Belt does not usually change that for a loft, because the permitted-development rights for roof extensions are removed by conservation-area status, not by Green Belt.",
+      "Inside the High Street conservation area, and on prominent frontages, it is different: dormers there generally need planning permission, and a rooflight conversion that leaves the roofline untouched is often the route that gains a straightforward approval. Where a full application is needed, a scheme designed sympathetically to the house and street has a good chance of success, and it is exactly the kind of application we prepare and manage.",
+      "One more thing worth knowing: where your conversion is permitted development, it is often worth obtaining a Lawful Development Certificate, a formal confirmation from the council that the work is lawful. It is not compulsory, but it removes any doubt and is the sort of proof a buyer's solicitor looks for later. Our guides on planning permission for lofts and lawful development certificates explain both, and we sort whichever route applies to you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose us",
+    "text": "Handling the planning and the paperwork properly is much of what people come to us for in a town like this, and we have been doing it for homeowners since 1995, with most of our work arriving through recommendation. We run each job with one team from start to finish, are honest about what is achievable before you spend anything, and see it through to the certificates."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "On cost, the main factor is the type of conversion your roof and planning position allow, a rooflight conversion is the least, a dormer or hip-to-gable more, a mansard the most, before the finish and any ensuite. The cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will look at your actual roof and give you a real, itemised figure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Will I get planning permission for a loft conversion in Epping?",
+      "a": "Very often you will not even need it. Away from the conservation area, many Epping loft conversions are permitted development within the volume limits and the front-dormer rule, and being near the Green Belt does not usually change that for a loft. Inside the High Street conservation area, dormers generally need permission, and a rooflight conversion or a sympathetically designed scheme is the route that tends to get approved. We tell you honestly where your property stands before you commit."
+    },
+    {
+      "q": "Is my Epping loft conversion permitted development, and what is a lawful development certificate?",
+      "a": "It may well be, if you are outside the conservation area and within the volume limits and conditions. A Lawful Development Certificate is a formal confirmation from the council that your work is lawful, that it is genuinely permitted development. It is not compulsory, but it removes any doubt and is the kind of proof a buyer's solicitor asks for when you sell, so it is often worth having. We can obtain it as part of the job."
+    },
+    {
+      "q": "Does the High Street conservation area affect my loft conversion?",
+      "a": "Yes, if your property is within it. In the conservation area, permitted-development rights for roof extensions are reduced, so dormers generally need planning permission and the design is looked at closely, a discreet rooflight conversion that keeps the roofline is often the smoothest route. It rarely rules a conversion out; it shapes the design. We check whether your home is affected and design accordingly."
+    },
+    {
+      "q": "I'm near the Green Belt or the forest, can I still convert my loft?",
+      "a": "Usually yes. The Green Belt mainly restricts building outward and the size of extensions; it does not, by itself, remove the permitted-development rights that cover loft conversions, those turn on conservation-area status instead. So a loft near the Green Belt is often still possible, and frequently still permitted development. We confirm your specific position before designing anything."
+    },
+    {
+      "q": "What type of loft conversion suits my Epping house?",
+      "a": "It depends on the roof and your planning position. Victorian and Edwardian houses with a rear projection suit an L-shaped dormer; hipped 1930s semis suit a hip-to-gable; period houses and anything in the conservation area often suit a rooflight conversion; and homes with good head height may need only a rooflight. We match the conversion to both your roof and what your street will allow."
+    },
+    {
+      "q": "Do you also do extensions in Epping?",
+      "a": "Yes. If a loft is not the best route, or you need ground-floor space too, we design and build extensions in Epping, see our Epping extension page. Bear in mind that in the Green Belt the rules on extending outward are tighter than on converting the loft, which we will talk through honestly."
+    },
+    {
+      "q": "Unsure whether your Epping loft conversion needs permission?",
+      "a": "Call 07920 731533 or request a callback, and we will establish your planning position, tell you honestly what is achievable, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex/epping",
+      "label": "House extensions in Epping"
+    },
+    {
+      "href": "/loft-conversions/essex/loughton",
+      "label": "Loft conversions in Loughton"
+    },
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions overview"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/blog/how-long-does-a-loft-conversion-take",
+      "label": "How long does a loft conversion take?"
+    },
+    {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Loft conversion cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Weighing up a loft conversion in Epping?",
+    "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+  }
+}

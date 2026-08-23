@@ -1,0 +1,222 @@
+{
+  "serviceSlug": "extensions",
+  "county": "Kent",
+  "countySlug": "kent",
+  "seo": {
+    "title": "House Extensions in Kent | Design & Build – J Berry",
+    "description": "House extension design and build across Kent. Planning, building regs and construction handled by one team. Free visit. Call today.",
+    "canonical": "/extensions/kent"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-brick-orangery.webp",
+      "alt": "House extension in Kent by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Kent",
+    "headline": "House Extensions in Kent",
+    "sub": "We design and build house extensions across Kent, from single storey kitchen extensions to full double storey additions. One team handles the design, the drawings, the planning, the building regulatio"
+  },
+  "intro": [
+    "We design and build house extensions across Kent, from single storey kitchen extensions to full double storey additions. One team handles the design, the drawings, the planning, the building regulations and the build itself, so you deal with the same people from the first visit to the finished room.",
+    "Kent is a varied county to build in. A Victorian villa in Tunbridge Wells, a weatherboarded cottage in the Weald, a Georgian townhouse near the coast and a 1930s semi on the edge of a commuter town all need a different approach. We plan each extension around the house it is joining, not the other way round."
+  ],
+  "introImage": {
+    "src": "/images/blog/open-plan.webp",
+    "alt": "Rear extension on a family home in Kent"
+  },
+  "sideReturn": {
+    "title": "Planning permission for extensions in Kent",
+    "paragraphs": [
+      "This is where local knowledge matters, because Kent is not a single planning authority.",
+      "Householder planning is handled by your district or borough council, not by Kent County Council. That means Tunbridge Wells Borough Council, Maidstone Borough Council, Dartford Borough Council, Canterbury City Council, Ashford Borough Council and so on, each with its own local plan and its own approach. Medway is a separate unitary council covering Rochester, Chatham and Gillingham.",
+      "Many extensions fall under permitted development and do not need a full application. But large parts of Kent carry protections that reduce or remove those rights:",
+      "Conservation areas, which most Kent towns and villages have, restrict what you can do without permission."
+    ],
+    "image": {
+      "src": "/images/blog/planning.webp",
+      "alt": "Extension in Kent"
+    }
+  },
+  "types": {
+    "title": "The extension types that suit Kent homes",
+    "intro": "The right extension depends on the house and the space around it.",
+    "closing": "If you are not sure which suits your home, that is one of the first things we work out together on site.",
+    "items": [
+      {
+        "name": "The right extension depends on the house and the",
+        "text": "The right extension depends on the house and the space around it.",
+        "image": "/images/hero-rear-extension.webp",
+        "imageAlt": "The right extension depends on the house and the"
+      },
+      {
+        "name": "Single storey rear extensions open up the back o",
+        "text": "Single storey rear extensions open up the back of the house, most often to create a large kitchen and family room.",
+        "image": "/images/extension-rear-bifolds.webp",
+        "imageAlt": "Single storey rear extensions open up the back o"
+      },
+      {
+        "name": "Side return extensions fill in the narrow strip ",
+        "text": "Side return extensions fill in the narrow strip beside a Victorian or Edwardian terrace, which turns a cramped galley kitchen into a proper room.",
+        "image": "/images/extension-bifolds.webp",
+        "imageAlt": "Side return extensions fill in the narrow strip "
+      },
+      {
+        "name": "Wrap around extensions combine rear and side to ",
+        "text": "Wrap around extensions combine rear and side to add serious ground floor space.",
+        "image": "/images/extension-brick-orangery.webp",
+        "imageAlt": "Wrap around extensions combine rear and side to "
+      }
+    ]
+  },
+  "tightSite": {
+    "title": "Ground conditions across Kent and why they affect your foundations",
+    "intro": "Kent has some of the most varied ground in the South East, and it changes what your foundations need to do.",
+    "closing": "None of this is exotic when it is planned for at the start.",
+    "items": [
+      {
+        "title": "Ground",
+        "text": "Kent has some of the most varied ground in the South East, and it changes what your foundations need to do."
+      },
+      {
+        "title": "Access",
+        "text": "The North Downs are chalk, which is generally stable but can hide swallow holes. The Weald is heavy clay, which shrinks and swells with the seasons and moves most near mature trees, so foundations often go deeper there. Around Thanet and parts of the coast the ground is sand and made ground. Sloping sites in the High Weald bring their own demands, including spring lines where water sits between sand and clay."
+      },
+      {
+        "title": "Neighbours",
+        "text": "None of this is a problem when it is understood before work begins. It is a problem when it is not. A builder who knows the local ground designs the right foundation from the start rather than discovering it halfway down a trench."
+      }
+    ]
+  },
+  "project": {
+    "title": "How we work in Kent",
+    "text": "Kent has some of the most varied ground in the South East, and it changes what your foundations need to do. The North Downs are chalk, which is generally stable but can hide swallow holes. The Weald is heavy clay, which shrinks and swells with the seasons and moves most near mature trees, so foundations often go deeper there. Around Thanet and parts of the coast the ground is sand and made ground. Sloping sites in the High Weald bring their own demands, including spring lines where water sits between sand and clay. None of this is a problem when it is understood before work begins. It is a problem when it is not. A builder who knows the local ground designs the right foundation from the start rather than discovering it halfway down a trench. How much does an extension cost in Kent? The honest answer is that it depends on size, specification, ground conditions and finish. As a general guide for this part of the South East, single storey extensions commonly work out in the region of a few thousand pounds per square metre of finished space, with double storey often better value per square metre and high specifications sitting well above the base. Protected areas and sloping or difficult sites can add cost, because the design and the groundwork have to work harder. Treat those as a starting point, not a quote. For an early estimate you can use our cost calculator, and for a real figure the best step is a site visit where we price the actual project."
+  },
+  "planning": {
+    "title": "Planning permission for extensions in Kent",
+    "intro": "This is where local knowledge matters, because Kent is not a single planning authority.",
+    "paragraphs": [
+      "Householder planning is handled by your district or borough council, not by Kent County Council. That means Tunbridge Wells Borough Council, Maidstone Borough Council, Dartford Borough Council, Canterbury City Council, Ashford Borough Council and so on, each with its own local plan and its own approach. Medway is a separate unitary council covering Rochester, Chatham and Gillingham.",
+      "Many extensions fall under permitted development and do not need a full application. But large parts of Kent carry protections that reduce or remove those rights:",
+      "Conservation areas, which most Kent towns and villages have, restrict what you can do without permission.",
+      "The High Weald National Landscape in the south west and the Kent Downs National Landscape along the North Downs both lower the size of extension you can build under permitted development. These are the areas formerly known as Areas of Outstanding Natural Beauty.",
+      "Green Belt land limits how much you can add to a house.",
+      "Listed buildings need separate listed building consent for most changes.",
+      "We work out early whether your project needs permission, and where it does, we prepare and manage the application for you.",
+      "Building regulations and party wall matters"
+    ]
+  },
+  "whyUs": {
+    "title": "Ground conditions across Kent and why they affect your foundations",
+    "paragraphs": [
+      "Kent has some of the most varied ground in the South East, and it changes what your foundations need to do.",
+      "The North Downs are chalk, which is generally stable but can hide swallow holes. The Weald is heavy clay, which shrinks and swells with the seasons and moves most near mature trees, so foundations often go deeper there. Around Thanet and parts of the coast the ground is sand and made ground. Sloping sites in the High Weald bring their own demands, including spring lines where water sits between sand and clay.",
+      "None of this is a problem when it is understood before work begins. It is a problem when it is not. A builder who knows the local ground designs the right foundation from the start rather than discovering it halfway down a trench.",
+      "How much does an extension cost in Kent?",
+      "The honest answer is that it depends on size, specification, ground conditions and finish.",
+      "As a general guide for this part of the South East, single storey extensions commonly work out in the region of a few thousand pounds per square metre of finished space, with double storey often better value per square metre and high specifications sitting well above the base. Protected areas and sloping or difficult sites can add cost, because the design and the groundwork have to work harder.",
+      "Treat those as a starting point, not a quote. For an early estimate you can use our cost calculator, and for a real figure the best step is a site visit where we price the actual project."
+    ],
+    "sidewaysLink": {
+      "href": "/loft-conversions/kent",
+      "label": "Need a bedroom instead of a bigger kitchen? See loft conversions in Kent"
+    }
+  },
+  "areas": {
+    "title": "The Kent areas we cover",
+    "intro": "We build across the county and are happy to travel for the right project. Our Kent extension work covers Tunbridge Wells, Maidstone, Canterbury, Ashford, Dartford, Gravesend, Sandwich and the towns of Thanet and Swale, along with the surrounding villages. If you would like detail for your own town, follow the link to your local page, or get in touch and we will confirm we cover your postcode.",
+    "closing": "If your area is not listed, call us anyway.",
+    "towns": [
+      {
+        "name": "Sevenoaks",
+        "slug": "sevenoaks"
+      },
+      {
+        "name": "Tunbridge Wells",
+        "slug": "tunbridge-wells"
+      },
+      {
+        "name": "Orpington",
+        "slug": "orpington"
+      },
+      {
+        "name": "Dartford",
+        "slug": null
+      },
+      {
+        "name": "Maidstone",
+        "slug": null
+      },
+      {
+        "name": "Gravesend",
+        "slug": null
+      }
+    ]
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Cost depends on size, specification and the ground. A free site visit gets you a real figure."
+    ],
+    "costLink": {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "Read the house extension cost guide"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Kent?",
+      "a": "Sometimes. Many extensions fall under permitted development, but conservation areas, the High Weald and Kent Downs National Landscapes, Green Belt and listed status all restrict those rights. It depends on your specific property and which district or borough council covers it. We check this for you early."
+    },
+    {
+      "q": "Which council handles my extension application in Kent?",
+      "a": "Your local district or borough council, such as Tunbridge Wells, Maidstone or Dartford, not Kent County Council. Medway has its own unitary council. We deal with the right authority for your address."
+    },
+    {
+      "q": "How much does a house extension cost in Kent?",
+      "a": "It depends on size, specification and ground conditions. As a rough guide, single storey extensions in this area commonly run at a few thousand pounds per square metre, but the only accurate figure comes from a site visit. Our cost calculator gives an early estimate."
+    },
+    {
+      "q": "How long will my extension take to build?",
+      "a": "A single storey extension typically takes around twelve to sixteen weeks on site, with a double storey taking longer. Design and approvals happen before the build begins, and we give you a full timeline up front."
+    },
+    {
+      "q": "Do you handle the planning and building regulations for me?",
+      "a": "Yes. We manage the planning application, building control and any party wall notices, so you are not dealing with councils and paperwork on your own."
+    },
+    {
+      "q": "Do you build extensions on period and listed properties?",
+      "a": "Yes. Kent has a lot of period and listed homes, and we are experienced in extending them sympathetically, including the extra consent that listed buildings require."
+    },
+    {
+      "q": "Which parts of Kent do you cover?",
+      "a": "We work across the county, including Tunbridge Wells, Maidstone, Canterbury, Ashford, Dartford, Gravesend and the towns of Thanet and Swale, and we travel for the right project. Contact us to confirm your area."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/extensions/essex",
+      "label": "House extensions in Essex"
+    },
+    {
+      "href": "/loft-conversions/kent",
+      "label": "Loft conversions in Kent"
+    },
+    {
+      "href": "/blog/extending-in-a-conservation-area",
+      "label": "Extending in a conservation area"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about a project in Kent?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. No pressure, and no obligation to proceed."
+  }
+}

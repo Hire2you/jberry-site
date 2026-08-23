@@ -1,0 +1,146 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Walthamstow",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "walthamstow",
+  "seo": {
+    "title": "House Extensions in Walthamstow | J Berry Construction",
+    "description": "Extension design and build in Walthamstow. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/london/walthamstow"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/blog/open-plan.webp",
+      "alt": "House extension in Walthamstow by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Walthamstow",
+    "headline": "House Extensions in Walthamstow"
+  },
+  "intro": {
+    "paragraphs": [
+      "Walthamstow terraces all have the same problem: a long, thin kitchen at the back, a useless alley beside it, and no light. There is no side plot to build on and no garage to convert, so the work that transforms these houses is the side return and the loft, done properly. Get either one wrong and you have spent a lot of money to make a dark house slightly bigger.",
+      "We design and build them across Walthamstow and Leyton, handling the drawings, the planning, the party wall notices and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Walthamstow home?",
+      "text": "Thinking about extending your Walthamstow home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in Walthamstow",
+    "items": [
+      "Rear, side and double storey extensions matched to Walthamstow houses."
+    ],
+    "image": {
+      "src": "/images/blog/planning.webp",
+      "alt": "Rear extension suited to homes in Walthamstow"
+    }
+  },
+  "planning": {
+    "title": "Planning in Walthamstow",
+    "paragraphs": [
+      "Your authority is the London Borough of Waltham Forest.",
+      "Many side return and rear extensions here fall under permitted development and need no application, which is the good news. The things to check: conservation areas, of which Walthamstow has several including the village, where permitted development is reduced and design is judged closely; flats, which have no permitted development rights at all, and a lot of these terraces are converted; and any Article 4 directions.",
+      "We check your exact address before anything is drawn and handle the application if you need one.",
+      "The ground",
+      "Walthamstow sits on London Clay, with gravels down towards the Lea valley.",
+      "Clay swells in the wet, shrinks in dry spells and moves near mature trees. On a terrace, though, the bigger issue is almost always the existing footings, which are shallow by modern standards, so the new foundations have to go deeper than the ones they are joining, and the difference has to be handled properly rather than fudged.",
+      "We check the ground and the existing footings before pricing, rather than discovering the problem once the trench is open."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning, the building regulations and the party wall notices. Our quotes are itemised, so you can see what the steel, the underpinning and the glazing actually cost rather than comparing two lump sums. And most of our work comes through recommendation. Recent work near Walthamstow [Real project slot. A completed Walthamstow or Leyton side return would make this page far stronger.] [Testimonial slot.] How your build will run We set out the actual programme at the site visit. For a feel of how a typical extension runs week by week, see our guide on [what to expect during your build]."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the underpinning, and the finish.",
+      "Be aware of this when comparing quotes: a side return costs more per square metre than a big rear extension. The floor area is small but the structural work, two load-bearing walls, steels, padstones, often underpinning, is not. A quote that prices it like a simple garden room has missed something.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is a side return extension?",
+      "a": "It fills in the narrow alley beside the rear projection of a Victorian terrace, squaring off the back of the house. It does not add much floor area, but it turns a dark galley kitchen into a full-width room, which is why it is the standard extension on these houses."
+    },
+    {
+      "q": "Do I need planning permission for a side return in Walthamstow?",
+      "a": "Often not. Many fall under permitted development. But conservation areas, flats and any Article 4 directions change that. We check your address with Waltham Forest first."
+    },
+    {
+      "q": "Will my kitchen be darker afterwards?",
+      "a": "Only if you skip the rooflights. You are building over the alley that light came through, so a proper run of rooflights along the new roof is essential, not a nice-to-have."
+    },
+    {
+      "q": "Do I need to tell my neighbours?",
+      "a": "Yes. In a terrace the Party Wall etc. Act almost always applies, which means serving formal notice, usually two months before work starts. We handle the notices, and doing it properly keeps the street on side."
+    },
+    {
+      "q": "Why do side returns cost more per square metre?",
+      "a": "Because the engineering is heavy for the size. Two load-bearing walls come out, steel beams go in, and Victorian footings are shallow, so padstones and often underpinning are needed. Small floor area, serious structural work."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Walthamstow and Leyton, along with Chingford, Highams Park, Wanstead, Leytonstone and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/london/chingford",
+      "label": "House extensions in Chingford"
+    },
+    {
+      "href": "/extensions/london/leytonstone",
+      "label": "House extensions in Leytonstone"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Walthamstow home?",
+    "text": "Thinking about extending your Walthamstow home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback"
+  },
+  "homes": {
+    "title": "The steel and the footings",
+    "intro": "A full side return means removing two load-bearing walls: the flank wall of the closet wing, and part or all of the wall into the middle room. The floors and roof above have to be carried on steel beams, sized by a structural engineer and signed off under building regs.",
+    "body": "Then there is the bit cheaper quotes skip. Victorian footings are shallow and were never designed to take a concentrated point load from a beam. So the job usually needs properly designed padstones, and on many of these houses, underpinning where the new steel lands.",
+    "closing": "If a quote is notably cheaper than the others, this is usually where the difference is hiding, or there is a column left standing in the middle of your new kitchen. We size the steel for the opening you want and itemise it so you can see what you are paying for. Your neighbours, and the party wall In a terrace, you are working right up against, and usually into, walls you share with people on both sides. That means the Party Wall etc. Act applies. You serve formal notice on your neighbours before work starts, typically two months ahead for party wall work. It is a process rather than an obstacle, but it needs doing properly and early. In a street this tightly packed, neighbours who feel informed are neighbours who tolerate eight weeks of noise. Neighbours who feel ambushed are a problem you will still be living next to in five years. We handle the notices and the sequencing. The loft If you need bedrooms rather than kitchen space, the loft is the answer on these houses. A rear dormer is what turns the roof space into a room with proper head height, usually a double bedroom with an ensuite. Two things to know. The staircase has to come from somewhere, and on a narrow terrace that usually means taking space from the landing or a bedroom below, which is worth thinking about before you commit. And roof alterations can be restricted in conservation areas, so it needs checking first.",
+    "image": {
+      "src": "/images/blog/mistakes.webp",
+      "alt": "Open-plan extension in Walthamstow"
+    }
+  },
+  "place": {
+    "title": "Materials",
+    "paragraphs": [
+      "Brick. London stock, and we match brick, bond and mortar to the original. On these houses that usually means reclaimed stock brick and a softer mortar mix. It costs a little more and it is what stops the extension looking bolted on from the garden.",
+      "One floor finish. Running the same floor from the hall all the way through to the back is what makes the ground floor read as one space rather than three.",
+      "A utility. On a side return you can often steal a metre for a utility cupboard or boot room. On a terrace with no garage, it is the most useful metre in the house."
+    ]
+  }
+}

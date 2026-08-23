@@ -1,0 +1,135 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Bishop's Stortford",
+  "county": "Hertfordshire",
+  "countySlug": "hertfordshire",
+  "townSlug": "bishops-stortford",
+  "seo": {
+    "title": "House Extensions in Bishop's Stortford | J Berry Construction",
+    "description": "Extension design and build in Bishop's Stortford. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/hertfordshire/bishops-stortford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "House extension in Bishop's Stortford by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Bishop's Stortford",
+    "headline": "House Extensions in Bishop's Stortford"
+  },
+  "intro": {
+    "paragraphs": [
+      "We are a local building firm, based just three miles away in Sawbridgeworth, and Bishop's Stortford is very much our home patch. We design and build house extensions across the town and its villages, from a rear extension on a period home near the centre to a larger project on one of the newer estates, and we run the whole job as one team, from the first visit through design, planning and building regulations to the finished room.",
+      "This is a town people work hard to stay in, an old malting town on the Stort with fast trains to London and good schools. So the work here is usually about making a home you love bigger and better rather than moving away from it."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Bishop's Stortford home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Bishop's Stortford",
+    "items": [
+      "The town runs from timber-framed and Georgian buildings around Windhill and the old centre to Victorian and Edwardian homes and large modern developments on the edges. Different homes, different moves.",
+      "Rear extensions opening the back of the house to the garden.",
+      "Side return and wrap-around extensions on the older homes.",
+      "Double storey extensions for bedrooms and living space together.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic work to period and listed homes in and around the conservation area."
+    ],
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Rear extension suited to homes in Bishop's Stortford"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Bishop's Stortford",
+    "paragraphs": [
+      "Here is the local detail that catches people out, and it is worth knowing before you plan anything.",
+      "Your planning authority is East Hertfordshire District Council. The town-centre conservation area is covered by an Article 4 direction, confirmed in 2017, which removes a number of the permitted development rights you would normally have. In practice that means around 1,500 households need planning permission for things that are automatic elsewhere, including some window and door changes, roof coverings and street-facing alterations. Most work that is not visible from the street, and genuine like-for-like repairs, are generally not affected, but it pays to check. Listed buildings, of which the old town has many, need separate consent.",
+      "Out on the newer estates it is a different story, and many extensions there still fall under permitted development. Knowing which regime your home sits under is exactly where we start, so you do not design something that was never going to be allowed. One note for the future: East Herts is due to be replaced by a new unitary council around 2028, though the rules will carry over. We check where your property stands and manage any application for you.",
+      "The ground around Bishop's Stortford",
+      "The ground here is boulder clay over London Clay, the stiff glacial clay that blankets this part of the Hertfordshire and Essex border, with the River Stort valley cutting through the town. Boulder clay is generally firm but variable, and the London Clay beneath swells and shrinks with the seasons, moving most near mature trees. Closer to the Stort the ground can be softer and wetter, with a higher water table.",
+      "On a plot near a large tree, or down towards the river, foundations often need more depth and thought than people expect. We would rather design for that from the start than meet it as a surprise, so on trickier plots we get the ground checked before pricing the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are inviting a team into your home for months, and being genuinely local counts for a lot. We are on your doorstep, not the far end of a long drive, and a good deal of our work in the town has come through recommendation. You deal with one team throughout, run by the company director. We handle the planning and building regulations, which in Bishop's Stortford means knowing the conservation rules that trip a lot of people up. Our quotes are itemised, not a lump sum."
+  },
+  "cost": {
+    "title": "What an extension costs in Bishop's Stortford",
+    "paragraphs": [
+      "Cost comes down to size, specification, structural work and finish, and heritage work in the conservation area can add to it.",
+      "As a general guide, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Those are ballpark figures, not a quote. Use our cost calculator for an early estimate, and book a free site visit for a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Bishop's Stortford?",
+      "a": "It depends where your home is. In the town-centre conservation area, an Article 4 direction means more work needs permission than usual, including some window, door and street-facing changes. On the newer estates, many extensions fall under permitted development. We check your exact address with East Herts District Council and handle any application."
+    },
+    {
+      "q": "What does the Article 4 direction mean for my home?",
+      "a": "If your property is in the conservation area, some changes that would normally be automatic now need planning permission, mainly ones visible from the street. Work hidden from public view and genuine like-for-like repairs are usually unaffected. We will tell you exactly how it applies to your house."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Bishop's Stortford sits on boulder clay over London Clay, which moves with the seasons and near trees, and the ground softens towards the Stort valley. That often means deeper or specially designed foundations, so we check the ground before starting."
+    },
+    {
+      "q": "Which areas around Bishop's Stortford do you cover?",
+      "a": "Bishop's Stortford itself, along with Sawbridgeworth, Stansted, Much Hadham, Thorley and the surrounding villages, and we are based right nearby. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/hertfordshire",
+      "label": "House extensions in Hertfordshire"
+    },
+    {
+      "href": "/extensions/hertfordshire/sawbridgeworth",
+      "label": "House extensions in Sawbridgeworth"
+    },
+    {
+      "href": "/loft-conversions/hertfordshire",
+      "label": "Loft conversions in Hertfordshire"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Bishop's Stortford home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground: Weeks 1 to 2: setting up, then groundworks and foundations. Weeks 3 to 4: brickwork to damp-proof course, drainage and the slab. Weeks 4 to 6: walls up, structural steel in, roof on and watertight. Weeks 6 to 8: windows and doors, first-fix electrics and plumbing. Weeks 8 to 10: plastering, second fix and the kitchen fit-out. Final week: decorating, flooring and snagging before we hand over. Recent work in Bishop's Stortford [Real project slot. This is a town we know well and have worked in, so a completed local project with two or three photos and a line on the brief will make this page genuinely strong. Send one and it goes here.] [Testimonial slot. You already have a real review from a Bishop's Stortford client, so drop it in here with a first name and area.]"
+  }
+}

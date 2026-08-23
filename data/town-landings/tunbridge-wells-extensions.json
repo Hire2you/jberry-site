@@ -1,0 +1,140 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Tunbridge Wells",
+  "county": "Kent",
+  "countySlug": "kent",
+  "townSlug": "tunbridge-wells",
+  "seo": {
+    "title": "House Extensions in Tunbridge Wells | J Berry Construction",
+    "description": "Extension design and build in Tunbridge Wells. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/kent/tunbridge-wells"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/kitchen-granite.webp",
+      "alt": "House extension in Tunbridge Wells by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Tunbridge Wells",
+    "headline": "House Extensions in Tunbridge Wells"
+  },
+  "intro": {
+    "paragraphs": [
+      "We design and build house extensions in Tunbridge Wells and the surrounding Wealden villages. From a side return on a town villa to a rear extension on a country cottage, we handle the design, planning, building regulations and construction as one team.",
+      "Tunbridge Wells is a demanding place to build well, in the best sense. Its Victorian and Edwardian homes and its Wealden cottages were built with care, and an extension has to be worthy of them. That is the standard we work to."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Tunbridge Wells home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in and around Tunbridge Wells",
+    "items": [
+      "Side return extensions on the town's Victorian and Edwardian homes, turning narrow kitchens into wide, light family rooms.",
+      "Rear extensions that open the back of the house to the garden.",
+      "Wrap around extensions where the plot allows both.",
+      "Double storey extensions that add a bedroom or bathroom above new ground floor space.",
+      "Sympathetic extensions to cottages and period homes in the Weald, using tile hanging, weatherboarding, local sandstone and handmade brick so the addition belongs."
+    ],
+    "image": {
+      "src": "/images/hero-rear-extension.webp",
+      "alt": "Rear extension suited to homes in Tunbridge Wells"
+    }
+  },
+  "planning": {
+    "title": "Planning permission in Tunbridge Wells",
+    "paragraphs": [
+      "Tunbridge Wells has one of the richest heritage settings in Kent, and that shapes what you can build.",
+      "Your planning authority is Tunbridge Wells Borough Council. The borough has twenty-five conservation areas, including the Royal Tunbridge Wells town centre with its Pantiles and Victorian crescents, plus centres like Southborough and Cranbrook. More than seventy per cent of the borough lies within the High Weald National Landscape, the protected area formerly known as an Area of Outstanding Natural Beauty, and there is Green Belt to the north.",
+      "In plain terms, these protections lower the size of extension you can build under permitted development and raise the bar on design and materials. Listed buildings, of which the borough has many, need separate listed building consent.",
+      "None of this stops good projects going ahead. The council approves a high proportion of well designed applications. It just means the design has to be right and the application has to be handled properly, which is exactly what we do for you.",
+      "Building on Wealden ground: sand, clay and sloping sites",
+      "The ground around Tunbridge Wells is not the flat, uniform stuff builders prefer, and that is worth knowing before you dig.",
+      "Much of the area sits on Tunbridge Wells Sand, a sandstone that overlies Wadhurst Clay. Where the two meet, water often seeps out along spring lines, and the High Weald's steep, valleyed landscape means many gardens slope. A sloping site, a spring line or a change in ground between sand and clay all affect how foundations are designed, and sometimes call for a ground investigation before work starts.",
+      "This is the kind of detail that separates a build that lasts from one that gives trouble later. We plan the groundwork around the site you actually have."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning and the building regulations. Our quotes are itemised. Most of our work comes through recommendation."
+  },
+  "cost": {
+    "title": "What an extension costs in Tunbridge Wells",
+    "paragraphs": [
+      "Cost comes down to size, specification, ground conditions and finish, and Tunbridge Wells adds a couple of local factors.",
+      "Protected settings can mean higher quality materials and more design work, and sloping or spring line sites can mean more groundwork. As a general South East guide, single storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. Use our cost calculator for an early estimate, and book a site visit for a real figure on your property.",
+      "How we work, from first visit to finished home",
+      "First visit. We come to the house, listen to what you want, and talk through what is realistic on your property and in your planning setting.",
+      "Design and drawings. We develop the design, working with your architect or bringing one in if you need one.",
+      "Planning and building regulations. We prepare and manage the approvals, including conservation and AONB considerations.",
+      "Detailed quote. A clear, itemised price, not a vague lump sum.",
+      "The build. One managed team, director involved throughout, site kept tidy, you kept informed.",
+      "Handover. We finish properly and hand back a home ready to enjoy.",
+      "Recent projects near Tunbridge Wells",
+      "[Real project slot. One genuine local build carries more weight than any amount of copy. Send me a completed Tunbridge Wells or Wealden project with two or three photos and a line on the brief, and I'll write this section properly. If you have several, we can build individual case study pages and link them here.]"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Tunbridge Wells?",
+      "a": "Often, yes. Much of the borough sits within conservation areas or the High Weald National Landscape, which reduce permitted development rights, and listed buildings need separate consent. It depends on your exact property, and we check it for you before you plan the work."
+    },
+    {
+      "q": "Can I still extend a house in the High Weald National Landscape?",
+      "a": "Yes. The protection means a smaller permitted development allowance and a higher design standard, not a ban on extending. Well designed schemes are regularly approved. We design with those requirements in mind from the start."
+    },
+    {
+      "q": "Do you work on period villas and listed cottages?",
+      "a": "Yes. Tunbridge Wells is full of period property, and we extend and renovate it sympathetically, matching materials like tile hanging, weatherboarding and handmade brick, and handling listed building consent where it applies."
+    },
+    {
+      "q": "How much does an extension cost in Tunbridge Wells?",
+      "a": "It depends on size, specification and ground conditions, and protected settings or sloping sites can add to it. As a rough guide, single storey extensions in this area commonly run at a few thousand pounds per square metre. A site visit gives you an accurate figure."
+    },
+    {
+      "q": "Why does the local ground matter for my extension?",
+      "a": "The area's mix of sandstone, clay and sloping, spring line sites affects how foundations are designed. Understanding it before we start avoids problems later, which is why we plan the groundwork around your specific site."
+    },
+    {
+      "q": "Which areas around Tunbridge Wells do you cover?",
+      "a": "Tunbridge Wells itself, Southborough, Cranbrook and the surrounding Wealden villages, and we cover the wider county too. Get in touch and we will confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/kent",
+      "label": "House extensions in Kent"
+    },
+    {
+      "href": "/extensions/kent/sevenoaks",
+      "label": "House extensions in Sevenoaks"
+    },
+    {
+      "href": "/loft-conversions/kent/tunbridge-wells",
+      "label": "Loft conversions in Tunbridge Wells"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Tunbridge Wells home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  }
+}

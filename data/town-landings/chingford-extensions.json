@@ -1,0 +1,149 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Chingford",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "chingford",
+  "seo": {
+    "title": "House Extensions in Chingford | J Berry Construction",
+    "description": "Extension design and build in Chingford. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/london/chingford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-brick-orangery.webp",
+      "alt": "House extension in Chingford by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Chingford",
+    "headline": "House Extensions in Chingford"
+  },
+  "intro": {
+    "paragraphs": [
+      "Most Chingford houses have two things a lot of London homes do not: a decent plot and a garage nobody parks in. That combination opens up options other boroughs simply do not have, and it is why the best-value work here is often not the obvious rear extension at all.",
+      "We design and build extensions across Chingford and Highams Park, handling the drawings, the planning, the building regulations and the build as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Chingford home?",
+      "text": "Thinking about extending your Chingford home? Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533 · Request a callback",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in Chingford",
+    "items": [
+      "Rear, side and double storey extensions matched to Chingford houses."
+    ],
+    "image": {
+      "src": "/images/blog/open-plan.webp",
+      "alt": "Rear extension suited to homes in Chingford"
+    }
+  },
+  "planning": {
+    "title": "Planning in Chingford",
+    "paragraphs": [
+      "Your authority is the London Borough of Waltham Forest.",
+      "A lot of rear extensions and garage conversions here fall under permitted development and need no full application, which is genuinely good news on these plots. The things to check are conservation areas, where permitted development is reduced and design is looked at more closely; flats, which have no permitted development rights at all; and any Article 4 directions, which remove rights that would normally be automatic.",
+      "A two-storey side or over-garage extension normally needs full planning permission.",
+      "Epping Forest is right on the doorstep, and people worry about it. In practice, its protected status mainly affects proposals that create a new, separate dwelling, not an extension to the house you live in. Trees near the forest are often protected, though, and that affects both design and foundations.",
+      "We check your exact address before anything is drawn and handle the application if you need one.",
+      "The ground, and the trees",
+      "Chingford sits on London Clay, with gravels on the higher ground up towards the forest ridge.",
+      "Clay swells in the wet, shrinks in dry spells and moves most near mature trees, and this is a leafy corner of London with a good number of protected trees. A large tree near the back of the house is the most common reason foundations here go deeper than expected.",
+      "We check the ground and the trees before pricing the groundworks, rather than finding out halfway down a trench."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning and the building regulations. Our quotes are itemised, so you can see what the steel, the groundwork and the glazing actually cost rather than comparing two lump sums. And most of our work comes through recommendation. Recent work near Chingford [Real project slot. We recently completed a full-width rear extension and open-plan ground floor in nearby Woodford, the kind of job these houses suit well. A completed Chingford project would strengthen this page further.] [Testimonial slot.] How your build will run We set out the actual programme at the site visit. For a feel of how a typical extension runs week by week, see our guide on [what to expect during your build]."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork and the finish. Worth knowing: a garage conversion is by far the cheapest floor area you can add, because the structure exists. A rear extension is the middle. A double storey is the best value per square metre if you need bedrooms as well.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission to convert my garage?",
+      "a": "Often not, if the conversion is internal and you are not changing the structure much. But conservation areas, flats and any Article 4 directions change that, and some properties have the right removed by planning condition. We check your address with Waltham Forest first."
+    },
+    {
+      "q": "Is a garage conversion actually worth it?",
+      "a": "It is the cheapest square metre you can add, because the walls, roof and foundations already exist. The important thing is doing it properly: insulated floor build-up with a damp membrane, insulated walls, a proper ceiling and real heating. Skip those and it will always feel like a garage."
+    },
+    {
+      "q": "Can I build a room above my garage?",
+      "a": "Often, yes, and it is usually the cheapest bedroom available to you. The question is whether the existing garage foundations and walls will carry a storey, which needs checking rather than assuming. It normally needs full planning permission."
+    },
+    {
+      "q": "Does Epping Forest affect my extension?",
+      "a": "Usually not. The forest's protection mainly affects proposals for a new separate dwelling rather than an extension to your own home. Trees near the forest are often protected, though, and that affects design and foundations."
+    },
+    {
+      "q": "Will my kitchen be dark in the middle after a rear extension?",
+      "a": "It can be, if all the glass is at the back. A roof lantern or a run of rooflights over the middle of the new space is what keeps it bright, and it is the element most often left out of a budget."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Chingford and Highams Park, along with Woodford, South Woodford, Buckhurst Hill, Walthamstow and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/london/walthamstow",
+      "label": "House extensions in Walthamstow"
+    },
+    {
+      "href": "/extensions/london/enfield",
+      "label": "House extensions in Enfield"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Chingford home?",
+    "text": "Thinking about extending your Chingford home? Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533 · Request a callback"
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "",
+    "body": "",
+    "closing": "",
+    "image": {
+      "src": "/images/blog/planning.webp",
+      "alt": "Open-plan extension in Chingford"
+    }
+  },
+  "place": {
+    "title": "Materials and the choices that matter",
+    "paragraphs": [
+      "Brick and tile matching. Interwar Chingford brick is distinctive, and often paired with render or tile hanging above. Matching brick, bond and roof tile is what makes an extension read as part of the house. It takes more care and can affect the quote.",
+      "The roof line. On a side or over-garage extension, keeping the new ridge below the original and setting the front face back slightly is both what looks right and usually what gets it approved.",
+      "Sliders or bifolds. Sliders give bigger panes and slimmer frames, and look better for the eleven months a year they are shut. Bifolds open fully. Most people land on sliders once they have seen both.",
+      "Rooflights or a lantern. Extend across the back and the middle of the house goes dark. A lantern over the island or dining table is usually what saves it, and it is the most commonly forgotten line in a budget.",
+      "The utility. With the plots you have here, stealing a metre for a utility or boot room off the back is almost always worth it. It is the thing people are most glad of afterwards."
+    ]
+  }
+}

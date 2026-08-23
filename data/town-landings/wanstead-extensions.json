@@ -1,0 +1,148 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Wanstead",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "wanstead",
+  "seo": {
+    "title": "House Extensions in Wanstead | J Berry Construction",
+    "description": "Extension design and build in Wanstead. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/london/wanstead"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "House extension in Wanstead by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Wanstead",
+    "headline": "House Extensions in Wanstead"
+  },
+  "intro": {
+    "paragraphs": [
+      "Wanstead's Edwardian and Victorian houses have good bones and bad kitchens. Generous rooms at the front, decent ceiling heights, and then a cramped galley tacked on the back with the light blocked by a side alley. Fixing that, properly, is most of what we build here.",
+      "We design and build extensions across Wanstead and Snaresbrook, taking on the drawings, the planning, the building regulations and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Wanstead home?",
+      "text": "Thinking about extending your Wanstead home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in Wanstead",
+    "items": [
+      "Rear, side and double storey extensions matched to Wanstead houses."
+    ],
+    "image": {
+      "src": "/images/extension-brick-orangery.webp",
+      "alt": "Rear extension suited to homes in Wanstead"
+    }
+  },
+  "planning": {
+    "title": "Planning in Wanstead",
+    "paragraphs": [
+      "Your authority is the London Borough of Redbridge.",
+      "A lot of rear and side extensions here fall under permitted development and need no application. The things to check are the conservation areas around Wanstead village and parts of Snaresbrook, where permitted development is reduced, design is judged closely, and roof alterations like dormers need care; and flats, which have no permitted development rights at all, which matters given how many period houses here have been converted.",
+      "Epping Forest sits on the doorstep, and people often worry about it. In practice its protected status mainly affects proposals that create a new, separate dwelling, not an extension to the house you live in. What does matter near the forest is trees, which are frequently protected, and that affects both the design and the foundations.",
+      "We check your exact address before anything is drawn, and handle the application if you need one.",
+      "The ground, and the trees",
+      "Wanstead sits on London Clay, with gravels on the higher ground towards the Flats.",
+      "Clay swells in the wet, shrinks in dry spells and moves most near mature trees, and this is one of the leafiest parts of east London, with a good number of protected trees. A large tree near the back of the house is the most common reason foundations here go deeper than a homeowner expects, sometimes considerably.",
+      "We check the ground, the trees and the existing footings before pricing the groundworks, rather than finding out once the digger is running."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning, the building regulations and any party wall notices. Our quotes are itemised, so you can see what the steel, the brick and the glazing actually cost rather than comparing two lump sums. And most of our work comes through recommendation. Recent work near Wanstead [Real project slot. We recently completed a full-width rear extension and open-plan ground floor reworking in neighbouring Woodford, which is exactly the kind of job these houses suit. A completed Wanstead project would make this page stronger still.] [Testimonial slot.] How your build will run We set out the actual programme at the site visit. For a feel of how a typical extension runs week by week, see our guide on [what to expect during your build]."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork, and the finish. A side return is small in floor area but structurally demanding, so its cost per square metre runs higher than a straightforward rear extension. Worth knowing when you compare quotes.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Wanstead?",
+      "a": "Often not. Many rear and side extensions fall under permitted development. The exceptions are the conservation areas around Wanstead village and Snaresbrook, where more work needs permission, and flats, which have no permitted development rights at all. We check your address with Redbridge Council first."
+    },
+    {
+      "q": "Does Epping Forest affect my extension?",
+      "a": "Usually not. The forest's protected status mainly affects proposals that create a new separate dwelling rather than an extension to your own home. Trees near the forest are often protected, though, so that gets factored into the design and the foundations."
+    },
+    {
+      "q": "Can I build a double storey side extension?",
+      "a": "Often, yes, and it is the best value option if you have the width, which many Wanstead houses do. It normally needs full planning permission. The key is the roof design, tying the new ridge into the original properly."
+    },
+    {
+      "q": "Will a side return make my kitchen darker?",
+      "a": "Only if you skip the rooflights. You are building over the alley that light came through, so a proper run of rooflights along the new roof is essential."
+    },
+    {
+      "q": "Why might my foundations be deeper than expected?",
+      "a": "London Clay moves near mature trees, and Wanstead is leafy with many protected trees. A large tree near the extension often means deeper foundations. Period houses also have shallow original footings, which the new work has to account for."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Wanstead and Snaresbrook, along with Woodford, South Woodford, Leytonstone, Redbridge and the surrounding area. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/london/woodford",
+      "label": "House extensions in Woodford"
+    },
+    {
+      "href": "/extensions/london/leytonstone",
+      "label": "House extensions in Leytonstone"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Wanstead home?",
+    "text": "Thinking about extending your Wanstead home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback"
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "",
+    "body": "",
+    "closing": "",
+    "image": {
+      "src": "/images/blog/open-plan.webp",
+      "alt": "Open-plan extension in Wanstead"
+    }
+  },
+  "place": {
+    "title": "Materials and the choices that matter",
+    "paragraphs": [
+      "Brick. London stock and red brick dominate. We match brick, bond and mortar to the original, which on older houses often means reclaimed stock and a softer mortar mix. It takes more care and can affect the quote, and it is what stops the extension reading as an add-on.",
+      "Rooflights over the side return. You have just built over the one place light reached the kitchen. A proper run of rooflights along the new roof is essential, not optional. It is the single most common regret on these jobs.",
+      "Sliders or bifolds. Sliders give you bigger panes and slimmer frames, and look better for the eleven months a year they are closed. Bifolds open fully. Most people choose sliders once they have seen both.",
+      "Glazing that suits the house. If the original has sash windows, chunky bifolds tend to fight them. Slim-profile aluminium or steel-look glazing usually sits better against a period elevation.",
+      "One floor finish. Running the same floor from the hall through to the new kitchen is what makes it read as one space."
+    ]
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Buckhurst Hill",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "buckhurst-hill",
+  "seo": {
+    "title": "House Extensions in Buckhurst Hill | J Berry Construction",
+    "description": "Extension design and build in Buckhurst Hill. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/essex/buckhurst-hill"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/blog/mistakes.webp",
+      "alt": "House extension in Buckhurst Hill by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Buckhurst Hill",
+    "headline": "House Extensions in Buckhurst Hill"
+  },
+  "intro": {
+    "paragraphs": [
+      "In a place like Buckhurst Hill, moving to a bigger house is expensive and, for most families, the last thing they want to do. They like where they live. They just need it to work harder. That is why so much of the work here is extending and reworking a home people have no intention of leaving.",
+      "We design and build house extensions across Buckhurst Hill and the surrounding area, and we run the whole job as one team, from the first visit through the design, the planning and the building regulations to the finished room. Just over the boundary in neighbouring Woodford we recently built a full-width extension and reworked an entire ground floor into one open-plan space, which is a good example of the kind of project this area calls for."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Buckhurst Hill home?",
+      "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build around Buckhurst Hill",
+    "items": [
+      "The town grew quickly after the railway arrived in 1856, so it is rich in Victorian and Edwardian villas and terraces, with later interwar and modern homes filling in around them. Different eras, different approaches.",
+      "Rear extensions that open the back of the house to the garden.",
+      "Full-width and wrap-around extensions for a larger open-plan ground floor.",
+      "Side return extensions on the older villas and terraces.",
+      "Double storey extensions when you need bedrooms as well as living space.",
+      "Kitchen extensions with sliding or bifold doors and a roof lantern.",
+      "Sympathetic work to period homes, matching the original brick and detail."
+    ],
+    "image": {
+      "src": "/images/blog/conservation.webp",
+      "alt": "Rear extension suited to homes in Buckhurst Hill"
+    }
+  },
+  "planning": {
+    "title": "Planning permission for an extension in Buckhurst Hill",
+    "paragraphs": [
+      "This is where Buckhurst Hill needs a careful eye, so it is worth understanding before you get attached to a design.",
+      "Your planning authority is Epping Forest District Council. Two things shape most projects here. First, the district is around 92 per cent Green Belt, and a lot of the land in and around the town falls within it. In the Green Belt you can still extend, but the scale is limited: the work must not be a disproportionate addition to the original house. Second, the older heart of the town sits in the St John's conservation area, around the listed parish church, the High Road and the green spaces the Epping Forest Act protected back in 1878. In a conservation area some permitted development rights are reduced, and in places removed altogether, so what is allowed without permission on one street may need an application on the next.",
+      "Being right on the forest raises one more common worry. Epping Forest is a protected Special Area of Conservation with a zone of influence around it, but in practice that mainly bites on proposals that create a new, separate home. A straightforward extension to the house you already live in is generally not caught. Trees, on the other hand, are frequently protected this close to the forest, so where a project sits near one we build that into the design.",
+      "We work out exactly where your property stands before you commit to anything, and we prepare and manage any application for you.",
+      "The ground here changes as you go up the hill",
+      "The clue is in the name. Buckhurst Hill rises onto the ridge that carries Epping Forest, and the ground is not the same top to bottom. The higher ground tends to be capped with sandier beds, while London Clay takes over on the slopes and below, and towards the Roding valley the ground softens again.",
+      "London Clay is the one to respect. It swells and shrinks with the seasons and moves most near large trees, of which this area has no shortage. On a sloping plot, or one with a mature tree nearby, foundations often need more thought and more depth than people expect. We would far rather work that out at the design stage than meet it as a surprise once the digger is on site, so on trickier plots we will get the ground checked before we price the groundworks."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "You are handing your home over for a few months, so trust comes first. With us you get one team throughout, run by the company director, so there is always a clear person to answer to. We take on the planning and building regulations ourselves, which in Buckhurst Hill is no small thing given the Green Belt and conservation rules. Our quotes are properly itemised rather than a single lump sum. And most of our work arrives by word of mouth, which tends to keep standards honest."
+  },
+  "cost": {
+    "title": "What an extension costs in Buckhurst Hill",
+    "paragraphs": [
+      "Cost comes down to size, specification, the amount of structural work and the finish. A full-width open-plan project with steelwork and high-end glazing sits well above a modest rear extension.",
+      "As a general guide for this part of the world, single-storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre. Protected settings and sloping or clay-heavy plots can add to the groundwork. Those are ballpark figures, not a quote. For an early estimate use our cost calculator, and for a real, itemised figure book a free site visit so we can price your actual project.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, structural steel and all, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Buckhurst Hill?",
+      "a": "Sometimes. Many extensions fall under permitted development, but the St John's conservation area reduces those rights in places, and the Green Belt limits scale, so more projects here need permission than in a typical suburb. We check your exact address with Epping Forest District Council and handle any application for you."
+    },
+    {
+      "q": "Can I extend my house if it is in the Green Belt?",
+      "a": "Usually, yes. The Green Belt does not ban extensions, it caps how much you can add before the work becomes a disproportionate addition to the original house. Plenty of well-judged schemes go ahead. We assess where your property sits and design to what the rules allow from the start."
+    },
+    {
+      "q": "Does being next to Epping Forest affect my extension?",
+      "a": "For a normal extension to your own home, usually not. The forest's protected status and its surrounding zone mainly affect proposals that create a new separate dwelling. Trees near the forest are often protected, though, so we factor that into the design where it applies."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project rather than a vague figure."
+    },
+    {
+      "q": "Is the first visit really free and no-obligation?",
+      "a": "Yes. The visit and the quote cost nothing, and there is no pressure to proceed."
+    },
+    {
+      "q": "Why does the local ground matter for my foundations?",
+      "a": "Buckhurst Hill sits on a ridge, so the ground varies from sandier on the higher parts to London Clay on the slopes, and the clay moves with the seasons and near trees. That often means deeper or specially designed foundations, so we check the ground before we start."
+    },
+    {
+      "q": "Which areas around Buckhurst Hill do you cover?",
+      "a": "Buckhurst Hill itself, along with Woodford, Loughton, Chigwell, Wanstead and the wider area. Call us and we will confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex",
+      "label": "House extensions in Essex"
+    },
+    {
+      "href": "/extensions/essex/loughton",
+      "label": "House extensions in Loughton"
+    },
+    {
+      "href": "/loft-conversions/essex/buckhurst-hill",
+      "label": "Loft conversions in Buckhurst Hill"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Buckhurst Hill home?",
+    "text": "Book a free, no-obligation site visit and we will talk through what will actually work on your house and what it will cost. Call 07920 731533."
+  },
+  "buildProcess": {
+    "title": "What the build actually looks like",
+    "text": "Once we are on site, a single-storey extension usually runs roughly like this, allowing for size, weather and ground: Weeks 1 to 2: setting up, then groundworks and foundations, the part the local clay and any nearby trees affect most. Weeks 3 to 4: brickwork up to damp-proof course, drainage and the slab. Weeks 4 to 6: walls up, any structural steel in, roof on and made watertight. Weeks 6 to 8: windows and doors, then first-fix electrics and plumbing. Weeks 8 to 10: plastering, second fix and the kitchen fit-out. Final week: decorating, flooring and snagging before we hand the room back. Recent work near Buckhurst Hill [Real project slot. A completed Buckhurst Hill job with two or three photos and a line on the brief will make this page far stronger. Until then, the neighbouring Woodford project above stands as a genuine, local example of this kind of full-width, open-plan work, which we are happy to talk you through.] [Testimonial slot: one real client quote here, with a first name and area, earns trust right at the point people decide whether to enquire.]"
+  }
+}

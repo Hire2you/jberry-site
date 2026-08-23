@@ -31,11 +31,13 @@ const ESSEX_EXTENSION_TOWNS = [
   { slug: 'billericay', town: 'Billericay' },
   { slug: 'braintree', town: 'Braintree' },
   { slug: 'brentwood', town: 'Brentwood' },
+  { slug: 'buckhurst-hill', town: 'Buckhurst Hill' },
   { slug: 'chelmsford', town: 'Chelmsford' },
   { slug: 'chigwell', town: 'Chigwell' },
   { slug: 'colchester', town: 'Colchester' },
   { slug: 'epping', town: 'Epping' },
   { slug: 'grays', town: 'Grays' },
+  { slug: 'great-dunmow', town: 'Great Dunmow' },
   { slug: 'harlow', town: 'Harlow' },
   { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
   { slug: 'loughton', town: 'Loughton' },
@@ -46,33 +48,74 @@ const ESSEX_EXTENSION_TOWNS = [
 ] as const;
 
 const ESSEX_LOFT_TOWNS = [
+  { slug: 'basildon', town: 'Basildon' },
   { slug: 'billericay', town: 'Billericay' },
   { slug: 'braintree', town: 'Braintree' },
+  { slug: 'brentwood', town: 'Brentwood' },
   { slug: 'buckhurst-hill', town: 'Buckhurst Hill' },
   { slug: 'chelmsford', town: 'Chelmsford' },
+  { slug: 'chigwell', town: 'Chigwell' },
   { slug: 'colchester', town: 'Colchester' },
+  { slug: 'epping', town: 'Epping' },
   { slug: 'grays', town: 'Grays' },
+  { slug: 'great-dunmow', town: 'Great Dunmow' },
+  { slug: 'harlow', town: 'Harlow' },
   { slug: 'leigh-on-sea', town: 'Leigh-on-Sea' },
   { slug: 'loughton', town: 'Loughton' },
+  { slug: 'maldon', town: 'Maldon' },
+  { slug: 'ongar', town: 'Ongar' },
+  { slug: 'rayleigh', town: 'Rayleigh' },
+  { slug: 'saffron-walden', town: 'Saffron Walden' },
   { slug: 'southend-on-sea', town: 'Southend-on-Sea' },
+  { slug: 'wickford', town: 'Wickford' },
   { slug: 'witham', town: 'Witham' },
 ] as const;
 
 const LONDON_EXTENSION_TOWNS = [
+  { slug: 'chingford', town: 'Chingford' },
+  { slug: 'enfield', town: 'Enfield' },
   { slug: 'hornchurch', town: 'Hornchurch' },
   { slug: 'ilford', town: 'Ilford' },
   { slug: 'leytonstone', town: 'Leytonstone' },
   { slug: 'romford', town: 'Romford' },
+  { slug: 'walthamstow', town: 'Walthamstow' },
+  { slug: 'wanstead', town: 'Wanstead' },
+  { slug: 'woodford', town: 'Woodford' },
+] as const;
+
+const KENT_LOFT_TOWNS = [
+  { slug: 'bromley', town: 'Bromley' },
+  { slug: 'dartford', town: 'Dartford' },
+  { slug: 'gravesend', town: 'Gravesend' },
+  { slug: 'maidstone', town: 'Maidstone' },
+  { slug: 'sevenoaks', town: 'Sevenoaks' },
+  { slug: 'tunbridge-wells', town: 'Tunbridge Wells' },
+] as const;
+
+const KENT_EXTENSION_TOWNS = [
+  { slug: 'orpington', town: 'Orpington' },
+  { slug: 'sevenoaks', town: 'Sevenoaks' },
+  { slug: 'tunbridge-wells', town: 'Tunbridge Wells' },
+] as const;
+
+const HERTS_EXTENSION_TOWNS = [
+  { slug: 'bishops-stortford', town: "Bishop's Stortford" },
+  { slug: 'sawbridgeworth', town: 'Sawbridgeworth' },
 ] as const;
 
 const STATIC_TOWN_SLUGS: string[] = [
   ...ESSEX_EXTENSION_TOWNS.map((t) => t.slug),
   ...LONDON_EXTENSION_TOWNS.map((t) => t.slug),
   ...ESSEX_LOFT_TOWNS.map((t) => t.slug),
+  ...KENT_LOFT_TOWNS.map((t) => t.slug),
+  ...KENT_EXTENSION_TOWNS.map((t) => t.slug),
+  ...HERTS_EXTENSION_TOWNS.map((t) => t.slug),
   'leigh',
   'leyton',
   'essex',
   'london',
+  'kent',
+  'hertfordshire',
 ];
 
 export type ServiceLandingData = {
@@ -622,8 +665,15 @@ export default function ServiceLandingPage({
                   ? [
                       { href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
                       { href: '/loft-conversions/london', label: `${shortName}s in London`, town: 'London' },
+                      { href: '/loft-conversions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
+                      { href: '/loft-conversions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
                       ...ESSEX_LOFT_TOWNS.map((t) => ({
                         href: `/loft-conversions/essex/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                      ...KENT_LOFT_TOWNS.map((t) => ({
+                        href: `/loft-conversions/kent/${t.slug}`,
                         label: `${shortName}s in ${t.town}`,
                         town: t.town,
                       })),
@@ -631,7 +681,10 @@ export default function ServiceLandingPage({
                   : []),
                 ...(serviceSlug === 'extensions'
                   ? [
+                      { href: '/extensions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
                       { href: '/extensions/london', label: `${shortName}s in London`, town: 'London' },
+                      { href: '/extensions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
+                      { href: '/extensions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
                       ...ESSEX_EXTENSION_TOWNS.map((t) => ({
                         href: `/extensions/essex/${t.slug}`,
                         label: `${shortName}s in ${t.town}`,
@@ -639,6 +692,16 @@ export default function ServiceLandingPage({
                       })),
                       ...LONDON_EXTENSION_TOWNS.map((t) => ({
                         href: `/extensions/london/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                      ...KENT_EXTENSION_TOWNS.map((t) => ({
+                        href: `/extensions/kent/${t.slug}`,
+                        label: `${shortName}s in ${t.town}`,
+                        town: t.town,
+                      })),
+                      ...HERTS_EXTENSION_TOWNS.map((t) => ({
+                        href: `/extensions/hertfordshire/${t.slug}`,
                         label: `${shortName}s in ${t.town}`,
                         town: t.town,
                       })),
