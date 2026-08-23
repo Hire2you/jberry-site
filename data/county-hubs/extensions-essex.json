@@ -1,0 +1,267 @@
+{
+  "serviceSlug": "extensions",
+  "county": "Essex",
+  "countySlug": "essex",
+  "seo": {
+    "title": "House Extensions in Essex | Design & Build – J Berry",
+    "description": "House extension design and build across Essex, from single storey to double storey. Planning, building regs and construction handled by one team. Free visit.",
+    "canonical": "/extensions/essex"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "House extension in Essex by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Essex",
+    "headline": "House Extensions in Essex",
+    "sub": "We design and build house extensions across Essex, from single storey kitchen extensions to full double storey additions. One team handles the design, the drawings, the planning, the building regulati"
+  },
+  "intro": [
+    "We design and build house extensions across Essex, from single storey kitchen extensions to full double storey additions. One team handles the design, the drawings, the planning, the building regulations and the build, so you deal with the same people from the first visit to the finished room.",
+    "Essex is a county of real variety, and that shapes how you extend in it. A Victorian villa on the London commuter fringe, a weatherboarded cottage in a historic market town, a family home in Chelmsford and a large detached house out towards Epping Forest all call for a different approach. We plan each extension around the house it is joining."
+  ],
+  "introImage": {
+    "src": "/images/extension-brick-orangery.webp",
+    "alt": "Rear extension on a family home in Essex"
+  },
+  "sideReturn": {
+    "title": "Planning permission for extensions in Essex",
+    "paragraphs": [
+      "This is where local knowledge earns its keep, because Essex is not a single planning authority.",
+      "Householder planning is handled by your district, borough or city council, not by Essex County Council. That means Epping Forest, Brentwood, Chelmsford, Uttlesford, Harlow and so on, each with its own local plan. Southend-on-Sea and Thurrock are separate unitary councils. Worth knowing: from April 2028 these councils are being replaced by five new unitary authorities, and Epping Forest, which covers Buckhurst Hill, Chigwell and Loughton, becomes part of West Essex Council. The rules will not change overnight, but the name on the letterhead will.",
+      "Many extensions fall under permitted development and need no application, but large parts of Essex carry protections that reduce or remove those rights:",
+      "The Metropolitan Green Belt covers much of south and west Essex, including the Epping Forest district. In the Green Belt you can still extend, but the scale is limited, so the work is not a disproportionate addition to the original house."
+    ],
+    "image": {
+      "src": "/images/blog/open-plan.webp",
+      "alt": "Extension in Essex"
+    }
+  },
+  "types": {
+    "title": "The extension types that suit Essex homes",
+    "intro": "The right extension depends on the house and the space around it.",
+    "closing": "Over-structure extensions, above a garage or single storey section, add a bedroom or study without losing garden.",
+    "items": [
+      {
+        "name": "The right extension depends on the house and the",
+        "text": "The right extension depends on the house and the space around it.",
+        "image": "/images/hero-rear-extension.webp",
+        "imageAlt": "The right extension depends on the house and the"
+      },
+      {
+        "name": "Single storey rear extensions open the back of t",
+        "text": "Single storey rear extensions open the back of the house, most often for a large kitchen and family room.",
+        "image": "/images/extension-rear-bifolds.webp",
+        "imageAlt": "Single storey rear extensions open the back of t"
+      },
+      {
+        "name": "Side return extensions fill the narrow strip bes",
+        "text": "Side return extensions fill the narrow strip beside a Victorian or Edwardian home.",
+        "image": "/images/extension-bifolds.webp",
+        "imageAlt": "Side return extensions fill the narrow strip bes"
+      },
+      {
+        "name": "Wrap around extensions combine rear and side for",
+        "text": "Wrap around extensions combine rear and side for serious ground floor space.",
+        "image": "/images/extension-brick-orangery.webp",
+        "imageAlt": "Wrap around extensions combine rear and side for"
+      }
+    ]
+  },
+  "tightSite": {
+    "title": "Ground conditions across Essex",
+    "intro": "Essex has genuinely varied ground, and it changes what your foundations need to do.",
+    "closing": "None of this is exotic when it is planned for at the start.",
+    "items": [
+      {
+        "title": "Ground",
+        "text": "Essex has genuinely varied ground, and it changes what your foundations need to do."
+      },
+      {
+        "title": "Access",
+        "text": "Much of the south and the London fringe sits on London Clay, which swells and shrinks with the seasons and moves most near mature trees, so foundations often go deeper there. Across the central and northern plateau the ground is boulder clay, a stiff but variable glacial deposit that can change over a short distance. The far north west, up towards Saffron Walden, runs onto chalk, while the river valleys and the coast bring softer gravels, alluvium and made ground. On the Epping Forest ridge, sandier beds cap the clay on the higher ground."
+      },
+      {
+        "title": "Neighbours",
+        "text": "None of this is a problem when it is understood before work begins. It is a problem when it is not. A builder who knows the local ground designs the right foundation from the start rather than meeting a surprise halfway down a trench."
+      }
+    ]
+  },
+  "project": {
+    "title": "How we work in Essex",
+    "text": "You are inviting a team into your home for months, so trust comes before everything. We manage each project as one team, concept to completion, with the company director involved throughout. We are comfortable working alongside architects and structural engineers. We handle the planning and building control so you are not chasing councils. Our quotes are detailed and itemised. And much of our work arrives by recommendation, which keeps our name on the line with every build."
+  },
+  "planning": {
+    "title": "Planning permission for extensions in Essex",
+    "intro": "This is where local knowledge earns its keep, because Essex is not a single planning authority.",
+    "paragraphs": [
+      "Householder planning is handled by your district, borough or city council, not by Essex County Council. That means Epping Forest, Brentwood, Chelmsford, Uttlesford, Harlow and so on, each with its own local plan. Southend-on-Sea and Thurrock are separate unitary councils. Worth knowing: from April 2028 these councils are being replaced by five new unitary authorities, and Epping Forest, which covers Buckhurst Hill, Chigwell and Loughton, becomes part of West Essex Council. The rules will not change overnight, but the name on the letterhead will.",
+      "Many extensions fall under permitted development and need no application, but large parts of Essex carry protections that reduce or remove those rights:",
+      "The Metropolitan Green Belt covers much of south and west Essex, including the Epping Forest district. In the Green Belt you can still extend, but the scale is limited, so the work is not a disproportionate addition to the original house.",
+      "Conservation areas, which nearly every Essex town and village has, restrict what you can do without permission.",
+      "The Dedham Vale National Landscape in the north east, the protected area formerly known as an Area of Outstanding Natural Beauty, and Epping Forest in the south west both add a further layer.",
+      "Listed buildings, of which Essex has more than fourteen thousand, need separate consent.",
+      "One Essex particular: most councils here treat the Essex Design Guide as a material consideration, so a scheme that ignores its standards on space, light and character can meet resistance. We design with all of this in mind, work out early whether your project needs permission, and prepare and manage the application where it does."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose J Berry Construction",
+    "paragraphs": [
+      "You are inviting a team into your home for months, so trust comes before everything.",
+      "We manage each project as one team, concept to completion, with the company director involved throughout. We are comfortable working alongside architects and structural engineers. We handle the planning and building control so you are not chasing councils. Our quotes are detailed and itemised. And much of our work arrives by recommendation, which keeps our name on the line with every build."
+    ],
+    "sidewaysLink": {
+      "href": "/loft-conversions/essex",
+      "label": "Need a bedroom instead of a bigger kitchen? See loft conversions in Essex"
+    }
+  },
+  "areas": {
+    "title": "The Essex areas we cover",
+    "intro": "We build across the county and are happy to travel for the right project. Our work is strongest in the south west of the county, closest to the London commuter belt. We currently have detailed pages for Buckhurst Hill, Chigwell and Loughton, the affluent towns around Epping Forest, and for neighbouring Woodford just over the London boundary. We also work across Epping, Ongar, Great Dunmow, Brentwood, Chelmsford and the surrounding villages, and out towards Saffron Walden. Follow the link to your town, or get in touch and we will confirm we cover your postcode.",
+    "closing": "If your area is not listed, call us anyway.",
+    "towns": [
+      {
+        "name": "Basildon",
+        "slug": "basildon"
+      },
+      {
+        "name": "Billericay",
+        "slug": "billericay"
+      },
+      {
+        "name": "Braintree",
+        "slug": "braintree"
+      },
+      {
+        "name": "Brentwood",
+        "slug": "brentwood"
+      },
+      {
+        "name": "Buckhurst Hill",
+        "slug": "buckhurst-hill"
+      },
+      {
+        "name": "Chelmsford",
+        "slug": "chelmsford"
+      },
+      {
+        "name": "Chigwell",
+        "slug": "chigwell"
+      },
+      {
+        "name": "Colchester",
+        "slug": "colchester"
+      },
+      {
+        "name": "Epping",
+        "slug": "epping"
+      },
+      {
+        "name": "Grays",
+        "slug": "grays"
+      },
+      {
+        "name": "Great Dunmow",
+        "slug": "great-dunmow"
+      },
+      {
+        "name": "Harlow",
+        "slug": "harlow"
+      },
+      {
+        "name": "Leigh-on-Sea",
+        "slug": "leigh-on-sea"
+      },
+      {
+        "name": "Loughton",
+        "slug": "loughton"
+      },
+      {
+        "name": "Maldon",
+        "slug": "maldon"
+      },
+      {
+        "name": "Ongar",
+        "slug": "ongar"
+      },
+      {
+        "name": "Wickford",
+        "slug": "wickford"
+      },
+      {
+        "name": "Witham",
+        "slug": "witham"
+      }
+    ]
+  },
+  "cost": {
+    "title": "What does an extension cost in Essex?",
+    "paragraphs": [
+      "The honest answer is that it depends on size, specification, ground conditions and finish.",
+      "As a general guide for this part of the country, single storey extensions commonly run at a few thousand pounds per square metre of finished space, with double storey often better value per square metre and high specifications sitting above the base. Protected settings, sloping plots and difficult ground can add to the groundwork. Treat those figures as a starting point, not a quote.",
+      "For an early estimate you can use our cost calculator, and for a real figure the best step is a site visit where we price the actual project.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, with a clear, itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "costLink": {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "Read the house extension cost guide"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Essex?",
+      "a": "Sometimes. Many extensions fall under permitted development, but the Green Belt, conservation areas, the Dedham Vale National Landscape, Epping Forest and listed status all restrict those rights. It depends on your property and which district or borough council covers it. We check this for you early."
+    },
+    {
+      "q": "Which council handles my extension application in Essex?",
+      "a": "Your local district, borough or city council, such as Epping Forest, Brentwood or Chelmsford, not Essex County Council. Southend-on-Sea and Thurrock have their own unitary councils. From April 2028 these are being replaced by five new unitary authorities. We deal with the right authority for your address."
+    },
+    {
+      "q": "How much does a house extension cost in Essex?",
+      "a": "It depends on size, specification and ground conditions. As a rough guide, single storey extensions commonly run at a few thousand pounds per square metre, but the only accurate figure comes from a site visit. Our cost calculator gives an early estimate."
+    },
+    {
+      "q": "How do I get a quote for my extension?",
+      "a": "Call us on 07920 731533 or send the enquiry form. We arrange a free, no-obligation site visit, then give you a clear, itemised written quote for the actual project."
+    },
+    {
+      "q": "Do you handle the planning and building regulations for me?",
+      "a": "Yes. We manage the planning application, building control and any party wall notices, so you are not dealing with councils and paperwork on your own."
+    },
+    {
+      "q": "Which parts of Essex do you cover?",
+      "a": "We work across the county, with a focus on the south west, including Buckhurst Hill, Chigwell, Loughton, Epping, Ongar, Brentwood and Chelmsford, and we travel for the right project. Contact us to confirm your area."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/kent",
+      "label": "House extensions in Kent"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/blog/can-you-extend-in-the-green-belt",
+      "label": "Can you extend in the Green Belt?"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about a project in Essex?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. No pressure, and no obligation to proceed."
+  }
+}

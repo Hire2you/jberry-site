@@ -1,0 +1,134 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Maldon",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "maldon",
+  "seo": {
+    "title": "Loft Conversions in Maldon | J Berry Construction",
+    "description": "Loft conversions in Maldon and Heybridge, built to stand up to the estuary weather. Roofing, weatherproofing and insulation done properly. Free site visit",
+    "canonical": "/loft-conversions/essex/maldon"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/hero-dormer.webp",
+      "alt": "Loft conversion on a family home in Maldon by J Berry Construction"
+    },
+    "eyebrow": "Loft conversions · Maldon",
+    "headline": "Loft Conversions in Maldon"
+  },
+  "intro": {
+    "paragraphs": [
+      "A loft conversion adds a new dormer and a lot of new roof detailing, and in a town as open to the estuary weather as Maldon, getting that part right matters more than it does inland. A dormer that faces the wind off the Blackwater, or a roof that is not properly weathered and insulated, will let you know about it. So on the coast the quality of the roofing, the flashing and the detailing is not a finishing touch, it is the thing that keeps the new room dry, warm and sound for decades. We convert lofts across Maldon and Heybridge, built to stand up to the weather here. Call 07920 731533 or request a callback."
+    ],
+    "cta": {
+      "title": "Weighing up a loft conversion in Maldon?",
+      "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "What suits your Maldon house",
+    "intro": "The conversion itself follows your roof, and Maldon has a spread. The period houses of the old hilltop town suit a discreet rooflight conversion or a carefully designed dormer, sympathetic to the setting; the Victorian and Edwardian houses suit a rear or L-shaped dormer; the 1930s semis with hipped roofs suit a hip-to-gable; and the more modern housing around Maldon and in Heybridge converts in the standard ways, though some newer homes have trussed roofs needing extra structural work. Whatever you have, we match the conversion to the roof, and build it to weather the location.",
+    "body": "The conversion itself follows your roof, and Maldon has a spread. The period houses of the old hilltop town suit a discreet rooflight conversion or a carefully designed dormer, sympathetic to the setting; the Victorian and Edwardian houses suit a rear or L-shaped dormer; the 1930s semis with hipped roofs suit a hip-to-gable; and the more modern housing around Maldon and in Heybridge converts in the standard ways, though some newer homes have trussed roofs needing extra structural work. Whatever you have, we match the conversion to the roof, and build it to weather the location.",
+    "closing": "The conversion itself follows your roof, and Maldon has a spread. The period houses of the old hilltop town suit a discreet rooflight conversion or a carefully designed dormer, sympathetic to the setting; the Victorian and Edwardian houses suit a rear or L-shaped dormer; the 1930s semis with hipped roofs suit a hip-to-gable; and the more modern housing around Maldon and in Heybridge converts in the standard ways, though some newer homes have trussed roofs needing extra structural work. Whatever you have, we match the conversion to the roof, and build it to weather the location.",
+    "image": {
+      "src": "/images/loft-hip-to-gable.webp",
+      "alt": "Finished loft conversion suited to Maldon homes"
+    }
+  },
+  "extensionTypes": {
+    "title": "What suits your Maldon house",
+    "intro": "The conversion itself follows your roof, and Maldon has a spread. The period houses of the old hilltop town suit a discreet rooflight conversion or a carefully designed dormer, sympathetic to the setting; the Victorian and Edwardian houses suit a rear or L-shaped dormer; the 1930s semis with hipped roofs suit a hip-to-gable; and the more modern housing around Maldon and in Heybridge converts in the standard ways, though some newer homes have trussed roofs needing extra structural work. Whatever you have, we match the conversion to the roof, and build it to weather the location.",
+    "image": {
+      "src": "/images/loft-dormer-front.webp",
+      "alt": "Loft conversion type suited to houses in Maldon"
+    }
+  },
+  "planning": {
+    "title": "Planning in Maldon",
+    "paragraphs": [
+      "Maldon has a conservation area covering its historic old town, where dormers generally need planning permission and a rooflight conversion that keeps the roofline is often the smoother route. Away from the old town, on the town's later housing and in Heybridge, many conversions are permitted development within the volume limits (broadly 40 cubic metres for terraces, 50 for semis and detached) and the front-dormer rule. Mansards and front dormers need permission anywhere. Every conversion always needs full building-regulations approval, which includes the insulation and weatherproofing standards that matter so much here, and on a terrace or semi the Party Wall Act usually applies. We check your property's position and handle the planning, party wall and building regulations for you."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose us",
+    "text": "In a location where doing the roof and weatherproofing properly is what protects your investment, people choose a builder they can trust to do the unglamorous parts right, not just the visible finish. We have built for homeowners since 1995, most of our work comes through recommendation, and we build to last rather than to look right only on handover day. We run each job with one team from start to finish and see it through the building-control inspections to the completion certificate."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "On cost, the main factor is the type of conversion your roof calls for, a rooflight conversion is the least, a dormer or hip-to-gable more, a mansard the most, with proper weatherproofing and insulation built in as standard, not charged as an extra. The cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will look at your actual roof and give you a real, itemised figure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Does Maldon's estuary location affect a loft conversion?",
+      "a": "It affects how it should be built, not whether you can have one. An exposed estuary setting gets more wind-driven rain, so the roofing, flashing and weatherproofing at the junctions, around the dormer and the windows, have to be done properly with the right materials, and the insulation has to be good, or a conversion can be cold or prone to letting water in over time. Built correctly, none of this is a problem; it is simply why the quality of the work matters here."
+    },
+    {
+      "q": "Will a dormer stand up to the weather off the Blackwater?",
+      "a": "Yes, when it is built and detailed properly. A well-constructed dormer with correct flashing, weatherproofing and insulation copes with an exposed location perfectly well and lasts for decades. Problems come from poor detailing and cheap materials, which an exposed spot exposes faster than a sheltered one. We build dormers to weather the location, which is exactly the part it does not pay to cut corners on."
+    },
+    {
+      "q": "What type of loft conversion suits my Maldon house?",
+      "a": "It depends on the roof. Period houses in the old town suit a discreet rooflight conversion or a sympathetic dormer; Victorian and Edwardian houses suit a rear or L-shaped dormer; 1930s hipped semis suit a hip-to-gable; and the more modern homes in Maldon and Heybridge convert in the standard ways, though some have trussed roofs needing extra structural work. We match the type to your roof and its exposure."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Maldon?",
+      "a": "It depends where you are. In the old-town conservation area, dormers generally need planning permission and a rooflight conversion may be the cleaner route. Away from there, and in Heybridge, many conversions are permitted development within the volume limits and the front-dormer rule. Mansards and front dormers need permission anywhere. Every conversion needs full building-regulations approval, and we handle whichever route applies."
+    },
+    {
+      "q": "Can my Maldon loft be converted?",
+      "a": "Most can. It comes down to head height (roughly 2.2 to 2.4 metres at the ridge before losing some to the new floor and ceiling), the roof structure, and room for a compliant staircase. Lofts short on height can often still work with a dormer. We give you a straight answer at the site visit, and tell you what the location means for how it should be built."
+    },
+    {
+      "q": "Do you also do extensions in Maldon?",
+      "a": "Yes. If a loft is not the right route, or you need ground-floor space too, we design and build extensions in Maldon and Heybridge, see our Maldon extension page, and we build them to weather the location just the same. We will advise honestly on the best way to get the space you need."
+    },
+    {
+      "q": "Thinking about a loft conversion in Maldon or Heybridge?",
+      "a": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take and how it should be built for the location, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex/maldon",
+      "label": "House extensions in Maldon"
+    },
+    {
+      "href": "/loft-conversions/essex/witham",
+      "label": "Loft conversions in Witham"
+    },
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions overview"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/blog/how-long-does-a-loft-conversion-take",
+      "label": "How long does a loft conversion take?"
+    },
+    {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Loft conversion cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Weighing up a loft conversion in Maldon?",
+    "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+  }
+}

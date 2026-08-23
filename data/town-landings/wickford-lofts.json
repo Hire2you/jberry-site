@@ -1,0 +1,134 @@
+{
+  "serviceSlug": "loft-conversions",
+  "town": "Wickford",
+  "county": "Essex",
+  "countySlug": "essex",
+  "townSlug": "wickford",
+  "seo": {
+    "title": "Loft Conversions in Wickford | J Berry Construction",
+    "description": "Loft conversions in Wickford, on their own or as part of a wider improvement, reconfiguring the floor below and combining with other work. One team. Free site visit",
+    "canonical": "/loft-conversions/essex/wickford"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/hero-dormer.webp",
+      "alt": "Loft conversion on a family home in Wickford by J Berry Construction"
+    },
+    "eyebrow": "Loft conversions · Wickford",
+    "headline": "Loft Conversions in Wickford"
+  },
+  "intro": {
+    "paragraphs": [
+      "A loft conversion is often the moment to improve more than just the roof space. Once you are adding a room at the top of the house, it can be the right time to rethink how the rest of the floor works, turning the old box room into a bathroom, making the loft the new master suite, or tying the conversion in with other work you have been meaning to do. Because we handle full renovations as well as loft conversions, we can plan yours as part of the bigger picture rather than as a bolt-on. We convert lofts across Wickford, on their own or as part of a wider improvement. Call 07920 731533 or request a callback."
+    ],
+    "cta": {
+      "title": "Weighing up a loft conversion in Wickford?",
+      "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation.",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "homes": {
+    "title": "What suits your Wickford roof",
+    "intro": "The conversion itself follows your roof. Wickford's inter-war and post-war semis with hipped roofs suit a hip-to-gable; its terraces suit a rear or L-shaped dormer; the area's many bungalows and chalets can gain a whole upper floor, a bigger job but a transformative one; homes with good head height may need only a rooflight conversion; and newer houses with trussed roofs need extra structural work. If your home is in one of Wickford's lower-lying, flood-prone spots, going up into the loft also has the advantage of adding space clear of any flood risk, without the ground-floor complications an extension there can bring. We match the conversion to your roof and your plans.",
+    "body": "The conversion itself follows your roof. Wickford's inter-war and post-war semis with hipped roofs suit a hip-to-gable; its terraces suit a rear or L-shaped dormer; the area's many bungalows and chalets can gain a whole upper floor, a bigger job but a transformative one; homes with good head height may need only a rooflight conversion; and newer houses with trussed roofs need extra structural work. If your home is in one of Wickford's lower-lying, flood-prone spots, going up into the loft also has the advantage of adding space clear of any flood risk, without the ground-floor complications an extension there can bring. We match the conversion to your roof and your plans.",
+    "closing": "The conversion itself follows your roof. Wickford's inter-war and post-war semis with hipped roofs suit a hip-to-gable; its terraces suit a rear or L-shaped dormer; the area's many bungalows and chalets can gain a whole upper floor, a bigger job but a transformative one; homes with good head height may need only a rooflight conversion; and newer houses with trussed roofs need extra structural work. If your home is in one of Wickford's lower-lying, flood-prone spots, going up into the loft also has the advantage of adding space clear of any flood risk, without the ground-floor complications an extension there can bring. We match the conversion to your roof and your plans.",
+    "image": {
+      "src": "/images/loft-hip-to-gable.webp",
+      "alt": "Finished loft conversion suited to Wickford homes"
+    }
+  },
+  "extensionTypes": {
+    "title": "What suits your Wickford roof",
+    "intro": "The conversion itself follows your roof. Wickford's inter-war and post-war semis with hipped roofs suit a hip-to-gable; its terraces suit a rear or L-shaped dormer; the area's many bungalows and chalets can gain a whole upper floor, a bigger job but a transformative one; homes with good head height may need only a rooflight conversion; and newer houses with trussed roofs need extra structural work. If your home is in one of Wickford's lower-lying, flood-prone spots, going up into the loft also has the advantage of adding space clear of any flood risk, without the ground-floor complications an extension there can bring. We match the conversion to your roof and your plans.",
+    "image": {
+      "src": "/images/loft-dormer-front.webp",
+      "alt": "Loft conversion type suited to houses in Wickford"
+    }
+  },
+  "planning": {
+    "title": "Planning in Wickford",
+    "paragraphs": [
+      "Many Wickford loft conversions are permitted development, within the volume limits (broadly 40 cubic metres for terraces, 50 for semis and detached) and the conditions, notably no dormer on the front roof slope. Mansards, front dormers, work over the limits, and conversions in any conservation area usually need planning permission, and larger reconfigurations or combined projects may bring their own planning considerations, which we work through with you. Every conversion always needs full building-regulations approval, and on a terrace or semi the Party Wall Act usually applies. We check your property's position and handle the planning, party wall and building regulations, whether it is a straightforward loft or part of a bigger scheme."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners choose us",
+    "text": "Being able to take on the whole picture, the loft, the reconfiguration below, and any wider work, as one coordinated job is much of what people value in us. We have built and renovated for homeowners since 1995, most of our work comes through recommendation, and we run each project with one team from start to finish, so there is a single point of contact and a single plan rather than a string of separate trades."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "On cost, a standalone loft is driven by the conversion type and finish, while a combined project is quoted as a whole so you can see the full picture, and often it is more efficient done together than piecemeal. The cost calculator gives an early sense of scale, and a free, no-obligation site visit gets you a real, itemised figure."
+    ],
+    "cta": {
+      "title": "Want a real figure?",
+      "text": "Book a free site visit and we will look at your actual roof and give you a real, itemised figure.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Can a loft conversion also improve the layout of the floor below?",
+      "a": "Very often, yes, and it is worth planning for. Putting the master suite in the loft, for example, frees a bedroom below that can become a family bathroom, study or wardrobe, and the new staircase and landing can be arranged to improve how the whole floor flows. Because we handle full renovations as well as conversions, we can design the loft as part of how you want the upstairs to work, rather than just adding a room on top."
+    },
+    {
+      "q": "Is it more efficient to do a loft conversion alongside other work?",
+      "a": "Usually, yes. If you are also planning a new kitchen, a refurbishment or an extension, doing it together with the loft, as one coordinated project with one team and one period of disruption, is normally less hassle and better value than tackling each separately a year or two apart. We can plan and quote the whole thing as one scheme, so you see the full picture upfront."
+    },
+    {
+      "q": "What type of loft conversion suits my Wickford house?",
+      "a": "It depends on the roof. Inter-war and post-war hipped semis suit a hip-to-gable; terraces suit a rear or L-shaped dormer; bungalows and chalets can gain a whole upper floor; homes with good head height may need only a rooflight conversion; and newer trussed-roof houses need extra structural work. We match the conversion to your roof and to any wider plans."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Wickford?",
+      "a": "Often not, for a straightforward conversion within the volume limits and the front-dormer rule. Mansards, front dormers, work over the limits, conservation-area properties and larger combined schemes can need permission. Every conversion needs full building-regulations approval. We check your position and handle whichever route applies."
+    },
+    {
+      "q": "Can my Wickford loft be converted?",
+      "a": "Most can. It comes down to head height (roughly 2.2 to 2.4 metres at the ridge before losing some to the new floor and ceiling), the roof structure, and room for a compliant staircase. Lofts short on height can often still work with a dormer, and bungalows may need more substantial roof works. We give you a straight answer at the site visit."
+    },
+    {
+      "q": "Do you also do extensions and renovations in Wickford?",
+      "a": "Yes. Alongside loft conversions we design and build extensions and carry out full renovations in Wickford, see our Wickford extension page and our renovation service, which is exactly why we can plan a loft as part of a wider improvement to your home. We will advise honestly on the best combination for what you want to achieve."
+    },
+    {
+      "q": "Thinking about a loft conversion in Wickford, on its own or as part of bigger plans?",
+      "a": "Call 07920 731533 or request a callback, and we will look at your roof and your house as a whole, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/essex/wickford",
+      "label": "House extensions in Wickford"
+    },
+    {
+      "href": "/loft-conversions/essex/basildon",
+      "label": "Loft conversions in Basildon"
+    },
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions overview"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/blog/how-long-does-a-loft-conversion-take",
+      "label": "How long does a loft conversion take?"
+    },
+    {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Loft conversion cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Weighing up a loft conversion in Wickford?",
+    "text": "Call 07920 731533 or request a callback, and we will look at your roof, tell you honestly what it will take, and give you a real, itemised figure. Free site visit, no pressure, no obligation."
+  }
+}

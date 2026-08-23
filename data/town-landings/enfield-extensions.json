@@ -1,0 +1,145 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Enfield",
+  "county": "London",
+  "countySlug": "london",
+  "townSlug": "enfield",
+  "seo": {
+    "title": "House Extensions in Enfield | J Berry Construction",
+    "description": "Extension design and build in Enfield. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/london/enfield"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/blog/planning.webp",
+      "alt": "House extension in Enfield by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Enfield",
+    "headline": "House Extensions in Enfield"
+  },
+  "intro": {
+    "paragraphs": [
+      "What is worth building in Enfield depends enormously on where in Enfield you are. An Edwardian villa in Winchmore Hill, a 1930s semi in Southgate and a Victorian terrace in Edmonton are three different jobs with three different answers, and the borough's planning rules vary just as sharply street to street.",
+      "We design and build extensions across all of it, handling the drawings, the planning, the building regulations and the build itself as one team."
+    ],
+    "cta": {
+      "title": "Thinking about extending your Enfield home?",
+      "text": "Thinking about extending your Enfield home? Book a free, no-obligation site visit and we will tell you what will actually work on your house and what it will cost. Call 07920 731533 · Request a callback",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in Enfield",
+    "items": [
+      "Rear, side and double storey extensions matched to Enfield houses."
+    ],
+    "image": {
+      "src": "/images/blog/mistakes.webp",
+      "alt": "Rear extension suited to homes in Enfield"
+    }
+  },
+  "planning": {
+    "title": "Planning in Enfield",
+    "paragraphs": [
+      "We check your planning position and handle any application."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish. We handle the planning, the building regulations and any party wall notices. Our quotes are itemised, so you can see what the steel, the brick and the glazing actually cost rather than comparing two lump sums. And most of our work comes through recommendation. Recent work near Enfield [Real project slot. A completed Enfield project would make this page far stronger.] [Testimonial slot.] How your build will run We set out the actual programme at the site visit. For a feel of how a typical extension runs week by week, see our guide on [what to expect during your build]."
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, the steel, the groundwork and the finish. Worth knowing: a side return is small in floor area but structurally demanding, so its cost per square metre runs higher than a straightforward rear extension. A double storey is usually the best value per square metre if you need bedrooms too.",
+      "As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre. That is a starting point, not a quote. Our cost calculator gives an early estimate; a free site visit gives you a real, itemised figure.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, steel and groundwork included, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for an extension in Enfield?",
+      "a": "It depends heavily on where you are. Outside the conservation areas, many single-storey rear extensions fall under permitted development. Inside them, Enfield's Article 4 directions remove rights that are automatic elsewhere, so even replacing windows or adding a porch can need permission. We check your exact address first."
+    },
+    {
+      "q": "What is an Article 4 direction, and does it affect me?",
+      "a": "It withdraws permitted development rights in a defined area. Enfield has an unusually extensive network of them, covering most conservation areas including Enfield Town, Bush Hill Park, Winchmore Hill, Hadley Wood, Forty Hill, Clay Hill and Southgate Green. In those areas, external alterations that would normally be automatic need a planning application."
+    },
+    {
+      "q": "Is it harder to get approval in Enfield?",
+      "a": "Somewhat. Enfield approves around 76% of applications, below the national average of nearly 87%. That is a reason to design to the council's policies from the outset rather than submitting something that was never going to pass."
+    },
+    {
+      "q": "What is a Lawful Development Certificate and do I need one?",
+      "a": "It is a formal confirmation from the council that your work is lawful under permitted development. You do not have to have one, but it is worth getting: it prevents disputes and it saves you trouble when you sell."
+    },
+    {
+      "q": "Can I extend if my home is in the Green Belt in the north of the borough?",
+      "a": "Usually, yes, but the scale is limited so the work is not a disproportionate addition to the original house. Well-judged schemes go through. We design to what the rules allow."
+    },
+    {
+      "q": "Which areas of Enfield do you cover?",
+      "a": "The whole borough, including Enfield Town, Winchmore Hill, Palmers Green, Southgate, Bush Hill Park, Edmonton, Ponders End and Hadley Wood. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions/london/chingford",
+      "label": "House extensions in Chingford"
+    },
+    {
+      "href": "/extensions/london/hornchurch",
+      "label": "House extensions in Hornchurch"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Enfield home?",
+    "text": "Thinking about extending your Enfield home? Book a free, no-obligation site visit and we will tell you what will actually work on your house and what it will cost. Call 07920 731533 · Request a callback"
+  },
+  "homes": {
+    "title": "The steel, and where quotes differ",
+    "intro": "Whatever the house, opening up the back means removing load-bearing walls, the rear wall, and usually the wall between kitchen and dining room. That load goes onto steel beams sized by a structural engineer and signed off under building regs.",
+    "body": "On the older houses there is a second issue that cheap quotes skip. Victorian and Edwardian footings are shallow, often a couple of courses of brick, and were never designed to carry a concentrated point load from a beam end. That is what properly designed padstones are for, and sometimes underpinning.",
+    "closing": "A quote that leaves a stub of wall standing, or drops a column into your new kitchen island, is not the same job. We size the steel for the opening you actually want and itemise it, so you can see what you are paying for. The Enfield planning trap: Article 4 This is the thing that catches Enfield homeowners out, and it is worth knowing before you spend a penny on drawings. Enfield has an unusually extensive network of Article 4 directions, covering most of its conservation areas, some dating back to 1982. They cover, among others, Enfield Town, Bush Hill Park, Winchmore Hill, Hadley Wood, Forty Hill, Clay Hill, Southgate Green, Enfield Lock, Trent Park and Turkey Street. An Article 4 direction removes permitted development rights you would otherwise have. In these areas that means planning permission is needed for external alterations that are automatic elsewhere: replacing windows and doors, changing the roof, adding a porch, cladding or rendering, sometimes even painting. It also matters that Enfield approves around 76% of applications, below the national average of nearly 87%. That is not a reason to give up; it is a reason to design to what the council will actually accept from the outset, and to follow their design policy rather than argue with it. Outside the conservation areas, plenty of Enfield homes keep normal permitted development rights, and a single-storey rear extension can go ahead without a full application. If yours does, it is worth getting a Lawful Development Certificate anyway: it is a formal confirmation the work is lawful, and it saves you an argument when you come to sell. We check your exact address before anything is drawn, and handle whichever route applies.",
+    "image": {
+      "src": "/images/blog/conservation.webp",
+      "alt": "Open-plan extension in Enfield"
+    }
+  },
+  "place": {
+    "title": "Materials and the choices that matter",
+    "paragraphs": [
+      "Brick. London stock and red brick dominate, and the Edwardian villas often have distinctive detailing worth matching. We match brick, bond and mortar, which on older houses means reclaimed brick and a softer mix. It takes more care and can affect the quote.",
+      "Windows. In an Article 4 area, you cannot simply swap the windows, and the extension's glazing has to sit comfortably with what is there. On a period elevation, slim-profile glazing generally reads better than chunky bifolds.",
+      "Rooflights. If you fill in a side return, you have built over the source of your kitchen's light. A proper run of rooflights along the new roof is essential, not optional. It is the most common regret on these jobs.",
+      "Sliders or bifolds. Sliders give bigger panes, slimmer frames and a better view for the eleven months a year they are shut. Bifolds fold fully away. Most people choose sliders once they have seen both.",
+      "One floor finish. Running the same floor from the hallway through to the new kitchen is what makes the ground floor read as a single space.",
+      "The ground",
+      "Enfield sits largely on London Clay, with gravels down towards the Lea valley in the east and higher, mixed ground in the north.",
+      "The clay swells in the wet, shrinks in dry spells and moves most near mature trees, and the leafier streets here have plenty. A large tree near the extension usually means deeper foundations than people expect. On the older houses, the shallow original footings are the other constraint, and near the Lea the water table is higher.",
+      "We check the ground, the trees and the existing footings before pricing the groundworks, rather than finding out halfway down a trench."
+    ]
+  }
+}

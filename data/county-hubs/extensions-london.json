@@ -110,15 +110,15 @@
     "intro": "We work across London, with most of our work in the north east and the surrounding boroughs. Local pages with detail on housing stock and planning in each area:",
     "closing": "If your area is not listed, call us anyway. We cover more of London and the surrounding counties than the pages above suggest.",
     "towns": [
-      { "name": "Woodford", "slug": null },
-      { "name": "Wanstead", "slug": null },
-      { "name": "Chingford", "slug": null },
-      { "name": "Walthamstow", "slug": null },
+      { "name": "Woodford", "slug": "woodford" },
+      { "name": "Wanstead", "slug": "wanstead" },
+      { "name": "Chingford", "slug": "chingford" },
+      { "name": "Walthamstow", "slug": "walthamstow" },
       { "name": "Leytonstone", "slug": "leytonstone" },
       { "name": "Ilford", "slug": "ilford" },
       { "name": "Romford", "slug": "romford" },
       { "name": "Hornchurch", "slug": "hornchurch" },
-      { "name": "Enfield", "slug": null }
+      { "name": "Enfield", "slug": "enfield" }
     ]
   },
   "cost": {

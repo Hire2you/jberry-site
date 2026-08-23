@@ -29,21 +29,23 @@
         "name": "London fringe",
         "towns": [
           { "name": "Buckhurst Hill", "slug": "essex/buckhurst-hill" },
-          { "name": "Chigwell", "slug": null },
+          { "name": "Chigwell", "slug": "essex/chigwell" },
           { "name": "Loughton", "slug": "essex/loughton" },
-          { "name": "Epping", "slug": null },
-          { "name": "Harlow", "slug": "harlow" }
+          { "name": "Epping", "slug": "essex/epping" },
+          { "name": "Harlow", "slug": "essex/harlow" },
+          { "name": "Ongar", "slug": "essex/ongar" }
         ]
       },
       {
         "name": "Central corridor",
         "towns": [
-          { "name": "Brentwood", "slug": null },
+          { "name": "Brentwood", "slug": "essex/brentwood" },
           { "name": "Billericay", "slug": "essex/billericay" },
           { "name": "Chelmsford", "slug": "essex/chelmsford" },
           { "name": "Braintree", "slug": "essex/braintree" },
           { "name": "Witham", "slug": "essex/witham" },
-          { "name": "Great Dunmow", "slug": null },
+          { "name": "Great Dunmow", "slug": "essex/great-dunmow" },
+          { "name": "Saffron Walden", "slug": "essex/saffron-walden" },
           { "name": "Colchester", "slug": "essex/colchester" }
         ]
       },
@@ -52,6 +54,10 @@
         "towns": [
           { "name": "Southend-on-Sea", "slug": "essex/southend-on-sea" },
           { "name": "Leigh-on-Sea", "slug": "essex/leigh-on-sea" },
+          { "name": "Rayleigh", "slug": "essex/rayleigh" },
+          { "name": "Wickford", "slug": "essex/wickford" },
+          { "name": "Basildon", "slug": "essex/basildon" },
+          { "name": "Maldon", "slug": "essex/maldon" },
           { "name": "Grays", "slug": "essex/grays" }
         ]
       }

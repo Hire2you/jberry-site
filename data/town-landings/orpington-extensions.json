@@ -1,0 +1,146 @@
+{
+  "serviceSlug": "extensions",
+  "town": "Orpington",
+  "county": "Kent",
+  "countySlug": "kent",
+  "townSlug": "orpington",
+  "seo": {
+    "title": "House Extensions in Orpington | J Berry Construction",
+    "description": "Extension design and build in Orpington. Planning handled. Free site visit. Call 07920 731533.",
+    "canonical": "/extensions/kent/orpington"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/hero-rear-extension.webp",
+      "alt": "House extension in Orpington by J Berry Construction"
+    },
+    "eyebrow": "House extensions · Orpington",
+    "headline": "House Extensions in Orpington"
+  },
+  "intro": {
+    "paragraphs": [
+      "Most Orpington houses have a decent garden and a ground floor chopped into rooms that no longer suit how people live. A rear extension fixes that, usually turning a small kitchen, a separate dining room and a bit of dead hallway into one open space you actually use. We design and build those extensions across Orpington, handling the drawings, the planning, the building regulations and the build itself, so it is one team from the first visit to the finished room.",
+      "What people usually build here"
+    ],
+    "cta": {
+      "title": "Thinking about extending your Orpington home?",
+      "text": "Thinking about extending your Orpington home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback",
+      "secondaryCta": "Request a callback"
+    }
+  },
+  "extensionTypes": {
+    "title": "The extensions we build in Orpington",
+    "items": [
+      "Rear, side and double storey extensions matched to Orpington houses."
+    ],
+    "image": {
+      "src": "/images/extension-rear-bifolds.webp",
+      "alt": "Rear extension suited to homes in Orpington"
+    }
+  },
+  "planning": {
+    "title": "Planning in Orpington, briefly",
+    "paragraphs": [
+      "You are in the London Borough of Bromley, and it is stricter than its quiet streets suggest.",
+      "Many single-storey rear extensions here are still permitted development and need no application. But Bromley made Article 4 directions removing the right to add a storey upwards across a swathe of the borough, and it has removed certain roof alteration rights in conservation areas, which catches loft dormers. Green Belt covers the rural fringe south of the town, where extensions are limited in scale.",
+      "We check your exact address before anything is drawn and handle the application if you need one. It is our job, not yours.",
+      "The ground",
+      "Orpington sits on London Clay with chalk beneath, coming nearer the surface as you go south. Clay swells in the wet, shrinks in dry spells and moves most near large trees, and there are plenty of mature trees on these streets, some of them protected.",
+      "In practice, a big tree near the back of the house usually means deeper foundations than people expect. We check the ground and any protected trees before we price the groundworks, rather than finding out halfway down a trench."
+    ]
+  },
+  "whyUs": {
+    "title": "Why homeowners here choose us",
+    "text": "One team runs the job from start to finish, so there is always a clear point of contact. We handle the planning and building regulations. Our quotes are itemised, so you can see what the steel, the glazing and the groundwork actually cost rather than comparing two vague lump sums. And most of our work comes through recommendation. How your build will run We set out the actual programme at the site visit, allowing for the size, the ground and the season. For a feel of how a typical extension runs week by week, from groundworks to handover, see our guide on [what to expect during your build]. Recent work near Orpington [Real project slot. A completed Orpington or Bromley-borough project, ideally an open-plan rear extension, will make this page far stronger.] [Testimonial slot.]"
+  },
+  "cost": {
+    "title": "What it costs",
+    "paragraphs": [
+      "Size, specification, how much steel the opening needs, and the finish. As a rough guide, single-storey extensions commonly run at a few thousand pounds per square metre, with double storey often better value per square metre. That is a starting point, not a quote.",
+      "Our cost calculator gives an early estimate. A free site visit gives you a real, itemised figure, with the steel, the groundwork and the glazing all priced properly rather than hidden in a lump sum.",
+      "Want a real figure for your project? Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed. Call 07920 731533 · Get a free quote"
+    ],
+    "cta": {
+      "title": "Want a real figure for your project?",
+      "text": "Book a free site visit and we will price the actual work, with a clear itemised quote and no pressure to proceed.",
+      "secondaryCta": "Get a free quote"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Do I need planning permission for a rear extension in Orpington?",
+      "a": "Often not. Many single-storey rear extensions fall under permitted development. But if you are in a conservation area, on Green Belt land, or planning to go upwards, the answer changes. We check your address with Bromley Council before anything is designed."
+    },
+    {
+      "q": "Can I add a storey to my house?",
+      "a": "Not without permission across much of the borough. Bromley used Article 4 directions to remove the national right to build upwards, so an added storey needs a full application here even though it would not elsewhere."
+    },
+    {
+      "q": "Do I have to have a steel beam?",
+      "a": "If you are opening up the original rear wall, yes, effectively. It is load-bearing, so the weight above needs carrying on a steel sized by an engineer and signed off under building regs. The wider the opening, the bigger the steel. It is a real cost and we itemise it rather than burying it."
+    },
+    {
+      "q": "Bifolds or sliding doors?",
+      "a": "Bifolds fold fully away; sliders give you larger panes, slimmer frames and a better view when closed, which is most of the time. Both work. We will show you the trade-off on your specific opening."
+    },
+    {
+      "q": "Will my extension be dark in the middle?",
+      "a": "It can be, if all the glass is at the back. That is why a roof lantern or a run of rooflights over the middle of the new space matters, and it is the thing people most often leave out and regret."
+    },
+    {
+      "q": "Which areas do you cover?",
+      "a": "Orpington itself, along with Petts Wood, Chelsfield, Green Street Green, St Mary Cray, Farnborough and the surrounding area, plus Bromley, Chislehurst and Swanley nearby. Call us to confirm your postcode."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/extensions/kent",
+      "label": "House extensions in Kent"
+    },
+    {
+      "href": "/loft-conversions/kent/bromley",
+      "label": "Loft conversions in Bromley"
+    },
+    {
+      "href": "/extensions/london",
+      "label": "House extensions in London"
+    },
+    {
+      "href": "/extensions",
+      "label": "House extensions overview"
+    },
+    {
+      "href": "/blog/house-extension-cost-guide",
+      "label": "House extension cost guide"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your extension",
+    "title": "Thinking about extending your Orpington home?",
+    "text": "Thinking about extending your Orpington home? Book a free, no-obligation site visit and we will talk through what will work on your house and what it will cost. Call 07920 731533 · Request a callback"
+  },
+  "homes": {
+    "title": "The bit that makes or breaks it: opening up the back",
+    "intro": "Almost every rear extension in Orpington involves removing the original back wall of the house, which is load-bearing. That load has to go somewhere, so it goes onto a steel beam, sized by a structural engineer and signed off under building regulations.",
+    "body": "This is the part homeowners underestimate, and it is where a lot of quotes quietly differ. A wide, uninterrupted opening needs a bigger, heavier steel and often deeper padstones and foundations to carry it. A cheaper quote that keeps a chunk of wall or a post in the middle is not the same job, and you will notice it every day for the next twenty years.",
+    "closing": "We size the steel for the opening you actually want, and we tell you what it costs, rather than designing around a beam that keeps the price down.",
+    "image": {
+      "src": "/images/extension-bifolds.webp",
+      "alt": "Open-plan extension in Orpington"
+    }
+  },
+  "place": {
+    "title": "Materials, glazing and the choices that change the feel",
+    "paragraphs": [
+      "Brickwork. On a period or 1930s house we match brick and bond to the original as closely as we can. A close match takes more care and can affect the quote, but it is the difference between an extension that reads as part of the house and one that looks stuck on.",
+      "The back wall. Bifolds stack fully open, which is lovely for the three weeks a year you use them. Sliders give you bigger panes, slimmer frames and a better view for the other forty-nine. Most of our clients end up on sliders once they have seen both.",
+      "Roof lantern or rooflights. A flat roof extension can go dark at the back of the original house. A lantern over the dining or island area, or a run of rooflights, is usually what keeps the middle of the new room bright. This is the single most common thing people forget to budget for and then wish they had.",
+      "Flooring. Running one floor finish from the old kitchen through into the extension is what makes the two halves feel like one room. Worth planning early, because underfloor heating decisions follow from it.",
+      "The kitchen. An island only works if you have the run of space for it and somewhere sensible for the sink and extractor. We work the kitchen layout through at design stage rather than discovering it once the walls are up."
+    ]
+  }
+}

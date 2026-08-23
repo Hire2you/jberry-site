@@ -1,0 +1,260 @@
+{
+  "serviceSlug": "loft-conversions",
+  "county": "Hertfordshire",
+  "countySlug": "hertfordshire",
+  "seo": {
+    "title": "Loft Conversions in Hertfordshire | Local Builder, Est. 1995",
+    "description": "A Hertfordshire loft-conversion builder based in Sawbridgeworth, hip-to-gable, dormer, rooflight and mansard, matched to your roof. We handle planning and building regs",
+    "canonical": "/loft-conversions/hertfordshire"
+  },
+  "hero": {
+    "image": {
+      "src": "/images/loft-dormer-front.webp",
+      "alt": "Loft conversion in Hertfordshire by J.Berry"
+    },
+    "eyebrow": "Loft conversions · Hertfordshire",
+    "headline": "Loft Conversions in Hertfordshire",
+    "sub": "Yes, we can almost certainly convert your loft, and we are genuinely local. We are a Hertfordshire builder based in Sawbridgeworth, and we design and build loft conversions of ever"
+  },
+  "intro": [
+    "Yes, we can almost certainly convert your loft, and we are genuinely local. We are a Hertfordshire builder based in Sawbridgeworth, and we design and build loft conversions of every type, rooflight, dormer, hip-to-gable and mansard, for homeowners across East Hertfordshire and the surrounding area. We handle the whole job, from the first design through the planning and building regulations to the finished, signed-off room, so if you are wondering whether the right firm to convert your loft is on your doorstep, they are.",
+    "Most people who come to us want the same thing: another bedroom in a house they would rather not leave. Converting the loft is usually the most cost-effective way to add it, no foundations, no garden lost, just the space already sitting under your roof made usable, which is a large part of what we do here. Whether your roof suits a simple rooflight conversion, a rear dormer, a hip-to-gable or a mansard depends on the house, and working that out honestly is where we start. To talk it through, call 07920 731533, request a callback, or book a free, no-obligation site visit."
+  ],
+  "introImage": {
+    "src": "/images/loft-hip-to-gable.webp",
+    "alt": "Dormer loft conversion in Hertfordshire"
+  },
+  "areas": {
+    "title": "The Hertfordshire areas we cover",
+    "intro": "We are based in Sawbridgeworth, in East Hertfordshire, and that is the heart of our patch. We regularly convert lofts across the towns and villages of East Herts and the surrounding area, including Bishop's Stortford, Hertford, Ware, Hoddesdon, Broxbourne, Buntingford and the villages between them, as well as just over the borders into west Essex and the London fringe. Being based here matters more than it sounds for a loft conversion. It means we know the local roof stock, the older cut roofs of the village houses, the hipped roofs of the inter-war semis, the terraces of the market towns, and the way the councils across the area tend to treat dormers in the conservation areas, and it means we are close enough to run the job properly rather than stretching to reach it. Each town has, or will have, its own loft-conversion page, follow the links to the one nearest you, starting with our home town, Sawbridgeworth, and Bishop's Stortford.",
+    "clusters": [
+      {
+        "name": "East Hertfordshire",
+        "towns": [
+          {
+            "name": "Sawbridgeworth",
+            "slug": null
+          },
+          {
+            "name": "Bishop's Stortford",
+            "slug": null
+          },
+          {
+            "name": "Hertford",
+            "slug": null
+          },
+          {
+            "name": "Ware",
+            "slug": null
+          },
+          {
+            "name": "Hoddesdon",
+            "slug": null
+          }
+        ]
+      }
+    ]
+  },
+  "roofs": {
+    "title": "Hertfordshire roofs, and the loft conversions that suit them",
+    "intro": "Because a loft conversion is shaped by your roof far more than by preference, it is worth knowing what Hertfordshire's common house types tend to suit. This is the heart of it.",
+    "closing": "The point is that your roof largely chooses the conversion, and an honest look at it, the head height, whether the roof is cut or trussed, and where the stairs can go, tells us what is possible. Our guides on the types of loft conversion and whether your loft is suitable explain this in plain English.",
+    "types": [
+      {
+        "roofStock": "Local roof stock",
+        "conversion": "Matched conversion",
+        "text": "Because a loft conversion is shaped by your roof far more than by preference, it is worth knowing what Hertfordshire's common house types tend to suit. This is the heart of it.",
+        "image": "/images/hero-dormer.webp",
+        "imageAlt": "Matched conversion loft conversion"
+      },
+      {
+        "roofStock": "1930s hipped semis",
+        "conversion": "Hip-to-gable",
+        "text": "The 1930s semi-detached houses that fill many Hertfordshire streets usually have hipped roofs, sloping in on the side, which wastes internal volume. These are natural candidates for a hip-to-gable conversion, squaring the roof off to a vertical gable, very often combined with a rear dormer, which together turn a cramped hipped loft into a proper room. It is one of the most common and most transformative loft projects in the county.",
+        "image": "/images/loft-dormer-front.webp",
+        "imageAlt": "Hip-to-gable loft conversion"
+      },
+      {
+        "roofStock": "Victorian & Edwardian terraces",
+        "conversion": "L-shaped dormer",
+        "text": "The Victorian and Edwardian terraces and villas in the market towns typically have a rear projection, which suits an L-shaped dormer, combining a dormer on the main roof with one over the rear projection to create generous space, often enough for a bedroom and a bathroom. The period cottages and village houses common across East Herts have older roofs, often traditional cut roofs, which convert well structurally, but many sit in conservation areas where dormers are restricted, so a rooflight conversion that leaves the roofline unchanged is frequently the way, or a carefully designed dormer where it is permitted. Detached homes with good head height may need only a rooflight conversion; and where maximum space is wanted, a mansard, which rebuilds a roof slope, is an option, though it usually needs planning permission.",
+        "image": "/images/loft-hip-to-gable.webp",
+        "imageAlt": "L-shaped dormer loft conversion"
+      }
+    ]
+  },
+  "planning": {
+    "title": "Loft planning in Hertfordshire: what to know",
+    "intro": "A quick, honest word on planning, because it shapes loft projects, and we handle it for you as part of the job.",
+    "permitted": {
+      "title": "Often permitted development",
+      "points": [
+        "Many loft conversions can be done under permitted development, without a full planning application, as long as they stay within the volume limits (broadly 40 cubic metres for terraces and 50 for semis and detached houses, measured against the original roof and including previous additions) and the conditions, notably that dormers should not be on the front roof slope facing the road. Mansards and front dormers usually need planning permission. The factor that matters most in Hertfordshire is that the historic market towns and many villages have conservation areas, and sometimes Article 4 directions, in which permitted development for roof extensions is reduced or removed, so dormers often need permission and frequently only a rooflight conversion remains permitted development. That is why the village and town-centre homes here so often take the rooflight route.",
+        "Whatever the planning route, a loft conversion always needs full building-regulations approval, for the structure, the new floor, the fire-safety escape route and the staircase, ending in a completion certificate that protects the work at resale. On terraces and semis, the Party Wall Act often applies too, where steel goes into the party wall or a dormer nears the boundary. We check your position, design to what is achievable, and deal with all of it. The guides on loft planning, party wall and building regulations cover the detail."
+      ]
+    },
+    "always": {
+      "title": "Always required",
+      "points": [
+        "Whatever the planning route, a loft conversion always needs full building-regulations approval, for the structure, the new floor, the fire-safety escape route and the staircase, ending in a completion certificate that protects the work at resale. On terraces and semis, the Party Wall Act often applies too, where steel goes into the party wall or a dormer nears the boundary. We check your position, design to what is achievable, and deal with all of it. The guides on loft planning, party wall and building regulations cover the detail."
+      ]
+    },
+    "blogLink": {
+      "href": "/blog/planning-permission-and-building-regulations",
+      "label": "Read the planning permission and building regulations guide"
+    }
+  },
+  "involves": {
+    "title": "What a loft conversion involves",
+    "intro": "A loft conversion is a proper building project, not a tidy-up: a new structural floor (often on steel beams), the roof works for a dormer or mansard, a compliant staircase, insulation, the fire-safety escape route, and then the room itself, plastered, fitted and finished, with an ensuite if there is room and you want one. We design and build the whole thing with one team from start to finish, and because much of the work happens in the roof, reached from scaffolding outside, you can usually live in the house throughout, the main disruption being a short, dusty spell when we break through to fit the staircase. We handle the planning and building regulations through to the completion certificate. The guides on loft staircases and what to expect during your build set out how it goes.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Structural floor",
+        "text": "A new structural floor, often on steel beams, built to carry the room and meet building regulations."
+      },
+      {
+        "step": "02",
+        "title": "Roof works",
+        "text": "The roof works for a dormer, mansard or rooflights, tiled, weatherproofed and finished to match your home."
+      },
+      {
+        "step": "03",
+        "title": "Staircase & fire escape",
+        "text": "A compliant staircase and the fire-safety escape route the regs require."
+      },
+      {
+        "step": "04",
+        "title": "Insulation & fit-out",
+        "text": "Insulation, plastering, electrics and plumbing, then the room itself, fitted and finished."
+      },
+      {
+        "step": "05",
+        "title": "Planning & sign-off",
+        "text": "We handle planning and building regulations through to the completion certificate."
+      }
+    ]
+  },
+  "whyUs": {
+    "title": "Why Hertfordshire homeowners choose us for loft conversions",
+    "intro": "A few honest reasons homeowners here choose us:",
+    "reasons": [
+      {
+        "title": "Established since 1995",
+        "text": "A few honest reasons homeowners here choose us:"
+      },
+      {
+        "title": "One team, clear contact",
+        "text": "We work as one team with a clear point of contact. You deal with the people who priced and build your job."
+      },
+      {
+        "title": "Honest cost and time",
+        "text": "We quote clearly and itemise it, and handle planning and building regulations through to the completion certificate."
+      },
+      {
+        "title": "Honest advice",
+        "text": "We are genuinely local, based in Sawbridgeworth, so this is our home county, not a territory we reach into. We have been building for homeowners since 1995, and over 80 per cent of our work comes through recommendation, the accountability that matters most, it only continues if the last job was done well. We work as one team with a clear point of contact, are honest about cost and time, quote clearly and itemise it, and handle the planning and building regulations through to the completion certificate. And because we do the whole range, lofts, extensions, kitchens and renovations, we can tell you honestly whether a loft conversion is the right way to get the space you need, or whether an extension would serve you better, rather than pushing one kind of job. Our guide on loft conversion versus extension sets out that choice."
+      }
+    ],
+    "sidewaysLink": {
+      "href": "/extensions/hertfordshire",
+      "label": "Need ground-floor space instead? See house extensions in Hertfordshire"
+    }
+  },
+  "cost": {
+    "title": "What a loft conversion costs",
+    "intro": "Every loft is different, so the honest answer on cost is that it depends most on the type of conversion your roof calls for, a rooflight conversion is the cheapest, a dormer more, a mansard the most, along with the finish and whether you add an ensuite. The only figure that means anything is a real quote on your actual loft.",
+    "ladder": [
+      {
+        "name": "Rooflight",
+        "note": "Usually the most cost-effective"
+      },
+      {
+        "name": "Dormer",
+        "note": "The most common we build"
+      },
+      {
+        "name": "Mansard",
+        "note": "Maximum space, highest cost"
+      }
+    ],
+    "closing": "For an early sense of scale, our cost calculator gives a ballpark before you speak to anyone. For a real figure, we will give you a clear, itemised quote after a free, no-obligation site visit, so you can see exactly what you are paying for, with no hidden extras. Our loft conversion cost guide explains what drives the price.",
+    "costLink": {
+      "href": "/cost-guides/loft-conversion-cost",
+      "label": "Read the loft conversion cost guide"
+    },
+    "included": [
+      "Full structural work: steels, floor joists and building regs compliance",
+      "Dormer or roof alterations, tiling and weatherproofing",
+      "Staircase design and installation",
+      "First and second fix electrics and plumbing",
+      "Plastering, insulation to current regs, and decoration",
+      "Planning and building regulations through to completion certificate"
+    ]
+  },
+  "faqs": [
+    {
+      "q": "Do you do loft conversions across Hertfordshire?",
+      "a": "Yes, and we are based right here in Sawbridgeworth. We convert lofts across East Hertfordshire and the surrounding area, including Bishop's Stortford, Hertford, Ware, Hoddesdon, Broxbourne, Buntingford and the villages between them, plus just over the borders into west Essex and the London fringe. Each area has its own loft-conversion page with local detail. If you are in or near East Herts, you are on our patch."
+    },
+    {
+      "q": "What type of loft conversion suits my Hertfordshire house?",
+      "a": "It depends on your roof. The 1930s hipped-roof semis common across the county suit a hip-to-gable conversion, often with a rear dormer; Victorian and Edwardian terraces with a rear projection suit an L-shaped dormer; the period and village homes of East Herts, often in conservation areas, frequently suit a rooflight conversion or a carefully designed dormer; and homes wanting maximum space may suit a mansard. We look at your roof and tell you honestly which type suits."
+    },
+    {
+      "q": "Do I need planning permission for a loft conversion in Hertfordshire?",
+      "a": "Often not. Many rooflight, dormer and hip-to-gable conversions fall under permitted development within the volume limits and conditions, notably that dormers should not be on the front roof slope. Mansards, front dormers, anything over the limits, and conversions in the conservation areas of the market towns and villages, or under an Article 4 direction, usually need permission. Every loft still needs full building-regulations approval. We check your position and handle it."
+    },
+    {
+      "q": "Can my loft even be converted?",
+      "a": "Most can, but it depends on three things: enough head height (roughly 2.2 to 2.4 metres at the highest point, remembering you lose some to the new floor and ceiling), the roof structure (the older cut roofs common in East Herts convert more easily than modern trussed ones, which need structural work), and room for a compliant staircase. Lofts that are too low can often still be converted with a dormer or mansard. We assess it honestly."
+    },
+    {
+      "q": "Can I live in my house during a loft conversion?",
+      "a": "Usually yes, which is a real advantage of a loft over an extension. Most of the work happens in the roof, reached from scaffolding outside, so the rest of the house keeps functioning. The main disruption is a short, dusty spell when we break through to fit the staircase. It is far less disruptive than an extension."
+    },
+    {
+      "q": "Do you handle the planning and building regulations?",
+      "a": "Yes, as part of the job. We check whether your conversion needs planning permission or is permitted development, deal with any application, handle the party wall side where it applies, manage the building-control inspections, and see the work through to the completion certificate that protects it at resale."
+    },
+    {
+      "q": "How much does a loft conversion cost in Hertfordshire?",
+      "a": "It depends most on the type of conversion your roof calls for, rooflight cheapest, dormer more, mansard most, plus the finish and any ensuite, so the only reliable figure is a quote on your actual loft. Our cost calculator gives an early estimate, and we provide a clear, itemised quote after a free, no-obligation site visit."
+    },
+    {
+      "q": "How do I get started?",
+      "a": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will look at your roof, check the head height and structure, work out where the stairs can go, and tell you honestly which type of conversion suits and what it would cost, with an itemised quote. There is no pressure and no obligation to proceed."
+    },
+    {
+      "q": "Thinking about converting your loft in Hertfordshire?",
+      "a": "We are a local builder based right here in Sawbridgeworth, and we would be glad to take a look. Call 07920 731533, request a callback, or book a free, no-obligation site visit, and we will check your roof and head height and tell you honestly which type of conversion suits your house, and what it would cost. No pressure, and no obligation to proceed."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "href": "/loft-conversions",
+      "label": "Loft conversions overview"
+    },
+    {
+      "href": "/loft-conversions/essex",
+      "label": "Loft conversions in Essex"
+    },
+    {
+      "href": "/extensions/hertfordshire",
+      "label": "House extensions in Hertfordshire"
+    },
+    {
+      "href": "/extensions/hertfordshire/sawbridgeworth",
+      "label": "House extensions in Sawbridgeworth"
+    },
+    {
+      "href": "/contact",
+      "label": "Contact us"
+    }
+  ],
+  "cta": {
+    "eyebrow": "Start your loft conversion",
+    "title": "Thinking about converting your loft in Hertfordshire?",
+    "text": "Call 07920 731533, request a callback, or book a free, no-obligation site visit. We will check your roof and tell you honestly which conversion suits. No pressure, and no obligation to proceed."
+  }
+}
