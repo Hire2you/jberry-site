@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "london",
+    "name": "London",
+    "areasHeadline": "Building across London",
+    "areasBody": "Based in Sawbridgeworth, Hertfordshire (CM21), we travel into London regularly for site visits — usually within a few days of your enquiry. We work across North and East London, from Enfield and Walthamstow to Stratford, Ilford, Romford and the suburbs inside the M25 where Victorian terraces, semis and 1930s housing stock suit extensions and loft conversions.",
+    "planningNote": "London builds often sit in conservation areas or fall under Article 4 directions, where permitted development rights are restricted. Party wall agreements are common on terraced streets. Jason will tell you at the first visit what applies to your property and whether planning is needed.",
+    "travelLine": "Site visits across London, usually arranged within a few working days from our Hertfordshire base.",
+    "locationFaqs": [
+      {
+        "q": "Do you cover my part of London?",
+        "a": "We work across North and East London and the suburbs inside the M25. Send your postcode when you enquire and Jason will confirm coverage at the first call — if the job is too far for us to run properly, we will say so honestly."
+      },
+      {
+        "q": "How quickly can you visit a property in London?",
+        "a": "Most London site visits are booked within a few working days. Jason comes out personally, measures up and talks through what your home and budget will actually take."
+      }
+    ]
+  },
+  {
+    "slug": "kent",
+    "name": "Kent",
+    "areasHeadline": "Building across Kent",
+    "areasBody": "Based in Sawbridgeworth (CM21), we cover Kent from the Dartford and Sevenoaks corridor through Maidstone, Tunbridge Wells, Canterbury and the towns between. Whether it is a period property in a village or a new plot on the edge of town, Jason visits personally and prices the job line by line before you commit.",
+    "planningNote": "Kent sites often involve green-belt constraints, agricultural land or Wealden clay beneath the foundations. Flood risk and drainage matter on lower-lying plots. Jason flags these at the first visit so your quotation reflects the ground you are actually building on.",
+    "travelLine": "Site visits across Kent, with most areas reachable within an hour from our Hertfordshire base.",
+    "locationFaqs": [
+      {
+        "q": "Do you cover my part of Kent?",
+        "a": "We build across Kent from the M25 corridor to Maidstone, Tunbridge Wells and beyond. Share your postcode when you enquire and Jason will confirm we can run the job properly from our base."
+      },
+      {
+        "q": "How quickly can you visit a property in Kent?",
+        "a": "Most Kent site visits are booked within a few working days. Jason surveys every job personally before pricing it."
+      }
+    ]
+  },
+  {
+    "slug": "essex",
+    "name": "Essex",
+    "areasHeadline": "Building across Essex",
+    "areasBody": "Essex is home territory. From our base in Sawbridgeworth we work right across the county — Chelmsford, Colchester, Brentwood, Epping, Harlow, Basildon, Leigh-on-Sea and the towns between. Most Essex postcodes are within an easy drive for a site visit within days, not weeks.",
+    "planningNote": "Essex builds vary from London-clay terraces and 1930s semis to new estates and coastal plots with flood-risk considerations. Permitted development covers many single-storey extensions; larger schemes and loft dormers in conservation areas need planning. Jason will tell you where you stand at the first visit.",
+    "travelLine": "Site visits across Essex — our busiest area, with most towns a short drive from CM21.",
+    "locationFaqs": [
+      {
+        "q": "Do you cover my part of Essex?",
+        "a": "Yes — Essex is where most of our work is. From Chelmsford and Colchester to Epping, Brentwood and the Thames-side towns, share your postcode and Jason will confirm at the first call."
+      },
+      {
+        "q": "How quickly can you visit a property in Essex?",
+        "a": "Essex site visits are usually booked within a few working days, often sooner. Jason comes out personally before any quotation is written."
+      }
+    ]
+  }
+]

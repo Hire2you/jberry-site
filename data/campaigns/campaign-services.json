@@ -1,0 +1,288 @@
+[
+  {
+    "slug": "house-fit-outs",
+    "name": "House Fit Outs",
+    "shortName": "House fit out",
+    "headline": "House fit outs finished properly, from shell to move-in ready",
+    "priceFrom": 45000,
+    "priceTo": 180000,
+    "buildWeeks": "8–16",
+    "testimonialCategory": "extension",
+    "projectType": "extension",
+    "landing": {
+      "heroImage": {
+        "src": "/images/kitchen-granite.webp",
+        "alt": "Finished kitchen with granite worktops by J.Berry"
+      },
+      "heroEyebrow": "House fit outs",
+      "heroHeadline": "Your house, finished the way you actually want it",
+      "heroSub": "Director-led house fit outs for new-build shells, renovations and full interior finishes. Jason Berry prices the job line by line and runs it on site. Most fit outs come in between £45,000 and £180,000, including VAT.",
+      "areasHeadline": "House fit outs",
+      "areasBody": "Based in Sawbridgeworth, Hertfordshire (CM21).",
+      "paymentHeading": "You never pay ahead of the work",
+      "paymentBody": "A 10% deposit books your slot. After that you pay in stages as the fit-out progresses, so your money always follows completed work.",
+      "scarcityLine": "Jason takes on a limited number of projects each year and prices every one himself. Book your free site visit early to hold a slot.",
+      "guaranteeLine": "Every fit out is fully insured and backed by our 10-year guarantee.",
+      "introTitle": "From empty shell to a home you can move into",
+      "intro": [
+        "A house fit out is everything that turns a building into a home: kitchens, bathrooms, flooring, joinery, electrics, heating and the finishes that make a space feel finished. Whether you have a new-build shell, a renovation stripped back to stud or a property that needs a full interior refresh, the same principle applies — price it properly, build it properly, hand it over ready to live in.",
+        "Jason visits personally, works out what your property needs and what your budget will actually buy, then prices the whole job in an itemised quotation. He runs the fit out on site day to day — one point of contact from first visit to handover, not a chain of subcontractors you never meet."
+      ],
+      "compare": {
+        "title": "The cost of doing it twice",
+        "moveLabel": "Cheap first fix, expensive fixes",
+        "moveItems": [
+          "Trades booked in the wrong order",
+          "Kitchen measured before walls are square",
+          "Snagging list that never ends",
+          "Paying twice to put right what should have been done once"
+        ],
+        "moveTotal": "Months of delay, none of it on your terms",
+        "stayLabel": "One team, one programme",
+        "stayItems": [
+          "Jason sequences every trade in the right order",
+          "Kitchens and bathrooms fitted to a finished standard",
+          "Snagging built into the programme, not left to you",
+          "Move in when we say you can move in"
+        ],
+        "stayTotal": "Finished properly, first time",
+        "cta": "Get your itemised quote"
+      },
+      "typesTitle": "What kind of fit out do you need?",
+      "typesIntro": "Four types of job cover most of what we are asked to fit out. The guide prices below are for a full interior finish to a move-in standard. Jason tells you at the first visit which scope your property actually needs.",
+      "types": [
+        {
+          "name": "Kitchen fit out",
+          "priceBand": "£18k–£45k guide",
+          "text": "Supply and fit of a complete kitchen — units, worktops, appliances, plumbing and electrics — in a shell or an existing home. Priced as part of a wider fit out or as a standalone kitchen project.",
+          "image": "/images/kitchen-granite.webp",
+          "imageAlt": "Finished kitchen with granite worktops"
+        },
+        {
+          "name": "Bathroom fit out",
+          "priceBand": "£12k–£28k guide",
+          "text": "Full bathroom installation — suite, tiling, plumbing, ventilation and electrics — to a finished standard. Often bundled with a wider house fit out or loft conversion en-suite.",
+          "image": "/images/loft-wardrobes.webp",
+          "imageAlt": "Finished interior with built-in joinery"
+        },
+        {
+          "name": "Whole-house fit out",
+          "priceBand": "£90k–£180k guide",
+          "text": "The full interior of a house — kitchens, bathrooms, flooring, joinery, decoration and second fix throughout. Typical for new-build shells or properties stripped back for renovation.",
+          "image": "/images/extension-bifolds.webp",
+          "imageAlt": "Open-plan living space with bifold doors"
+        },
+        {
+          "name": "Shell to finish",
+          "priceBand": "£45k–£120k guide",
+          "text": "You have the structure; we take it from plasterboard to move-in ready. First and second fix, kitchens, bathrooms and finishes — one team, one programme, one quotation.",
+          "image": "/images/newbuild-front.webp",
+          "imageAlt": "Completed J.Berry project, front elevation"
+        }
+      ],
+      "costTitle": "What a house fit out really costs",
+      "costRange": "£45,000 – £180,000",
+      "costRangeNote": "Most whole-house fit outs we price, full interior finish",
+      "costText": "Most house fit outs we price come in between £45,000 and £180,000 including VAT, depending on the size of the property, the specification of kitchens and bathrooms, and how much of the interior needs finishing. Before work starts you will have an itemised quotation showing exactly where every pound goes.",
+      "included": [
+        "First and second fix electrics and plumbing throughout",
+        "Kitchen supply and installation where specified",
+        "Bathroom supply and tiling where specified",
+        "Flooring, skirting, doors and internal joinery",
+        "Plastering, decoration and snagging to handover standard",
+        "A build schedule with a start date and a finish date, agreed before we begin"
+      ],
+      "costLink": null,
+      "directorHeadline": "Your fit out, run by the director. Not handed to a foreman.",
+      "directorBody": "Jason surveys every fit out, prices every quotation and is on site through the build. When you call, you are talking to the person who priced your job and is standing in your kitchen — not a call centre, not a manager you have never met.",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Site visit",
+          "text": "Jason walks the property, checks what is already done and what still needs finishing, and talks through your specification and budget honestly."
+        },
+        {
+          "step": "02",
+          "title": "Detailed quotation",
+          "text": "The whole fit out priced line by line — kitchens, bathrooms, flooring, joinery and finishes. A fixed price, not an estimate."
+        },
+        {
+          "step": "03",
+          "title": "The build",
+          "text": "Agreed start and finish dates, Jason running it day to day. Trades sequenced in the right order so nothing is fitted twice."
+        },
+        {
+          "step": "04",
+          "title": "Handover",
+          "text": "Snagged, signed off together and backed by a 10-year guarantee. Move in when we say you can move in."
+        }
+      ],
+      "finalCtaBody": "Tell us about your house fit out and Jason Berry calls you back, usually the same working day. A name, a number and a postcode is all we need to start.",
+      "faqs": [
+        {
+          "q": "How much does a house fit out cost?",
+          "a": "Most whole-house fit outs we price come in between £45,000 and £180,000 including VAT. A kitchen-only or bathroom-only job sits at the lower end; a full shell-to-finish on a larger property toward the top. You will get an exact itemised figure before work starts."
+        },
+        {
+          "q": "Can you fit out a new-build shell?",
+          "a": "Yes. Shell-to-finish is one of the most common fit outs we price. You have the structure; we take it from plasterboard to move-in ready with kitchens, bathrooms, flooring and all second fix."
+        },
+        {
+          "q": "How long does a house fit out take?",
+          "a": "Typically 8–16 weeks on site depending on the size of the property and the scope. We agree the schedule before we start, and keeping to it is part of the deal."
+        },
+        {
+          "q": "Do you supply kitchens and bathrooms?",
+          "a": "Yes. Kitchens and bathrooms can be included in the quotation — supply and fit — or you can supply your own units and we fit them. Jason prices both options clearly so you can compare."
+        },
+        {
+          "q": "Can I live in the house during the fit out?",
+          "a": "It depends on the scope. A single kitchen or bathroom fit out is usually manageable while you stay. A whole-house fit out on a renovation is often easier if you can stay elsewhere for the noisiest weeks — we will talk through the practical options at the first visit."
+        }
+      ]
+    }
+  },
+  {
+    "slug": "new-builds",
+    "name": "New Builds",
+    "shortName": "New build",
+    "headline": "Director-led new builds, priced properly from the ground up",
+    "priceFrom": 350000,
+    "priceTo": 750000,
+    "buildWeeks": "12–18 months",
+    "testimonialCategory": "extension",
+    "projectType": "extension",
+    "landing": {
+      "heroImage": {
+        "src": "/images/newbuild-front.webp",
+        "alt": "Completed new-build home by J.Berry"
+      },
+      "heroEyebrow": "New builds",
+      "heroHeadline": "The house you want, on the plot you already own",
+      "heroSub": "Director-led new-build homes, quoted line by line before a single foundation is dug. Jason Berry prices the job and runs it on site. Most new builds come in between £350,000 and £750,000, including VAT.",
+      "areasHeadline": "New builds",
+      "areasBody": "Based in Sawbridgeworth, Hertfordshire (CM21).",
+      "paymentHeading": "You never pay ahead of the work",
+      "paymentBody": "A 10% deposit books your slot. After that you pay in stages as the build progresses — foundations, watertight, first fix, second fix — so your money always follows completed work.",
+      "scarcityLine": "Jason takes on a small number of new builds each year and prices every one himself. Book your free site visit early to hold a slot.",
+      "guaranteeLine": "Every new build is fully insured and backed by our 10-year guarantee.",
+      "introTitle": "One team from plot to front door",
+      "intro": [
+        "A new build is the biggest single investment most people make in their home. Getting it right means honest pricing upfront, a build programme you can rely on, and a director on site who answers the phone when something needs deciding — not a site manager you have never met.",
+        "Jason surveys the plot personally, talks through what you want to build and what your budget will actually deliver, then prices the whole job in an itemised quotation. He runs the build day to day from breaking ground to handover — groundworks, structure, roof, glazing, first and second fix, all under one roof."
+      ],
+      "compare": {
+        "title": "Why a director-led build matters",
+        "moveLabel": "Volume builder",
+        "moveItems": [
+          "Standard designs squeezed onto your plot",
+          "Site manager changes mid-build",
+          "Extras billed as the job progresses",
+          "Snagging handed back to you to chase"
+        ],
+        "moveTotal": "Your house, their timetable",
+        "stayLabel": "Director-led new build",
+        "stayItems": [
+          "Designed around your plot and how you live",
+          "Jason on site from start to handover",
+          "Itemised fixed price before you commit",
+          "Snagged and signed off together"
+        ],
+        "stayTotal": "Your house, your programme",
+        "cta": "Get your itemised quote"
+      },
+      "typesTitle": "What kind of new build are you planning?",
+      "typesIntro": "Three types of new-build project cover most of what we are asked to price. The guide prices below are for the full build to a weathertight, plastered standard — kitchens and finishes can be included or priced separately. Jason tells you at the first visit what your plot will actually take.",
+      "types": [
+        {
+          "name": "Replacement dwelling",
+          "priceBand": "£400k–£750k guide",
+          "text": "Demolish the existing house and build anew on the same plot. Often the best way to get the home you want without compromising on a tired structure. Planning and demolition managed as part of the programme.",
+          "image": "/images/newbuild-front.webp",
+          "imageAlt": "Completed new-build home, front elevation"
+        },
+        {
+          "name": "Infill plot",
+          "priceBand": "£350k–£600k guide",
+          "text": "A new house on a gap site or subdivided garden plot. Tighter footprints demand careful design — we work with your architect or recommend one who knows local planning.",
+          "image": "/images/hero-rear-extension.webp",
+          "imageAlt": "Rear elevation of a completed J.Berry build"
+        },
+        {
+          "name": "One-off home",
+          "priceBand": "£450k–£750k guide",
+          "text": "A bespoke home on a greenfield or brownfield plot — designed around how you actually live, not a developer template. Full build from foundations to weathertight shell, with fit-out priced separately or included.",
+          "image": "/images/extension-double-storey.webp",
+          "imageAlt": "Double-storey build with anthracite glazing"
+        },
+        {
+          "name": "Self-build support",
+          "priceBand": "Priced to scope",
+          "text": "You have the plot and the design; we build the structure and shell to a agreed stage, then hand over for fit-out or continue to completion. Priced line by line for the stages you need.",
+          "image": "/images/extension-orangery.webp",
+          "imageAlt": "Glazed extension to a period property"
+        }
+      ],
+      "costTitle": "What a new build really costs",
+      "costRange": "£350,000 – £750,000",
+      "costRangeNote": "Most new builds we price, structure to plastered shell",
+      "costText": "Most new builds we price come in between £350,000 and £750,000 including VAT, depending on the size, the specification and the ground conditions on your plot. Before work starts you will have an itemised quotation showing exactly where every pound goes — never a vague estimate that moves as the job progresses.",
+      "included": [
+        "Groundworks, foundations and drainage",
+        "Superstructure, roof and external envelope",
+        "Windows, doors and external glazing",
+        "First and second fix electrics and plumbing",
+        "Plastering and insulation to current building regs",
+        "A build schedule with stage payments agreed before we begin"
+      ],
+      "costLink": null,
+      "directorHeadline": "Your new build, run by the director. On site from day one.",
+      "directorBody": "Jason prices every new build and is on site through the programme — not just at the ground-breaking photo and the handover walk-through. When you call, you reach the person who wrote your quotation and is standing on your plot.",
+      "processSteps": [
+        {
+          "step": "01",
+          "title": "Site visit",
+          "text": "Jason walks the plot, checks access, ground conditions and what planning allows, and talks through your design and budget honestly."
+        },
+        {
+          "step": "02",
+          "title": "Detailed quotation",
+          "text": "The whole build priced line by line — groundworks, structure, roof, glazing and first fix. A fixed price for the agreed scope, not a moving target."
+        },
+        {
+          "step": "03",
+          "title": "The build",
+          "text": "Stage payments tied to completed work — foundations, watertight, first fix, second fix. Jason running it day to day with agreed milestones."
+        },
+        {
+          "step": "04",
+          "title": "Handover",
+          "text": "Snagged, signed off together and backed by a 10-year guarantee. The figure quoted is the figure paid for the agreed scope."
+        }
+      ],
+      "finalCtaBody": "Tell us about your new build and Jason Berry calls you back, usually the same working day. A name, a number and a postcode is all we need to start.",
+      "faqs": [
+        {
+          "q": "How much does a new build cost?",
+          "a": "Most new builds we price come in between £350,000 and £750,000 including VAT for the structure to a plastered shell. Kitchens, bathrooms and interior fit-out can be included or priced separately. You will get an exact itemised figure before work starts."
+        },
+        {
+          "q": "Do I need planning permission for a new build?",
+          "a": "Yes — almost all new builds need full planning permission. Jason will tell you what is realistic for your plot at the first visit and can point you to architects who know the local authority."
+        },
+        {
+          "q": "How long does a new build take?",
+          "a": "Typically 12–18 months from breaking ground to weathertight shell, depending on size and complexity. Interior fit-out adds further weeks. We agree the programme before we start."
+        },
+        {
+          "q": "Can you work with my architect?",
+          "a": "Yes. We regularly build from an architect's drawings and can recommend local practices if you have not appointed one yet. Jason prices from the agreed design, not a vague brief."
+        },
+        {
+          "q": "Do you handle ground conditions and drainage?",
+          "a": "Yes. Ground investigation, foundations and drainage are part of the quotation. Jason flags anything unusual — clay, flood risk, shared drains — at the first visit so the price reflects your plot."
+        }
+      ]
+    }
+  }
+]

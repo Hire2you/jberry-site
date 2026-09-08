@@ -168,6 +168,9 @@ export default function ServiceLandingPage({
   testimonials,
   carouselProjects,
   locationPages,
+  campaignMode = false,
+  locationSlug,
+  locationName,
 }: {
   serviceSlug: string;
   serviceName: string;
@@ -176,6 +179,9 @@ export default function ServiceLandingPage({
   testimonials: Testimonial[];
   carouselProjects: CarouselSlide[];
   locationPages: LocationPage[];
+  campaignMode?: boolean;
+  locationSlug?: string;
+  locationName?: string;
 }) {
   const isLoft = serviceSlug === 'loft-conversions';
   const serviceProjects = projects.filter((p) => p.service === serviceSlug);
@@ -206,6 +212,7 @@ export default function ServiceLandingPage({
   const areasBody =
     landing.areasBody ||
     `Based in ${site.base}, close enough for a site visit within days, not weeks. We also have dedicated ${lower} pages for the areas and towns we work in most:`;
+  const leadLocation = campaignMode ? locationSlug : undefined;
 
   return (
     <>
@@ -266,7 +273,7 @@ export default function ServiceLandingPage({
                   <p className="eyebrow">Your detailed quotation</p>
                   <p className="mt-2 font-display text-2xl leading-snug">Priced line by line, before you commit</p>
                   <div className="mt-5">
-                    <LeadForm compact service={serviceSlug} />
+                    <LeadForm compact service={serviceSlug} location={leadLocation} />
                   </div>
                   <ul className="mt-5 space-y-2.5 border-t border-line pt-5">
                     <li className="flex items-start gap-2.5 text-sm leading-snug text-ink">
@@ -656,69 +663,88 @@ export default function ServiceLandingPage({
             <p className="eyebrow">Where we build</p>
             <h2 className="mt-3 max-w-2xl text-4xl md:text-5xl">{areasHeadline}</h2>
             <p className="mt-4 max-w-2xl text-stone leading-relaxed">{areasBody}</p>
-            <p className="mt-4 max-w-2xl text-sm text-stone">
-              Dedicated {lower} pages for the towns we work in most:
-            </p>
-            <TownLinkList
-              links={[
-                ...(serviceSlug === 'loft-conversions'
-                  ? [
-                      { href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
-                      { href: '/loft-conversions/london', label: `${shortName}s in London`, town: 'London' },
-                      { href: '/loft-conversions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
-                      { href: '/loft-conversions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
-                      ...ESSEX_LOFT_TOWNS.map((t) => ({
-                        href: `/loft-conversions/essex/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
+            {campaignMode ? (
+              <div className="mt-8 flex flex-wrap gap-4">
+                <a
+                  href="#quote"
+                  className="bg-charcoal px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-white transition-colors hover:bg-goldDeep"
+                >
+                  Book a free site visit in {locationName}
+                </a>
+                <a
+                  href={site.phoneHref}
+                  className="border border-line px-6 py-3.5 text-xs font-semibold uppercase tracking-eyebrow text-ink transition-colors hover:border-goldDeep hover:text-goldDeep"
+                >
+                  Call {site.phone}
+                </a>
+              </div>
+            ) : (
+              <>
+                <p className="mt-4 max-w-2xl text-sm text-stone">
+                  Dedicated {lower} pages for the towns we work in most:
+                </p>
+                <TownLinkList
+                  links={[
+                    ...(serviceSlug === 'loft-conversions'
+                      ? [
+                          { href: '/loft-conversions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
+                          { href: '/loft-conversions/london', label: `${shortName}s in London`, town: 'London' },
+                          { href: '/loft-conversions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
+                          { href: '/loft-conversions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
+                          ...ESSEX_LOFT_TOWNS.map((t) => ({
+                            href: `/loft-conversions/essex/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                          ...KENT_LOFT_TOWNS.map((t) => ({
+                            href: `/loft-conversions/kent/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                        ]
+                      : []),
+                    ...(serviceSlug === 'extensions'
+                      ? [
+                          { href: '/extensions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
+                          { href: '/extensions/london', label: `${shortName}s in London`, town: 'London' },
+                          { href: '/extensions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
+                          { href: '/extensions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
+                          ...ESSEX_EXTENSION_TOWNS.map((t) => ({
+                            href: `/extensions/essex/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                          ...LONDON_EXTENSION_TOWNS.map((t) => ({
+                            href: `/extensions/london/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                          ...KENT_EXTENSION_TOWNS.map((t) => ({
+                            href: `/extensions/kent/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                          ...HERTS_EXTENSION_TOWNS.map((t) => ({
+                            href: `/extensions/hertfordshire/${t.slug}`,
+                            label: `${shortName}s in ${t.town}`,
+                            town: t.town,
+                          })),
+                        ]
+                      : []),
+                    ...locationPages
+                      .filter((l) => {
+                        const slug = normalizeLocationSlug(l.slug);
+                        return !STATIC_TOWN_SLUGS.includes(slug);
+                      })
+                      .map((l) => ({
+                        href: locationPageHref(l, serviceSlug),
+                        label: `${shortName}s in ${l.town}`,
+                        town: l.town,
                       })),
-                      ...KENT_LOFT_TOWNS.map((t) => ({
-                        href: `/loft-conversions/kent/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
-                      })),
-                    ]
-                  : []),
-                ...(serviceSlug === 'extensions'
-                  ? [
-                      { href: '/extensions/essex', label: `${shortName}s in Essex`, town: 'Essex' },
-                      { href: '/extensions/london', label: `${shortName}s in London`, town: 'London' },
-                      { href: '/extensions/kent', label: `${shortName}s in Kent`, town: 'Kent' },
-                      { href: '/extensions/hertfordshire', label: `${shortName}s in Hertfordshire`, town: 'Hertfordshire' },
-                      ...ESSEX_EXTENSION_TOWNS.map((t) => ({
-                        href: `/extensions/essex/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
-                      })),
-                      ...LONDON_EXTENSION_TOWNS.map((t) => ({
-                        href: `/extensions/london/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
-                      })),
-                      ...KENT_EXTENSION_TOWNS.map((t) => ({
-                        href: `/extensions/kent/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
-                      })),
-                      ...HERTS_EXTENSION_TOWNS.map((t) => ({
-                        href: `/extensions/hertfordshire/${t.slug}`,
-                        label: `${shortName}s in ${t.town}`,
-                        town: t.town,
-                      })),
-                    ]
-                  : []),
-                ...locationPages
-                  .filter((l) => {
-                    const slug = normalizeLocationSlug(l.slug)
-                    return !STATIC_TOWN_SLUGS.includes(slug)
-                  })
-                  .map((l) => ({
-                    href: locationPageHref(l, serviceSlug),
-                    label: `${shortName}s in ${l.town}`,
-                    town: l.town,
-                  })),
-              ].sort((a, b) => a.town.localeCompare(b.town))}
-            />
+                  ].sort((a, b) => a.town.localeCompare(b.town))}
+                />
+              </>
+            )}
           </Reveal>
         </div>
       </section>
@@ -738,7 +764,7 @@ export default function ServiceLandingPage({
             </p>
           </Reveal>
           <Reveal delay={120}>
-            <LeadForm dark service={serviceSlug} />
+            <LeadForm dark service={serviceSlug} location={leadLocation} />
           </Reveal>
         </div>
       </section>
