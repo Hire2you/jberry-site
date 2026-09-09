@@ -25,8 +25,8 @@
       "guaranteeLine": "Every fit out is fully insured and backed by our 10-year guarantee.",
       "introTitle": "From empty shell to a home you can move into",
       "intro": [
-        "A house fit out is everything that turns a building into a home: kitchens, bathrooms, flooring, joinery, electrics, heating and the finishes that make a space feel finished. Whether you have a new-build shell, a renovation stripped back to stud or a property that needs a full interior refresh, the same principle applies — price it properly, build it properly, hand it over ready to live in.",
-        "Jason visits personally, works out what your property needs and what your budget will actually buy, then prices the whole job in an itemised quotation. He runs the fit out on site day to day — one point of contact from first visit to handover, not a chain of subcontractors you never meet."
+        "A house fit out is everything that turns a building into a home: kitchens, bathrooms, flooring, joinery, electrics, heating and the finishes that make a space feel finished. Whether you have a new-build shell, a renovation stripped back to stud or a property that needs a full interior refresh, the same principle applies, price it properly, build it properly, hand it over ready to live in.",
+        "Jason visits personally, works out what your property needs and what your budget will actually buy, then prices the whole job in an itemised quotation. He runs the fit out on site day to day, one point of contact from first visit to handover, not a chain of subcontractors you never meet."
       ],
       "compare": {
         "title": "The cost of doing it twice",
@@ -54,28 +54,28 @@
         {
           "name": "Kitchen fit out",
           "priceBand": "£18k–£45k guide",
-          "text": "Supply and fit of a complete kitchen — units, worktops, appliances, plumbing and electrics — in a shell or an existing home. Priced as part of a wider fit out or as a standalone kitchen project.",
+          "text": "Supply and fit of a complete kitchen, units, worktops, appliances, plumbing and electrics, in a shell or an existing home. Priced as part of a wider fit out or as a standalone kitchen project.",
           "image": "/images/campaigns/house-fit-outs/kitchen-fit-out.webp",
           "imageAlt": "Kitchen fit out with island and pendant lighting by J.Berry"
         },
         {
           "name": "Bathroom fit out",
           "priceBand": "£12k–£28k guide",
-          "text": "Full bathroom installation — suite, tiling, plumbing, ventilation and electrics — to a finished standard. Often bundled with a wider house fit out or loft conversion en-suite.",
+          "text": "Full bathroom installation, suite, tiling, plumbing, ventilation and electrics, to a finished standard. Often bundled with a wider house fit out or loft conversion en-suite.",
           "image": "/images/campaigns/house-fit-outs/bathroom-fit-out.webp",
           "imageAlt": "Bathroom fit out with walk-in shower and vanity by J.Berry"
         },
         {
           "name": "Whole-house fit out",
           "priceBand": "£90k–£180k guide",
-          "text": "The full interior of a house — kitchens, bathrooms, flooring, joinery, decoration and second fix throughout. Typical for new-build shells or properties stripped back for renovation.",
+          "text": "The full interior of a house, kitchens, bathrooms, flooring, joinery, decoration and second fix throughout. Typical for new-build shells or properties stripped back for renovation.",
           "image": "/images/campaigns/house-fit-outs/whole-house-fit-out.webp",
           "imageAlt": "Whole-house fit out with open-plan kitchen and living space"
         },
         {
           "name": "Shell to finish",
           "priceBand": "£45k–£120k guide",
-          "text": "You have the structure; we take it from plasterboard to move-in ready. First and second fix, kitchens, bathrooms and finishes — one team, one programme, one quotation.",
+          "text": "You have the structure; we take it from plasterboard to move-in ready. First and second fix, kitchens, bathrooms and finishes, one team, one programme, one quotation.",
           "image": "/images/campaigns/house-fit-outs/shell-to-finish.webp",
           "imageAlt": "Shell-to-finish interior with kitchen and staircase by J.Berry"
         }
@@ -94,7 +94,7 @@
       ],
       "costLink": null,
       "directorHeadline": "Your fit out, run by the director. Not handed to a foreman.",
-      "directorBody": "Jason surveys every fit out, prices every quotation and is on site through the build. When you call, you are talking to the person who priced your job and is standing in your kitchen — not a call centre, not a manager you have never met.",
+      "directorBody": "Jason surveys every fit out, prices every quotation and is on site through the build. When you call, you are talking to the person who priced your job and is standing in your kitchen, not a call centre, not a manager you have never met.",
       "processSteps": [
         {
           "step": "01",
@@ -104,7 +104,7 @@
         {
           "step": "02",
           "title": "Detailed quotation",
-          "text": "The whole fit out priced line by line — kitchens, bathrooms, flooring, joinery and finishes. A fixed price, not an estimate."
+          "text": "The whole fit out priced line by line, kitchens, bathrooms, flooring, joinery and finishes. A fixed price, not an estimate."
         },
         {
           "step": "03",
@@ -133,11 +133,11 @@
         },
         {
           "q": "Do you supply kitchens and bathrooms?",
-          "a": "Yes. Kitchens and bathrooms can be included in the quotation — supply and fit — or you can supply your own units and we fit them. Jason prices both options clearly so you can compare."
+          "a": "Yes. Kitchens and bathrooms can be included in the quotation, supply and fit, or you can supply your own units and we fit them. Jason prices both options clearly so you can compare."
         },
         {
           "q": "Can I live in the house during the fit out?",
-          "a": "It depends on the scope. A single kitchen or bathroom fit out is usually manageable while you stay. A whole-house fit out on a renovation is often easier if you can stay elsewhere for the noisiest weeks — we will talk through the practical options at the first visit."
+          "a": "It depends on the scope. A single kitchen or bathroom fit out is usually manageable while you stay. A whole-house fit out on a renovation is often easier if you can stay elsewhere for the noisiest weeks, we will talk through the practical options at the first visit."
         }
       ]
     }
@@ -163,13 +163,13 @@
       "areasHeadline": "New builds",
       "areasBody": "Based in Sawbridgeworth, Hertfordshire (CM21).",
       "paymentHeading": "You never pay ahead of the work",
-      "paymentBody": "A 10% deposit books your slot. After that you pay in stages as the build progresses — foundations, watertight, first fix, second fix — so your money always follows completed work.",
+      "paymentBody": "A 10% deposit books your slot. After that you pay in stages as the build progresses, foundations, watertight, first fix, second fix, so your money always follows completed work.",
       "scarcityLine": "Jason takes on a small number of new builds each year and prices every one himself. Book your free site visit early to hold a slot.",
       "guaranteeLine": "Every new build is fully insured and backed by our 10-year guarantee.",
       "introTitle": "One team from plot to front door",
       "intro": [
-        "A new build is the biggest single investment most people make in their home. Getting it right means honest pricing upfront, a build programme you can rely on, and a director on site who answers the phone when something needs deciding — not a site manager you have never met.",
-        "Jason surveys the plot personally, talks through what you want to build and what your budget will actually deliver, then prices the whole job in an itemised quotation. He runs the build day to day from breaking ground to handover — groundworks, structure, roof, glazing, first and second fix, all under one roof."
+        "A new build is the biggest single investment most people make in their home. Getting it right means honest pricing upfront, a build programme you can rely on, and a director on site who answers the phone when something needs deciding, not a site manager you have never met.",
+        "Jason surveys the plot personally, talks through what you want to build and what your budget will actually deliver, then prices the whole job in an itemised quotation. He runs the build day to day from breaking ground to handover, groundworks, structure, roof, glazing, first and second fix, all under one roof."
       ],
       "compare": {
         "title": "Why a director-led build matters",
@@ -192,7 +192,7 @@
         "cta": "Get your itemised quote"
       },
       "typesTitle": "What kind of new build are you planning?",
-      "typesIntro": "Three types of new-build project cover most of what we are asked to price. The guide prices below are for the full build to a weathertight, plastered standard — kitchens and finishes can be included or priced separately. Jason tells you at the first visit what your plot will actually take.",
+      "typesIntro": "Three types of new-build project cover most of what we are asked to price. The guide prices below are for the full build to a weathertight, plastered standard, kitchens and finishes can be included or priced separately. Jason tells you at the first visit what your plot will actually take.",
       "types": [
         {
           "name": "Replacement dwelling",
@@ -204,14 +204,14 @@
         {
           "name": "Infill plot",
           "priceBand": "£350k–£600k guide",
-          "text": "A new house on a gap site or subdivided garden plot. Tighter footprints demand careful design — we work with your architect or recommend one who knows local planning.",
+          "text": "A new house on a gap site or subdivided garden plot. Tighter footprints demand careful design, we work with your architect or recommend one who knows local planning.",
           "image": "/images/campaigns/new-builds/infill-plot.webp",
           "imageAlt": "Infill plot new-build home on a compact site"
         },
         {
           "name": "One-off home",
           "priceBand": "£450k–£750k guide",
-          "text": "A bespoke home on a greenfield or brownfield plot — designed around how you actually live, not a developer template. Full build from foundations to weathertight shell, with fit-out priced separately or included.",
+          "text": "A bespoke home on a greenfield or brownfield plot, designed around how you actually live, not a developer template. Full build from foundations to weathertight shell, with fit-out priced separately or included.",
           "image": "/images/campaigns/new-builds/one-off-home.webp",
           "imageAlt": "One-off bespoke new-build home with brick and render elevation"
         },
@@ -226,7 +226,7 @@
       "costTitle": "What a new build really costs",
       "costRange": "£350,000 – £750,000",
       "costRangeNote": "Most new builds we price, structure to plastered shell",
-      "costText": "Most new builds we price come in between £350,000 and £750,000 including VAT, depending on the size, the specification and the ground conditions on your plot. Before work starts you will have an itemised quotation showing exactly where every pound goes — never a vague estimate that moves as the job progresses.",
+      "costText": "Most new builds we price come in between £350,000 and £750,000 including VAT, depending on the size, the specification and the ground conditions on your plot. Before work starts you will have an itemised quotation showing exactly where every pound goes, never a vague estimate that moves as the job progresses.",
       "included": [
         "Groundworks, foundations and drainage",
         "Superstructure, roof and external envelope",
@@ -237,7 +237,7 @@
       ],
       "costLink": null,
       "directorHeadline": "Your new build, run by the director. On site from day one.",
-      "directorBody": "Jason prices every new build and is on site through the programme — not just at the ground-breaking photo and the handover walk-through. When you call, you reach the person who wrote your quotation and is standing on your plot.",
+      "directorBody": "Jason prices every new build and is on site through the programme, not just at the ground-breaking photo and the handover walk-through. When you call, you reach the person who wrote your quotation and is standing on your plot.",
       "processSteps": [
         {
           "step": "01",
@@ -247,12 +247,12 @@
         {
           "step": "02",
           "title": "Detailed quotation",
-          "text": "The whole build priced line by line — groundworks, structure, roof, glazing and first fix. A fixed price for the agreed scope, not a moving target."
+          "text": "The whole build priced line by line, groundworks, structure, roof, glazing and first fix. A fixed price for the agreed scope, not a moving target."
         },
         {
           "step": "03",
           "title": "The build",
-          "text": "Stage payments tied to completed work — foundations, watertight, first fix, second fix. Jason running it day to day with agreed milestones."
+          "text": "Stage payments tied to completed work, foundations, watertight, first fix, second fix. Jason running it day to day with agreed milestones."
         },
         {
           "step": "04",
@@ -268,7 +268,7 @@
         },
         {
           "q": "Do I need planning permission for a new build?",
-          "a": "Yes — almost all new builds need full planning permission. Jason will tell you what is realistic for your plot at the first visit and can point you to architects who know the local authority."
+          "a": "Yes, almost all new builds need full planning permission. Jason will tell you what is realistic for your plot at the first visit and can point you to architects who know the local authority."
         },
         {
           "q": "How long does a new build take?",
@@ -280,7 +280,7 @@
         },
         {
           "q": "Do you handle ground conditions and drainage?",
-          "a": "Yes. Ground investigation, foundations and drainage are part of the quotation. Jason flags anything unusual — clay, flood risk, shared drains — at the first visit so the price reflects your plot."
+          "a": "Yes. Ground investigation, foundations and drainage are part of the quotation. Jason flags anything unusual, clay, flood risk, shared drains, at the first visit so the price reflects your plot."
         }
       ]
     }

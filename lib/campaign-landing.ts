@@ -98,7 +98,7 @@ function localiseIntroParagraphs(
     if (serviceSlug === 'extensions') {
       text = text.replace(
         'J.Berry builds extensions and loft conversions, nothing else.',
-        `J.Berry builds extensions across ${locationName} — director-led, one team from first visit to handover.`,
+        `J.Berry builds extensions across ${locationName}, director-led, one team from first visit to handover.`,
       );
     }
 
