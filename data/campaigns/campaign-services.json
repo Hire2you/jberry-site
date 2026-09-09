@@ -11,8 +11,8 @@
     "projectType": "extension",
     "landing": {
       "heroImage": {
-        "src": "/images/kitchen-granite.webp",
-        "alt": "Finished kitchen with granite worktops by J.Berry"
+        "src": "/images/campaigns/house-fit-outs/hero.webp",
+        "alt": "Whole-house fit out with open-plan kitchen and living space by J.Berry"
       },
       "heroEyebrow": "House fit outs",
       "heroHeadline": "Your house, finished the way you actually want it",
@@ -55,29 +55,29 @@
           "name": "Kitchen fit out",
           "priceBand": "£18k–£45k guide",
           "text": "Supply and fit of a complete kitchen — units, worktops, appliances, plumbing and electrics — in a shell or an existing home. Priced as part of a wider fit out or as a standalone kitchen project.",
-          "image": "/images/kitchen-granite.webp",
-          "imageAlt": "Finished kitchen with granite worktops"
+          "image": "/images/campaigns/house-fit-outs/kitchen-fit-out.webp",
+          "imageAlt": "Kitchen fit out with island and pendant lighting by J.Berry"
         },
         {
           "name": "Bathroom fit out",
           "priceBand": "£12k–£28k guide",
           "text": "Full bathroom installation — suite, tiling, plumbing, ventilation and electrics — to a finished standard. Often bundled with a wider house fit out or loft conversion en-suite.",
-          "image": "/images/loft-wardrobes.webp",
-          "imageAlt": "Finished interior with built-in joinery"
+          "image": "/images/campaigns/house-fit-outs/bathroom-fit-out.webp",
+          "imageAlt": "Bathroom fit out with walk-in shower and vanity by J.Berry"
         },
         {
           "name": "Whole-house fit out",
           "priceBand": "£90k–£180k guide",
           "text": "The full interior of a house — kitchens, bathrooms, flooring, joinery, decoration and second fix throughout. Typical for new-build shells or properties stripped back for renovation.",
-          "image": "/images/extension-bifolds.webp",
-          "imageAlt": "Open-plan living space with bifold doors"
+          "image": "/images/campaigns/house-fit-outs/whole-house-fit-out.webp",
+          "imageAlt": "Whole-house fit out with open-plan kitchen and living space"
         },
         {
           "name": "Shell to finish",
           "priceBand": "£45k–£120k guide",
           "text": "You have the structure; we take it from plasterboard to move-in ready. First and second fix, kitchens, bathrooms and finishes — one team, one programme, one quotation.",
-          "image": "/images/newbuild-front.webp",
-          "imageAlt": "Completed J.Berry project, front elevation"
+          "image": "/images/campaigns/house-fit-outs/shell-to-finish.webp",
+          "imageAlt": "Shell-to-finish interior with kitchen and staircase by J.Berry"
         }
       ],
       "costTitle": "What a house fit out really costs",
@@ -154,8 +154,8 @@
     "projectType": "extension",
     "landing": {
       "heroImage": {
-        "src": "/images/newbuild-front.webp",
-        "alt": "Completed new-build home by J.Berry"
+        "src": "/images/campaigns/new-builds/hero.webp",
+        "alt": "One-off new-build home with brick and render elevation by J.Berry"
       },
       "heroEyebrow": "New builds",
       "heroHeadline": "The house you want, on the plot you already own",
@@ -198,29 +198,29 @@
           "name": "Replacement dwelling",
           "priceBand": "£400k–£750k guide",
           "text": "Demolish the existing house and build anew on the same plot. Often the best way to get the home you want without compromising on a tired structure. Planning and demolition managed as part of the programme.",
-          "image": "/images/newbuild-front.webp",
-          "imageAlt": "Completed new-build home, front elevation"
+          "image": "/images/campaigns/new-builds/replacement-dwelling.webp",
+          "imageAlt": "Replacement dwelling, new-build home front elevation"
         },
         {
           "name": "Infill plot",
           "priceBand": "£350k–£600k guide",
           "text": "A new house on a gap site or subdivided garden plot. Tighter footprints demand careful design — we work with your architect or recommend one who knows local planning.",
-          "image": "/images/hero-rear-extension.webp",
-          "imageAlt": "Rear elevation of a completed J.Berry build"
+          "image": "/images/campaigns/new-builds/infill-plot.webp",
+          "imageAlt": "Infill plot new-build home on a compact site"
         },
         {
           "name": "One-off home",
           "priceBand": "£450k–£750k guide",
           "text": "A bespoke home on a greenfield or brownfield plot — designed around how you actually live, not a developer template. Full build from foundations to weathertight shell, with fit-out priced separately or included.",
-          "image": "/images/extension-double-storey.webp",
-          "imageAlt": "Double-storey build with anthracite glazing"
+          "image": "/images/campaigns/new-builds/one-off-home.webp",
+          "imageAlt": "One-off bespoke new-build home with brick and render elevation"
         },
         {
           "name": "Self-build support",
           "priceBand": "Priced to scope",
           "text": "You have the plot and the design; we build the structure and shell to a agreed stage, then hand over for fit-out or continue to completion. Priced line by line for the stages you need.",
-          "image": "/images/extension-orangery.webp",
-          "imageAlt": "Glazed extension to a period property"
+          "image": "/images/campaigns/new-builds/self-build-support.webp",
+          "imageAlt": "New-build structure under construction with scaffolding"
         }
       ],
       "costTitle": "What a new build really costs",
