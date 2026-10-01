@@ -3,7 +3,7 @@ export const site = {
   domain: 'https://jberryextensions.co.uk',
   phone: '+44 1622 801210',
   phoneHref: 'tel:+441622801210',
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '441622801210',
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '447477707845',
   email: 'info@jberryextensions.co.uk',
   director: 'Jason Berry',
   base: 'Sawbridgeworth, Hertfordshire (CM21)',
