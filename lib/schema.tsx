@@ -2,7 +2,10 @@ import { site } from './site';
 
 // JSON-LD builders — same dual-schema pattern as the SMCT location pages
 function e164Phone(phone: string) {
-  return `+44${phone.replace(/^0/, '').replace(/\s/g, '')}`;
+  const compact = phone.replace(/[\s()-]/g, '');
+  if (compact.startsWith('+')) return compact;
+  if (compact.startsWith('44')) return `+${compact}`;
+  return `+44${compact.replace(/^0/, '')}`;
 }
 
 export function localBusinessSchema() {
